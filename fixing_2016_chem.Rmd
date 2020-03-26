@@ -1,0 +1,153 @@
+---
+title: "fixing_2016_chem"
+output: html_document
+---
+
+Analyzing 2016 raw data for duplicate sample issues.
+# Pulled from mercury_summary Rproj. 
+# Found using the code below that duplicate sys_sample_codes exist in multiple EDDs with different (and incorrect) sample dates. See R1604068 and R1604069 for example.
+
+
+#2/5/20 note:
+###################
+###################
+##### DO NOT USE bound 2016 result and sample files referenced below! Need to join each EDD individually to properly relate #####
+        ## Use process in C:\Data\RIBS\Chem_raw_processing\data_output\2016\RIBS_EDD_processing_2016_forhistoricDB.Rmd
+        ##      that creates "RIBSdata" data frame; not separate sample and result dataframes.
+###################
+###################
+
+
+
+```{r}
+library(tidyverse)
+
+local.chem.dir <- file.path("C:",
+                            "Data",
+                            "its_data_modernization_local",
+                            "chem_hist_cleaning",
+                            "data")
+
+result.2016 <- file.path(local.chem.dir,"2016_ribs_result.csv") %>% 
+  read.csv(stringsAsFactors = FALSE) %>% 
+  mutate(ssc_smc = paste0(sys_sample_code,"_",lab_matrix_code))
+
+sample.2016 <- file.path(local.chem.dir,"2016_ribs_sample.csv") %>% 
+  read.csv(stringsAsFactors = FALSE) %>% 
+  mutate(ssc_smc = paste0(sys_sample_code,"_", sample_matrix_code)) %>% 
+  distinct()
+
+
+# Result of below: both sample and result tables have same number of unique sys_sample_codes and sys_sample_code+matrix_code combination.
+uniqueSSC.sample.2016 <- length(unique(sample.2016$sys_sample_code))
+uniqueSSC.result.2016 <- length(unique(result.2016$sys_sample_code))
+uniqueSSC_MC.sample.2016 <- length(unique(sample.2016$ssc_smc))
+uniqueSSC_MC.result.2016 <- length(unique(result.2016$ssc_smc))
+
+# Separate sample table by unique matrix codes. Can ignore WQ sample codes since these are just lab QC samples.
+sample.2016.WS <- sample.2016 %>% 
+  filter(sample_matrix_code == "WS") %>% 
+  mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M"))
+sample.2016.WG <- sample.2016 %>% 
+  filter(sample_matrix_code == "WG") %>% 
+  mutate(sample_date = as.POSIXct(sample_date, format = "%Y/%m/%d %H:%M"))
+sample.2016.WQ <- sample.2016 %>%
+  filter(sample_matrix_code == "WQ")%>% 
+  mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M"))
+
+sample.2016.datecorrected <- bind_rows(sample.2016.WS, sample.2016.WG, sample.2016.WQ)
+
+
+
+# Create table showing duplicate sample codes between WS and WG matrix code types.
+sample.WS_WG.matches <- sample.2016.WS %>% 
+  filter(sys_sample_code %in% sample.2016.WG$sys_sample_code)
+join.sample.duplicates <- sample.2016.WS %>% 
+  inner_join(sample.2016.WG, by = "sys_sample_code") %>% 
+  select(sys_sample_code, sample_matrix_code.x,sample_matrix_code.y, sample_matrix_code.x, sample_date.x, sample_date.y) 
+
+# Check if sample dates between duplicates match
+join.sample.duplicates$datecomp <- ifelse(
+  join.sample.duplicates$sample_date.x == join.sample.duplicates$sample_date.y, "TRUE", "FALSE")
+
+# CONCLUSION: Can delete all samples with "WG" matrix code since these are already represented by their duplicates. BUT DO NOT DELETE FROM RESULTS TABLE.
+
+# Testing if join works appropirately after deleting WG samples
+
+sample.2016.WGremoved <- sample.2016 %>% 
+  filter(sample_matrix_code != "WG")
+
+all.2016.WGremoved <- sample.2016.WGremoved %>% 
+  full_join(result.2016, by = "sys_sample_code")
+
+all.2016 <- sample.2016 %>% 
+  full_join(result.2016, by = "sys_sample_code")
+
+# Conclusion: Still creates more records than results table!
+
+# Another approach: join all records (including duplicates), identify duplicates post-join and delete.
+
+all.2016.v2 <- sample.2016 %>% 
+  full_join(result.2016, by = "sys_sample_code") %>% 
+  mutate(event_id = paste0(sys_sample_code, sample_date, chemical_name))
+length(unique(all.2016.v2$event_id))
+
+# Conclusion: Extra records are still created... What if we remove the lab QC samples?
+
+sample.2016.WQremoved <- sample.2016 %>% 
+  filter(sample_matrix_code != "WQ")
+result.2016.WQremoved <- result.2016 %>% 
+  filter(lab_matrix_code != "WQ")
+
+all.2016.v3 <- sample.2016.WQremoved %>% 
+  full_join(result.2016.WQremoved, by = "sys_sample_code")
+
+# Conclusion: Still creates extra records!
+
+# Final soltion: Do left join of results table to sample table (only retaining rows from results). Need to make sure there are no unique sample dates for duplicated sys_sample_codes.
+
+sample.2016.unique <- sample.2016 %>% 
+  distinct(sys_sample_code)
+
+
+sample.2016.WQremoved.unique <- sample.2016.WQremoved %>% 
+  distinct(sys_sample_code)
+
+sample.2016.SSC_group <- sample.2016 %>% 
+  select(-sample_delivery_group) %>% 
+  distinct() %>% 
+  group_by(sys_sample_code) %>% 
+  mutate(n = n())
+  # group_by(sys_sample_code, n) %>% 
+  # summarise(identical = all.equal(sample_date))
+
+sample.2016.distinct <- sample.2016.datecorrected %>% 
+  select(sys_sample_code, sample_date) %>% 
+  distinct() %>% 
+  group_by(sys_sample_code) %>% 
+  mutate(n = n())
+
+joindf <- left_join(sample.2016.distinct, result.2016, by = "sys_sample_code")
+
+
+
+
+
+# result.2016.WS <- result.2016 %>% 
+#   filter(lab_matrix_code == "WS")
+# result.2016.WG <- result.2016 %>% 
+#   filter(lab_matrix_code == "WG")
+# result.2016.WQ <- result.2016 %>% 
+#   filter(lab_matrix_code == "WQ")
+# 
+# 
+# result.2016.hg <- result.2016 %>% 
+#   filter(chemical_name == "Mercury")
+# result.2016.hg.WG <- result.2016.hg %>% 
+#   filter(lab_matrix_code == "WG")
+# result.2016.hg.WS <- result.2016.hg %>% 
+#   filter(lab_matrix_code == "WS")
+
+
+
+```

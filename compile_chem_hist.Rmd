@@ -1,0 +1,233 @@
+---
+title: "Compile historic chem"
+author: "Gavin Lemley"
+date: "December 18, 2019"
+output: html_document
+---
+
+Load libraries and input files
+```{r}
+library(dplyr)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+### SORT OUT 2016 DUPLICATE SAMPLE NAME ISSUES BEFORE PROCESSING BELOW DATA ###
+### See fixing_2016_chem.Rmd ###
+
+# result.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_result.csv"), stringsAsFactors = FALSE) %>% 
+#   rename_all(tolower)
+# sample.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_sample.csv"), stringsAsFactors = FALSE) %>% 
+  # rename_all(tolower)
+
+result.equis <- read.csv(file.path(root.dir, "data/equis_results_history.csv"), stringsAsFactors = FALSE) %>% 
+  rename_all(tolower)
+sample.equis <- read.csv(file.path(root.dir, "data/equis_sample_history.csv"), stringsAsFactors = FALSE) %>% 
+  rename_all(tolower)
+
+join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
+
+ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "data/RIBSchem_historic_BioSiteJoin_2019-12-18.xlsx"))
+
+```
+
+Test sample-result table join
+```{r}
+
+ribs.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
+
+###
+# More records created, which means not a 1:many relationship for sys_sample_code. Look into this.
+###
+```
+
+Remove field YSI data from equis data, and lab data from field table, and set aside for binding later
+```{r}
+# First subset out by results table (where there's more info to deduce field vs lab data) then %in% match to subset samples table
+
+result.equis.field <- result.equis %>% 
+  filter(grepl("*FS", sys_sample_code))
+result.equis.lab <- result.equis %>% 
+  filter(!grepl("*FS", sys_sample_code))
+
+# Looking at unique parameters in field and lab subsets
+
+# > unique(result.equis.field$cas_rn)
+# [1] TURB        TEMP        SC          DISS_OXYGEN PH          PHWATER     COLIF       FECCOLIFORM
+
+# > unique(result.equis.lab$cas_rn)
+#  [1] TVS         TSO         TDS         PH          HARD        SC          FECCOLIFORM COLIF       TSS         TEMP        DISS_OXYGEN TOC        
+# [13] 14265-44-2  7723-14-0   14797-65-0  NO3NO2N     14797-55-8  KN          7664-41-7   ALK         16887-00-6  14808-79-8  16984-48-8  7439-97-6  
+# [25] 7439-92-1   7440-02-0   7440-43-9   7440-50-8   7429-90-5   7439-89-6   7439-95-4   7439-96-5   7440-09-7   7440-23-5   7440-66-6   7440-70-2  
+# [37] TURB        75-27-4     79-01-6     TOTPHEN     124-48-1    127-18-4    67-66-3     74-87-3     75-01-4     75-09-2     7440-22-4   7440-38-2  
+# [49] 7727-37-9   PHWATER     121-48-1    DOC         17060-07-0  2037-26-5   460-00-4    PDORTHO     7440-44-0   COND        ARC-NO3NO2N 479-61-8 
+
+
+### Cleaning up field data
+
+# Subset fecal data from field for binding to lab later
+result.equis.lab.fecal <- result.equis.field %>% 
+  filter(grepl("COLIF|FECCOLIFORM", cas_rn))
+# Remove fecal data from field
+result.equis.field <- result.equis.field %>% 
+  filter(!grepl("COLIF|FECCOLIFORM", cas_rn))
+
+# Subset turbidity data from field for binding to lab later
+result.equis.lab.turb <- result.equis.field %>% 
+  filter(grepl("TURB", cas_rn))
+# Remove turbidity data from field
+result.equis.field <- result.equis.field %>% 
+  filter(!grepl("TURB", cas_rn))
+
+# Subset SC data to invesigate and confirm if field-derive or lab-derived
+result.equis.field.SC <- result.equis.field %>% 
+  filter(grepl("SC", cas_rn))
+rm(result.equis.field.SC)
+  #conclusion: no indiciation that any records are lab data.
+
+# Subset PH data to invesigate and confirm if field-derive or lab-derived
+result.equis.field.PH <- result.equis.field %>% 
+  filter(grepl("PH|PHWATER", cas_rn))
+rm(result.equis.field.PH)
+  #conclusion: no indiciation that any records are lab data.
+
+# Subset temp data to invesigate and confirm if field-derive or lab-derived
+result.equis.field.temp <- result.equis.field %>% 
+  filter(grepl("TEMP", cas_rn))
+rm(result.equis.field.temp)
+  #conclusion: no indiciation that any records are lab data.
+
+
+### Cleaning up lab data
+
+# Subset DO data from lab for binding to field later
+result.equis.field.DO <- result.equis.lab %>% 
+  filter(grepl("DISS_OXYGEN", cas_rn))
+# Remove DO data from lab
+result.equis.lab <- result.equis.lab %>% 
+  filter(!grepl("DISS_OXYGEN", cas_rn))
+
+# Subset SC data to invesigate and confirm if field-derive or lab-derived
+result.equis.lab.SC <- result.equis.lab %>% 
+  filter(grepl("SC", cas_rn))
+rm(result.equis.lab.SC)
+  #conclusion: no indiciation that any records are field data.
+
+# Subset COND data to invesigate and confirm if field-derive or lab-derived
+result.equis.lab.COND <- result.equis.lab %>% 
+  filter(grepl("COND", cas_rn))
+rm(result.equis.lab.COND)
+  #conclusion: All confirmed lab data.
+
+# Subset PH data to invesigate and confirm if field-derive or lab-derived
+result.equis.lab.PH <- result.equis.lab %>% 
+  filter(grepl("PH|PHWATER", cas_rn))
+rm(result.equis.lab.PH)
+  #conclusion: no indiciation that any records are field data.
+
+# Subset TEMP data to invesigate and confirm if field-derive or lab-derived
+result.equis.lab.TEMP <- result.equis.lab %>% 
+  filter(grepl("TEMP", cas_rn))
+rm(result.equis.lab.TEMP)
+  #conclusion: no indiciation that any records are field data.
+
+
+### Overall conclusion: 2008 data for crossover params (PH, PHWATER, COND, SC, TEMP) looks suspcicious and should be investigated when all data is together. Move ahead with current designations in data.
+
+```
+
+Bind orphaned field and lab data to their respective tables and create their repsective sample tables
+```{r}
+
+result.equis.field <- bind_rows(result.equis.field, result.equis.field.DO)
+
+result.equis.lab <- bind_rows(result.equis.lab, result.equis.lab.fecal, result.equis.lab.turb)
+
+rm(result.equis.field.DO, result.equis.lab.fecal, result.equis.lab.turb)
+
+# Create lab and field sample tables from existing results
+ sample.equis.field <- sample.equis[sample.equis$sys_sample_code %in% result.equis.field$sys_sample_code, ]
+#   check to make sure length is same as unique sys_sample_codes
+#     > length(unique(result.equis.field$sys_sample_code))
+#     [1] 5564
+ 
+ sample.equis.lab <- sample.equis[sample.equis$sys_sample_code %in% result.equis.lab$sys_sample_code, ]
+#   check to make sure length is same as unique sys_sample_codes
+#     > length(unique(result.equis.lab$sys_sample_code))
+#     [1] 15195
+ 
+# Export field data for appending to appropirate field table
+ 
+```
+
+Investigate field name matches between equis and 2016 data
+### SORT OUT 2016 DUPLICATE SAMPLE NAME ISSUES BEFORE PROCESSING BELOW DATA ###
+### See fixing_2016_chem.Rmd ###
+```{r}
+# Get column names and see which match
+names_result.equis <- names(result.equis)
+names_result.2016 <- names(result.2016)
+
+result.unmatch_cols.eq <- names_result.equis[!names_result.equis %in% names_result.2016]
+# Output: > result.unmatch_cols.eq
+# [1] "test_comment"        "result_text"         "result_numeric"      "results_historic_id" "facility_name"  
+
+# "test_comment" can be ignored (all NAs)
+# "result_text" can be ignored (identical to result_numeric) 
+# "results_historic_id" and "facility_name" can be ignored, as these are equis fields.
+
+result.unmatch_cols.2016 <- names_result.2016[!names_result.2016 %in% names_result.equis]
+# Output: > result.unmatch_cols.2016
+# [1] "comment"      "result_value" 
+# "comment" can be ignored (all NAs)
+# "result_value" will become "result_numeric"
+
+
+names_sample.equis <- names(sample.equis)
+names_sample.2016 <- names(sample.2016)
+
+sample.unmatch_cols.eq <- names_sample.equis[!names_sample.equis %in% names_sample.2016]
+# Output: > sample.unmatch_cols.eq
+# [1] "sample_method" "comments"      "facility_name"
+# "sample_method" 
+
+sample.unmatch_cols.2016 <- names_sample.2016[!names_sample.2016 %in% names_sample.equis]
+# > sample.unmatch_cols.2016
+# [1] "sampling_technique" "comment"            "siteid"
+# "sampling_technique" is blank and will be populated with "SOP201" and append to equis "sample_method""
+# "comment" is blank
+# "siteid" will be bound with sys_loc_code
+
+```
+
+Populate fields as needed and rename to match 2016 and equis data
+```{r}
+
+result.2016 <- result.2016 %>% 
+  rename(result_numeric = result_value) %>% 
+  select(-comment)
+
+
+sample.2016$sampling_technique <- "SOP201" 
+
+sample.2016 <- sample.2016 %>% 
+  select(-c(comment, sys_loc_code)) %>% 
+  rename(sampling_method = sampling_technique) %>%
+  rename(sys_loc_code = siteid)
+  
+  
+  # as.character(sample.2016$sampling_technique)
+
+```
+
+
+Rename appropriate columns and bind data
+```{r}
+
+```
+
+
+Rename fields to match new database field names (USE NEW UNIFIED DATA MODEL FIELDS)
+```{r}
+
+```
+
