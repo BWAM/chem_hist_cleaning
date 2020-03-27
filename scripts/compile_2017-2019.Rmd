@@ -12,9 +12,11 @@ root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 
 # Must create the directories specified in input.path and output.path #
 input.path <- file.path(root.dir, "data", "2017-2019")
-output.path <- file.path(root.dir, "data_output", "2017-2019", "output")
+output.path <- file.path(root.dir, "data", "2017-2019", "output")
 
-output.filename <- paste0("SMAS_chemistry_2017-2018_BATCH_1", Sys.Date(), ".csv")
+output.filename.sample <- paste0("S_CHEM_HISTORY_SAMPLE-2017-2019_", Sys.Date(), ".csv")
+output.filename.result <- paste0("S_CHEM_HISTORY_RESULT-2017-2019_", Sys.Date(), ".csv")
+output.filename.batch <- paste0("S_CHEM_HISTORY_BATCH-2017-2019_", Sys.Date(), ".csv")
 
 #Specify sites reference table
 # sites.master <- read.csv(file.path(root.dir, "data_input/site_tables/20191224_Site_Field_cleaned_final.csv"))
@@ -33,7 +35,7 @@ SAMPLE.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_SA
 
 RESULT.2017 <- read_csv(file.path(root.dir, "data/2017-2019/2017_chem_preqaqc_RESULT-SBU_complete_2020-03-26.csv"), col_types = cols(fraction = col_character()))
 RESULT.2018 <- read_csv(file.path(root.dir, "data/2017-2019/2018_chem_preqaqc_RESULT-SBU_complete_2020-03-25.csv"))
-RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SBU_Mohawk_complete_2020-03-25.csv"))
+RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SBU_Mohawk_complete_2020-03-27.csv"))
 
 BATCH.2017 <- read_csv(file.path(root.dir, "data/2017-2019/2017_chem_preqaqc_BATCH-SBU_complete_2020-03-26.csv"), col_types = cols(fraction = col_character()))
 BATCH.2018 <- read_csv(file.path(root.dir, "data/2017-2019/2018_chem_preqaqc_BATCH-SBU_complete_2020-03-26.csv"))
@@ -74,15 +76,14 @@ sample.all.form <- sample.all %>%
            LAB_SAMPLE_TYPE_CDE = SAMPLE_TYPE_CODE, 
            PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE, 
            SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP) %>% 
-    mutate(SAMPLE_METHOD = "") %>% 
     mutate(SAMPLE_DATE = as.POSIXct(SAMPLE_DATE, format = "%m/%d/%Y %H:%M:%S" )) %>% 
     mutate(SAMPLE_RECEIPT_DATE = as.Date(SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y")) %>% 
     rename_all(function(x) paste0("CHS_", x)) %>% 
-    mutate(CHEM_HISTORY_SAMPLE_ID = "", 
-           CREATE_DATE = "", 
-           END_DATE = "", 
-           UPDATE_DATE = "", 
-           UPDATED_BY_GUID = "") %>% 
+    mutate(CHEM_HISTORY_SAMPLE_ID= "", 
+           CREATE_DATE= "", 
+           END_DATE= "", 
+           UPDATE_DATE= "", 
+           UPDATED_BY_GUID= "") %>% 
     mutate(EVENT_ID_DATE = strftime(CHS_SAMPLE_DATE, "%Y%m%d")) %>% 
     mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
  
@@ -92,7 +93,6 @@ result.all.form <- result.all %>%
            LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
            LAB_MATRIX_CDE = LAB_MATRIX_CODE,
            LAB_NAME_CDE = LAB_NAME_CODE,
-           PCT_MOISTURE = PERCENT_MOISTURE,
            SUBSAMPLE_AMT = SUBSAMPLE_AMOUNT,
            SUBSAMPLE_AMT_UNIT = SUBSAMPLE_AMOUNT_UNIT,
            RESULT_TYPE_CDE = RESULT_TYPE_CODE,
@@ -106,25 +106,25 @@ result.all.form <- result.all %>%
            QC_ORIG_CONC = QC_ORIGINAL_CONC,
            QC_DUP_ORIG_CONC = QC_DUP_ORIGINAL_CONC,
            SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP) %>% 
-    mutate(VALIDATOR_QUAL_REASON_CDE = "",
-           VALIDATOR_SAMPLE_ACCURACY = "", 
-           VALIDATOR_SAMPLE_PRECISION_FIELD = "",
-           VALIDATOR_SAMPLE_PRECISION_LAB = "",
-           VALIDATOR_SAMPLE_EQUIP_BLANK = "", 
-           VALIDATOR_SAMPLE_PARAM_PAIR = "",
-           # VALIDATOR_QUAL_EXPLN = "",
-           # VALIDATION_DATE = "",
-           LAB_VALIDATION_LEVEL = "") %>% 
+    mutate(VALIDATOR_QUAL_REASON_CDE= "",
+           VALIDATOR_SAMPLE_ACCURACY= "", 
+           VALIDATOR_SAMPLE_PRECISION_FIELD= "",
+           VALIDATOR_SAMPLE_PRECISION_LAB= "",
+           VALIDATOR_SAMPLE_EQUIP_BLANK= "", 
+           VALIDATOR_SAMPLE_PARAM_PAIR= "",
+           VALIDATOR_QUAL_EXPLN= "",
+           VALIDATION_DATE= "",
+           LAB_VALIDATION_LEVEL= NA) %>% 
     mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S" )) %>% 
     mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S" )) %>% 
     rename_all(function(x) paste0("CHR_", x)) %>% 
-    mutate(CHEM_HISTORY_RESULT_ID = "", 
-           CHEM_HISTORY_SAMPLE_ID = "", 
-           CHEM_PARAMETER_ID = "", 
-           CREATE_DATE = "", 
-           END_DATE = "", 
-           UPDATE_DATE = "", 
-           UPDATED_BY_GUID = "")
+    mutate(CHEM_HISTORY_RESULT_ID= "", 
+           CHEM_HISTORY_SAMPLE_ID= "", 
+           CHEM_PARAMETER_ID= "", 
+           CREATE_DATE= "", 
+           END_DATE= "", 
+           UPDATE_DATE= "", 
+           UPDATED_BY_GUID= "")
       
 batch.all.form <- batch.all %>% 
     rename_all(toupper) %>% 
@@ -132,12 +132,12 @@ batch.all.form <- batch.all %>%
            LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME) %>% 
     mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S" )) %>% 
     rename_all(function(x) paste0("CHB_", x)) %>% 
-    mutate(CHEM_HISTORY_BATCH_ID = "", 
-           CHEM_HISTORY_SAMPLE_ID = "", 
-           CREATE_DATE = "", 
-           END_DATE = "", 
-           UPDATE_DATE = "", 
-           UPDATED_BY_GUID = "")
+    mutate(CHEM_HISTORY_BATCH_ID= "", 
+           CHEM_HISTORY_SAMPLE_ID= "", 
+           CREATE_DATE= "", 
+           END_DATE= "", 
+           UPDATE_DATE= "", 
+           UPDATED_BY_GUID= "")
 
 
 ```
@@ -158,7 +158,7 @@ sample.all.FINAL <- sample.all.form %>%
 result.all.FINAL <- result.all.form %>% 
     select(CHEM_HISTORY_RESULT_ID, CHEM_HISTORY_SAMPLE_ID, CHEM_PARAMETER_ID, CHR_SYS_SAMPLE_CDE, CHR_LAB_ANAL_METHOD_NAME,
            CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, CHR_DILUTION_FACTOR, CHR_PREP_METHOD, 
-           CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_PCT_MOISTURE, CHR_SUBSAMPLE_AMT, 
+           CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
            CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_CHEMICAL_NAME, CHR_RESULT_VALUE, 
            CHR_RESULT_UNIT, CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_LAB_QUAL, CHR_INTERPRETED_QUAL, 
            CHR_VALIDATED_IND, CHR_VALIDATOR_QUAL, CHR_VALIDATOR_QUAL_EXPLN, CHR_VALIDATOR_QUAL_REASON_CDE, CHR_VALIDATION_DATE, 
@@ -177,8 +177,12 @@ batch.all.FINAL <- batch.all.form %>%
 
 ```
 
-
+Export data
 ```{r}
+
+write.table(sample.all.FINAL, file= paste0(output.path,"/",output.filename.sample),sep=",", row.names = FALSE)
+write.table(result.all.FINAL, file= paste0(output.path,"/",output.filename.result),sep=",", row.names = FALSE)
+write.table(batch.all.FINAL, file= paste0(output.path,"/",output.filename.batch),sep=",", row.names = FALSE)
 
 ```
 
