@@ -20,11 +20,10 @@ root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
   # rename_all(tolower)
 
 result.equis <- read.csv(file.path(root.dir, "data/equis_results_history.csv"), stringsAsFactors = FALSE) %>% 
-  rename_all(tolower)
+  rename_all(tolower) %>%
+  rename(sample_delivery_group = lab_sdg)
 sample.equis <- read.csv(file.path(root.dir, "data/equis_sample_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower)
-
-join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
 
 ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "data/RIBSchem_historic_BioSiteJoin_2019-12-18.xlsx"))
 
@@ -33,11 +32,26 @@ ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "data/RIBSchem_historic
 Test sample-result table join
 ```{r}
 
-ribs.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
+join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
+join2 <- left_join(sample.equis, result.equis, by = c("sys_sample_code", "sample_delivery_group"))
 
 ###
 # More records created, which means not a 1:many relationship for sys_sample_code. Look into this.
 ###
+# Must join by SSC AND SDG
+
+# SDG not populated for all records!!! Is there another field we can use?
+  # Some additional SDGs in chain_of_custody field (SAMPLE table). Could pull SDG from lab_sample_id (RESULT table)
+
+# > length(sample.equis$sample_delivery_group)
+# [1] 16379
+# > length(sample.equis$sample_delivery_group[sample.equis$sample_delivery_group != ""])
+# [1] 13728
+# > length(result.equis$sample_delivery_group)
+# [1] 295431
+# > length(result.equis$sample_delivery_group[result.equis$sample_delivery_group != ""])
+# [1] 84644
+
 ```
 
 Remove field YSI data from equis data, and lab data from field table, and set aside for binding later
