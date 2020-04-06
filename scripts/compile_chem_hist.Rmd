@@ -32,6 +32,10 @@ ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "data/RIBSchem_historic
 Test sample-result table join
 ```{r}
 
+
+### 4/6/20 conversation w/ Zach, Brian (Teams chat) -- must ALSO join by fraction in addition to SSC and SDG. Zach says this solved his issue with dups.
+
+
 join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
 join2 <- left_join(sample.equis, result.equis, by = c("sys_sample_code", "sample_delivery_group"))
 
