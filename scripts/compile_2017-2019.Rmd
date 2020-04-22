@@ -3,6 +3,8 @@ title: "compile_2017-2019"
 output: html_document
 ---
 
+Compiling 2017-2019 chem tables for submitting to ITS.
+
 Load libraries, find the R-project root directory, and specify input/output files.
 ```{r}
 library(tidyverse)
@@ -89,6 +91,7 @@ sample.all.form <- sample.all %>%
  
 result.all.form <- result.all %>% 
     rename_all(toupper) %>% 
+  #### MAKE ALL CHEMICAL_NAMEs UPPERCASE ###
     rename(SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
            LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
            LAB_MATRIX_CDE = LAB_MATRIX_CODE,
@@ -183,6 +186,27 @@ Export data
 write.table(sample.all.FINAL, file= paste0(output.path,"/",output.filename.sample),sep=",", row.names = FALSE)
 write.table(result.all.FINAL, file= paste0(output.path,"/",output.filename.result),sep=",", row.names = FALSE)
 write.table(batch.all.FINAL, file= paste0(output.path,"/",output.filename.batch),sep=",", row.names = FALSE)
+
+```
+
+
+### FURTHER CORRECTIONS/ADDISIONS BEFORE RESUBMITTING ###
+
+# SUBMIT IN TAB-SEP (.txt) FORMAT? (as per Cindy)
+# DOuble check updated site IDs
+# ADD IN ROUTINE
+# ADD IN 2016 if same EDD format???
+# Capitalize all CHEMICAL_NAMEs?
+# Look for date fomatting issues, esp. with 2017 data.
+
+
+Look at unique params in compiled tables 
+```{r}
+
+params <- result.all %>% 
+  select(cas_rn, chemical_name, fraction, result_unit, lab_anl_method_name) %>% 
+  distinct()
+  
 
 ```
 

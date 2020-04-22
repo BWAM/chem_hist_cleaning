@@ -1,0 +1,92 @@
+---
+title: "equis_field_data"
+output: html_document
+---
+
+# see compile_chem_hist.Rmd for some preliminary investigation of field vs lab data
+
+Load libraries and input files
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+equis.result <- read_csv(file.path(root.dir, "data/equis_results_history.csv")) %>% 
+  rename_all(tolower) %>%
+  rename(sample_delivery_group = lab_sdg) %>% 
+  mutate(year.result = format(as.Date(analysis_date, format="%m/%d/%Y"),"%Y"))
+
+equis.sample <- read_csv(file.path(root.dir, "data/equis_sample_history.csv")) %>% 
+  rename_all(tolower) %>% 
+  mutate(year.sample = format(as.Date(sample_date, format="%m/%d/%Y"),"%Y"))
+
+equis.join <- left_join(equis.sample, equis.result, by = "sys_sample_code")
+
+
+```
+
+```{r}
+# Look at unique params for all data
+params.equis <- equis.result %>% 
+  select(cas_rn, chemical_name, fraction, result_unit, lab_anl_method_name) %>% 
+  distinct()
+
+# Subset data to relevent fields for easier viewing
+equis.join.sub <- equis.join %>% 
+  select(data_provider, sys_sample_code, sample_matrix_code, sample_type_code, sample_delivery_group.x, sample_date, year.sample, sys_loc_code, lab_anl_method_name, analysis_date, fraction, test_type, lab_name_code, cas_rn, chemical_name, result_numeric, result_unit, reportable_result, detect_flag, interpreted_qualifiers, validated_yn, method_detection_limit, reporting_detection_limit, quantitation_limit, validation_level)
+
+# Subset to pH only
+equis.join.sub.ph <- equis.join.sub %>% 
+  filter(grepl("PH|PHWATER", cas_rn))
+
+# Subset to station 05021006 for specific example
+equis.join.ph.05021006 <- equis.join %>% 
+  filter(grepl("PH|PHWATER", cas_rn)) %>% 
+  filter(sys_loc_code %in% "05021006") %>% 
+  mutate(sampledate_equals_analysisdate = ifelse(sample_date == analysis_date, "TRUE", "FALSE"))
+
+equis.join.ph.05021006.sub <- equis.join.ph.05021006 %>% 
+  select(data_provider, sys_sample_code, sample_matrix_code, sample_type_code, sample_delivery_group.x, year.sample, sample_date, analysis_date, sampledate_equals_analysisdate, sys_loc_code, lab_anl_method_name, fraction, test_type, lab_name_code, cas_rn, chemical_name, result_numeric, result_unit, reportable_result, detect_flag, interpreted_qualifiers, validated_yn, method_detection_limit, reporting_detection_limit, quantitation_limit, validation_level) 
+
+write_csv(equis.join.ph.05021006.sub, file.path(root.dir, "data/RIBS_station_05021006_PH.csv"))
+write_csv(equis.join.ph.05021006.sub, file.path(root.dir, "data/RIBS_station_05021006_PH.csv"))
+
+```
+
+Looking for ways to differentiate field and lab data aside from "FS" in sys_sample_code and "FIELD MSR/OBS" sample_type_codes 
+```{r}
+# See what parameters lab_name_code is blank for (be wary of possible join issues)
+equis.result.lab_name_code.na <- equis.result %>% 
+  filter(is.na(lab_name_code))
+
+# > unique(equis.join.na$chemical_name)
+# [1] "pH"                   "Temperature"          "Dissolved Oxygen"     "Specific Conductance" "pH (Water)"          
+# [6] NA                     "Coliform"             "Fecal Coliform" 
+
+# Subset records with NA chemical_names
+equis.join.chemical_name.na <- equis.join %>% 
+  filter(is.na(chemical_name))
+
+
+```
+
+Look into issues where sample date is equal to analysis date
+```{r}
+equis.join.datesequal <- equis.join %>% 
+  # mutate(sample_eq_analysis = ifelse(sample_date == analysis_date, "field", "lab"))
+  filter(sample_date == analysis_date)
+
+equis.join.datesequal.N <- equis.join.datesequal %>% 
+  filter(sample_type_code == "N")
+# Output of unique(equis.join.datesequal.N$chemical_name) shows that many more than field params are present.
+
+equis.join.datesequal.N.no2008 <- equis.join.datesequal %>% 
+  filter(sample_type_code == "N",
+         year.sample != "2008")
+# Output of unique(equis.join.datesequal.N.no2008$chemical_name) shows that many more than field params are present.
+
+
+# COnclusion: cannot be used to differentiate lab and field results.
+
+```
+

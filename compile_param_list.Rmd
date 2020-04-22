@@ -1,0 +1,70 @@
+---
+title: "compile_param_list"
+output: html_document
+---
+
+Load libraries and input files
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+# 2001-2015 data
+equis.result <- read_csv(file.path(root.dir, "data/equis_results_history.csv")) %>% 
+  rename_all(tolower) %>%
+  rename(sample_delivery_group = lab_sdg)
+
+result.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_result.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+
+RESULT.2017 <- read_csv(file.path(root.dir, "data/2017-2019/2017_chem_preqaqc_RESULT-SBU_complete_2020-03-26.csv"), col_types = cols(fraction = col_character()))
+RESULT.2018 <- read_csv(file.path(root.dir, "data/2017-2019/2018_chem_preqaqc_RESULT-SBU_complete_2020-03-25.csv"))
+RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SBU_Mohawk_complete_2020-03-27.csv"))
+result.2016to2019 <- bind_rows(result.2016, RESULT.2017, RESULT.2018, RESULT.2019)
+rm(result.2016, RESULT.2017, RESULT.2018, RESULT.2019)
+
+# Routine data not yet included in above data
+routine.2017 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2017/routine_2020-01-28/2017_routine_all_2020-04-14.csv")
+routine.2018 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2018/routine_all_converted/2018_routine_all_chem_preqaqc_2020-04-14.csv")
+routine.2019 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2019/Routine/all/2019_chem_routine_pre-qaqc_2020-03-13.csv")
+routine.2017to2019 <- bind_rows(routine.2017, routine.2018, routine.2019)
+rm(routine.2017, routine.2018, routine.2019)
+```
+
+
+List unique parameters for all datasets, bind, and find distinct combinations
+```{r}
+params.equis <- equis.result %>% 
+  filter(!is.na(result_unit)) %>% 
+  select(cas_rn, chemical_name, fraction, result_unit) %>% 
+  distinct()  
+
+params.2016to2019 <- result.2016to2019 %>% 
+  filter(!is.na(result_unit)) %>% 
+  select(cas_rn, chemical_name, fraction, result_unit) %>% 
+  distinct()
+
+params.2017to2019.routine <- routine.2017to2019 %>% 
+  filter(!is.na(result_unit)) %>% 
+  select(cas_rn, chemical_name, fraction, result_unit) %>% 
+  distinct() 
+
+params.all <- bind_rows(params.equis, params.2016to2019, params.2017to2019.routine) %>% 
+  mutate(chemical_name = toupper(chemical_name)) %>% 
+  distinct()
+
+```
+
+Compare to existing compiled streams param list
+```{r}
+params.exisinglist <- read_csv(file.path(root.dir,"parameters/chem_params_2019_incl_PCBs.csv")) %>% 
+  mutate(chemical_name = toupper(chemical_name)) %>% 
+  distinct()
+
+params.new <- anti_join(params.all, params.exisinglist)
+
+write_csv(params.new, "parameters/chem_params.new.2020-04-22.csv")
+write_csv(params.all, "parameters/chem_params.all.2020-04-22.csv")
+
+```
+

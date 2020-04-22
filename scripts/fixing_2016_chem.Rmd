@@ -8,15 +8,7 @@ Analyzing 2016 raw data for duplicate sample issues.
 # Found using the code below that duplicate sys_sample_codes exist in multiple EDDs with different (and incorrect) sample dates. See R1604068 and R1604069 for example.
 
 
-#2/5/20 note:
-###################
-###################
-##### DO NOT USE bound 2016 result and sample files referenced below! Need to join each EDD individually to properly relate #####
-        ## Use process in C:\Data\RIBS\Chem_raw_processing\data_output\2016\RIBS_EDD_processing_2016_forhistoricDB.Rmd
-        ##      that creates "RIBSdata" data frame; not separate sample and result dataframes.
-###################
-###################
-
+#### NOTE: ISSUE SOLVED WHEN JOINING BY BOTH SYS_SAMPLE_CODE AND SDG ####
 
 
 ```{r}
