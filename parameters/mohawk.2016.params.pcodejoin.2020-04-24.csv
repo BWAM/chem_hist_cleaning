@@ -1,0 +1,127 @@
+CHEM_PARAMETER_CDE,PSNAM,UNITS,chemical_name,fraction,result_unit,cas_rn,CHEM_PARAMETER_GROUP_ME,CHEM_PARAMETER_NAME_DESC,CHEM_PARAMETER_EPA_SRS_NUM,CHEM_PARAMETER_ID,CREATE_DATE,END_DATE,UPDATE_DATE,UPDATED_BY_GUID,check,notes.check,alt.pcode,altpcode
+U00004,Stream width,ft,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00008,Sample accnt. number,nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00010,"Temperature, water",deg C,TEMPERATURE,T,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00010,"Temperature, water",deg C,TEMPERATURE,NA,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00010,"Temperature, water",deg C,TEMPERATURE OF PH ANALYSIS,T,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00010,"Temperature, water",deg C,"TEMPERATURE, WATER",NA,deg C,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00020,"Temperature, air",deg C,"TEMPERATURE, AIR",NA,deg C,NA,Physical,"Temperature, air, degrees Celsius","Temperature, air, deg C","NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00025,Air pressure,mm/Hg,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00060,Discharge,ft3/s,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00061,"Discharge, instant.",ft3/s,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00095,Specific cond at 25C,uS/cm @25C,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,deg c,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00095,Specific cond at 25C,uS/cm @25C,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,umhos/cm,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00191,"Hydrogen ion, wu, calculated",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00300,Dissolved oxygen,mg/l,DISSOLVED OXYGEN,D,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00300,Dissolved oxygen,mg/l,DISSOLVED OXYGEN,T,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00300,Dissolved oxygen,mg/l,DISSOLVED OXYGEN,NA,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00300,Dissolved oxygen,mg/l,DISSOLVED OXYGEN (DO),NA,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00301,"Diss oxygen,%saturtn",% saturatn,DISSOLVED OXYGEN SATURATION,NA,% saturatn,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, percent of saturation",Oxygen,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00400,pH,std units,PH,NA,std units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00400,pH,std units,PH,T,std units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00400,pH,std units,PH (WATER),T,ph units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00405,"Carbon dioxide, water",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00417,"ANC, wu,fixedEP,lab",mg/l CaCO3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00500,Total solids dried @ 105C,mg/l,TOTAL SOLIDS,T,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00500,Total solids dried @ 105C,mg/l,TOTAL SOLIDS,T,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00500,Total solids dried @ 105C,mg/l,TOTAL SOLIDS,NA,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00505,LOI of total solids,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00605,"Organic nitrogen, wu",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00610,"Ammonia, wu",mg/l as N,"NITROGEN, AMMONIA (AS N)",T,mg/l,7664-41-7,Nutrient,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",Ammonia and ammonium,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00615,"Nitrite, wu",mg/l as N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00618,"Nitrate, wf",mg/l as N,"NITROGEN, NITRATE (AS N)",T,mg/l,14797-55-8,Nutrient,"Nitrate, water, filtered, milligrams per liter as nitrogen",Nitrate,"NA","NA","NA","NA","NA",NA,casrn doesn’t match descriptions,NA,"NA"
+U00625,"NH3+orgN, wu",mg/l as N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00671,"Orthophosphate, wf",mg/l as P,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00665,"Phosphorus, wu",mg/l as P,PHOSPHORUS,NA,mg/l as P,7723-14-1,Nutrient,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Phosphorus,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00665,"Phosphorus, wu",mg/l as P,PHOSPHORUS,T,mg/l as P,7723-14-1,Nutrient,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Phosphorus,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00680,"Organic carbon, wu",mg/l,TOTAL ORGANIC CARBON,T,mg/l,TOC,"Organics, other","Organic carbon, water, unfiltered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00681,"Organic carbon, wf",mg/l,"CARBON, DISSOLVED ORGANIC (DOC)",D,mg/l,DOC,"Organics, other","Organic carbon, water, filtered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U00681,"Organic carbon, wf",mg/l,DISSOLVED ORGANIC CARBON,D,mg/l,NA,"Organics, other","Organic carbon, water, filtered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+U00903,"Noncarbonate hardness, wu,lab",mg/l CaCO3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00916,"Calcium, wu,recov",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00927,"Magnesium, wu,recov",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00929,"Sodium, wu,recov",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00937,"Potassium, wu,recov",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00940,"Chloride, wf",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00945,"Sulfate, wf",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00951,"Fluoride, wu",mg/l,FLUORIDE,T,mg/l,16984-48-8,"Inorganics, Major, Non-metals","Fluoride, water, unfiltered, milligrams per liter",Fluoride,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+U00951,"Fluoride, wu",mg/l,"FLUORIDE, UNDISTILLED",T,mg/l,16984-48-8,"Inorganics, Major, Non-metals","Fluoride, water, unfiltered, milligrams per liter",Fluoride,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+U01002,"Arsenic, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01025,"Cadmium, wf",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01027,"Cadmium, wu",ug/l,CADMIUM,T,ug/l,7440-43-9,"Inorganics, Minor, Metals","Cadmium, water, unfiltered, micrograms per liter",Cadmium,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01040,"Copper, wf",ug/l,COPPER,D,ug/l,7440-50-8,"Inorganics, Minor, Metals","Copper, water, filtered, micrograms per liter",Copper,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01049,"Lead, wf",ug/l,LEAD,D,ug/l,7439-92-1,"Inorganics, Minor, Metals","Lead, water, filtered, micrograms per liter",Lead,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01065,"Nickel, wf",ug/l,NICKEL,D,ug/l,7440-02-0,"Inorganics, Minor, Metals","Nickel, water, filtered, micrograms per liter",Nickel,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01090,"Zinc, wf",ug/l,ZINC,D,ug/l,7440-66-6,"Inorganics, Minor, Metals","Zinc, water, filtered, micrograms per liter",Zinc,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01105,"Aluminum, wu,recov",ug/l,ALUMINUM,T,ug/l,7429-90-5,"Inorganics, Minor, Metals","Aluminum, water, unfiltered, recoverable, micrograms per liter",Aluminum,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01106,"Aluminum, wf",ug/l,ALUMINUM,D,ug/l,7429-90-5,"Inorganics, Minor, Metals","Aluminum, water, filtered, micrograms per liter",Aluminum,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U01300,"Oil & grease, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01305,"Suds or foam, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01310,"Gas bubbles,severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01320,"Float.Garbage, svrty",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01325,"Floating algae mats, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01330,"Odor, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01335,"Sewage solids, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01340,"Dead fish, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01345,"Floating debris, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01350,"Turbidity, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U01355,"Ice cover, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U30208,Discharge,m3/sec,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U30209,Instantaneous Discharge,m3/sec,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U32217,"Chlorophyll a,fm,unc",ug/l,CHLOROPHYLL A (PROBE),NA,ug/l,479-61-8,Biological,"Chlorophyll a, fluorometric method, uncorrected, micrograms per liter",Chlorophyll a,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+U46002,"Phenols, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U50280,Site visit purpose,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U50286,"Mercury, wu",ng/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U52296,"Copper, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U52298,"Lead, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U52300,"Nickel, wu",ug/l,NICKEL,T,ug/l,7440-02-0,"Inorganics, Minor, Metals","Nickel, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U52301,"Silver, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U52303,"Zinc, wu",ug/l,ZINC,T,ug/l,7440-66-6,"Inorganics, Minor, Metals","Zinc, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U63676,"Turbidity, NephRatio",NTRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U70293,"Suspended solids, dried@105C",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U70300,Diss solids dry@180C,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U70302,Dissolved solids,tons/day,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U70303,Dissolved solids,tons/ac ft,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U71845,"Ammonia, wu",mg/l NH4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U71883,"Manganese, wu",ug/l,MANGANESE,T,ug/l,7439-96-5,"Inorganics, Minor, Metals","Manganese, water, unfiltered, micrograms per liter",Manganese,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+U71885,"Iron, wu",ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U71999,Sample purpose,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U72219,Sampler nozzle material,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U72220,Sampler nozzle diameter,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U80154,Suspnd sedmnt conc,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U80155,Suspnd sedmnt disch,tons/day,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U82398,Sampling method,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U84164,Sampler type,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U84171,Sample splitter type,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U84178,"Floating vegetation, severity",code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U84182,Bottle/bag sampler material,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99111,Type of QA data,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99156,"Lot no., 1mL 4.5N H2SO4, WCA",nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00063,No. of sampling pts.,count,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99206,"Lot No, 0.45um Capsule Filter",nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U61213,"Total coliforms, water",cfu/100ml,COLIFORM,T,cfu/100ml,NA,Microbiological,"Total coliforms, water, colonies per 100 milliliters",Total coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U61213,"Total coliforms, water",cfu/100ml,COLIFORM,NA,cfu/100ml,NA,Microbiological,"Total coliforms, water, colonies per 100 milliliters",Total coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U61215,"Fecal coliforms, water",cfu/100ml,FECAL COLIFORM,T,cfu/100ml,NA,Microbiological,"Fecal coliforms, water, colonies per 100 milliliters",Fecal coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U61215,"Fecal coliforms, water",cfu/100ml,FECAL COLIFORM,NA,cfu/100ml,NA,Microbiological,"Fecal coliforms, water, colonies per 100 milliliters",Fecal coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+U00660,"Orthophosphate, wf",mg/l,ORTHOPHOSPHATE,D,mg/l asPO4,14265-44-2,Nutrient,"Orthophosphate, water, filtered, milligrams per liter as PO4",Phosphate,"NA","NA","NA","NA","NA",yes,repeat,NA,"NA"
+U00660,"Orthophosphate, wf",mg/l,"ORTHOPHOSPHATE AS PHOSPHORUS, DISSOLVED",D,mg/l,PDORTHO,Nutrient,"Orthophosphate, water, filtered, milligrams per liter as PO4",Phosphate,"NA","NA","NA","NA","NA",yes,repeat,NA,"NA"
+U00098,Sampling depth,m,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U80082,"CBOD, wu, 5day",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99105,Type of replicate,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00065,Gage height,ft,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U30207,GageHeightAboveDatum,m,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99101,Source of blank solution,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99102,Type of blank sample,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U72053,Days since last precip event,days,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00041,"Weather, WMO code",WMO code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U72199,"Depth, water column",ft,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99100,Type of blank solution,code,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99201,"Lot No, 2nd, inorg grade watr",nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00600,"Total nitrogen, wu",mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00620,"Nitrate, wu",mg/l as N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00630,"NO3+NO2, wu",mg/l as N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U71887,"Total nitrogen, wu",mg/l NO3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99202,"Lot No, 1st, org grade water",nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U99200,"Lot No, 1st, inorg grade watr",nu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U00035,Wind speed,mph,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+U72104,"Sample location, downstream",ft,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

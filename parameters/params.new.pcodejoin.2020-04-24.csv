@@ -1,0 +1,369 @@
+cas_rn.x,chemical_name,fraction,result_unit.x,CHEM_PARAMETER_CDE,result_unit.y,cas_rn.y,CHEM_PARAMETER_GROUP_ME,CHEM_PARAMETER_NAME_DESC,CHEM_PARAMETER_EPA_SRS_NUM,CHEM_PARAMETER_ID,CREATE_DATE,END_DATE,UPDATE_DATE,UPDATED_BY_GUID,check,notes.check,alt.pcode,altpcode
+TVS,TOTAL VOLATILE SOLIDS,NA,mg/l,D00003,mg/l,"NA","Inorganics, Major, Non-metals","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",D
+TSO,TOTAL SOLIDS,NA,mg/l,U00500,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TDS,"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PH,PH,NA,ph units,U00400,std units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+HARD,HARDNESS (AS CACO3),T,mg/l,U00900,mg/l,HARD,Physical,"Hardness, water, milligrams per liter as calcium carbonate",Total hardness -- SDWA NPDWR,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+SC,SPECIFIC CONDUCTANCE,NA,umhos/cm,U90096,uS/cm @25C,NA,Physical,"Specific conductance, water, filtered, laboratory, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA",yes,repeat,NA,"NA"
+FECCOLIFORM,FECAL COLIFORM,NA,cfu/100ml,U61215,cfu/100ml,NA,Microbiological,"Fecal coliforms, water, colonies per 100 milliliters",Fecal coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+COLIF,COLIFORM,NA,cfu/100ml,U61213,cfu/100ml,NA,Microbiological,"Total coliforms, water, colonies per 100 milliliters",Total coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TSS,TOTAL SUSPENDED SOLIDS,NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+TEMP,TEMPERATURE,NA,deg c,U00010,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+DISS_OXYGEN,DISSOLVED OXYGEN,NA,mg/l,U00300,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TOC,TOTAL ORGANIC CARBON,T,mg/l,U00680,mg/l,TOC,"Organics, other","Organic carbon, water, unfiltered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TOC,TOTAL ORGANIC CARBON,D,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14265-44-2,PHOSPHATE ION,NA,mg/l,U70507,mg/l,14265-44-2,Nutrient,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",Phosphate,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+7723-14-0,PHOSPHORUS,NA,mg/l,U00665,mg/l as P,7723-14-1,Nutrient,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Phosphorus,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+NO3NO2N,"NITROGEN, NITRATE-NITRITE",NA,mg/l,U00628,mg/l as N,NA,Nutrient,"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",Inorganic nitrogen (nitrate and nitrite),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+14797-55-8,"NITROGEN, NITRATE (AS N)",NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+KN,"NITROGEN, KJELDAHL, TOTAL",NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7664-41-7,"NITROGEN, AMMONIA (AS N)",T,mg/l,U00610,mg/l,7664-41-7,Nutrient,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",Ammonia and ammonium,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+ALK,"ALKALINITY, TOTAL (AS CACO3)",NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+16887-00-6,CHLORIDE (AS CL),T,mg/l,U99220,mg/l,16887-00-6,"Inorganics, Major, Non-metals","Chloride, water, unfiltered, milligrams per liter",Chloride,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+14808-79-8,SULFATE (AS SO4),T,mg/l,U00946,mg/l,14808-79-8,"Inorganics, Major, Non-metals","Sulfate, water, unfiltered, milligrams per liter",Sulfate,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-92-1,LEAD,T,ug/l,U52286,ug/l,7439-92-1,"Inorganics, Minor, Metals","Lead, water, unfiltered, total, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-02-0,NICKEL,T,ug/l,U52300,ug/l,7440-02-0,"Inorganics, Minor, Metals","Nickel, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-50-8,COPPER,T,ug/l,U01119,ug/l,7440-50-8,"Inorganics, Minor, Metals","Copper, water, unfiltered, recoverable, micrograms per liter",Copper,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-92-1,LEAD,D,ug/l,U01049,ug/l,7439-92-1,"Inorganics, Minor, Metals","Lead, water, filtered, micrograms per liter",Lead,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-02-0,NICKEL,D,ug/l,U01065,ug/l,7440-02-0,"Inorganics, Minor, Metals","Nickel, water, filtered, micrograms per liter",Nickel,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-50-8,COPPER,D,ug/l,U01040,ug/l,7440-50-8,"Inorganics, Minor, Metals","Copper, water, filtered, micrograms per liter",Copper,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7429-90-5,ALUMINUM,T,ug/l,U01105,ug/l,7429-90-5,"Inorganics, Minor, Metals","Aluminum, water, unfiltered, recoverable, micrograms per liter",Aluminum,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-89-6,IRON,T,ug/l,U00980,ug/l,7439-89-6,"Inorganics, Major, Non-metals","NA","NA","NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-95-4,MAGNESIUM,T,mg/l,U52282,ug/l,7439-95-4,"Inorganics, Minor, Metals","Magnesium, water, unfiltered, total, milligrams per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-96-5,MANGANESE,T,ug/l,U71883,ug/l,7439-96-5,"Inorganics, Minor, Metals","Manganese, water, unfiltered, micrograms per liter",Manganese,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-09-7,POTASSIUM,T,mg/l,U52507,ug/l,7440-09-7,"Inorganics, Major, Metals","Potassium, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-23-5,SODIUM,T,mg/l,U52290,ug/l,7440-23-5,"Inorganics, Major, Metals","Sodium, water, unfiltered, milligrams per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-66-6,ZINC,T,ug/l,U52303,ug/l,7440-66-6,"Inorganics, Minor, Metals","Zinc, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-70-2,CALCIUM,T,mg/l,U52505,ug/l,7440-70-2,"Inorganics, Major, Metals","Calcium, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TURB,TURBIDITY,NA,ntu,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14797-65-0,"NITROGEN, NITRITE",NA,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+16984-48-8,FLUORIDE,T,mg/l,U00951,mg/l,16984-48-8,"Inorganics, Major, Non-metals","Fluoride, water, unfiltered, milligrams per liter",Fluoride,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+7429-90-5,ALUMINUM,D,ug/l,U01106,ug/l,7429-90-5,"Inorganics, Minor, Metals","Aluminum, water, filtered, micrograms per liter",Aluminum,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-43-9,CADMIUM,T,ug/l,U01027,ug/l,7440-43-9,"Inorganics, Minor, Metals","Cadmium, water, unfiltered, micrograms per liter",Cadmium,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-97-6,MERCURY,T,ug/l,U50284,ng/l,7439-97-6,"Organics, other","Methylmercury, water, unfiltered, recoverable, nanograms per liter",Methylmercury(1+),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-43-9,CADMIUM,D,ug/l,U52775,ug/l,7440-43-9,"Inorganics, Minor, Metals","Cadmium, water, filtered, milligrams per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+74-87-3,CHLOROMETHANE,T,ug/l,U34418,ug/l,74-87-3,"Organics, other","Chloromethane, water, unfiltered, recoverable, micrograms per liter",Chloromethane,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TOTPHEN,"PHENOLICS, TOTAL RECOVERABLE",NA,mg/l,U32730,mg/l,NA,"Organics, other","Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",Phenols and phenolic compounds,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+75-27-4,BROMODICHLOROMETHANE,T,ug/l,U34328,ug/l,75-27-4,"Organics, other","Bromodichloromethane, water, filtered, recoverable, micrograms per liter",Dichlorobromomethane,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+67-66-3,CHLOROFORM,T,ug/l,U99281,ug/l,67-66-3,"Organics, other","Chloroform formation potential, water, filtered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-22-4,SILVER,T,ug/l,U01077,ug/l,7440-22-4,"Inorganics, Minor, Metals","Silver, water, unfiltered, recoverable, micrograms per liter",Silver,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-38-2,ARSENIC,T,ug/l,U50316,ug/l,7440-38-2,"Inorganics, Minor, Non-metals","Arsenic acid, water, filtered, micrograms per liter",Arsenic acid,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+14265-44-2,PHOSPHATE ION,T,mg/l,U70507,mg/l,14265-44-2,Nutrient,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",Phosphate,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+ALK,"ALKALINITY, TOTAL (AS CACO3)",T,mg/l,U00421,mg/l,ALK,"Inorganics, Major, Non-metals","Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Alkalinity,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+ALK,"ALKALINITY, TOTAL (AS CACO3)",T,mg/l,U39036,mg/l,ALK,"Inorganics, Major, Non-metals","Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, field, milligrams per liter as calcium carbonate",Alkalinity,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+NO3NO2N,"NITROGEN, NITRATE-NITRITE",T,mg/l,U00628,mg/l as N,NA,Nutrient,"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",Inorganic nitrogen (nitrate and nitrite),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7727-37-9,NITROGEN,T,mg/l,U00597,mg/l,7727-37-9,Nutrient,"Dinitrogen, water, unfiltered, milligrams per liter",Nitrogen,"NA","NA","NA","NA","NA",yes,matches casrn,NA,"NA"
+7727-37-9,NITROGEN,T,mg/l,U00629,mg/l,KN,Nutrient,"NA","NA","NA","NA","NA","NA","NA",yes,repeat?,NA,"NA"
+KN,"NITROGEN, KJELDAHL, TOTAL",T,mg/l,U00629,mg/l,KN,Nutrient,"NA","NA","NA","NA","NA","NA","NA",yes,repeat?,NA,"NA"
+SC,SPECIFIC CONDUCTANCE,T,umhos/cm,U00094,uS/cm @25C,NA,Physical,"Specific conductance, water, unfiltered, field, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7723-14-0,PHOSPHORUS,T,mg/l,U00665,mg/l as P,7723-14-1,Nutrient,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Phosphorus,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TDS,"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",T,mg/l,U70301,mg/l,TDS,Physical,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",Total dissolved solids,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TSS,TOTAL SUSPENDED SOLIDS,T,mg/l,U00530,mg/l,TSS,Physical,"Suspended solids, water, unfiltered, milligrams per liter",Total suspended solids,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TVS,TOTAL VOLATILE SOLIDS,T,mg/l,D00003,mg/l,"NA","Inorganics, Major, Non-metals","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",D
+TSO,TOTAL SOLIDS,T,mg/l,U00500,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TSO,TOTAL SOLIDS,T,mg/l,U00500,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+PH,PH,T,ph units,U00400,std units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+PHWATER,PH (WATER),T,ph units,U00400,ph units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+14797-55-8,"NITROGEN, NITRATE (AS N)",T,mg/l,U00618,mg/l,14797-55-8,Nutrient,"Nitrate, water, filtered, milligrams per liter as nitrogen",Nitrate,"NA","NA","NA","NA","NA",NA,casrn doesn’t match descriptions,NA,"NA"
+14797-65-0,"NITROGEN, NITRITE",T,mg/l,U71856,mg/l,14797-65-0,Nutrient,"Nitrite, water, filtered, milligrams per liter as nitrite",Nitrite,"NA","NA","NA","NA","NA",yes,repeat,NA,"NA"
+COLIF,COLIFORM,T,cfu/100ml,U61213,cfu/100ml,NA,Microbiological,"Total coliforms, water, colonies per 100 milliliters",Total coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+FECCOLIFORM,FECAL COLIFORM,T,cfu/100ml,U61215,cfu/100ml,NA,Microbiological,"Fecal coliforms, water, colonies per 100 milliliters",Fecal coliforms,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+127-18-4,TETRACHLOROETHYLENE (PCE),T,ug/l,U34475,ug/l,127-18-4,"Organics, other","Tetrachloroethene, water, unfiltered, recoverable, micrograms per liter",Tetrachloroethylene,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+79-01-6,TRICHLOROETHYLENE (TCE),T,ug/l,U39180,ug/l,79-01-6,"Organics, other","Trichloroethene, water, unfiltered, recoverable, micrograms per liter",Trichloroethylene,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+SC,SPECIFIC CONDUCTANCE,D,umhos/cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+TURB,TURBIDITY,T,ntu,U00076,ntu,TURB,Physical,"Turbidity, water, unfiltered, nephelometric turbidity units",Turbidity,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TURB,TURBIDITY,T,ntu,U63680,fnu,TURB,Physical,"Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +-2.5 degrees, formazin nephelometric units (FNU)",Turbidity,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+TEMP,TEMPERATURE,T,deg c,U00010,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+DISS_OXYGEN,DISSOLVED OXYGEN,T,mg/l,U00300,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TOTPHEN,"PHENOLICS, TOTAL RECOVERABLE",T,mg/l,U32730,mg/l,NA,"Organics, other","Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",Phenols and phenolic compounds,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+75-09-2,METHYLENE CHLORIDE,T,ug/l,U34423,ug/l,75-09-2,"Organics, other","Dichloromethane, water, unfiltered, recoverable, micrograms per liter",Methylene chloride,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+121-48-1,CHLORODIBROMOMETHANE,T,ug/l,U32105,ug/l,124-48-1,"Organics, other","Dibromochloromethane, water, unfiltered, recoverable, micrograms per liter",Chlorodibromomethane,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+75-01-4,VINYL CHLORIDE,T,ug/l,U39175,ug/l,75-01-4,"Organics, other","Vinyl chloride, water, unfiltered, recoverable, micrograms per liter",Vinyl chloride,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+124-48-1,DIBROMOCHLOROMETHANE,T,ug/l,U32105,ug/l,124-48-1,"Organics, other","Dibromochloromethane, water, unfiltered, recoverable, micrograms per liter",Chlorodibromomethane,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-97-6,MERCURY,T,ng/l,U50284,ng/l,7439-97-6,"Organics, other","Methylmercury, water, unfiltered, recoverable, nanograms per liter",Methylmercury(1+),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-66-6,ZINC,D,ug/l,U01090,ug/l,7440-66-6,"Inorganics, Minor, Metals","Zinc, water, filtered, micrograms per liter",Zinc,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-95-4,MAGNESIUM,T,ug/l,U52282,ug/l,7439-95-4,"Inorganics, Minor, Metals","Magnesium, water, unfiltered, total, milligrams per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-09-7,POTASSIUM,T,ug/l,U52507,ug/l,7440-09-7,"Inorganics, Major, Metals","Potassium, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-23-5,SODIUM,T,ug/l,U52290,ug/l,7440-23-5,"Inorganics, Major, Metals","Sodium, water, unfiltered, milligrams per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7440-70-2,CALCIUM,T,ug/l,U52505,ug/l,7440-70-2,"Inorganics, Major, Metals","Calcium, water, unfiltered, micrograms per liter",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+DOC,DISSOLVED ORGANIC CARBON,D,mg/l,U00681,mg/l,NA,"Organics, other","Organic carbon, water, filtered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+14265-44-2,PHOSPHATE ION,D,mg/l,U70507,mg/l,14265-44-2,Nutrient,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",Phosphate,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+17060-07-0,"1,2-DICHLOROETHANE-D4",T,%,U99832,ug/l,17060-07-1,Information,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA","NA","NA","NA",D99832
+17060-07-0,"1,2-DICHLOROETHANE-D4",T,%,U99832,%,17060-07-0,Information,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+2037-26-5,TOLUENE-D8,T,%,U99833,percent,2037-26-5,Information,"Toluene-d8, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA",yes,alternative:91818,NA,"NA"
+460-00-4,P-BROMOFLUOROBENZENE,T,%,U90654,percent,460-00-4,Information,"1-Bromo-4-fluorobenzene, surrogate, water, filtered, percent recovery",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+DOC,DISSOLVED ORGANIC CARBON,T,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+17060-07-0,"1,2-DICHLOROETHANE-D4",T,ug/l,U99832,ug/l,17060-07-1,Information,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA","NA","NA","NA",D99832
+17060-07-0,"1,2-DICHLOROETHANE-D4",T,ug/l,U99832,%,17060-07-0,Information,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+2037-26-5,TOLUENE-D8,T,ug/l,U99833,percent,2037-26-5,Information,"Toluene-d8, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA",yes,alternative:91818,NA,"NA"
+460-00-4,P-BROMOFLUOROBENZENE,T,ug/l,U90654,percent,460-00-4,Information,"1-Bromo-4-fluorobenzene, surrogate, water, filtered, percent recovery",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+DISS_OXYGEN,DISSOLVED OXYGEN,D,mg/l,U00300,mg/l,7782-44-7,"Inorganics, Major, Non-metals","Dissolved oxygen, water, unfiltered, milligrams per liter",Oxygen,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+PDORTHO,"PHOSPHORUS, DISSOLVED ORTHOPHOSPHATE (AS P)",D,mg/l,U70507,mg/l,14265-44-2,Nutrient,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",Phosphate,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+7440-44-0,TOTAL CARBON,T,mg/l,U00690,mg/l,7440-44-0,"Inorganics, Major, Non-metals","Carbon [inorganic plus organic], water, unfiltered, milligrams per liter",Total Carbon,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+COND,CONDUCTIVITY,T,umhos/cm,U90096,uS/cm @25C,NA,Physical,"Specific conductance, water, filtered, laboratory, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7439-97-6,MERCURY,T,ppt,U50284,ng/l,7439-97-6,"Organics, other","Methylmercury, water, unfiltered, recoverable, nanograms per liter",Methylmercury(1+),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+PDORTHO,"PHOSPHORUS, DISSOLVED ORTHOPHOSPHATE (AS P)",T,mg/l,U51131,mg/l,14265-44-2,Nutrient,"Orthophosphate, water, unfiltered, recoverable, milligrams per liter as phosphate",Phosphate,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+ARC-NO3NO2N,"NITROGEN, NITRITE + NITRATE",T,mg/l,U00628,mg/l,NA,Nutrient,"Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",Inorganic nitrogen (nitrate and nitrite),"NA","NA","NA","NA","NA","NA","NA","NA",NA
+479-61-8,CHLOROPHYLL A,T,ug/l,U32735,ug/l,479-61-8,Biological,"Chlorophyll a, phytoplankton, water, acetone extraction and spectrophotometry, milligrams per liter",NA,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+7440-44-0,TOTAL CARBON,D,mg/l,U00682,mg/l,7440-44-0,"Inorganics, Major, Non-metals","Carbon [inorganic plus organic], water, filtered, milligrams per liter",Total Carbon,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TDS,"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",D,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+COND,SPECIFIC CONDUCTANCE,T,umhos/cm,U00094,uS/cm @25C,NA,Physical,"Specific conductance, water, unfiltered, field, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+16984-48-8,"FLUORIDE, UNDISTILLED",T,mg/l,U00951,mg/l,16984-48-8,"Inorganics, Major, Non-metals","Fluoride, water, unfiltered, milligrams per liter",Fluoride,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+NO3NO2N,NITRATE+NITRITE AS NITROGEN,T,mg/l,U00628,mg/l,NO3NO2N,Nutrient,"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",Inorganic nitrogen (nitrate and nitrite),"NA","NA","NA","NA","NA",yes,repeat?,NA,"NA"
+PH,PH,T,pH units,U00400,std units,NA,Physical,"pH, water, unfiltered, field, standard units",pH,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+7723-14-0,"PHOSPHORUS, TOTAL (AS P)",T,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SOLID,TOTAL SOLIDS,T,mg/l,U00500,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+SOLID,TOTAL SOLIDS,T,mg/l,U00500,mg/l,NA,Physical,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",Total solids,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+TEMP,TEMPERATURE OF PH ANALYSIS,T,deg c,U00010,deg c,NA,Physical,"Temperature, water, degrees Celsius","Temperature, water","NA","NA","NA","NA","NA","NA","NA","NA",NA
+DOC,"CARBON, DISSOLVED ORGANIC (DOC)",D,mg/l,U00681,mg/l,DOC,"Organics, other","Organic carbon, water, filtered, milligrams per liter",Organic carbon,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+PDORTHO,"ORTHOPHOSPHATE AS PHOSPHORUS, DISSOLVED",D,mg/l,U00660,mg/l,PDORTHO,Nutrient,"Orthophosphate, water, filtered, milligrams per liter as PO4",Phosphate,"NA","NA","NA","NA","NA",yes,repeat,NA,"NA"
+COND,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,umhos/cm,U00095,deg c,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+COND,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,umhos/cm,U00095,umhos/cm,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+7440-38-2,ARSENIC,D,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7440-22-4,SILVER,D,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+COND,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,deg c,U00095,deg c,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+COND,CONDUCTIVITY AT 25 DEGREES CELSIUS,T,deg c,U00095,umhos/cm,NA,Physical,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Specific conductance,"NA","NA","NA","NA","NA","NA","NA","NA",NA
+DOC,"CARBON, DISSOLVED ORGANIC (DOC)",T,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PDORTHO,"ORTHOPHOSPHATE AS PHOSPHORUS, DISSOLVED",T,mg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+KN,NITROGEN,T,mg/l,U00597,mg/l,7727-37-9,Nutrient,"Dinitrogen, water, unfiltered, milligrams per liter",Nitrogen,"NA","NA","NA","NA","NA",yes,matches casrn,NA,"NA"
+KN,NITROGEN,T,mg/l,U00629,mg/l,KN,Nutrient,"NA","NA","NA","NA","NA","NA","NA",yes,repeat?,NA,"NA"
+75-25-2,BROMOFORM,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+460-00-4,P-BROMOFLUOROBENZENE,T,percent,U90654,percent,460-00-4,Information,"1-Bromo-4-fluorobenzene, surrogate, water, filtered, percent recovery",NA,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+1868-53-7,DIBROMOFLUOROMETHANE,T,percent,U52001,percent,1868-53-7,Information,"Dibromofluoromethane, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA",yes,NA,NA,"NA"
+2037-26-5,TOLUENE-D8,T,percent,U99833,percent,2037-26-5,Information,"Toluene-d8, surrogate, water, unfiltered, percent recovery",NA,"NA","NA","NA","NA","NA",yes,alternative:91818,NA,"NA"
+600-05-5,"2,3-DIBROMOPROPIONIC ACID",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+631-64-1,DIBROMOACETIC ACID,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79-43-6,DICHLOROACETIC ACID,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79-08-3,MONOBROMOACETIC ACID,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79-11-8,MONOCHLOROACETIC ACID,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76-03-9,TRICHLOROACETIC ACID,T,ug/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+460-00-4,1-BROMO-4-FLUOROBENZENE BROMOFLUOROBENZENE),T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7439-97-6,MERCURY,T,ng/L,U50284,ng/l,7439-97-6,"Organics, other","Methylmercury, water, unfiltered, recoverable, nanograms per liter",Methylmercury(1+),"NA","NA","NA","NA","NA",NA,NA,NA,"NA"
+234432-85-0,"CHLOROBIPHENYL-C13, 2- (IUPAC 1L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-89-4,"PENTACHLOROBIPHENYL-C13, 2,2',4,6,6'- (IUPAC 104L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-62-1,"PENTACHLOROBIPHENYL-C13, 2,3,3',4,4'- (IUPAC 105L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+235416-29-2,"PENTACHLOROBIPHENYL-C13, 2,3,3',5,5'- (IUPAC 111L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-63-2,"PENTACHLOROBIPHENYL-C13, 2,3,4,4',5- (IUPAC 114L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+104130-40-7,"PENTACHLOROBIPHENYL-C13, 2,3',4,4',5- (IUPAC 118L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-64-3,"PENTACHLOROBIPHENYL-C13, 2',3,4,4',5- (IUPAC 123L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-65-4,"PENTACHLOROBIPHENYL-C13, 3,3',4,4',5- (IUPAC 126L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-67-6,"DICHLOROBIPHENYL-C13, 4,4'- (IUPAC 15L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-90-7,"HEXACHLOROBIPHENYL-C13, 2,2',4,4',6,6'- (IUPAC 155L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13C12 PCB 156/157,13C12 PCB 156/157,T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-69-8,"HEXACHLOROBIPHENYL-C13, 2,3',4,4',5,5'- (IUPAC 167L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-70-1,"HEXACHLOROBIPHENYL-C13, 3,3',4,4',5,5'- (IUPAC 169L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+232919-67-4,"HEPTACHLOROBIPHENYL-C13, 2,2',3,3',5,5',6- (IUPAC 178L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-91-8,"HEPTACHLOROBIPHENYL-C13, 2,2',3,4',5,6,6'- (IUPAC 188L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-73-4,"HEPTACHLOROBIPHENYL-C13, 2,3,3',4,4',5,5'- (IUPAC 189L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-87-2,"TRICHLOROBIPHENYL-C13, 2,2',6- (IUPAC 19L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105600-26-8,"OCTACHLOROBIPHENYL-C13, 2,2',3,3',5,5',6,6'- (IUPAC 202L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234446-64-1,"OCTACHLOROBIPHENYL-C13, 2,3,3',4,4',5,5',6- (IUPAC 205L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-75-6,"NONACHLOROBIPHENYL-C13, 2,2',3,3',4,4',5,5',6- (IUPAC 206L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-92-9,"NONACHLOROBIPHENYL-C13, 2,2',3,3',4,5,5',6,6'- (IUPAC 208L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105600-27-9,DECACHLOROBIPHENYL-C13 (PCB  209L),T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-76-7,"TRICHLOROBIPHENYL-C13, 2,4,4'- (IUPAC 28L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-77-8,"CHLOROBIPHENYL-C13, 4- (IUPAC 3L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208263-79-0,"TRICHLOROBIPHENYL-C13, 3,4,4'- (IUPAC 37L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-86-1,"DICHLOROBIPHENYL-C13, 2,2'- (IUPAC 4L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234432-88-3,"TETRACHLOROBIPHENYL-C13, 2,2',6,6'- (IUPAC 54L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105600-23-5,"TETRACHLOROBIPHENYL-C13, 3,3',4,4'- (IUPAC 77L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208461-24-9,"TETRACHLOROBIPHENYL-C13, 3,4,4',5- (IUPAC 81L)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-24-3,DECACHLOROBIPHENYL (PCB 209),T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-60-7,"MONOCHLOROBIPHENYL, 2- (IUPAC 1)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33146-45-1,"DICHLOROBIPHENYL, 2,6- (IUPAC 10)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 100 + 93 + 102 + 98,PCBS 100 + 93 + 102 + 98,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60145-21-3,"PENTACHLOROBIPHENYL, 2,2',4,5',6- (IUPAC 103)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56558-16-8,"PENTACHLOROBIPHENYL, 2,2',4,6,6'- (IUPAC 104)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32598-14-4,"PENTACHLOROBIPHENYL, 2,3,3',4,4'- (IUPAC 105)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70424-69-0,"PENTACHLOROBIPHENYL, 2,3,3',4,5- (IUPAC 106)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70424-68-9,"PENTACHLOROBIPHENYL, 2,3,3',4',5- (IUPAC 107)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 108 + 124,PCBS 108 + 124,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 109 + 119 + 86 + 97 + 125 + 87,PCBS 109 + 119 + 86 + 97 + 125 + 87,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2050-67-1,"DICHLOROBIPHENYL, 3,3'- (IUPAC 11)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-32-0,"PENTACHLOROBIPHENYL, 2,3,3',5,5'- (IUPAC 111)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-36-9,"PENTACHLOROBIPHENYL, 2,3,3',5,6- (IUPAC 112)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 113/90/101,PCB 113/90/101,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-37-0,"PENTACHLOROBIPHENYL, 2,3,4,4',5- (IUPAC 114)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 117 + 116 + 85 + 110 + 115,PCBS 117 + 116 + 85 + 110 + 115,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+31508-00-6,"PENTACHLOROBIPHENYL, 2,3',4,4',5- (IUPAC 118)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68194-12-7,"PENTACHLOROBIPHENYL, 2,3',4,5,5'- (IUPAC 120)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56558-18-0,"PENTACHLOROBIPHENYL, 2,3',4,5',6- (IUPAC 121)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76842-07-4,"PENTACHLOROBIPHENYL, 2',3,3',4,5- (IUPAC 122)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65510-44-3,"PENTACHLOROBIPHENYL, 2',3,4,4',5- (IUPAC 123)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57465-28-8,"PENTACHLOROBIPHENYL, 3,3',4,4',5- (IUPAC 126)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-33-1,"PENTACHLOROBIPHENYL, 3,3',4,5,5'- (IUPAC 127)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 128/166,PCB 128/166,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 13 + 12,PCBS 13 + 12,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-66-8,"HEXACHLOROBIPHENYL, 2,2',3,3',4,5'- (IUPAC 130)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+61798-70-7,"HEXACHLOROBIPHENYL, 2,2',3,3',4,6- (IUPAC 131)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38380-05-1,"HEXACHLOROBIPHENYL, 2,2',3,3',4,6'- (IUPAC 132)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35694-04-3,"HEXACHLOROBIPHENYL, 2,2',3,3',5,5'- (IUPAC 133)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 134 + 143,PCBS 134 + 143,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38411-22-2,"HEXACHLOROBIPHENYL, 2,2',3,3',6,6'- (IUPAC 136)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 137 + 164,PCBS 137 + 164,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 138/163/129,PCB 138/163/129,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 139 + 140,PCBS 139 + 140,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+34883-41-5,"DICHLOROBIPHENYL, 3,5- (IUPAC 14)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52712-04-6,"HEXACHLOROBIPHENYL, 2,2',3,4,5,5'- (IUPAC 141)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41411-61-4,"HEXACHLOROBIPHENYL, 2,2',3,4,5,6- (IUPAC 142)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68194-14-9,"HEXACHLOROBIPHENYL, 2,2',3,4,5',6- (IUPAC 144)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-40-5,"HEXACHLOROBIPHENYL, 2,2',3,4,6,6'- (IUPAC 145)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+51908-16-8,"HEXACHLOROBIPHENYL, 2,2',3,4',5,5'- (IUPAC 146)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 147/149,PCB 147/149,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-41-6,"HEXACHLOROBIPHENYL, 2,2',3,4',5,6'- (IUPAC 148)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2050-68-2,"DICHLOROBIPHENYL, 4,4'- (IUPAC 15)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68194-08-1,"HEXACHLOROBIPHENYL, 2,2',3,4',6,6'- (IUPAC 150)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 151 + 135,PCBS 151 + 135,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68194-09-2,"HEXACHLOROBIPHENYL, 2,2',3,5,6,6'- (IUPAC 152)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60145-22-4,"HEXACHLOROBIPHENYL, 2,2',4,4',5,6'- (IUPAC 154)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33979-03-2,"HEXACHLOROBIPHENYL, 2,2',4,4',6,6'- (IUPAC 155)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 156/157,PCB 156/157,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-42-7,"HEXACHLOROBIPHENYL, 2,3,3',4,4',6- (IUPAC 158)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-35-3,"HEXACHLOROBIPHENYL, 2,3,3',4,5,5'- (IUPAC 159)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-78-9,"TRICHLOROBIPHENYL, 2,2',3- (IUPAC 16)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41411-62-5,"HEXACHLOROBIPHENYL, 2,3,3',4,5,6- (IUPAC 160)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-43-8,"HEXACHLOROBIPHENYL, 2,3,3',4,5',6- (IUPAC 161)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-34-2,"HEXACHLOROBIPHENYL, 2,3,3',4',5,5'- (IUPAC 162)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-46-1,"HEXACHLOROBIPHENYL, 2,3,3',5,5',6- (IUPAC 165)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-72-6,"HEXACHLOROBIPHENYL, 2,3',4,4',5,5'- (IUPAC 167)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 168 & 153,PCB 168 & 153,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32774-16-6,"HEXACHLOROBIPHENYL, 3,3',4,4',5,5'- (IUPAC 169)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+37680-66-3,"TRICHLOROBIPHENYL, 2,2',4- (IUPAC 17)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35065-30-6,"HEPTACHLOROBIPHENYL, 2,2',3,3',4,4',5- (IUPAC 170)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 171 + 173,PCBS 171 + 173,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-74-8,"HEPTACHLOROBIPHENYL, 2,2',3,3',4,5,5'- (IUPAC 172)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38411-25-5,"HEPTACHLOROBIPHENYL, 2,2',3,3',4,5,6'- (IUPAC 174)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40186-70-7,"HEPTACHLOROBIPHENYL, 2,2',3,3',4,5',6- (IUPAC 175)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-65-7,"HEPTACHLOROBIPHENYL, 2,2',3,3',4,6,6'- (IUPAC 176)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-70-4,"HEPTACHLOROBIPHENYL, 2,2',3,3',4',5,6- (IUPAC 177)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-67-9,"HEPTACHLOROBIPHENYL, 2,2',3,3',5,5',6- (IUPAC 178)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-64-6,"HEPTACHLOROBIPHENYL, 2,2',3,3',5,6,6'- (IUPAC 179)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 180/193,PCB 180/193,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-47-2,"HEPTACHLOROBIPHENYL, 2,2',3,4,4',5,6- (IUPAC 181)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60145-23-5,"HEPTACHLOROBIPHENYL, 2,2',3,4,4',5,6'- (IUPAC 182)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-69-1,"HEPTACHLOROBIPHENYL, 2,2',3,4,4',5',6- (IUPAC 183)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-48-3,"HEPTACHLOROBIPHENYL, 2,2',3,4,4',6,6'- (IUPAC 184)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52712-05-7,"HEPTACHLOROBIPHENYL, 2,2',3,4,5,5',6- (IUPAC 185)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-49-4,"HEPTACHLOROBIPHENYL, 2,2',3,4,5,6,6'- (IUPAC 186)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-68-0,"HEPTACHLOROBIPHENYL, 2,2',3,4',5,5',6- (IUPAC 187)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74487-85-7,"HEPTACHLOROBIPHENYL, 2,2',3,4',5,6,6'- (IUPAC 188)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-31-9,"HEPTACHLOROBIPHENYL, 2,3,3',4,4',5,5'- (IUPAC 189)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-73-4,"TRICHLOROBIPHENYL, 2,2',6- (IUPAC 19)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41411-64-7,"HEPTACHLOROBIPHENYL, 2,3,3',4,4',5,6- (IUPAC 190)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-50-7,"HEPTACHLOROBIPHENYL, 2,3,3',4,4',5',6- (IUPAC 191)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-51-8,"HEPTACHLOROBIPHENYL, 2,3,3',4,5,5',6- (IUPAC 192)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35694-08-7,"OCTACHLOROBIPHENYL, 2,2',3,3',4,4',5,5'- (IUPAC 194)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-78-2,"OCTACHLOROBIPHENYL, 2,2',3,3',4,4',5,6- (IUPAC 195)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+42740-50-1,"OCTACHLOROBIPHENYL, 2,2',3,3',4,4',5,6'- (IUPAC 196)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33091-17-7,"OCTACHLOROBIPHENYL, 2,2',3,3',4,4',6,6'- (IUPAC 197)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 198 + 199,PCBS 198 + 199,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-61-8,"CHLOROBIPHENYL, 3- (IUPAC 2)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-73-7,"OCTACHLOROBIPHENYL, 2,2',3,3',4,5,6,6'- (IUPAC 200)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40186-71-8,"OCTACHLOROBIPHENYL, 2,2',3,3',4,5',6,6'- (IUPAC 201)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2136-99-4,"OCTACHLOROBIPHENYL, 2,2',3,3',5,5',6,6'- (IUPAC 202)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-76-0,"OCTACHLOROBIPHENYL, 2,2',3,4,4',5,5',6- (IUPAC 203)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-52-9,"OCTACHLOROBIPHENYL, 2,2',3,4,4',5,6,6'- (IUPAC 204)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-53-0,"OCTACHLOROBIPHENYL, 2,3,3',4,4',5,5',6- (IUPAC 205)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40186-72-9,"NONACHLOROBIPHENYL, 2,2',3,3',4,4',5,5',6- (IUPAC 206)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-79-3,"NONACHLOROBIPHENYL, 2,2',3,3',4,4',5,6,6'- (IUPAC 207)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-77-1,"NONACHLOROBIPHENYL, 2,2',3,3',4,5,5',6,6'- (IUPAC 208)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 21 + 33,PCBS 21 + 33,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-85-8,"TRICHLOROBIPHENYL, 2,3,4'- (IUPAC 22)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55720-44-0,"TRICHLOROBIPHENYL, 2,3,5- (IUPAC 23)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55702-45-9,"TRICHLOROBIPHENYL, 2,3,6- (IUPAC 24)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55712-37-3,"TRICHLOROBIPHENYL, 2,3',4- (IUPAC 25)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-76-7,"TRICHLOROBIPHENYL, 2,3',6- (IUPAC 27)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 28/20,PCB 28/20,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 29 + 26,PCBS 29 + 26,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-62-9,"CHLOROBIPHENYL, 4- (IUPAC 3)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 18 + 30,PCBS 18 + 30,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+16606-02-3,"TRICHLOROBIPHENYL, 2,4',5- (IUPAC 31)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-77-8,"TRICHLOROBIPHENYL, 2,4',6- (IUPAC 32)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+37680-68-5,"TRICHLOROBIPHENYL, 2',3,5- (IUPAC 34)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+37680-69-6,"TRICHLOROBIPHENYL, 3,3',4- (IUPAC 35)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-87-0,"TRICHLOROBIPHENYL, 3,3',5- (IUPAC 36)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-90-5,"TRICHLOROBIPHENYL, 3,4,4'- (IUPAC 37)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53555-66-1,"TRICHLOROBIPHENYL, 3,4,5- (IUPAC 38)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-88-1,"TRICHLOROBIPHENYL, 3,4',5- (IUPAC 39)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13029-08-8,"DICHLOROBIPHENYL, 2,2'- (IUPAC 4)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 41 + 71 + 40,PCBS 41 + 71 + 40,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+36559-22-5,"TETRACHLOROBIPHENYL, 2,2',3,4'- (IUPAC 42)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70362-46-8,"TETRACHLOROBIPHENYL, 2,2',3,5- (IUPAC 43)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 44 + 47 + 65,PCBS 44 + 47 + 65,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 45 + 51,PCBS 45 + 51,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41464-47-5,"TETRACHLOROBIPHENYL, 2,2',3,6'- (IUPAC 46)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70362-47-9,"TETRACHLOROBIPHENYL, 2,2',4,5- (IUPAC 48)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+16605-91-7,"DICHLOROBIPHENYL, 2,3- (IUPAC 5)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 50 + 53,PCBS 50 + 53,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35693-99-3,"TETRACHLOROBIPHENYL, 2,2',5,5'- (IUPAC 52)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15968-05-5,"TETRACHLOROBIPHENYL, 2,2',6,6'- (IUPAC 54)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74338-24-2,"TETRACHLOROBIPHENYL, 2,3,3',4- (IUPAC 55)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41464-43-1,"TETRACHLOROBIPHENYL, 2,3,3',4'- (IUPAC 56)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70424-67-8,"TETRACHLOROBIPHENYL, 2,3,3',5- (IUPAC 57)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41464-49-7,"TETRACHLOROBIPHENYL, 2,3,3',5'- (IUPAC 58)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 59 + 62 + 75,PCBS 59 + 62 + 75,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25569-80-6,"DICHLOROBIPHENYL, 2,3'- (IUPAC 6)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33025-41-1,"TETRACHLOROBIPHENYL, 2,3,4,4'- (IUPAC 60)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 61 + 70 + 74 + 76,PCBS 61 + 70 + 74 + 76,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-34-7,"TETRACHLOROBIPHENYL, 2,3,4',5- (IUPAC 63)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-58-8,"TETRACHLOROBIPHENYL, 2,3,4',6- (IUPAC 64)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32598-10-0,"TETRACHLOROBIPHENYL, 2,3',4,4'- (IUPAC 66)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73575-53-8,"TETRACHLOROBIPHENYL, 2,3',4,5- (IUPAC 67)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73575-52-7,"TETRACHLOROBIPHENYL, 2,3',4,5'- (IUPAC 68)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 69/49,PCB 69/49,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33284-50-3,"DICHLOROBIPHENYL, 2,4- (IUPAC 7)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41464-42-0,"TETRACHLOROBIPHENYL, 2,3',5,5'- (IUPAC 72)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74338-23-1,"TETRACHLOROBIPHENYL, 2,3',5',6- (IUPAC 73)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32598-13-3,"TETRACHLOROBIPHENYL, 3,3',4,4'- (IUPAC 77)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70362-49-1,"TETRACHLOROBIPHENYL, 3,3',4,5- (IUPAC 78)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41464-48-6,"TETRACHLOROBIPHENYL, 3,3',4,5'- (IUPAC 79)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+34883-43-7,"DICHLOROBIPHENYL, 2,4'- (IUPAC 8)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33284-52-5,"TETRACHLOROBIPHENYL, 3,3',5,5'- (IUPAC 80)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70362-50-4,"TETRACHLOROBIPHENYL, 3,4,4',5- (IUPAC 81)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-62-4,"PENTACHLOROBIPHENYL, 2,2',3,3',4- (IUPAC 82)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 83 + 99,PCBS 83 + 99,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-60-2,"PENTACHLOROBIPHENYL, 2,2',3,3',6- (IUPAC 84)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCBs 88 + 91,PCBS 88 + 91,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73575-57-2,"PENTACHLOROBIPHENYL, 2,2',3,4,6'- (IUPAC 89)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+34883-39-1,"DICHLOROBIPHENYL, 2,5- (IUPAC 9)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-61-3,"PENTACHLOROBIPHENYL, 2,2',3,5,5'- (IUPAC 92)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73575-55-0,"PENTACHLOROBIPHENYL, 2,2',3,5,6'- (IUPAC 94)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38379-99-6,"PENTACHLOROBIPHENYL, 2,2',3,5',6- (IUPAC 95)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73575-54-9,"PENTACHLOROBIPHENYL, 2,2',3,6,6'- (IUPAC 96)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25512-42-9,DICHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+28655-71-2,TOTAL HEPTACHLOROBIPHENYLS,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+26601-64-9,TOTAL HEXACHLOROBIPHENYLS,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+27323-18-8,MONOCHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53742-07-7,NONACHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+31472-83-0,OCTACHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1336-36-3,"POLYCHLORINATED BIPHENYLS (PCBS), TOTAL,  (TOTAL IUPACS)",T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25429-29-2,TOTAL PENTACHLOROBIPHENYLS,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+26914-33-0,TETRACHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25323-68-6,TRICHLOROBIPHENYL,T,pg/l,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32598-14-4,"PENTACHLOROBIPHENYL, 2,3,3',4,4'- (IUPAC 105)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-37-0,"PENTACHLOROBIPHENYL, 2,3,4,4',5- (IUPAC 114)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+31508-00-6,"PENTACHLOROBIPHENYL, 2,3',4,4',5- (IUPAC 118)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65510-44-3,"PENTACHLOROBIPHENYL, 2',3,4,4',5- (IUPAC 123)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57465-28-8,"PENTACHLOROBIPHENYL, 3,3',4,4',5- (IUPAC 126)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2050-68-2,"DICHLOROBIPHENYL, 4,4'- (IUPAC 15)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33979-03-2,"HEXACHLOROBIPHENYL, 2,2',4,4',6,6'- (IUPAC 155)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+PCB 156/157,PCB 156/157,T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-72-6,"HEXACHLOROBIPHENYL, 2,3',4,4',5,5'- (IUPAC 167)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32774-16-6,"HEXACHLOROBIPHENYL, 3,3',4,4',5,5'- (IUPAC 169)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74487-85-7,"HEPTACHLOROBIPHENYL, 2,2',3,4',5,6,6'- (IUPAC 188)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39635-31-9,"HEPTACHLOROBIPHENYL, 2,3,3',4,4',5,5'- (IUPAC 189)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-73-4,"TRICHLOROBIPHENYL, 2,2',6- (IUPAC 19)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2136-99-4,"OCTACHLOROBIPHENYL, 2,2',3,3',5,5',6,6'- (IUPAC 202)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74472-53-0,"OCTACHLOROBIPHENYL, 2,3,3',4,4',5,5',6- (IUPAC 205)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40186-72-9,"NONACHLOROBIPHENYL, 2,2',3,3',4,4',5,5',6- (IUPAC 206)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52663-77-1,"NONACHLOROBIPHENYL, 2,2',3,3',4,5,5',6,6'- (IUPAC 208)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-24-3,DECACHLOROBIPHENYL (PCB 209),T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-62-9,"CHLOROBIPHENYL, 4- (IUPAC 3)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38444-90-5,"TRICHLOROBIPHENYL, 3,4,4'- (IUPAC 37)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13029-08-8,"DICHLOROBIPHENYL, 2,2'- (IUPAC 4)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15968-05-5,"TETRACHLOROBIPHENYL, 2,2',6,6'- (IUPAC 54)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32598-13-3,"TETRACHLOROBIPHENYL, 3,3',4,4'- (IUPAC 77)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70362-50-4,"TETRACHLOROBIPHENYL, 3,4,4',5- (IUPAC 81)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2051-60-7,"MONOCHLOROBIPHENYL, 2- (IUPAC 1)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56558-16-8,"PENTACHLOROBIPHENYL, 2,2',4,6,6'- (IUPAC 104)",T,percent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7782-49-2,SELENIUM,T,ug/l,U01147,ug/l,7782-49-2,"Inorganics, Minor, Non-metals","Selenium, water, unfiltered, micrograms per liter",Selenium,"NA","NA","NA","NA","NA",NA,NA,NA,"NA"

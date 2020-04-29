@@ -57,14 +57,48 @@ params.all <- bind_rows(params.equis, params.2016to2019, params.2017to2019.routi
 
 Compare to existing compiled streams param list
 ```{r}
-params.exisinglist <- read_csv(file.path(root.dir,"parameters/chem_params_2019_incl_PCBs.csv")) %>% 
+params.exisinglist <- read_csv(file.path(root.dir,"parameters/chem_params_2019_incl_PCBs_2020-03-13.csv")) %>% 
   mutate(chemical_name = toupper(chemical_name)) %>% 
   distinct()
 
 params.new <- anti_join(params.all, params.exisinglist)
 
-write_csv(params.new, "parameters/chem_params.new.2020-04-22.csv")
-write_csv(params.all, "parameters/chem_params.all.2020-04-22.csv")
+# write_csv(params.new, "parameters/chem_params.new.2020-04-22.csv")
+# write_csv(params.all, "parameters/chem_params.all.2020-04-22.csv")
+
+```
+
+Crosscheck draft param code table for matches with streams params.all list
+```{r}
+pcode.draft <- readxl::read_excel("parameters/draft_CHEM_4_23.xlsx") %>% 
+  rename(cas_rn = CHEM_PARAMETER_CAS_RN,
+         fraction = CHEM_PARAMETER_FRACTION,
+         chemical_name = CHEM_PARAMETER_NAME_SHORT,
+         result_unit = CHEM_PARAMETER_UNIT) %>% 
+  mutate(fraction = ifelse(fraction %in% "NA", NA, fraction))
+  
+params.new.pcodejoin <- left_join(params.all, pcode.draft, by = c("chemical_name", "fraction"))
+
+# write_csv(params.new.pcodejoin, "parameters/params.new.pcodejoin.2020-04-24.csv")
+
+
+```
+See if 2016 USGS Mohawk params need to be added
+```{r}
+mohawk.2016 <- readxl::read_excel("data/2016_MohawkTMDL_Complete_ChemData_20170309.xlsx")
+
+mohawk.2016.params <- mohawk.2016 %>% 
+  select(PCODE, PSNAM, UNITS) %>% 
+  rename(CHEM_PARAMETER_CDE = PCODE) %>% 
+  mutate(CHEM_PARAMETER_CDE = paste0("U",CHEM_PARAMETER_CDE)) %>% 
+  distinct()
+
+mohawk.2016.params.pcodejoin <- left_join(mohawk.2016.params, pcode.draft, by = "CHEM_PARAMETER_CDE")
+
+mohawk.2016.params.nomatch <- anti_join(mohawk.2016.params, pcode.draft, by = "CHEM_PARAMETER_CDE")
+
+write_csv(mohawk.2016.params.pcodejoin, "parameters/mohawk.2016.params.pcodejoin.2020-04-24.csv")
+
 
 ```
 
