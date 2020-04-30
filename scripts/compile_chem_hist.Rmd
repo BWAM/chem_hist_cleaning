@@ -25,60 +25,36 @@ equis.sample <- read_csv(file.path(root.dir, "data/equis_sample_history.csv")) %
   mutate(n = n()) %>% 
   arrange(n)
 
-sites <- read.csv(file.path(root.dir, "data/20191224_Site_Field_cleaned_final.csv"))
-
+sites <- readxl::read_excel(file.path(root.dir, "sites/2020_04_21_S_Site_2020-04-29.xlsx"))
 
 
 ```
 
 Join with sites table to add modern site IDs
 ```{r}
-# Subset sites table to just RIBS IDs and new site IDs
-# sites.forjoin <- sites %>% 
-#   select(BAS_LOC_RM, SH_OLD_RIBS_ID) %>% 
-#   rename(sys_loc_code = SH_OLD_RIBS_ID,
-#          SITE_ID = BAS_LOC_RM) %>% 
-#   filter(sys_loc_code != "")
 
 # Load in RIBS crosswalk table. Must use this and not sites table due to duplicate RIBS IDs assigned to singe SBU ids (not reflected in sites table; crosswalk retains duplicates)
 ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "ribsid_join/RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx")) %>% 
   rename(sys_loc_code = ADJUST_RIBS_ID) %>% 
   select(sys_loc_code, SBU_ID)
 
-# equis.sample.siteids <- left_join(equis.sample, sites.forjoin, by = "sys_loc_code") %>% 
-#   select(SITE_ID, everything())
-equis.sample.siteids2 <- left_join(equis.sample, ribs.crosswalk, by = "sys_loc_code") %>% 
+equis.sample.siteids <- left_join(equis.sample, ribs.crosswalk, by = "sys_loc_code") %>% 
   select(SBU_ID, everything())
-# 
-# equis.sample.siteids.nomatch <- equis.sample.siteids %>% 
-#   filter(is.na(SITE_ID)) %>% 
-#   mutate(year = format(as.Date(sample_date, format="%m/%d/%Y"),"%Y")) %>% 
-#   select(year, everything())
-equis.sample.siteids.nomatch2 <- equis.sample.siteids2 %>% 
+
+equis.sample.siteids.nomatch <- equis.sample.siteids %>% 
   filter(is.na(SBU_ID)) %>% 
   mutate(year = format(as.Date(sample_date, format="%m/%d/%Y"),"%Y")) %>% 
   select(year, everything())
 
-# missing.ribsids <- equis.sample.siteids.nomatch %>% 
-#   select(sys_loc_code) %>% 
-#   distinct(sys_loc_code)
-
-# missing.ribsids <- unique(equis.sample.siteids.nomatch$sys_loc_code) 
-missing.ribsids2 <- unique(equis.sample.siteids.nomatch2$sys_loc_code) 
+missing.ribsids <- unique(equis.sample.siteids.nomatch$sys_loc_code) 
 
 # Import EQuIS locations table to see if these un-crosswalked sites are present 
 equis.location <- read_csv(file.path(root.dir, "data/equis_location_history.csv")) %>% 
   rename(LATITUDE = LONGITUDE,
          LONGITUDE = LATITUDE)
 
-# equis.location.missingribsids <- equis.location %>% 
-#   filter(SYS_LOC_CODE %in% missing.ribsids,
-#          SYS_LOC_CODE != "QA_QC") %>% 
-#   select(SYS_LOC_CODE, LATITUDE, LONGITUDE, SURF_ELEV, ELEV_UNIT, LOC_NAME, LOC_DESC, LOC_COUNTY_CODE, DEC_REGION, LOC_MAJOR_BASIN, 
-#          NYS_DRAINAGE_BASIN_CODE, STREAM_MILE) %>% 
-#   mutate(lat_long = paste0(LATITUDE, "_", LONGITUDE))
-equis.location.missingribsids2 <- equis.location %>% 
-  filter(SYS_LOC_CODE %in% missing.ribsids2,
+equis.location.missingribsids <- equis.location %>% 
+  filter(SYS_LOC_CODE %in% missing.ribsids,
          SYS_LOC_CODE != "QA_QC") %>% 
   select(SYS_LOC_CODE, LATITUDE, LONGITUDE, SURF_ELEV, ELEV_UNIT, LOC_NAME, LOC_DESC, LOC_COUNTY_CODE, DEC_REGION, LOC_MAJOR_BASIN, 
          NYS_DRAINAGE_BASIN_CODE, STREAM_MILE) %>% 
@@ -87,12 +63,6 @@ equis.location.missingribsids2 <- equis.location %>%
 # missing.diff <- anti_join(equis.location.missingribsids, equis.location.missingribsids2)
 
 # write_csv(equis.location.missingribsids, file.path(root.dir, "ribsid_join/equis.location.missingribsids.csv"))
-
-# sites.for.match <- sites %>% 
-#   mutate(lat_long = paste0(SH_LATITUDE, "_", SH_LONGITUDE)) %>% 
-#   # filter(lat_long %in% equis.location.missingribsids$lat_long) %>% 
-#   filter(SH_NAME %in% equis.location.missingribsids$LOC_NAME)
-
 
 
 ```

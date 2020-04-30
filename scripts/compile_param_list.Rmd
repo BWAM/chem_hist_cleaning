@@ -70,7 +70,7 @@ params.new <- anti_join(params.all, params.exisinglist)
 
 Crosscheck draft param code table for matches with streams params.all list
 ```{r}
-pcode.draft <- readxl::read_excel("parameters/draft_CHEM_4_23.xlsx") %>% 
+pcode.draft <- readxl::read_excel(file.path(root.dir, "parameters/draft_CHEM_4_23.xlsx")) %>% 
   rename(cas_rn = CHEM_PARAMETER_CAS_RN,
          fraction = CHEM_PARAMETER_FRACTION,
          chemical_name = CHEM_PARAMETER_NAME_SHORT,
@@ -83,9 +83,10 @@ params.new.pcodejoin <- left_join(params.all, pcode.draft, by = c("chemical_name
 
 
 ```
+
 See if 2016 USGS Mohawk params need to be added
 ```{r}
-mohawk.2016 <- readxl::read_excel("data/2016_MohawkTMDL_Complete_ChemData_20170309.xlsx")
+mohawk.2016 <- readxl::read_excel(file.path(root.dir, "data/2016_usgs/2016_MohawkTMDL_Complete_ChemData_20170309.xlsx"))
 
 mohawk.2016.params <- mohawk.2016 %>% 
   select(PCODE, PSNAM, UNITS) %>% 
@@ -97,7 +98,7 @@ mohawk.2016.params.pcodejoin <- left_join(mohawk.2016.params, pcode.draft, by = 
 
 mohawk.2016.params.nomatch <- anti_join(mohawk.2016.params, pcode.draft, by = "CHEM_PARAMETER_CDE")
 
-write_csv(mohawk.2016.params.pcodejoin, "parameters/mohawk.2016.params.pcodejoin.2020-04-24.csv")
+# write_csv(mohawk.2016.params.pcodejoin, "parameters/mohawk.2016.params.pcodejoin.2020-04-24.csv")
 
 
 ```

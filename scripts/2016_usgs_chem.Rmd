@@ -1,0 +1,30 @@
+---
+title: "2016_usgs_chem"
+output: html_document
+---
+
+Load libraries and input files
+```{r}
+library(tidyverse)
+library(readxl)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+usgs2016.raw <- read_excel(file.path(root.dir, "data/2016_usgs/2016_MohawkTMDL_Complete_ChemData_20170309.xlsx"))
+usgs2016.data <- read_excel(file.path(root.dir, "data/2016_usgs/USGS2016Mohawk_2020-04-30.xlsx"))
+
+sites <- read_excel(file.path(root.dir, "sites/2020_04_21_S_Site_2020-04-29.xlsx"))
+
+```
+
+Crosscheck Andrea's USGS sites designations against sites table
+```{r}
+usgs2016.sites <- usgs2016.data %>% 
+  distinct(Station, STAID, Station_Na, LATDD, LNGDD) %>% 
+  rename(SH_SITE_ID = Station)
+
+usgs2016.sites.nomatch <- anti_join(usgs2016.sites, sites, by = "SH_SITE_ID")
+
+write_csv(usgs2016.sites, file.path(root.dir, "data/2016_usgs/usgs2016.sites.csv"))
+```
+
