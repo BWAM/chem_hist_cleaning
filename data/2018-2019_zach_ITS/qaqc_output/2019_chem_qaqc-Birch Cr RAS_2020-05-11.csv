@@ -1,0 +1,93 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","ALKALINITY, TOTAL (AS CaCO3)",2019-07-30 10:05:00,"ALK","T",27.6,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Aluminum",2019-07-30 10:05:00,"7429-90-5","T",12.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Arsenic",2019-07-30 10:05:00,"7440-38-2","T",0.48,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Cadmium",2019-07-30 10:05:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Calcium",2019-07-30 10:05:00,"7440-70-2","T",11200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","CHLORIDE (AS CL)",2019-07-30 10:05:00,"16887-00-6","T",26,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Chlorophyll A",2019-07-30 10:05:00,"479-61-8","T",0.663,"ug/l",NA,"ug/l",0.042,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Copper",2019-07-30 10:05:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","HARDNESS (AS CACO3)",2019-07-30 10:05:00,"HARD","T",36.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Iron",2019-07-30 10:05:00,"7439-89-6","T",24.9,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Lead",2019-07-30 10:05:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Magnesium",2019-07-30 10:05:00,"7439-95-4","T",2030,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Nickel",2019-07-30 10:05:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Nitrate+Nitrite as Nitrogen",2019-07-30 10:05:00,"NO3NO2N","T",0.18,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Nitrogen",2019-07-30 10:05:00,"KN","T",0.24,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Nitrogen, ammonia (As N)",2019-07-30 10:05:00,"7664-41-7","T",0.013,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","NITROGEN, KJELDAHL, TOTAL",2019-07-30 10:05:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","NITROGEN, NITRATE (AS N)",2019-07-30 10:05:00,"14797-55-8","T",0.18,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","NITROGEN, NITRITE",2019-07-30 10:05:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","PHOSPHORUS, TOTAL (AS P)",2019-07-30 10:05:00,"7723-14-0","T",0.0132,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Silver",2019-07-30 10:05:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","TURBIDITY",2019-07-30 10:05:00,"TURB","T",0.47,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.3","N","13-BRCH-2.3-07302019-W","R1907170","Zinc",2019-07-30 10:05:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","ALKALINITY, TOTAL (AS CaCO3)",2019-07-30 10:45:00,"ALK","T",24.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Aluminum",2019-07-30 10:45:00,"7429-90-5","T",11,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Arsenic",2019-07-30 10:45:00,"7440-38-2","T",0.52,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Cadmium",2019-07-30 10:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Calcium",2019-07-30 10:45:00,"7440-70-2","T",10500,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","CHLORIDE (AS CL)",2019-07-30 10:45:00,"16887-00-6","T",28.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Chlorophyll A",2019-07-30 10:45:00,"479-61-8","T",0.378,"ug/l",NA,"ug/l",0.039,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Copper",2019-07-30 10:45:00,"7440-50-8","T",0.68,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","HARDNESS (AS CACO3)",2019-07-30 10:45:00,"HARD","T",34.8,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Iron",2019-07-30 10:45:00,"7439-89-6","T",16.6,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Lead",2019-07-30 10:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Magnesium",2019-07-30 10:45:00,"7439-95-4","T",2070,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Nickel",2019-07-30 10:45:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Nitrate+Nitrite as Nitrogen",2019-07-30 10:45:00,"NO3NO2N","T",0.249,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Nitrogen",2019-07-30 10:45:00,"KN","T",0.34,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Nitrogen, ammonia (As N)",2019-07-30 10:45:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","NITROGEN, KJELDAHL, TOTAL",2019-07-30 10:45:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","NITROGEN, NITRATE (AS N)",2019-07-30 10:45:00,"14797-55-8","T",0.249,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","NITROGEN, NITRITE",2019-07-30 10:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","PHOSPHORUS, TOTAL (AS P)",2019-07-30 10:45:00,"7723-14-0","T",0.0147,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Silver",2019-07-30 10:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","TURBIDITY",2019-07-30 10:45:00,"TURB","T",0.49,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH-2.7","N","13-BRCH-2.7-07302019-W","R1907170","Zinc",2019-07-30 10:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","ALKALINITY, TOTAL (AS CaCO3)",2019-07-30 12:40:00,"ALK","T",8.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Aluminum",2019-07-30 12:40:00,"7429-90-5","T",29.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Arsenic",2019-07-30 12:40:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Cadmium",2019-07-30 12:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Calcium",2019-07-30 12:40:00,"7440-70-2","T",3460,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","CHLORIDE (AS CL)",2019-07-30 12:40:00,"16887-00-6","T",NA,"mg/l",0.5,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Chlorophyll A",2019-07-30 12:40:00,"479-61-8","T",0.964,"ug/l",NA,"ug/l",0.039,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Copper",2019-07-30 12:40:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","HARDNESS (AS CACO3)",2019-07-30 12:40:00,"HARD","T",12.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Iron",2019-07-30 12:40:00,"7439-89-6","T",38.7,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Lead",2019-07-30 12:40:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Magnesium",2019-07-30 12:40:00,"7439-95-4","T",944,"ug/l",68,"ug/l",1000,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Nickel",2019-07-30 12:40:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Nitrate+Nitrite as Nitrogen",2019-07-30 12:40:00,"NO3NO2N","T",0.433,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Nitrogen",2019-07-30 12:40:00,"KN","T",0.49,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Nitrogen, ammonia (As N)",2019-07-30 12:40:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","NITROGEN, KJELDAHL, TOTAL",2019-07-30 12:40:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","NITROGEN, NITRATE (AS N)",2019-07-30 12:40:00,"14797-55-8","T",0.433,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","NITROGEN, NITRITE",2019-07-30 12:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","PHOSPHORUS, TOTAL (AS P)",2019-07-30 12:40:00,"7723-14-0","T",0.0205,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Silver",2019-07-30 12:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","TURBIDITY",2019-07-30 12:40:00,"TURB","T",3.38,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T3-0.2","N","13-BRCH_T3-0.2-07302019-W","R1907170","Zinc",2019-07-30 12:40:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","ALKALINITY, TOTAL (AS CaCO3)",2019-07-30 11:45:00,"ALK","T",28.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Aluminum",2019-07-30 11:45:00,"7429-90-5","T",24.7,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Arsenic",2019-07-30 11:45:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Cadmium",2019-07-30 11:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Calcium",2019-07-30 11:45:00,"7440-70-2","T",11700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","CHLORIDE (AS CL)",2019-07-30 11:45:00,"16887-00-6","T",26.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Chlorophyll A",2019-07-30 11:45:00,"479-61-8","T",0.082,"ug/l",NA,"ug/l",0.04,"","R","Equipment Blank error",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Copper",2019-07-30 11:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","HARDNESS (AS CACO3)",2019-07-30 11:45:00,"HARD","T",38.1,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Iron",2019-07-30 11:45:00,"7439-89-6","T",38.2,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Lead",2019-07-30 11:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Magnesium",2019-07-30 11:45:00,"7439-95-4","T",2200,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Nickel",2019-07-30 11:45:00,"7440-02-0","T",0.29,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Nitrate+Nitrite as Nitrogen",2019-07-30 11:45:00,"NO3NO2N","T",0.193,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Nitrogen",2019-07-30 11:45:00,"KN","T",0.2,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Nitrogen, ammonia (As N)",2019-07-30 11:45:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","NITROGEN, KJELDAHL, TOTAL",2019-07-30 11:45:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","NITROGEN, NITRATE (AS N)",2019-07-30 11:45:00,"14797-55-8","T",0.193,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","NITROGEN, NITRITE",2019-07-30 11:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","PHOSPHORUS, TOTAL (AS P)",2019-07-30 11:45:00,"7723-14-0","T",0.0193,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Silver",2019-07-30 11:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","TURBIDITY",2019-07-30 11:45:00,"TURB","T",0.93,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Birch Cr RAS","13-BRCH_T4-0.9","N","13-BRCH_T4-0.9-07302019-W","R1907170","Zinc",2019-07-30 11:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11

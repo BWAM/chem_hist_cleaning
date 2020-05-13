@@ -1,0 +1,859 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 08:15:00,"ALK","T",84.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Aluminum",2018-09-12 08:15:00,"7429-90-5","T",100,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Arsenic",2018-09-12 08:15:00,"7440-38-2","T",1,"ug/l",0.39,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Cadmium",2018-09-12 08:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Calcium",2018-09-12 08:15:00,"7440-70-2","T",31500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 08:15:00,"16887-00-6","T",92.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Copper",2018-09-12 08:15:00,"7440-50-8","T",5.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 08:15:00,"HARD","T",123,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Iron",2018-09-12 08:15:00,"7439-89-6","T",347,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Lead",2018-09-12 08:15:00,"7439-92-1","T",0.75,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Magnesium",2018-09-12 08:15:00,"7439-95-4","T",10700,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Nickel",2018-09-12 08:15:00,"7440-02-0","T",2.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 08:15:00,"NO3NO2N","T",1.14,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Nitrogen",2018-09-12 08:15:00,"KN","T",1.75,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 08:15:00,"7664-41-7","T",0.0645,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 08:15:00,"KN","T",0.61,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 08:15:00,"14797-55-8","T",1.12,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 08:15:00,"14797-65-0","T",0.02,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 08:15:00,"7723-14-0","T",0.0885,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Silver",2018-09-12 08:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","TURBIDITY",2018-09-12 08:15:00,"TURB","T",3.95,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BLND-3.4","N","17-BLND-3.4-09122018-WS","R1808737","Zinc",2018-09-12 08:15:00,"7440-66-6","T",6.6,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 11:45:00,"ALK","T",86,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Aluminum",2018-09-11 11:45:00,"7429-90-5","T",103,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Arsenic",2018-09-11 11:45:00,"7440-38-2","T",0.82,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Cadmium",2018-09-11 11:45:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Calcium",2018-09-11 11:45:00,"7440-70-2","T",36300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 11:45:00,"16887-00-6","T",115,"mg/l",0.3,"mg/l",4,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Copper",2018-09-11 11:45:00,"7440-50-8","T",5.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 11:45:00,"HARD","T",133,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Iron",2018-09-11 11:45:00,"7439-89-6","T",383,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Lead",2018-09-11 11:45:00,"7439-92-1","T",1.2,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Magnesium",2018-09-11 11:45:00,"7439-95-4","T",10300,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Nickel",2018-09-11 11:45:00,"7440-02-0","T",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 11:45:00,"NO3NO2N","T",0.874,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Nitrogen",2018-09-11 11:45:00,"KN","T",1.32,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 11:45:00,"7664-41-7","T",0.0409,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 11:45:00,"KN","T",0.45,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 11:45:00,"14797-55-8","T",0.874,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 11:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 11:45:00,"7723-14-0","T",0.0784,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Silver",2018-09-11 11:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","TURBIDITY",2018-09-11 11:45:00,"TURB","T",3.31,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-12.3","N","17-BRNX-12.3-09112018-WS","R1808737","Zinc",2018-09-11 11:45:00,"7440-66-6","T",8.5,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 13:00:00,"ALK","T",110,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Aluminum",2018-09-11 13:00:00,"7429-90-5","T",183,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Arsenic",2018-09-11 13:00:00,"7440-38-2","T",0.81,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Cadmium",2018-09-11 13:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Calcium",2018-09-11 13:00:00,"7440-70-2","T",50300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 13:00:00,"16887-00-6","T",166,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Copper",2018-09-11 13:00:00,"7440-50-8","T",5.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 13:00:00,"HARD","T",188,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Iron",2018-09-11 13:00:00,"7439-89-6","T",638,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Lead",2018-09-11 13:00:00,"7439-92-1","T",1.3,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Magnesium",2018-09-11 13:00:00,"7439-95-4","T",15200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Nickel",2018-09-11 13:00:00,"7440-02-0","T",1.8,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 13:00:00,"NO3NO2N","T",0.905,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Nitrogen",2018-09-11 13:00:00,"KN","T",1.42,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 13:00:00,"7664-41-7","T",0.0567,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 13:00:00,"KN","T",0.51,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 13:00:00,"14797-55-8","T",0.905,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 13:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 13:00:00,"7723-14-0","T",0.0731,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Silver",2018-09-11 13:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","TURBIDITY",2018-09-11 13:00:00,"TURB","T",5.48,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-17.3","N","17-BRNX-17.3-09112018-WS","R1808737","Zinc",2018-09-11 13:00:00,"7440-66-6","T",9.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 10:15:00,"ALK","T",68.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Aluminum",2018-09-11 10:15:00,"7429-90-5","T",409,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Arsenic",2018-09-11 10:15:00,"7440-38-2","T",0.94,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Cadmium",2018-09-11 10:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Calcium",2018-09-11 10:15:00,"7440-70-2","T",28200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 10:15:00,"16887-00-6","T",96.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Copper",2018-09-11 10:15:00,"7440-50-8","T",7.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 10:15:00,"HARD","T",105,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Iron",2018-09-11 10:15:00,"7439-89-6","T",923,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Lead",2018-09-11 10:15:00,"7439-92-1","T",4.8,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Magnesium",2018-09-11 10:15:00,"7439-95-4","T",8470,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Nickel",2018-09-11 10:15:00,"7440-02-0","T",1.9,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 10:15:00,"NO3NO2N","T",0.62,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Nitrogen",2018-09-11 10:15:00,"KN","T",1.14,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 10:15:00,"7664-41-7","T",0.0548,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 10:15:00,"KN","T",0.52,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 10:15:00,"14797-55-8","T",0.62,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 10:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 10:15:00,"7723-14-0","T",0.106,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Silver",2018-09-11 10:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","TURBIDITY",2018-09-11 10:15:00,"TURB","T",13.4,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BRNX-5.6","N","17-BRNX-5.6-09112018-WS","R1808737","Zinc",2018-09-11 10:15:00,"7440-66-6","T",14.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 14:45:00,"ALK","T",27.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Aluminum",2018-09-11 14:45:00,"7429-90-5","T",34,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Arsenic",2018-09-11 14:45:00,"7440-38-2","T",NA,"ug/l",0.39,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Cadmium",2018-09-11 14:45:00,"7440-43-9","T",0.45,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Calcium",2018-09-11 14:45:00,"7440-70-2","T",10800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","CHLORIDE (AS CL)",2018-09-11 14:45:00,"16887-00-6","T",23.7,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Copper",2018-09-11 14:45:00,"7440-50-8","T",1.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-11 14:45:00,"HARD","T",45.6,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Iron",2018-09-11 14:45:00,"7439-89-6","T",311,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Lead",2018-09-11 14:45:00,"7439-92-1","T",0.91,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Magnesium",2018-09-11 14:45:00,"7439-95-4","T",4520,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Nickel",2018-09-11 14:45:00,"7440-02-0","T",0.55,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-11 14:45:00,"NO3NO2N","T",0.994,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Nitrogen",2018-09-11 14:45:00,"KN","T",1.25,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-11 14:45:00,"7664-41-7","T",0.0162,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-11 14:45:00,"KN","T",0.25,"mg/l",0.08,"mg/l",0.1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-11 14:45:00,"14797-55-8","T",0.994,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","NITROGEN, NITRITE",2018-09-11 14:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-11 14:45:00,"7723-14-0","T",0.0226,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Silver",2018-09-11 14:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","TURBIDITY",2018-09-11 14:45:00,"TURB","T",2.2,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BVBR-0.3","N","17-BVBR-0.3-09112018-WS","R1808736","Zinc",2018-09-11 14:45:00,"7440-66-6","T",3.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 15:20:00,"ALK","T",112,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Aluminum",2018-09-11 15:20:00,"7429-90-5","T",63.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Arsenic",2018-09-11 15:20:00,"7440-38-2","T",0.59,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Cadmium",2018-09-11 15:20:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Calcium",2018-09-11 15:20:00,"7440-70-2","T",48900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 15:20:00,"16887-00-6","T",101,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Copper",2018-09-11 15:20:00,"7440-50-8","T",4.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 15:20:00,"HARD","T",176,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Iron",2018-09-11 15:20:00,"7439-89-6","T",379,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Lead",2018-09-11 15:20:00,"7439-92-1","T",0.3,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Magnesium",2018-09-11 15:20:00,"7439-95-4","T",13200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Nickel",2018-09-11 15:20:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 15:20:00,"NO3NO2N","T",0.588,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Nitrogen",2018-09-11 15:20:00,"KN","T",1.12,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 15:20:00,"7664-41-7","T",0.0202,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 15:20:00,"KN","T",0.53,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 15:20:00,"14797-55-8","T",0.588,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 15:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 15:20:00,"7723-14-0","T",0.0547,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Silver",2018-09-11 15:20:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","TURBIDITY",2018-09-11 15:20:00,"TURB","T",2.48,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-BYRM-1.3","N","17-BYRM-1.3-09112018-WS","R1808737","Zinc",2018-09-11 15:20:00,"7440-66-6","T",2.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 11:45:00,"ALK","T",24.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Aluminum",2018-09-12 11:45:00,"7429-90-5","T",271,"ug/l",23,"ug/l",100,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Arsenic",2018-09-12 11:45:00,"7440-38-2","T",1.4,"ug/l",0.39,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Cadmium",2018-09-12 11:45:00,"7440-43-9","T",0.15,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Calcium",2018-09-12 11:45:00,"7440-70-2","T",15600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 11:45:00,"16887-00-6","T",47.9,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Copper",2018-09-12 11:45:00,"7440-50-8","T",3.9,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 11:45:00,"HARD","T",52.7,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Iron",2018-09-12 11:45:00,"7439-89-6","T",2360,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Lead",2018-09-12 11:45:00,"7439-92-1","T",8.6,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Magnesium",2018-09-12 11:45:00,"7439-95-4","T",3350,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Nickel",2018-09-12 11:45:00,"7440-02-0","T",11.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 11:45:00,"NO3NO2N","T",2.53,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Nitrogen",2018-09-12 11:45:00,"KN","T",3.33,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 11:45:00,"7664-41-7","T",0.065,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 11:45:00,"KN","T",0.8,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 11:45:00,"14797-55-8","T",2.51,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 11:45:00,"14797-65-0","T",0.021,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 11:45:00,"7723-14-0","T",0.078,"mg/l",0.01,"mg/l",0.025,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Silver",2018-09-12 11:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","TURBIDITY",2018-09-12 11:45:00,"TURB","T",16,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARL-1.8","N","17-CARL-1.8-09122018-WS","R1808840","Zinc",2018-09-12 11:45:00,"7440-66-6","T",17.9,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 00:00:00,"ALK","T",24,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Aluminum",2018-09-12 00:00:00,"7429-90-5","T",7.7,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Arsenic",2018-09-12 00:00:00,"7440-38-2","T",0.78,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Cadmium",2018-09-12 00:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Calcium",2018-09-12 00:00:00,"7440-70-2","T",10300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","CHLORIDE (AS CL)",2018-09-12 00:00:00,"16887-00-6","T",36.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Copper",2018-09-12 00:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","HARDNESS (AS CACO3)",2018-09-12 00:00:00,"HARD","T",42.9,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Iron",2018-09-12 00:00:00,"7439-89-6","T",358,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Lead",2018-09-12 00:00:00,"7439-92-1","T",0.26,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Magnesium",2018-09-12 00:00:00,"7439-95-4","T",4190,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Nickel",2018-09-12 00:00:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Nitrate+Nitrite as Nitrogen",2018-09-12 00:00:00,"NO3NO2N","T",1.42,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Nitrogen",2018-09-12 00:00:00,"KN","T",1.71,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Nitrogen, ammonia (As N)",2018-09-12 00:00:00,"7664-41-7","T",0.0194,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","NITROGEN, KJELDAHL, TOTAL",2018-09-12 00:00:00,"KN","T",0.29,"mg/l",0.08,"mg/l",0.1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","NITROGEN, NITRATE (AS N)",2018-09-12 00:00:00,"14797-55-8","T",1.4,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","NITROGEN, NITRITE",2018-09-12 00:00:00,"14797-65-0","T",0.015,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","PHOSPHORUS, TOTAL (AS P)",2018-09-12 00:00:00,"7723-14-0","T",0.0142,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Silver",2018-09-12 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","TURBIDITY",2018-09-12 00:00:00,"TURB","T",3.42,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CARM-9.0","N","17-CARM-9.0-09122018-WS","R1808841","Zinc",2018-09-12 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 17:00:00,"ALK","T",28.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Aluminum",2018-09-12 17:00:00,"7429-90-5","T",30.9,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Arsenic",2018-09-12 17:00:00,"7440-38-2","T",NA,"ug/l",0.39,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Cadmium",2018-09-12 17:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Calcium",2018-09-12 17:00:00,"7440-70-2","T",12900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 17:00:00,"16887-00-6","T",31.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Copper",2018-09-12 17:00:00,"7440-50-8","T",0.74,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 17:00:00,"HARD","T",54.7,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Iron",2018-09-12 17:00:00,"7439-89-6","T",129,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Lead",2018-09-12 17:00:00,"7439-92-1","T",0.24,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Magnesium",2018-09-12 17:00:00,"7439-95-4","T",5480,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Nickel",2018-09-12 17:00:00,"7440-02-0","T",0.78,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 17:00:00,"NO3NO2N","T",3.31,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Nitrogen",2018-09-12 17:00:00,"KN","T",3.7,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 17:00:00,"7664-41-7","T",0.0623,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 17:00:00,"KN","T",0.39,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 17:00:00,"14797-55-8","T",3.3,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 17:00:00,"14797-65-0","T",0.013,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 17:00:00,"7723-14-0","T",0.0174,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Silver",2018-09-12 17:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","TURBIDITY",2018-09-12 17:00:00,"TURB","T",1.98,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CONQ-1.4","N","17-CONQ-1.4-09122018-WS","R1808840","Zinc",2018-09-12 17:00:00,"7440-66-6","T",2.7,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 15:45:00,"ALK","T",24.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Aluminum",2018-09-11 15:45:00,"7429-90-5","T",695,"ug/l",23,"ug/l",100,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Arsenic",2018-09-11 15:45:00,"7440-38-2","T",1.6,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Cadmium",2018-09-11 15:45:00,"7440-43-9","T",0.53,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Calcium",2018-09-11 15:45:00,"7440-70-2","T",9740,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","CHLORIDE (AS CL)",2018-09-11 15:45:00,"16887-00-6","T",27.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Copper",2018-09-11 15:45:00,"7440-50-8","T",10.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-11 15:45:00,"HARD","T",35.8,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Iron",2018-09-11 15:45:00,"7439-89-6","T",968,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Lead",2018-09-11 15:45:00,"7439-92-1","T",5.8,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Magnesium",2018-09-11 15:45:00,"7439-95-4","T",2780,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Nickel",2018-09-11 15:45:00,"7440-02-0","T",2.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-11 15:45:00,"NO3NO2N","T",0.983,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Nitrogen",2018-09-11 15:45:00,"KN","T",2.3,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-11 15:45:00,"7664-41-7","T",0.0227,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-11 15:45:00,"KN","T",1.31,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-11 15:45:00,"14797-55-8","T",0.983,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","NITROGEN, NITRITE",2018-09-11 15:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-11 15:45:00,"7723-14-0","T",0.107,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Silver",2018-09-11 15:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","TURBIDITY",2018-09-11 15:45:00,"TURB","T",18,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-CSHA-1.9","N","17-CSHA-1.9-09112018-WS","R1808736","Zinc",2018-09-11 15:45:00,"7440-66-6","T",34.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 15:00:00,"ALK","T",28.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Aluminum",2018-09-12 15:00:00,"7429-90-5","T",108,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Arsenic",2018-09-12 15:00:00,"7440-38-2","T",0.92,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Cadmium",2018-09-12 15:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Calcium",2018-09-12 15:00:00,"7440-70-2","T",14100,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 15:00:00,"16887-00-6","T",155,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Copper",2018-09-12 15:00:00,"7440-50-8","T",4.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 15:00:00,"HARD","T",48.3,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Iron",2018-09-12 15:00:00,"7439-89-6","T",651,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Lead",2018-09-12 15:00:00,"7439-92-1","T",1.7,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Magnesium",2018-09-12 15:00:00,"7439-95-4","T",3160,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Nickel",2018-09-12 15:00:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 15:00:00,"NO3NO2N","T",0.912,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Nitrogen",2018-09-12 15:00:00,"KN","T",1.35,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 15:00:00,"7664-41-7","T",0.092,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 15:00:00,"KN","T",0.44,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 15:00:00,"14797-55-8","T",0.902,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 15:00:00,"14797-65-0","T",0.011,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 15:00:00,"7723-14-0","T",0.0246,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Silver",2018-09-12 15:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","TURBIDITY",2018-09-12 15:00:00,"TURB","T",4.88,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-EMED-0.4","N","17-EMED-0.4-09122018-WS","R1808840","Zinc",2018-09-12 15:00:00,"7440-66-6","T",11.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 10:45:00,"ALK","T",37.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Aluminum",2018-09-12 10:45:00,"7429-90-5","T",33.1,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Arsenic",2018-09-12 10:45:00,"7440-38-2","T",NA,"ug/l",0.39,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Cadmium",2018-09-12 10:45:00,"7440-43-9","T",0.46,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Calcium",2018-09-12 10:45:00,"7440-70-2","T",15500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","CHLORIDE (AS CL)",2018-09-12 10:45:00,"16887-00-6","T",36.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Copper",2018-09-12 10:45:00,"7440-50-8","T",1.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-12 10:45:00,"HARD","T",65.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Iron",2018-09-12 10:45:00,"7439-89-6","T",148,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Lead",2018-09-12 10:45:00,"7439-92-1","T",0.92,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Magnesium",2018-09-12 10:45:00,"7439-95-4","T",6400,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Nickel",2018-09-12 10:45:00,"7440-02-0","T",0.77,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-12 10:45:00,"NO3NO2N","T",2.46,"mg/l",0.0013,"mg/l",0.004,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Nitrogen",2018-09-12 10:45:00,"KN","T",2.76,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-12 10:45:00,"7664-41-7","T",0.0812,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-12 10:45:00,"KN","T",0.3,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-12 10:45:00,"14797-55-8","T",2.44,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","NITROGEN, NITRITE",2018-09-12 10:45:00,"14797-65-0","T",0.018,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-12 10:45:00,"7723-14-0","T",0.0189,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Silver",2018-09-12 10:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","TURBIDITY",2018-09-12 10:45:00,"TURB","T",2.55,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-GREN-0.4","N","17-GREN-0.4-09122018-WS","R1808736","Zinc",2018-09-12 10:45:00,"7440-66-6","T",5.8,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 11:15:00,"ALK","T",54.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Aluminum",2018-09-12 11:15:00,"7429-90-5","T",52.1,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Arsenic",2018-09-12 11:15:00,"7440-38-2","T",2.7,"ug/l",0.39,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Cadmium",2018-09-12 11:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Calcium",2018-09-12 11:15:00,"7440-70-2","T",21400,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 11:15:00,"16887-00-6","T",53.7,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Copper",2018-09-12 11:15:00,"7440-50-8","T",6.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 11:15:00,"HARD","T",72.3,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Iron",2018-09-12 11:15:00,"7439-89-6","T",558,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Lead",2018-09-12 11:15:00,"7439-92-1","T",0.81,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Magnesium",2018-09-12 11:15:00,"7439-95-4","T",4580,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Nickel",2018-09-12 11:15:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 11:15:00,"NO3NO2N","T",0.922,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Nitrogen",2018-09-12 11:15:00,"KN","T",1.37,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 11:15:00,"7664-41-7","T",0.0437,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 11:15:00,"KN","T",0.44,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 11:15:00,"14797-55-8","T",0.905,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 11:15:00,"14797-65-0","T",0.018,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 11:15:00,"7723-14-0","T",0.0786,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Silver",2018-09-12 11:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","TURBIDITY",2018-09-12 11:15:00,"TURB","T",2.65,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LEMN-1.3","N","17-LEMN-1.3-09122018-WS","R1808840","Zinc",2018-09-12 11:15:00,"7440-66-6","T",5.8,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 12:15:00,"ALK","T",24,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Aluminum",2018-09-12 12:15:00,"7429-90-5","T",73.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Arsenic",2018-09-12 12:15:00,"7440-38-2","T",NA,"ug/l",0.39,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Cadmium",2018-09-12 12:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Calcium",2018-09-12 12:15:00,"7440-70-2","T",11800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 12:15:00,"16887-00-6","T",51.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Copper",2018-09-12 12:15:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 12:15:00,"HARD","T",43.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Iron",2018-09-12 12:15:00,"7439-89-6","T",399,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Lead",2018-09-12 12:15:00,"7439-92-1","T",0.23,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Magnesium",2018-09-12 12:15:00,"7439-95-4","T",3380,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Nickel",2018-09-12 12:15:00,"7440-02-0","T",0.74,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 12:15:00,"NO3NO2N","T",0.144,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Nitrogen",2018-09-12 12:15:00,"KN","T",0.61,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 12:15:00,"7664-41-7","T",0.0323,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 12:15:00,"KN","T",0.47,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 12:15:00,"14797-55-8","T",0.144,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 12:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 12:15:00,"7723-14-0","T",0.0282,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Silver",2018-09-12 12:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","TURBIDITY",2018-09-12 12:15:00,"TURB","T",2.74,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-LREL_T8-0.5","N","17-LREL_T8-0.5-09122018-WS","R1808737","Zinc",2018-09-12 12:15:00,"7440-66-6","T",2.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 10:30:00,"ALK","T",77.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Aluminum",2018-09-11 10:30:00,"7429-90-5","T",262,"ug/l",23,"ug/l",100,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Arsenic",2018-09-11 10:30:00,"7440-38-2","T",1.7,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Cadmium",2018-09-11 10:30:00,"7440-43-9","T",0.49,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Calcium",2018-09-11 10:30:00,"7440-70-2","T",27700,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","CHLORIDE (AS CL)",2018-09-11 10:30:00,"16887-00-6","T",83.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Copper",2018-09-11 10:30:00,"7440-50-8","T",7.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-11 10:30:00,"HARD","T",101,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Iron",2018-09-11 10:30:00,"7439-89-6","T",782,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Lead",2018-09-11 10:30:00,"7439-92-1","T",2.8,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Magnesium",2018-09-11 10:30:00,"7439-95-4","T",7750,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Nickel",2018-09-11 10:30:00,"7440-02-0","T",2.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-11 10:30:00,"NO3NO2N","T",0.965,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Nitrogen",2018-09-11 10:30:00,"KN","T",1.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-11 10:30:00,"7664-41-7","T",0.0726,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-11 10:30:00,"KN","T",0.72,"mg/l",0.08,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-11 10:30:00,"14797-55-8","T",0.949,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","NITROGEN, NITRITE",2018-09-11 10:30:00,"14797-65-0","T",0.016,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-11 10:30:00,"7723-14-0","T",0.121,"mg/l",0.01,"mg/l",0.025,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Silver",2018-09-11 10:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","TURBIDITY",2018-09-11 10:30:00,"TURB","T",5.53,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-0.3","N","17-MAMR-0.3-09112018-WS","R1808736","Zinc",2018-09-11 10:30:00,"7440-66-6","T",9.3,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 14:00:00,"ALK","T",109,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Aluminum",2018-09-11 14:00:00,"7429-90-5","T",71.9,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Arsenic",2018-09-11 14:00:00,"7440-38-2","T",0.81,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Cadmium",2018-09-11 14:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Calcium",2018-09-11 14:00:00,"7440-70-2","T",49300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 14:00:00,"16887-00-6","T",210,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Copper",2018-09-11 14:00:00,"7440-50-8","T",6.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 14:00:00,"HARD","T",174,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Iron",2018-09-11 14:00:00,"7439-89-6","T",408,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Lead",2018-09-11 14:00:00,"7439-92-1","T",0.74,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Magnesium",2018-09-11 14:00:00,"7439-95-4","T",12300,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Nickel",2018-09-11 14:00:00,"7440-02-0","T",2.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 14:00:00,"NO3NO2N","T",1.02,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Nitrogen",2018-09-11 14:00:00,"KN","T",1.66,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 14:00:00,"7664-41-7","T",0.0396,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 14:00:00,"KN","T",0.64,"mg/l",0.08,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 14:00:00,"14797-55-8","T",1.01,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 14:00:00,"14797-65-0","T",0.01,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 14:00:00,"7723-14-0","T",0.0684,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Silver",2018-09-11 14:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","TURBIDITY",2018-09-11 14:00:00,"TURB","T",3.08,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR-6.7","N","17-MAMR-6.7-09112018-WS","R1808737","Zinc",2018-09-11 14:00:00,"7440-66-6","T",6.4,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 16:00:00,"ALK","T",90,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Aluminum",2018-09-11 16:00:00,"7429-90-5","T",99.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Arsenic",2018-09-11 16:00:00,"7440-38-2","T",0.7,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Cadmium",2018-09-11 16:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Calcium",2018-09-11 16:00:00,"7440-70-2","T",36800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","CHLORIDE (AS CL)",2018-09-11 16:00:00,"16887-00-6","T",117,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Copper",2018-09-11 16:00:00,"7440-50-8","T",4.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-11 16:00:00,"HARD","T",132,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Iron",2018-09-11 16:00:00,"7439-89-6","T",683,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Lead",2018-09-11 16:00:00,"7439-92-1","T",0.45,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Magnesium",2018-09-11 16:00:00,"7439-95-4","T",9840,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Nickel",2018-09-11 16:00:00,"7440-02-0","T",2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-11 16:00:00,"NO3NO2N","T",0.559,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Nitrogen",2018-09-11 16:00:00,"KN","T",1.23,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-11 16:00:00,"7664-41-7","T",0.0507,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-11 16:00:00,"KN","T",0.67,"mg/l",0.08,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-11 16:00:00,"14797-55-8","T",0.559,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","NITROGEN, NITRITE",2018-09-11 16:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-11 16:00:00,"7723-14-0","T",0.0681,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Silver",2018-09-11 16:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","TURBIDITY",2018-09-11 16:00:00,"TURB","T",3.08,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MAMR_T12-0.7","N","17-MAMR_T12-0.7-09112018-WS","R1808737","Zinc",2018-09-11 16:00:00,"7440-66-6","T",3.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 12:15:00,"ALK","T",28,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Aluminum",2018-09-12 12:15:00,"7429-90-5","T",62.6,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Arsenic",2018-09-12 12:15:00,"7440-38-2","T",0.6,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Cadmium",2018-09-12 12:15:00,"7440-43-9","T",0.51,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Calcium",2018-09-12 12:15:00,"7440-70-2","T",14400,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","CHLORIDE (AS CL)",2018-09-12 12:15:00,"16887-00-6","T",70.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Copper",2018-09-12 12:15:00,"7440-50-8","T",2.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-12 12:15:00,"HARD","T",47.7,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Iron",2018-09-12 12:15:00,"7439-89-6","T",406,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Lead",2018-09-12 12:15:00,"7439-92-1","T",1.8,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Magnesium",2018-09-12 12:15:00,"7439-95-4","T",2820,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Nickel",2018-09-12 12:15:00,"7440-02-0","T",0.87,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-12 12:15:00,"NO3NO2N","T",1.52,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Nitrogen",2018-09-12 12:15:00,"KN","T",1.91,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-12 12:15:00,"7664-41-7","T",0.0569,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-12 12:15:00,"KN","T",0.39,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-12 12:15:00,"14797-55-8","T",1.52,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","NITROGEN, NITRITE",2018-09-12 12:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-12 12:15:00,"7723-14-0","T",0.0252,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Silver",2018-09-12 12:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","TURBIDITY",2018-09-12 12:15:00,"TURB","T",2.12,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MASS-1.2","N","17-MASS-1.2-09122018-WS","R1808736","Zinc",2018-09-12 12:15:00,"7440-66-6","T",6.5,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 10:15:00,"ALK","T",83.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Aluminum",2018-09-12 10:15:00,"7429-90-5","T",53.3,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Arsenic",2018-09-12 10:15:00,"7440-38-2","T",0.51,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Cadmium",2018-09-12 10:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Calcium",2018-09-12 10:15:00,"7440-70-2","T",36900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 10:15:00,"16887-00-6","T",79.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Copper",2018-09-12 10:15:00,"7440-50-8","T",1.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 10:15:00,"HARD","T",128,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Iron",2018-09-12 10:15:00,"7439-89-6","T",369,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Lead",2018-09-12 10:15:00,"7439-92-1","T",0.26,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Magnesium",2018-09-12 10:15:00,"7439-95-4","T",8720,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Nickel",2018-09-12 10:15:00,"7440-02-0","T",0.94,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 10:15:00,"NO3NO2N","T",0.457,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Nitrogen",2018-09-12 10:15:00,"KN","T",0.85,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 10:15:00,"7664-41-7","T",0.0305,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 10:15:00,"KN","T",0.39,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 10:15:00,"14797-55-8","T",0.457,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 10:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 10:15:00,"7723-14-0","T",0.0484,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Silver",2018-09-12 10:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","TURBIDITY",2018-09-12 10:15:00,"TURB","T",3.14,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-13.3","N","17-MIAN-13.3-09122018-WS","R1808737","Zinc",2018-09-12 10:15:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 09:30:00,"ALK","T",83.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Aluminum",2018-09-12 09:30:00,"7429-90-5","T",83.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Arsenic",2018-09-12 09:30:00,"7440-38-2","T",0.6,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Cadmium",2018-09-12 09:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Calcium",2018-09-12 09:30:00,"7440-70-2","T",35800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 09:30:00,"16887-00-6","T",78.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Copper",2018-09-12 09:30:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 09:30:00,"HARD","T",125,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Iron",2018-09-12 09:30:00,"7439-89-6","T",389,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Lead",2018-09-12 09:30:00,"7439-92-1","T",0.32,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Magnesium",2018-09-12 09:30:00,"7439-95-4","T",8550,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Nickel",2018-09-12 09:30:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 09:30:00,"NO3NO2N","T",0.44,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Nitrogen",2018-09-12 09:30:00,"KN","T",0.85,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 09:30:00,"7664-41-7","T",0.0297,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 09:30:00,"KN","T",0.41,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 09:30:00,"14797-55-8","T",0.44,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 09:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 09:30:00,"7723-14-0","T",0.0481,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Silver",2018-09-12 09:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","TURBIDITY",2018-09-12 09:30:00,"TURB","T",4.82,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN-14.2","N","17-MIAN-14.2-09122018-WS","R1808737","Zinc",2018-09-12 09:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 11:20:00,"ALK","T",28.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Aluminum",2018-09-12 11:20:00,"7429-90-5","T",121,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Arsenic",2018-09-12 11:20:00,"7440-38-2","T",0.74,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Cadmium",2018-09-12 11:20:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Calcium",2018-09-12 11:20:00,"7440-70-2","T",14400,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 11:20:00,"16887-00-6","T",43.7,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Copper",2018-09-12 11:20:00,"7440-50-8","T",1.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 11:20:00,"HARD","T",54.3,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Iron",2018-09-12 11:20:00,"7439-89-6","T",788,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Lead",2018-09-12 11:20:00,"7439-92-1","T",1.1,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Magnesium",2018-09-12 11:20:00,"7439-95-4","T",4430,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Nickel",2018-09-12 11:20:00,"7440-02-0","T",1.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 11:20:00,"NO3NO2N","T",0.0994,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Nitrogen",2018-09-12 11:20:00,"KN","T",0.83,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 11:20:00,"7664-41-7","T",0.0452,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 11:20:00,"KN","T",0.73,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 11:20:00,"14797-55-8","T",0.099,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 11:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 11:20:00,"7723-14-0","T",0.059,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Silver",2018-09-12 11:20:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","TURBIDITY",2018-09-12 11:20:00,"TURB","T",5.25,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MIAN_E_T5-0.4","N","17-MIAN_E_T5-0.4-09122018-WS","R1808737","Zinc",2018-09-12 11:20:00,"7440-66-6","T",3.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 13:40:00,"ALK","T",79.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Aluminum",2018-09-12 13:40:00,"7429-90-5","T",19.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Arsenic",2018-09-12 13:40:00,"7440-38-2","T",0.52,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Cadmium",2018-09-12 13:40:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Calcium",2018-09-12 13:40:00,"7440-70-2","T",31500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 13:40:00,"16887-00-6","T",61.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Copper",2018-09-12 13:40:00,"7440-50-8","T",4.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 13:40:00,"HARD","T",112,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Iron",2018-09-12 13:40:00,"7439-89-6","T",384,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Lead",2018-09-12 13:40:00,"7439-92-1","T",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Magnesium",2018-09-12 13:40:00,"7439-95-4","T",8110,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Nickel",2018-09-12 13:40:00,"7440-02-0","T",0.65,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 13:40:00,"NO3NO2N","T",0.124,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Nitrogen",2018-09-12 13:40:00,"KN","T",0.46,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 13:40:00,"7664-41-7","T",0.0339,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 13:40:00,"KN","T",0.33,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 13:40:00,"14797-55-8","T",0.124,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 13:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 13:40:00,"7723-14-0","T",0.0495,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Silver",2018-09-12 13:40:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","TURBIDITY",2018-09-12 13:40:00,"TURB","T",5.78,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILI-2.9","N","17-MILI-2.9-09122018-WS","R1808737","Zinc",2018-09-12 13:40:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 13:00:00,"ALK","T",14.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Aluminum",2018-09-11 13:00:00,"7429-90-5","T",2410,"ug/l",46,"ug/l",200,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Arsenic",2018-09-11 13:00:00,"7440-38-2","T",1.5,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Cadmium",2018-09-11 13:00:00,"7440-43-9","T",0.38,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Calcium",2018-09-11 13:00:00,"7440-70-2","T",9690,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","CHLORIDE (AS CL)",2018-09-11 13:00:00,"16887-00-6","T",6.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Copper",2018-09-11 13:00:00,"7440-50-8","T",34.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-11 13:00:00,"HARD","T",37.6,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Iron",2018-09-11 13:00:00,"7439-89-6","T",2940,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Lead",2018-09-11 13:00:00,"7439-92-1","T",28.7,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Magnesium",2018-09-11 13:00:00,"7439-95-4","T",3250,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Nickel",2018-09-11 13:00:00,"7440-02-0","T",4.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-11 13:00:00,"NO3NO2N","T",0.212,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Nitrogen",2018-09-11 13:00:00,"KN","T",1.26,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-11 13:00:00,"7664-41-7","T",0.106,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-11 13:00:00,"KN","T",1.04,"mg/l",0.08,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-11 13:00:00,"14797-55-8","T",0.212,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","NITROGEN, NITRITE",2018-09-11 13:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-11 13:00:00,"7723-14-0","T",0.192,"mg/l",0.02,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Silver",2018-09-11 13:00:00,"7440-22-4","T",0.22,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","TURBIDITY",2018-09-11 13:00:00,"TURB","T",21.6,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-MILR-5.3","N","17-MILR-5.3-09112018-WS","R1808736","Zinc",2018-09-11 13:00:00,"7440-66-6","T",155,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-11 17:15:00,"ALK","T",44.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Aluminum",2018-09-11 17:15:00,"7429-90-5","T",68.4,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Arsenic",2018-09-11 17:15:00,"7440-38-2","T",4.4,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Cadmium",2018-09-11 17:15:00,"7440-43-9","T",0.46,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Calcium",2018-09-11 17:15:00,"7440-70-2","T",11200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","CHLORIDE (AS CL)",2018-09-11 17:15:00,"16887-00-6","T",50,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Copper",2018-09-11 17:15:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-11 17:15:00,"HARD","T",45.4,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Iron",2018-09-11 17:15:00,"7439-89-6","T",18100,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Lead",2018-09-11 17:15:00,"7439-92-1","T",2.1,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Magnesium",2018-09-11 17:15:00,"7439-95-4","T",4250,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Nickel",2018-09-11 17:15:00,"7440-02-0","T",2.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-11 17:15:00,"NO3NO2N","T",0.568,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Nitrogen",2018-09-11 17:15:00,"KN","T",2.38,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-11 17:15:00,"7664-41-7","T",1.25,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-11 17:15:00,"KN","T",1.81,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-11 17:15:00,"14797-55-8","T",0.568,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","NITROGEN, NITRITE",2018-09-11 17:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-11 17:15:00,"7723-14-0","T",0.54,"mg/l",0.04,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Silver",2018-09-11 17:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","TURBIDITY",2018-09-11 17:15:00,"TURB","T",32.3,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-NISS-6.0","N","17-NISS-6.0-09112018-WS","R1808736","Zinc",2018-09-11 17:15:00,"7440-66-6","T",5.4,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 10:00:00,"ALK","T",26,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Aluminum",2018-09-12 10:00:00,"7429-90-5","T",41,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Arsenic",2018-09-12 10:00:00,"7440-38-2","T",0.58,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Cadmium",2018-09-12 10:00:00,"7440-43-9","T",0.1,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Calcium",2018-09-12 10:00:00,"7440-70-2","T",16000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 10:00:00,"16887-00-6","T",64.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Copper",2018-09-12 10:00:00,"7440-50-8","T",1.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 10:00:00,"HARD","T",57,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Iron",2018-09-12 10:00:00,"7439-89-6","T",481,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Lead",2018-09-12 10:00:00,"7439-92-1","T",0.92,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Magnesium",2018-09-12 10:00:00,"7439-95-4","T",4140,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Nickel",2018-09-12 10:00:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 10:00:00,"NO3NO2N","T",4.46,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Nitrogen",2018-09-12 10:00:00,"KN","T",4.9,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 10:00:00,"7664-41-7","T",0.0861,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 10:00:00,"KN","T",0.44,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 10:00:00,"14797-55-8","T",4.42,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 10:00:00,"14797-65-0","T",0.034,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 10:00:00,"7723-14-0","T",0.015,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Silver",2018-09-12 10:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","TURBIDITY",2018-09-12 10:00:00,"TURB","T",2.41,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-0.6","N","17-OROW-0.6-09122018-WS","R1808840","Zinc",2018-09-12 10:00:00,"7440-66-6","T",5.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 09:00:00,"ALK","T",51.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Aluminum",2018-09-12 09:00:00,"7429-90-5","T",393,"ug/l",23,"ug/l",100,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Arsenic",2018-09-12 09:00:00,"7440-38-2","T",0.98,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Cadmium",2018-09-12 09:00:00,"7440-43-9","T",0.22,"ug/l",0.13,"ug/l",2,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Calcium",2018-09-12 09:00:00,"7440-70-2","T",15200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 09:00:00,"16887-00-6","T",76.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Copper",2018-09-12 09:00:00,"7440-50-8","T",5.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 09:00:00,"HARD","T",51.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Iron",2018-09-12 09:00:00,"7439-89-6","T",4260,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Lead",2018-09-12 09:00:00,"7439-92-1","T",17.9,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Magnesium",2018-09-12 09:00:00,"7439-95-4","T",3320,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Nickel",2018-09-12 09:00:00,"7440-02-0","T",2.7,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 09:00:00,"NO3NO2N","T",3.27,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Nitrogen",2018-09-12 09:00:00,"KN","T",7,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 09:00:00,"7664-41-7","T",2.95,"mg/l",0.004,"mg/l",0.02,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 09:00:00,"KN","T",3.73,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 09:00:00,"14797-55-8","T",3.24,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 09:00:00,"14797-65-0","T",0.033,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 09:00:00,"7723-14-0","T",0.061,"mg/l",0.01,"mg/l",0.025,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Silver",2018-09-12 09:00:00,"7440-22-4","T",NA,"ug/l",0.078,"ug/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","TURBIDITY",2018-09-12 09:00:00,"TURB","T",5.94,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-OROW-2.0","N","17-OROW-2.0-09122018-WS","R1808840","Zinc",2018-09-12 09:00:00,"7440-66-6","T",13,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 09:45:00,"ALK","T",26,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Aluminum",2018-09-12 09:45:00,"7429-90-5","T",4.9,"ug/l",2.3,"ug/l",10,"NJ","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Arsenic",2018-09-12 09:45:00,"7440-38-2","T",0.66,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Cadmium",2018-09-12 09:45:00,"7440-43-9","T",0.46,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Calcium",2018-09-12 09:45:00,"7440-70-2","T",14200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","CHLORIDE (AS CL)",2018-09-12 09:45:00,"16887-00-6","T",55.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Copper",2018-09-12 09:45:00,"7440-50-8","T",1.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-12 09:45:00,"HARD","T",53.1,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Iron",2018-09-12 09:45:00,"7439-89-6","T",299,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Lead",2018-09-12 09:45:00,"7439-92-1","T",0.47,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Magnesium",2018-09-12 09:45:00,"7439-95-4","T",4300,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Nickel",2018-09-12 09:45:00,"7440-02-0","T",0.57,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-12 09:45:00,"NO3NO2N","T",3.05,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Nitrogen",2018-09-12 09:45:00,"KN","T",3.34,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-12 09:45:00,"7664-41-7","T",0.039,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-12 09:45:00,"KN","T",0.29,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-12 09:45:00,"14797-55-8","T",3.05,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","NITROGEN, NITRITE",2018-09-12 09:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-12 09:45:00,"7723-14-0","T",0.0102,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Silver",2018-09-12 09:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","TURBIDITY",2018-09-12 09:45:00,"TURB","T",0.95,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PACH-0.4","N","17-PACH-0.4-09122018-WS","R1808736","Zinc",2018-09-12 09:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 00:00:00,"ALK","T",6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Aluminum",2018-09-12 00:00:00,"7429-90-5","T",109,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Arsenic",2018-09-12 00:00:00,"7440-38-2","T",0.9,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Cadmium",2018-09-12 00:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Calcium",2018-09-12 00:00:00,"7440-70-2","T",1730,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","CHLORIDE (AS CL)",2018-09-12 00:00:00,"16887-00-6","T",10.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Copper",2018-09-12 00:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","HARDNESS (AS CACO3)",2018-09-12 00:00:00,"HARD","T",7.9,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Iron",2018-09-12 00:00:00,"7439-89-6","T",2980,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Lead",2018-09-12 00:00:00,"7439-92-1","T",2.6,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Magnesium",2018-09-12 00:00:00,"7439-95-4","T",881,"ug/l",29,"ug/l",1000,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Nickel",2018-09-12 00:00:00,"7440-02-0","T",0.52,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Nitrate+Nitrite as Nitrogen",2018-09-12 00:00:00,"NO3NO2N","T",0.0043,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Nitrogen",2018-09-12 00:00:00,"KN","T",0.55,"mg/l",NA,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Nitrogen, ammonia (As N)",2018-09-12 00:00:00,"7664-41-7","T",0.0142,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","NITROGEN, KJELDAHL, TOTAL",2018-09-12 00:00:00,"KN","T",0.55,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","NITROGEN, NITRATE (AS N)",2018-09-12 00:00:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","NITROGEN, NITRITE",2018-09-12 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","PHOSPHORUS, TOTAL (AS P)",2018-09-12 00:00:00,"7723-14-0","T",0.0151,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Silver",2018-09-12 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","TURBIDITY",2018-09-12 00:00:00,"TURB","T",78,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-12.4","N","17-PECN-12.4-09122018-WS","R1808841","Zinc",2018-09-12 00:00:00,"7440-66-6","T",4.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 00:00:00,"ALK","T",9.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Aluminum",2018-09-12 00:00:00,"7429-90-5","T",84,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Arsenic",2018-09-12 00:00:00,"7440-38-2","T",1.6,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Cadmium",2018-09-12 00:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Calcium",2018-09-12 00:00:00,"7440-70-2","T",4130,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","CHLORIDE (AS CL)",2018-09-12 00:00:00,"16887-00-6","T",13.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Copper",2018-09-12 00:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","HARDNESS (AS CACO3)",2018-09-12 00:00:00,"HARD","T",17.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Iron",2018-09-12 00:00:00,"7439-89-6","T",2220,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Lead",2018-09-12 00:00:00,"7439-92-1","T",1.1,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Magnesium",2018-09-12 00:00:00,"7439-95-4","T",1680,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Nickel",2018-09-12 00:00:00,"7440-02-0","T",0.61,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Nitrate+Nitrite as Nitrogen",2018-09-12 00:00:00,"NO3NO2N","T",0.0933,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Nitrogen",2018-09-12 00:00:00,"KN","T",0.62,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Nitrogen, ammonia (As N)",2018-09-12 00:00:00,"7664-41-7","T",0.0321,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","NITROGEN, KJELDAHL, TOTAL",2018-09-12 00:00:00,"KN","T",0.53,"mg/l",0.08,"mg/l",0.1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","NITROGEN, NITRATE (AS N)",2018-09-12 00:00:00,"14797-55-8","T",0.093,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","NITROGEN, NITRITE",2018-09-12 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","PHOSPHORUS, TOTAL (AS P)",2018-09-12 00:00:00,"7723-14-0","T",0.0399,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Silver",2018-09-12 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","TURBIDITY",2018-09-12 00:00:00,"TURB","T",7.28,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN-7.6","N","17-PECN-7.6-09122018-WS","R1808841","Zinc",2018-09-12 00:00:00,"7440-66-6","T",3.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 00:00:00,"ALK","T",2.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Aluminum",2018-09-12 00:00:00,"7429-90-5","T",400,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Arsenic",2018-09-12 00:00:00,"7440-38-2","T",8.8,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Cadmium",2018-09-12 00:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Calcium",2018-09-12 00:00:00,"7440-70-2","T",4010,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","CHLORIDE (AS CL)",2018-09-12 00:00:00,"16887-00-6","T",7,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Copper",2018-09-12 00:00:00,"7440-50-8","T",3.3,"ug/l",0.66,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","HARDNESS (AS CACO3)",2018-09-12 00:00:00,"HARD","T",15.9,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Iron",2018-09-12 00:00:00,"7439-89-6","T",11700,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Lead",2018-09-12 00:00:00,"7439-92-1","T",5.6,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Magnesium",2018-09-12 00:00:00,"7439-95-4","T",1440,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Nickel",2018-09-12 00:00:00,"7440-02-0","T",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Nitrate+Nitrite as Nitrogen",2018-09-12 00:00:00,"NO3NO2N","T",0.0107,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Nitrogen",2018-09-12 00:00:00,"KN","T",3.17,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Nitrogen, ammonia (As N)",2018-09-12 00:00:00,"7664-41-7","T",0.402,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","NITROGEN, KJELDAHL, TOTAL",2018-09-12 00:00:00,"KN","T",3.16,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","NITROGEN, NITRATE (AS N)",2018-09-12 00:00:00,"14797-55-8","T",0.011,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","NITROGEN, NITRITE",2018-09-12 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","PHOSPHORUS, TOTAL (AS P)",2018-09-12 00:00:00,"7723-14-0","T",0.44,"mg/l",0.04,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Silver",2018-09-12 00:00:00,"7440-22-4","T",0.26,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","TURBIDITY",2018-09-12 00:00:00,"TURB","T",4.49,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PECN_T6-0.8","N","17-PECN_T6-0.8-09122018-WS","R1808841","Zinc",2018-09-12 00:00:00,"7440-66-6","T",11.4,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 10:45:00,"ALK","T",30.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Aluminum",2018-09-12 10:45:00,"7429-90-5","T",53.8,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Arsenic",2018-09-12 10:45:00,"7440-38-2","T",NA,"ug/l",0.39,"ug/l",1,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Cadmium",2018-09-12 10:45:00,"7440-43-9","T",0.15,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Calcium",2018-09-12 10:45:00,"7440-70-2","T",18200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 10:45:00,"16887-00-6","T",118,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Copper",2018-09-12 10:45:00,"7440-50-8","T",3.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 10:45:00,"HARD","T",62.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Iron",2018-09-12 10:45:00,"7439-89-6","T",586,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Lead",2018-09-12 10:45:00,"7439-92-1","T",1.2,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Magnesium",2018-09-12 10:45:00,"7439-95-4","T",4050,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Nickel",2018-09-12 10:45:00,"7440-02-0","T",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 10:45:00,"NO3NO2N","T",3.47,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Nitrogen",2018-09-12 10:45:00,"KN","T",3.95,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 10:45:00,"7664-41-7","T",0.198,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 10:45:00,"KN","T",0.48,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 10:45:00,"14797-55-8","T",3.42,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 10:45:00,"14797-65-0","T",0.043,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 10:45:00,"7723-14-0","T",0.0146,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Silver",2018-09-12 10:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","TURBIDITY",2018-09-12 10:45:00,"TURB","T",4.31,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-PENA-1.4","N","17-PENA-1.4-09122018-WS","R1808840","Zinc",2018-09-12 10:45:00,"7440-66-6","T",14,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 12:15:00,"ALK","T",50.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Aluminum",2018-09-12 12:15:00,"7429-90-5","T",49.1,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Arsenic",2018-09-12 12:15:00,"7440-38-2","T",1.8,"ug/l",0.39,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Cadmium",2018-09-12 12:15:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Calcium",2018-09-12 12:15:00,"7440-70-2","T",15600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 12:15:00,"16887-00-6","T",36.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Copper",2018-09-12 12:15:00,"7440-50-8","T",6.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 12:15:00,"HARD","T",51,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Iron",2018-09-12 12:15:00,"7439-89-6","T",472,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Lead",2018-09-12 12:15:00,"7439-92-1","T",0.76,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Magnesium",2018-09-12 12:15:00,"7439-95-4","T",2890,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Nickel",2018-09-12 12:15:00,"7440-02-0","T",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 12:15:00,"NO3NO2N","T",0.214,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Nitrogen",2018-09-12 12:15:00,"KN","T",0.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 12:15:00,"7664-41-7","T",0.0183,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 12:15:00,"KN","T",0.48,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 12:15:00,"14797-55-8","T",0.214,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 12:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 12:15:00,"7723-14-0","T",0.0985,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Silver",2018-09-12 12:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","TURBIDITY",2018-09-12 12:15:00,"TURB","T",3.92,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RARI_T50-0.2","N","17-RARI_T50-0.2-09122018-WS","R1808840","Zinc",2018-09-12 12:15:00,"7440-66-6","T",4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 16:00:00,"ALK","T",26,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Aluminum",2018-09-12 16:00:00,"7429-90-5","T",80.6,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Arsenic",2018-09-12 16:00:00,"7440-38-2","T",0.43,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Cadmium",2018-09-12 16:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Calcium",2018-09-12 16:00:00,"7440-70-2","T",10900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 16:00:00,"16887-00-6","T",27,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Copper",2018-09-12 16:00:00,"7440-50-8","T",0.83,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 16:00:00,"HARD","T",47.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Iron",2018-09-12 16:00:00,"7439-89-6","T",190,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Lead",2018-09-12 16:00:00,"7439-92-1","T",1.5,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Magnesium",2018-09-12 16:00:00,"7439-95-4","T",4880,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Nickel",2018-09-12 16:00:00,"7440-02-0","T",0.65,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 16:00:00,"NO3NO2N","T",0.483,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Nitrogen",2018-09-12 16:00:00,"KN","T",0.81,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 16:00:00,"7664-41-7","T",0.0316,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 16:00:00,"KN","T",0.33,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 16:00:00,"14797-55-8","T",0.47,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 16:00:00,"14797-65-0","T",0.012,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 16:00:00,"7723-14-0","T",0.0162,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Silver",2018-09-12 16:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","TURBIDITY",2018-09-12 16:00:00,"TURB","T",3.24,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-RATT-0.1","N","17-RATT-0.1-09122018-WS","R1808840","Zinc",2018-09-12 16:00:00,"7440-66-6","T",2.7,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 13:00:00,"ALK","T",27.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Aluminum",2018-09-12 13:00:00,"7429-90-5","T",19.7,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Arsenic",2018-09-12 13:00:00,"7440-38-2","T",0.56,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Cadmium",2018-09-12 13:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Calcium",2018-09-12 13:00:00,"7440-70-2","T",13800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 13:00:00,"16887-00-6","T",55.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Copper",2018-09-12 13:00:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 13:00:00,"HARD","T",47.1,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Iron",2018-09-12 13:00:00,"7439-89-6","T",530,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Lead",2018-09-12 13:00:00,"7439-92-1","T",0.47,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Magnesium",2018-09-12 13:00:00,"7439-95-4","T",3110,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Nickel",2018-09-12 13:00:00,"7440-02-0","T",0.57,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 13:00:00,"NO3NO2N","T",1.37,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Nitrogen",2018-09-12 13:00:00,"KN","T",1.83,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 13:00:00,"7664-41-7","T",0.164,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 13:00:00,"KN","T",0.46,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 13:00:00,"14797-55-8","T",1.35,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 13:00:00,"14797-65-0","T",0.026,"mg/l",0.007,"mg/l",0.01,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 13:00:00,"7723-14-0","T",0.0197,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Silver",2018-09-12 13:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","TURBIDITY",2018-09-12 13:00:00,"TURB","T",1.62,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SAMP-0.4","N","17-SAMP-0.4-09122018-WS","R1808840","Zinc",2018-09-12 13:00:00,"7440-66-6","T",4.9,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 14:00:00,"ALK","T",53.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Aluminum",2018-09-12 14:00:00,"7429-90-5","T",39.9,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Arsenic",2018-09-12 14:00:00,"7440-38-2","T",0.83,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Cadmium",2018-09-12 14:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Calcium",2018-09-12 14:00:00,"7440-70-2","T",24600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","CHLORIDE (AS CL)",2018-09-12 14:00:00,"16887-00-6","T",61.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Copper",2018-09-12 14:00:00,"7440-50-8","T",1.9,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","HARDNESS (AS CACO3)",2018-09-12 14:00:00,"HARD","T",78.6,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Iron",2018-09-12 14:00:00,"7439-89-6","T",1050,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Lead",2018-09-12 14:00:00,"7439-92-1","T",0.69,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Magnesium",2018-09-12 14:00:00,"7439-95-4","T",4160,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Nickel",2018-09-12 14:00:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Nitrate+Nitrite as Nitrogen",2018-09-12 14:00:00,"NO3NO2N","T",0.718,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Nitrogen",2018-09-12 14:00:00,"KN","T",1.2,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Nitrogen, ammonia (As N)",2018-09-12 14:00:00,"7664-41-7","T",0.174,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","NITROGEN, KJELDAHL, TOTAL",2018-09-12 14:00:00,"KN","T",0.48,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","NITROGEN, NITRATE (AS N)",2018-09-12 14:00:00,"14797-55-8","T",0.718,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","NITROGEN, NITRITE",2018-09-12 14:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","PHOSPHORUS, TOTAL (AS P)",2018-09-12 14:00:00,"7723-14-0","T",0.0227,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Silver",2018-09-12 14:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","TURBIDITY",2018-09-12 14:00:00,"TURB","T",5.62,"ntu",0.06,"ntu",1,"","T","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SANT-1.7","N","17-SANT-1.7-09122018-WS","R1808840","Zinc",2018-09-12 14:00:00,"7440-66-6","T",10.6,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 13:00:00,"ALK","T",20.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Aluminum",2018-09-12 13:00:00,"7429-90-5","T",85.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Arsenic",2018-09-12 13:00:00,"7440-38-2","T",0.53,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Cadmium",2018-09-12 13:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Calcium",2018-09-12 13:00:00,"7440-70-2","T",9360,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","CHLORIDE (AS CL)",2018-09-12 13:00:00,"16887-00-6","T",51.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Copper",2018-09-12 13:00:00,"7440-50-8","T",1.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","HARDNESS (AS CACO3)",2018-09-12 13:00:00,"HARD","T",33.9,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Iron",2018-09-12 13:00:00,"7439-89-6","T",461,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Lead",2018-09-12 13:00:00,"7439-92-1","T",0.35,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Magnesium",2018-09-12 13:00:00,"7439-95-4","T",2550,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Nickel",2018-09-12 13:00:00,"7440-02-0","T",0.78,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Nitrate+Nitrite as Nitrogen",2018-09-12 13:00:00,"NO3NO2N","T",0.0621,"mg/l",7e-04,"mg/l",0.002,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Nitrogen",2018-09-12 13:00:00,"KN","T",0.6,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Nitrogen, ammonia (As N)",2018-09-12 13:00:00,"7664-41-7","T",0.0193,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","NITROGEN, KJELDAHL, TOTAL",2018-09-12 13:00:00,"KN","T",0.53,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","NITROGEN, NITRATE (AS N)",2018-09-12 13:00:00,"14797-55-8","T",0.062,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","NITROGEN, NITRITE",2018-09-12 13:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","PHOSPHORUS, TOTAL (AS P)",2018-09-12 13:00:00,"7723-14-0","T",0.032,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Silver",2018-09-12 13:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","TURBIDITY",2018-09-12 13:00:00,"TURB","T",2.78,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SISO_T2-0.2","N","17-SISO_T2-0.2-09122018-WS","R1808737","Zinc",2018-09-12 13:00:00,"7440-66-6","T",3.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 00:00:00,"ALK","T",16,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Aluminum",2018-09-12 00:00:00,"7429-90-5","T",968,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Arsenic",2018-09-12 00:00:00,"7440-38-2","T",4.1,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Cadmium",2018-09-12 00:00:00,"7440-43-9","T",0.26,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Calcium",2018-09-12 00:00:00,"7440-70-2","T",8580,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","CHLORIDE (AS CL)",2018-09-12 00:00:00,"16887-00-6","T",25,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Copper",2018-09-12 00:00:00,"7440-50-8","T",14.9,"ug/l",0.66,"ug/l",1,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","HARDNESS (AS CACO3)",2018-09-12 00:00:00,"HARD","T",30.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Iron",2018-09-12 00:00:00,"7439-89-6","T",2040,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Lead",2018-09-12 00:00:00,"7439-92-1","T",41.8,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Magnesium",2018-09-12 00:00:00,"7439-95-4","T",2200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Nickel",2018-09-12 00:00:00,"7440-02-0","T",2.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Nitrate+Nitrite as Nitrogen",2018-09-12 00:00:00,"NO3NO2N","T",0.0378,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Nitrogen",2018-09-12 00:00:00,"KN","T",5.08,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Nitrogen, ammonia (As N)",2018-09-12 00:00:00,"7664-41-7","T",0.0994,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","NITROGEN, KJELDAHL, TOTAL",2018-09-12 00:00:00,"KN","T",5.04,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","NITROGEN, NITRATE (AS N)",2018-09-12 00:00:00,"14797-55-8","T",0.038,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","NITROGEN, NITRITE",2018-09-12 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","PHOSPHORUS, TOTAL (AS P)",2018-09-12 00:00:00,"7723-14-0","T",0.53,"mg/l",0.04,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Silver",2018-09-12 00:00:00,"7440-22-4","T",0.057,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","TURBIDITY",2018-09-12 00:00:00,"TURB","T",90.3,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-SWML-1.4","N","17-SWML-1.4-09122018-WS","R1808841","Zinc",2018-09-12 00:00:00,"7440-66-6","T",114,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 08:45:00,"ALK","T",11.6,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Aluminum",2018-09-12 08:45:00,"7429-90-5","T",68.3,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Arsenic",2018-09-12 08:45:00,"7440-38-2","T",0.46,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Cadmium",2018-09-12 08:45:00,"7440-43-9","T",0.55,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Calcium",2018-09-12 08:45:00,"7440-70-2","T",11900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","CHLORIDE (AS CL)",2018-09-12 08:45:00,"16887-00-6","T",88.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Copper",2018-09-12 08:45:00,"7440-50-8","T",1.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-12 08:45:00,"HARD","T",42.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Iron",2018-09-12 08:45:00,"7439-89-6","T",761,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Lead",2018-09-12 08:45:00,"7439-92-1","T",1.9,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Magnesium",2018-09-12 08:45:00,"7439-95-4","T",3120,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Nickel",2018-09-12 08:45:00,"7440-02-0","T",0.7,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-12 08:45:00,"NO3NO2N","T",3.16,"mg/l",0.004,"mg/l",0.01,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Nitrogen",2018-09-12 08:45:00,"KN","T",3.43,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-12 08:45:00,"7664-41-7","T",0.0218,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-12 08:45:00,"KN","T",0.27,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-12 08:45:00,"14797-55-8","T",3.16,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","NITROGEN, NITRITE",2018-09-12 08:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-12 08:45:00,"7723-14-0","T",0.0142,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Silver",2018-09-12 08:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","TURBIDITY",2018-09-12 08:45:00,"TURB","T",3.23,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-TUTL-2.1","N","17-TUTL-2.1-09122018-WS","R1808736","Zinc",2018-09-12 08:45:00,"7440-66-6","T",2.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","ALKALINITY, TOTAL (AS CaCO3)",2018-09-12 13:15:00,"ALK","T",39.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Aluminum",2018-09-12 13:15:00,"7429-90-5","T",57.4,"ug/l",2.3,"ug/l",10,"N","R","lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Arsenic",2018-09-12 13:15:00,"7440-38-2","T",0.72,"ug/l",0.39,"ug/l",1,"J","R","estimated value due to lab error ; Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Cadmium",2018-09-12 13:15:00,"7440-43-9","T",0.52,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Calcium",2018-09-12 13:15:00,"7440-70-2","T",22500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","CHLORIDE (AS CL)",2018-09-12 13:15:00,"16887-00-6","T",133,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Copper",2018-09-12 13:15:00,"7440-50-8","T",5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","HARDNESS (AS CACO3)",2018-09-12 13:15:00,"HARD","T",78,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Iron",2018-09-12 13:15:00,"7439-89-6","T",406,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Lead",2018-09-12 13:15:00,"7439-92-1","T",3,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Magnesium",2018-09-12 13:15:00,"7439-95-4","T",5330,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Nickel",2018-09-12 13:15:00,"7440-02-0","T",1.8,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Nitrate+Nitrite as Nitrogen",2018-09-12 13:15:00,"NO3NO2N","T",2.28,"mg/l",0.0013,"mg/l",0.004,"","R","Precision error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Nitrogen",2018-09-12 13:15:00,"KN","T",2.56,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Nitrogen, ammonia (As N)",2018-09-12 13:15:00,"7664-41-7","T",0.0593,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","NITROGEN, KJELDAHL, TOTAL",2018-09-12 13:15:00,"KN","T",0.29,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","NITROGEN, NITRATE (AS N)",2018-09-12 13:15:00,"14797-55-8","T",2.28,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","NITROGEN, NITRITE",2018-09-12 13:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","PHOSPHORUS, TOTAL (AS P)",2018-09-12 13:15:00,"7723-14-0","T",0.0404,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Silver",2018-09-12 13:15:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","TURBIDITY",2018-09-12 13:15:00,"TURB","T",2.32,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Screening_-_Long_Island","17-VALL-2.2","N","17-VALL-2.2-09122018-WS","R1808736","Zinc",2018-09-12 13:15:00,"7440-66-6","T",24.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12

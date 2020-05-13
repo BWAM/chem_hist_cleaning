@@ -1,0 +1,265 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 12:30:00,"ALK","T",120,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Aluminum",2018-08-22 12:30:00,"7429-90-5","T",129,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Arsenic",2018-08-22 12:30:00,"7440-38-2","T",3.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Cadmium",2018-08-22 12:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Calcium",2018-08-22 12:30:00,"7440-70-2","T",36800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 12:30:00,"16887-00-6","T",39.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Copper",2018-08-22 12:30:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 12:30:00,"HARD","T",136,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Iron",2018-08-22 12:30:00,"7439-89-6","T",479,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Lead",2018-08-22 12:30:00,"7439-92-1","T",0.42,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Magnesium",2018-08-22 12:30:00,"7439-95-4","T",10700,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Nickel",2018-08-22 12:30:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 12:30:00,"NO3NO2N","T",0.0286,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Nitrogen",2018-08-22 12:30:00,"KN","T",0.22,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 12:30:00,"7664-41-7","T",0.215,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 12:30:00,"KN","T",0.19,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 12:30:00,"14797-55-8","T",0.015,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 12:30:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 12:30:00,"7723-14-0","T",0.0518,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Silver",2018-08-22 12:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","TURBIDITY",2018-08-22 12:30:00,"TURB","T",6.65,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.1","N","04-MILH-0.1-08222018-W","R1808042","Zinc",2018-08-22 12:30:00,"7440-66-6","T",6.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 11:45:00,"ALK","T",180,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Aluminum",2018-08-22 11:45:00,"7429-90-5","T",40.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Arsenic",2018-08-22 11:45:00,"7440-38-2","T",0.47,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Cadmium",2018-08-22 11:45:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Calcium",2018-08-22 11:45:00,"7440-70-2","T",56600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 11:45:00,"16887-00-6","T",55.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Copper",2018-08-22 11:45:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 11:45:00,"HARD","T",211,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Iron",2018-08-22 11:45:00,"7439-89-6","T",80.4,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Lead",2018-08-22 11:45:00,"7439-92-1","T",0.16,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Magnesium",2018-08-22 11:45:00,"7439-95-4","T",16800,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Nickel",2018-08-22 11:45:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 11:45:00,"NO3NO2N","T",0.0574,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Nitrogen",2018-08-22 11:45:00,"KN","T",0.46,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 11:45:00,"7664-41-7","T",0.0505,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 11:45:00,"KN","T",0.4,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 11:45:00,"14797-55-8","T",0.057,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 11:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 11:45:00,"7723-14-0","T",0.0088,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Silver",2018-08-22 11:45:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","TURBIDITY",2018-08-22 11:45:00,"TURB","T",0.72,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-MILH-0.9","N","04-MILH-0.9-08222018-W","R1808042","Zinc",2018-08-22 11:45:00,"7440-66-6","T",4.2,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 17:30:00,"ALK","T",199,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Aluminum",2018-08-22 17:30:00,"7429-90-5","T",43.3,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Arsenic",2018-08-22 17:30:00,"7440-38-2","T",0.7,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Cadmium",2018-08-22 17:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Calcium",2018-08-22 17:30:00,"7440-70-2","T",139000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 17:30:00,"16887-00-6","T",50.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Copper",2018-08-22 17:30:00,"7440-50-8","T",2.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 17:30:00,"HARD","T",436,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Iron",2018-08-22 17:30:00,"7439-89-6","T",102,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Lead",2018-08-22 17:30:00,"7439-92-1","T",0.3,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Magnesium",2018-08-22 17:30:00,"7439-95-4","T",21500,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Nickel",2018-08-22 17:30:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 17:30:00,"NO3NO2N","T",1.47,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Nitrogen",2018-08-22 17:30:00,"KN","T",1.96,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 17:30:00,"7664-41-7","T",0.0119,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 17:30:00,"KN","T",0.49,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 17:30:00,"14797-55-8","T",1.47,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 17:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 17:30:00,"7723-14-0","T",0.0343,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Silver",2018-08-22 17:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","TURBIDITY",2018-08-22 17:30:00,"TURB","T",1.39,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-4.2","N","04-OATK-4.2-08222018-W","R1808042","Zinc",2018-08-22 17:30:00,"7440-66-6","T",4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 16:30:00,"ALK","T",196,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Aluminum",2018-08-22 16:30:00,"7429-90-5","T",62.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Arsenic",2018-08-22 16:30:00,"7440-38-2","T",0.79,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Cadmium",2018-08-22 16:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Calcium",2018-08-22 16:30:00,"7440-70-2","T",131000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 16:30:00,"16887-00-6","T",49.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Copper",2018-08-22 16:30:00,"7440-50-8","T",2.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 16:30:00,"HARD","T",412,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Iron",2018-08-22 16:30:00,"7439-89-6","T",138,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Lead",2018-08-22 16:30:00,"7439-92-1","T",0.35,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Magnesium",2018-08-22 16:30:00,"7439-95-4","T",20600,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Nickel",2018-08-22 16:30:00,"7440-02-0","T",2.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 16:30:00,"NO3NO2N","T",1.36,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Nitrogen",2018-08-22 16:30:00,"KN","T",1.92,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 16:30:00,"7664-41-7","T",NA,"mg/l",0.08,"mg/l",0.5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 16:30:00,"KN","T",0.57,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 16:30:00,"14797-55-8","T",1.36,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 16:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 16:30:00,"7723-14-0","T",0.0405,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Silver",2018-08-22 16:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","TURBIDITY",2018-08-22 16:30:00,"TURB","T",2.33,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK-5.8","N","04-OATK-5.8-08222018-W","R1808042","Zinc",2018-08-22 16:30:00,"7440-66-6","T",3.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 14:30:00,"ALK","T",230,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Aluminum",2018-08-22 14:30:00,"7429-90-5","T",165,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Arsenic",2018-08-22 14:30:00,"7440-38-2","T",1.1,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Cadmium",2018-08-22 14:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Calcium",2018-08-22 14:30:00,"7440-70-2","T",77900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 14:30:00,"16887-00-6","T",40.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Copper",2018-08-22 14:30:00,"7440-50-8","T",4.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 14:30:00,"HARD","T",268,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Iron",2018-08-22 14:30:00,"7439-89-6","T",322,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Lead",2018-08-22 14:30:00,"7439-92-1","T",0.37,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Magnesium",2018-08-22 14:30:00,"7439-95-4","T",17900,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Nickel",2018-08-22 14:30:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 14:30:00,"NO3NO2N","T",1.22,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Nitrogen",2018-08-22 14:30:00,"KN","T",1.96,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 14:30:00,"7664-41-7","T",0.0519,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 14:30:00,"KN","T",0.74,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 14:30:00,"14797-55-8","T",1.22,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 14:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 14:30:00,"7723-14-0","T",0.104,"mg/l",0.01,"mg/l",0.025,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Silver",2018-08-22 14:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","TURBIDITY",2018-08-22 14:30:00,"TURB","T",5.71,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.2","N","04-OATK_T17-0.2-08222018-W","R1808042","Zinc",2018-08-22 14:30:00,"7440-66-6","T",12.9,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-22 15:30:00,"ALK","T",224,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Aluminum",2018-08-22 15:30:00,"7429-90-5","T",1300,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Arsenic",2018-08-22 15:30:00,"7440-38-2","T",1.1,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Cadmium",2018-08-22 15:30:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Calcium",2018-08-22 15:30:00,"7440-70-2","T",74500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","CHLORIDE (AS CL)",2018-08-22 15:30:00,"16887-00-6","T",39.6,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Copper",2018-08-22 15:30:00,"7440-50-8","T",4.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","HARDNESS (AS CACO3)",2018-08-22 15:30:00,"HARD","T",261,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Iron",2018-08-22 15:30:00,"7439-89-6","T",1470,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Lead",2018-08-22 15:30:00,"7439-92-1","T",1.7,"ug/l",0.067,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Magnesium",2018-08-22 15:30:00,"7439-95-4","T",18200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Nickel",2018-08-22 15:30:00,"7440-02-0","T",3.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-22 15:30:00,"NO3NO2N","T",0.772,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Nitrogen",2018-08-22 15:30:00,"KN","T",1.55,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-22 15:30:00,"7664-41-7","T",0.0148,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-22 15:30:00,"KN","T",0.78,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-22 15:30:00,"14797-55-8","T",0.772,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","NITROGEN, NITRITE",2018-08-22 15:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-22 15:30:00,"7723-14-0","T",0.129,"mg/l",0.01,"mg/l",0.025,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Silver",2018-08-22 15:30:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","TURBIDITY",2018-08-22 15:30:00,"TURB","T",20.4,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-OATK_T17-0.4","N","04-OATK_T17-0.4-08222018-W","R1808042","Zinc",2018-08-22 15:30:00,"7440-66-6","T",7.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 09:00:00,"ALK","T",140,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Aluminum",2018-08-23 09:00:00,"7429-90-5","T",266,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Arsenic",2018-08-23 09:00:00,"7440-38-2","T",1,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Cadmium",2018-08-23 09:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Calcium",2018-08-23 09:00:00,"7440-70-2","T",50300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 09:00:00,"16887-00-6","T",21.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Copper",2018-08-23 09:00:00,"7440-50-8","T",2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 09:00:00,"HARD","T",169,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Iron",2018-08-23 09:00:00,"7439-89-6","T",641,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Lead",2018-08-23 09:00:00,"7439-92-1","T",0.61,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Magnesium",2018-08-23 09:00:00,"7439-95-4","T",10500,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Nickel",2018-08-23 09:00:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 09:00:00,"NO3NO2N","T",1.85,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Nitrogen",2018-08-23 09:00:00,"KN","T",2.51,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 09:00:00,"7664-41-7","T",0.0149,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 09:00:00,"KN","T",0.67,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 09:00:00,"14797-55-8","T",1.85,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 09:00:00,"7723-14-0","T",0.0421,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Silver",2018-08-23 09:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","TURBIDITY",2018-08-23 09:00:00,"TURB","T",6.27,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.2","N","04-WCOTN-0.2-08232018-W","R1808042","Zinc",2018-08-23 09:00:00,"7440-66-6","T",3.4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 10:00:00,"ALK","T",140,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Aluminum",2018-08-23 10:00:00,"7429-90-5","T",161,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Arsenic",2018-08-23 10:00:00,"7440-38-2","T",0.85,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Cadmium",2018-08-23 10:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Calcium",2018-08-23 10:00:00,"7440-70-2","T",49600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 10:00:00,"16887-00-6","T",18.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Copper",2018-08-23 10:00:00,"7440-50-8","T",1.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 10:00:00,"HARD","T",167,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Iron",2018-08-23 10:00:00,"7439-89-6","T",399,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Lead",2018-08-23 10:00:00,"7439-92-1","T",0.41,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Magnesium",2018-08-23 10:00:00,"7439-95-4","T",10500,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Nickel",2018-08-23 10:00:00,"7440-02-0","T",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 10:00:00,"NO3NO2N","T",1.88,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Nitrogen",2018-08-23 10:00:00,"KN","T",2.6,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 10:00:00,"7664-41-7","T",0.0101,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 10:00:00,"KN","T",0.72,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 10:00:00,"14797-55-8","T",1.88,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 10:00:00,"7723-14-0","T",0.0334,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Silver",2018-08-23 10:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","TURBIDITY",2018-08-23 10:00:00,"TURB","T",4.23,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","04-WCOTN-0.5","N","04-WCOTN-0.5-08232018-W","R1808042","Zinc",2018-08-23 10:00:00,"7440-66-6","T",2.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 13:00:00,"ALK","T",87.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Aluminum",2018-08-23 13:00:00,"7429-90-5","T",392,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Arsenic",2018-08-23 13:00:00,"7440-38-2","T",1.3,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Cadmium",2018-08-23 13:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Calcium",2018-08-23 13:00:00,"7440-70-2","T",31200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 13:00:00,"16887-00-6","T",126,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Copper",2018-08-23 13:00:00,"7440-50-8","T",4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 13:00:00,"HARD","T",105,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Iron",2018-08-23 13:00:00,"7439-89-6","T",778,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Lead",2018-08-23 13:00:00,"7439-92-1","T",0.67,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Magnesium",2018-08-23 13:00:00,"7439-95-4","T",6640,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Nickel",2018-08-23 13:00:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 13:00:00,"NO3NO2N","T",1.03,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Nitrogen",2018-08-23 13:00:00,"KN","T",1.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 13:00:00,"7664-41-7","T",0.0208,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 13:00:00,"KN","T",0.69,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 13:00:00,"14797-55-8","T",1.03,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 13:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 13:00:00,"7723-14-0","T",0.0541,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Silver",2018-08-23 13:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","TURBIDITY",2018-08-23 13:00:00,"TURB","T",9.22,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-11.1","N","05-COHO-11.1-08232018-W","R1808042","Zinc",2018-08-23 13:00:00,"7440-66-6","T",3.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 12:40:00,"ALK","T",84.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Aluminum",2018-08-23 12:40:00,"7429-90-5","T",380,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Arsenic",2018-08-23 12:40:00,"7440-38-2","T",1.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Cadmium",2018-08-23 12:40:00,"7440-43-9","T",0.067,"ug/l",0.064,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Calcium",2018-08-23 12:40:00,"7440-70-2","T",29600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 12:40:00,"16887-00-6","T",29.9,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Copper",2018-08-23 12:40:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 12:40:00,"HARD","T",101,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Iron",2018-08-23 12:40:00,"7439-89-6","T",704,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Lead",2018-08-23 12:40:00,"7439-92-1","T",0.61,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Magnesium",2018-08-23 12:40:00,"7439-95-4","T",6570,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Nickel",2018-08-23 12:40:00,"7440-02-0","T",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 12:40:00,"NO3NO2N","T",1.2,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Nitrogen",2018-08-23 12:40:00,"KN","T",1.96,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 12:40:00,"7664-41-7","T",0.0181,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 12:40:00,"KN","T",0.76,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 12:40:00,"14797-55-8","T",1.2,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 12:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 12:40:00,"7723-14-0","T",0.0522,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Silver",2018-08-23 12:40:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","TURBIDITY",2018-08-23 12:40:00,"TURB","T",7.33,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-17.3","N","05-COHO-17.3-08232018-W","R1808042","Zinc",2018-08-23 12:40:00,"7440-66-6","T",3.3,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 12:00:00,"ALK","T",79.2,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Aluminum",2018-08-23 12:00:00,"7429-90-5","T",375,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Arsenic",2018-08-23 12:00:00,"7440-38-2","T",1.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Cadmium",2018-08-23 12:00:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Calcium",2018-08-23 12:00:00,"7440-70-2","T",28100,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 12:00:00,"16887-00-6","T",25.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Copper",2018-08-23 12:00:00,"7440-50-8","T",2.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 12:00:00,"HARD","T",96.5,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Iron",2018-08-23 12:00:00,"7439-89-6","T",736,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Lead",2018-08-23 12:00:00,"7439-92-1","T",0.61,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Magnesium",2018-08-23 12:00:00,"7439-95-4","T",6410,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Nickel",2018-08-23 12:00:00,"7440-02-0","T",9,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 12:00:00,"NO3NO2N","T",1.26,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Nitrogen",2018-08-23 12:00:00,"KN","T",1.9,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 12:00:00,"7664-41-7","T",0.0139,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 12:00:00,"KN","T",0.64,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 12:00:00,"14797-55-8","T",1.26,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 12:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 12:00:00,"7723-14-0","T",0.0655,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Silver",2018-08-23 12:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","TURBIDITY",2018-08-23 12:00:00,"TURB","T",7.54,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-23.6","N","05-COHO-23.6-08232018-W","R1808042","Zinc",2018-08-23 12:00:00,"7440-66-6","T",3.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","ALKALINITY, TOTAL (AS CaCO3)",2018-08-23 13:33:00,"ALK","T",86.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Aluminum",2018-08-23 13:33:00,"7429-90-5","T",414,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Arsenic",2018-08-23 13:33:00,"7440-38-2","T",1.3,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Cadmium",2018-08-23 13:33:00,"7440-43-9","T",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Calcium",2018-08-23 13:33:00,"7440-70-2","T",31200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","CHLORIDE (AS CL)",2018-08-23 13:33:00,"16887-00-6","T",127,"mg/l",0.5,"mg/l",8,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Copper",2018-08-23 13:33:00,"7440-50-8","T",4.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","HARDNESS (AS CACO3)",2018-08-23 13:33:00,"HARD","T",105,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Iron",2018-08-23 13:33:00,"7439-89-6","T",733,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Lead",2018-08-23 13:33:00,"7439-92-1","T",0.66,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Magnesium",2018-08-23 13:33:00,"7439-95-4","T",6550,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Nickel",2018-08-23 13:33:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Nitrate+Nitrite as Nitrogen",2018-08-23 13:33:00,"NO3NO2N","T",1.4,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Nitrogen",2018-08-23 13:33:00,"KN","T",2.06,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Nitrogen, ammonia (As N)",2018-08-23 13:33:00,"7664-41-7","T",0.033,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","NITROGEN, KJELDAHL, TOTAL",2018-08-23 13:33:00,"KN","T",0.66,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","NITROGEN, NITRATE (AS N)",2018-08-23 13:33:00,"14797-55-8","T",1.4,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","NITROGEN, NITRITE",2018-08-23 13:33:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","PHOSPHORUS, TOTAL (AS P)",2018-08-23 13:33:00,"7723-14-0","T",0.0513,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Silver",2018-08-23 13:33:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","TURBIDITY",2018-08-23 13:33:00,"TURB","T",9.23,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"Trees_4_Tribs_Cohocton","05-COHO-7.4","N","05-COHO-7.4-08232018-W","R1808042","Zinc",2018-08-23 13:33:00,"7440-66-6","T",3.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12

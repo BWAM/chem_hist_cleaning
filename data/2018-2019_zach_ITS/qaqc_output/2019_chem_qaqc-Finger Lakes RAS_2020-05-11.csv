@@ -1,0 +1,1026 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","ALKALINITY, TOTAL (AS CaCO3)",2019-06-20 08:15:00,"ALK","T",103,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Aluminum",2019-06-20 08:15:00,"7429-90-5","T",20900,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Arsenic",2019-06-20 08:15:00,"7440-38-2","T",6.3,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Cadmium",2019-06-20 08:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Calcium",2019-06-20 08:15:00,"7440-70-2","T",73600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","CHLORIDE (AS CL)",2019-06-20 08:15:00,"16887-00-6","T",10.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Copper",2019-06-20 08:15:00,"7440-50-8","T",31.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","HARDNESS (AS CACO3)",2019-06-20 08:15:00,"HARD","T",297,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Iron",2019-06-20 08:15:00,"7439-89-6","T",43200,"ug/l",13,"ug/l",100,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Lead",2019-06-20 08:15:00,"7439-92-1","T",21.4,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Magnesium",2019-06-20 08:15:00,"7439-95-4","T",27600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Nickel",2019-06-20 08:15:00,"7440-02-0","T",45.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Nitrate+Nitrite as Nitrogen",2019-06-20 08:15:00,"NO3NO2N","T",0.205,"mg/l",0.0015,"mg/l",0.002,"","T","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Nitrogen",2019-06-20 08:15:00,"KN","T",1.91,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Nitrogen, ammonia (As N)",2019-06-20 08:15:00,"7664-41-7","T",0.0139,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","NITROGEN, KJELDAHL, TOTAL",2019-06-20 08:15:00,"KN","T",1.7,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","NITROGEN, NITRATE (AS N)",2019-06-20 08:15:00,"14797-55-8","T",0.205,"mg/l",NA,"mg/l",0.01,"","T","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","NITROGEN, NITRITE",2019-06-20 08:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Orthophosphate as Phosphorus, Dissolved",2019-06-20 08:15:00,"PDORTHO","D",0.0103,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","PHOSPHORUS, TOTAL (AS P)",2019-06-20 08:15:00,"7723-14-0","T",0.56,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Silver",2019-06-20 08:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","TOTAL ORGANIC CARBON",2019-06-20 08:15:00,"TOC","T",3.8,"mg/l",0.5,"mg/l",1,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Total Suspended Solids",2019-06-20 08:15:00,"TSS","T",1370,"mg/l",NA,"mg/l",22,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","TURBIDITY",2019-06-20 08:15:00,"TURB","T",696,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-06202019-W","R1905830","Zinc",2019-06-20 08:15:00,"7440-66-6","T",102,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 09:00:00,"ALK","T",124,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Aluminum",2019-07-15 09:00:00,"7429-90-5","T",142,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Arsenic",2019-07-15 09:00:00,"7440-38-2","T",0.52,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Cadmium",2019-07-15 09:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Calcium",2019-07-15 09:00:00,"7440-70-2","T",48200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 09:00:00,"16887-00-6","T",10.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Copper",2019-07-15 09:00:00,"7440-50-8","T",2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 09:00:00,"HARD","T",170,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Iron",2019-07-15 09:00:00,"7439-89-6","T",267,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Lead",2019-07-15 09:00:00,"7439-92-1","T",0.83,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Magnesium",2019-07-15 09:00:00,"7439-95-4","T",12000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Nickel",2019-07-15 09:00:00,"7440-02-0","T",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 09:00:00,"NO3NO2N","T",0.514,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Nitrogen",2019-07-15 09:00:00,"KN","T",0.7,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 09:00:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 09:00:00,"KN","T",0.19,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 09:00:00,"14797-55-8","T",0.514,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 09:00:00,"PDORTHO","D",0.0124,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 09:00:00,"7723-14-0","T",0.0168,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Silver",2019-07-15 09:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 09:00:00,"TOC","T",2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Total Suspended Solids",2019-07-15 09:00:00,"TSS","T",12.5,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","TURBIDITY",2019-07-15 09:00:00,"TURB","T",4.21,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-07152019-W","R1906621","Zinc",2019-07-15 09:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 09:00:00,"ALK","T",136,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Aluminum",2019-08-12 09:00:00,"7429-90-5","T",66.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Arsenic",2019-08-12 09:00:00,"7440-38-2","T",0.57,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Cadmium",2019-08-12 09:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Calcium",2019-08-12 09:00:00,"7440-70-2","T",54700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 09:00:00,"16887-00-6","T",15,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Copper",2019-08-12 09:00:00,"7440-50-8","T",3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 09:00:00,"HARD","T",194,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Iron",2019-08-12 09:00:00,"7439-89-6","T",142,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Lead",2019-08-12 09:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Magnesium",2019-08-12 09:00:00,"7439-95-4","T",14000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Nickel",2019-08-12 09:00:00,"7440-02-0","T",0.92,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 09:00:00,"NO3NO2N","T",0.689,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Nitrogen",2019-08-12 09:00:00,"KN","T",0.87,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 09:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 09:00:00,"KN","T",0.18,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 09:00:00,"14797-55-8","T",0.689,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 09:00:00,"PDORTHO","D",0.0068,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 09:00:00,"7723-14-0","T",0.0112,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Silver",2019-08-12 09:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 09:00:00,"TOC","T",2.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Total Suspended Solids",2019-08-12 09:00:00,"TSS","T",6.2,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","TURBIDITY",2019-08-12 09:00:00,"TURB","T",4.54,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-08122019-W","R1907624","Zinc",2019-08-12 09:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","ALKALINITY, TOTAL (AS CaCO3)",2019-09-10 09:00:00,"ALK","T",150,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Aluminum",2019-09-10 09:00:00,"7429-90-5","T",24.7,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Arsenic",2019-09-10 09:00:00,"7440-38-2","T",0.44,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Cadmium",2019-09-10 09:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Calcium",2019-09-10 09:00:00,"7440-70-2","T",49000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","CHLORIDE (AS CL)",2019-09-10 09:00:00,"16887-00-6","T",17.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Copper",2019-09-10 09:00:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","HARDNESS (AS CACO3)",2019-09-10 09:00:00,"HARD","T",174,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Iron",2019-09-10 09:00:00,"7439-89-6","T",32.7,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Lead",2019-09-10 09:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Magnesium",2019-09-10 09:00:00,"7439-95-4","T",12600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Nickel",2019-09-10 09:00:00,"7440-02-0","T",0.92,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Nitrate+Nitrite as Nitrogen",2019-09-10 09:00:00,"NO3NO2N","T",0.52,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Nitrogen",2019-09-10 09:00:00,"7727-37-9","T",0.7,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Nitrogen, ammonia (As N)",2019-09-10 09:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","NITROGEN, KJELDAHL, TOTAL",2019-09-10 09:00:00,"KN","T",0.18,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","NITROGEN, NITRATE (AS N)",2019-09-10 09:00:00,"14797-55-8","T",0.52,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","NITROGEN, NITRITE",2019-09-10 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Orthophosphate as Phosphorus, Dissolved",2019-09-10 09:00:00,"PDORTHO","D",0.0076,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","PHOSPHORUS, TOTAL (AS P)",2019-09-10 09:00:00,"7723-14-0","T",0.0087,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Silver",2019-09-10 09:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","TOTAL ORGANIC CARBON",2019-09-10 09:00:00,"TOC","T",2.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Total Suspended Solids",2019-09-10 09:00:00,"TSS","T",NA,"mg/l",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","TURBIDITY",2019-09-10 09:00:00,"TURB","T",1,"ntu",0.06,"ntu",1,"","R","Equipment Blank error ; Holding Time error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-09102019-W","R1908910","Zinc",2019-09-10 09:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",112,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",55.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",0.59,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",37700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",14.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",1.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",136,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",67.3,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",10100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",0.97,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.957,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",1.52,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.57,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.957,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0074,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0083,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",3.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",1.2,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",2.91,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-EGGL-0.2","N","07-EGGL-0.2-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 11:15:00,"ALK","T",200,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Aluminum",2019-06-25 11:15:00,"7429-90-5","T",1800,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Arsenic",2019-06-25 11:15:00,"7440-38-2","T",0.98,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Cadmium",2019-06-25 11:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Calcium",2019-06-25 11:15:00,"7440-70-2","T",77200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","CHLORIDE (AS CL)",2019-06-25 11:15:00,"16887-00-6","T",57.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Copper",2019-06-25 11:15:00,"7440-50-8","T",4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","HARDNESS (AS CACO3)",2019-06-25 11:15:00,"HARD","T",249,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Iron",2019-06-25 11:15:00,"7439-89-6","T",2860,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Lead",2019-06-25 11:15:00,"7439-92-1","T",1.9,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Magnesium",2019-06-25 11:15:00,"7439-95-4","T",13600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Nickel",2019-06-25 11:15:00,"7440-02-0","T",5.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Nitrate+Nitrite as Nitrogen",2019-06-25 11:15:00,"NO3NO2N","T",0.69,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Nitrogen",2019-06-25 11:15:00,"KN","T",1.65,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Nitrogen, ammonia (As N)",2019-06-25 11:15:00,"7664-41-7","T",0.0113,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","NITROGEN, KJELDAHL, TOTAL",2019-06-25 11:15:00,"KN","T",0.96,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","NITROGEN, NITRATE (AS N)",2019-06-25 11:15:00,"14797-55-8","T",0.69,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","NITROGEN, NITRITE",2019-06-25 11:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Orthophosphate as Phosphorus, Dissolved",2019-06-25 11:15:00,"PDORTHO","D",0.03,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","PHOSPHORUS, TOTAL (AS P)",2019-06-25 11:15:00,"7723-14-0","T",0.129,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Silver",2019-06-25 11:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","TOTAL ORGANIC CARBON",2019-06-25 11:15:00,"TOC","T",7.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Total Suspended Solids",2019-06-25 11:15:00,"TSS","T",83.2,"mg/l",NA,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","TURBIDITY",2019-06-25 11:15:00,"TURB","T",93.3,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-06252019-W","R1905959","Zinc",2019-06-25 11:15:00,"7440-66-6","T",12.8,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 13:15:00,"ALK","T",250,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Aluminum",2019-07-15 13:15:00,"7429-90-5","T",221,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Arsenic",2019-07-15 13:15:00,"7440-38-2","T",0.57,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Cadmium",2019-07-15 13:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Calcium",2019-07-15 13:15:00,"7440-70-2","T",102000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 13:15:00,"16887-00-6","T",129,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Copper",2019-07-15 13:15:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 13:15:00,"HARD","T",337,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Iron",2019-07-15 13:15:00,"7439-89-6","T",327,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Lead",2019-07-15 13:15:00,"7439-92-1","T",0.87,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Magnesium",2019-07-15 13:15:00,"7439-95-4","T",19900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Nickel",2019-07-15 13:15:00,"7440-02-0","T",2.8,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 13:15:00,"NO3NO2N","T",0.395,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Nitrogen",2019-07-15 13:15:00,"KN","T",0.78,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 13:15:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 13:15:00,"KN","T",0.39,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 13:15:00,"14797-55-8","T",0.395,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 13:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 13:15:00,"PDORTHO","D",0.0196,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 13:15:00,"7723-14-0","T",0.0353,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Silver",2019-07-15 13:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 13:15:00,"TOC","T",4.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Total Suspended Solids",2019-07-15 13:15:00,"TSS","T",11.7,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","TURBIDITY",2019-07-15 13:15:00,"TURB","T",10.9,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-07152019-W","R1906621","Zinc",2019-07-15 13:15:00,"7440-66-6","T",10,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 14:30:00,"ALK","T",245,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Aluminum",2019-08-12 14:30:00,"7429-90-5","T",610,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Arsenic",2019-08-12 14:30:00,"7440-38-2","T",1.2,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Cadmium",2019-08-12 14:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Calcium",2019-08-12 14:30:00,"7440-70-2","T",105000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 14:30:00,"16887-00-6","T",149,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Copper",2019-08-12 14:30:00,"7440-50-8","T",2.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 14:30:00,"HARD","T",346,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Iron",2019-08-12 14:30:00,"7439-89-6","T",1210,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Lead",2019-08-12 14:30:00,"7439-92-1","T",0.82,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Magnesium",2019-08-12 14:30:00,"7439-95-4","T",20300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Nickel",2019-08-12 14:30:00,"7440-02-0","T",3.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 14:30:00,"NO3NO2N","T",0.181,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Nitrogen",2019-08-12 14:30:00,"KN","T",0.68,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 14:30:00,"7664-41-7","T",0.043,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 14:30:00,"KN","T",0.5,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 14:30:00,"14797-55-8","T",0.181,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 14:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 14:30:00,"7723-14-0","T",0.0655,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Silver",2019-08-12 14:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 14:30:00,"TOC","T",4.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Total Suspended Solids",2019-08-12 14:30:00,"TSS","T",38.6,"mg/l",NA,"mg/l",2.9,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","TURBIDITY",2019-08-12 14:30:00,"TURB","T",36,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019-W","R1907624","Zinc",2019-08-12 14:30:00,"7440-66-6","T",5.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-08122019","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 14:30:00,"PDORTHO","D",0.0114,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","ALKALINITY, TOTAL (AS CaCO3)",2019-09-17 14:00:00,"ALK","T",251,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Aluminum",2019-09-17 14:00:00,"7429-90-5","T",95.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Arsenic",2019-09-17 14:00:00,"7440-38-2","T",0.55,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Cadmium",2019-09-17 14:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Calcium",2019-09-17 14:00:00,"7440-70-2","T",107000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","CHLORIDE (AS CL)",2019-09-17 14:00:00,"16887-00-6","T",196,"mg/l",1.7,"mg/l",8,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Copper",2019-09-17 14:00:00,"7440-50-8","T",4.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","HARDNESS (AS CACO3)",2019-09-17 14:00:00,"HARD","T",355,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Iron",2019-09-17 14:00:00,"7439-89-6","T",216,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Lead",2019-09-17 14:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Magnesium",2019-09-17 14:00:00,"7439-95-4","T",21100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Nickel",2019-09-17 14:00:00,"7440-02-0","T",2.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Nitrate+Nitrite as Nitrogen",2019-09-17 14:00:00,"NO3NO2N","T",0.0032,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Nitrogen",2019-09-17 14:00:00,"7727-37-9","T",0.29,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Nitrogen, ammonia (As N)",2019-09-17 14:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","NITROGEN, KJELDAHL, TOTAL",2019-09-17 14:00:00,"KN","T",0.28,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","NITROGEN, NITRATE (AS N)",2019-09-17 14:00:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","NITROGEN, NITRITE",2019-09-17 14:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Orthophosphate as Phosphorus, Dissolved",2019-09-17 14:00:00,"PDORTHO","D",0.007,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","PHOSPHORUS, TOTAL (AS P)",2019-09-17 14:00:00,"7723-14-0","T",0.0252,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Silver",2019-09-17 14:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","TOTAL ORGANIC CARBON",2019-09-17 14:00:00,"TOC","T",4.9,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Total Suspended Solids",2019-09-17 14:00:00,"TSS","T",5,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","TURBIDITY",2019-09-17 14:00:00,"TURB","T",6.49,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-09172019-W","R1909018","Zinc",2019-09-17 14:00:00,"7440-66-6","T",4.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",247,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",46.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",0.7,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",97000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",122,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",316,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",84.8,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",17900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.416,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",0.72,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.31,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.416,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0128,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0188,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",4.8,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",1.3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",4.33,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Finger Lakes RAS","07-FALC-0.3","N","07-FALC-0.3-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","ALKALINITY, TOTAL (AS CaCO3)",2019-06-20 09:10:00,"ALK","T",64.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Aluminum",2019-06-20 09:10:00,"7429-90-5","T",21500,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Arsenic",2019-06-20 09:10:00,"7440-38-2","T",7.7,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Cadmium",2019-06-20 09:10:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Calcium",2019-06-20 09:10:00,"7440-70-2","T",34000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","CHLORIDE (AS CL)",2019-06-20 09:10:00,"16887-00-6","T",16.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Copper",2019-06-20 09:10:00,"7440-50-8","T",29,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","HARDNESS (AS CACO3)",2019-06-20 09:10:00,"HARD","T",153,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Iron",2019-06-20 09:10:00,"7439-89-6","T",45300,"ug/l",13,"ug/l",100,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Lead",2019-06-20 09:10:00,"7439-92-1","T",23.8,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Magnesium",2019-06-20 09:10:00,"7439-95-4","T",16500,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Nickel",2019-06-20 09:10:00,"7440-02-0","T",43.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Nitrate+Nitrite as Nitrogen",2019-06-20 09:10:00,"NO3NO2N","T",0.171,"mg/l",0.0015,"mg/l",0.002,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Nitrogen",2019-06-20 09:10:00,"KN","T",1,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Nitrogen, ammonia (As N)",2019-06-20 09:10:00,"7664-41-7","T",0.0207,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","NITROGEN, KJELDAHL, TOTAL",2019-06-20 09:10:00,"KN","T",0.82,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","NITROGEN, NITRATE (AS N)",2019-06-20 09:10:00,"14797-55-8","T",0.171,"mg/l",NA,"mg/l",0.01,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","NITROGEN, NITRITE",2019-06-20 09:10:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Orthophosphate as Phosphorus, Dissolved",2019-06-20 09:10:00,"PDORTHO","D",0.017,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","PHOSPHORUS, TOTAL (AS P)",2019-06-20 09:10:00,"7723-14-0","T",0.55,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Silver",2019-06-20 09:10:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","TOTAL ORGANIC CARBON",2019-06-20 09:10:00,"TOC","T",5.3,"mg/l",0.5,"mg/l",1,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Total Suspended Solids",2019-06-20 09:10:00,"TSS","T",1150,"mg/l",NA,"mg/l",17,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","TURBIDITY",2019-06-20 09:10:00,"TURB","T",792,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-06202019-W","R1905830","Zinc",2019-06-20 09:10:00,"7440-66-6","T",115,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 10:00:00,"ALK","T",192,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Aluminum",2019-07-15 10:00:00,"7429-90-5","T",34.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Arsenic",2019-07-15 10:00:00,"7440-38-2","T",0.41,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Cadmium",2019-07-15 10:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Calcium",2019-07-15 10:00:00,"7440-70-2","T",75800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 10:00:00,"16887-00-6","T",67.1,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Copper",2019-07-15 10:00:00,"7440-50-8","T",0.88,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 10:00:00,"HARD","T",270,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Iron",2019-07-15 10:00:00,"7439-89-6","T",73.8,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Lead",2019-07-15 10:00:00,"7439-92-1","T",0.69,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Magnesium",2019-07-15 10:00:00,"7439-95-4","T",19600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Nickel",2019-07-15 10:00:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 10:00:00,"NO3NO2N","T",1.73,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Nitrogen",2019-07-15 10:00:00,"KN","T",1.97,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 10:00:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 10:00:00,"KN","T",0.24,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 10:00:00,"14797-55-8","T",1.71,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 10:00:00,"14797-65-0","T",0.013,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 10:00:00,"PDORTHO","D",0.0255,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 10:00:00,"7723-14-0","T",0.0167,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Silver",2019-07-15 10:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 10:00:00,"TOC","T",1,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Total Suspended Solids",2019-07-15 10:00:00,"TSS","T",1.5,"mg/l",NA,"mg/l",1.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","TURBIDITY",2019-07-15 10:00:00,"TURB","T",2.41,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-07152019-W","R1906621","Zinc",2019-07-15 10:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 09:40:00,"ALK","T",203,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Aluminum",2019-08-12 09:40:00,"7429-90-5","T",18.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Arsenic",2019-08-12 09:40:00,"7440-38-2","T",0.49,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Cadmium",2019-08-12 09:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Calcium",2019-08-12 09:40:00,"7440-70-2","T",81700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 09:40:00,"16887-00-6","T",72.1,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Copper",2019-08-12 09:40:00,"7440-50-8","T",0.77,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 09:40:00,"HARD","T",293,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Iron",2019-08-12 09:40:00,"7439-89-6","T",57.7,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Lead",2019-08-12 09:40:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Magnesium",2019-08-12 09:40:00,"7439-95-4","T",21600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Nickel",2019-08-12 09:40:00,"7440-02-0","T",0.76,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 09:40:00,"NO3NO2N","T",1.93,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Nitrogen",2019-08-12 09:40:00,"KN","T",2.11,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 09:40:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 09:40:00,"KN","T",0.18,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 09:40:00,"14797-55-8","T",1.92,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 09:40:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 09:40:00,"PDORTHO","D",0.0184,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 09:40:00,"7723-14-0","T",0.0219,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Silver",2019-08-12 09:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 09:40:00,"TOC","T",1.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Total Suspended Solids",2019-08-12 09:40:00,"TSS","T",1.2,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","TURBIDITY",2019-08-12 09:40:00,"TURB","T",1.32,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-08122019-W","R1907624","Zinc",2019-08-12 09:40:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","ALKALINITY, TOTAL (AS CaCO3)",2019-09-10 09:30:00,"ALK","T",193,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Aluminum",2019-09-10 09:30:00,"7429-90-5","T",960,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Arsenic",2019-09-10 09:30:00,"7440-38-2","T",2.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Cadmium",2019-09-10 09:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Calcium",2019-09-10 09:30:00,"7440-70-2","T",67600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","CHLORIDE (AS CL)",2019-09-10 09:30:00,"16887-00-6","T",56.8,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Copper",2019-09-10 09:30:00,"7440-50-8","T",3.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","HARDNESS (AS CACO3)",2019-09-10 09:30:00,"HARD","T",243,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Iron",2019-09-10 09:30:00,"7439-89-6","T",3310,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Lead",2019-09-10 09:30:00,"7439-92-1","T",2,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Magnesium",2019-09-10 09:30:00,"7439-95-4","T",18100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Nickel",2019-09-10 09:30:00,"7440-02-0","T",3.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Nitrate+Nitrite as Nitrogen",2019-09-10 09:30:00,"NO3NO2N","T",1.36,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Nitrogen",2019-09-10 09:30:00,"7727-37-9","T",2.21,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Nitrogen, ammonia (As N)",2019-09-10 09:30:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","NITROGEN, KJELDAHL, TOTAL",2019-09-10 09:30:00,"KN","T",0.85,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","NITROGEN, NITRATE (AS N)",2019-09-10 09:30:00,"14797-55-8","T",1.34,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","NITROGEN, NITRITE",2019-09-10 09:30:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","R","Holding Time error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Orthophosphate as Phosphorus, Dissolved",2019-09-10 09:30:00,"PDORTHO","D",0.022,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","PHOSPHORUS, TOTAL (AS P)",2019-09-10 09:30:00,"7723-14-0","T",0.096,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Silver",2019-09-10 09:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","TOTAL ORGANIC CARBON",2019-09-10 09:30:00,"TOC","T",3.2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Total Suspended Solids",2019-09-10 09:30:00,"TSS","T",80,"mg/l",NA,"mg/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","TURBIDITY",2019-09-10 09:30:00,"TURB","T",11.1,"ntu",0.06,"ntu",1,"","R","Holding Time error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-09102019-W","R1908910","Zinc",2019-09-10 09:30:00,"7440-66-6","T",9.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",191,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",36.6,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",0.61,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",71900,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",69.3,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",260,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",81.8,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",19400,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",1.81,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",2.26,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.45,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",1.8,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",0.017,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0247,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0257,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",1.6,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",1.3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",2.06,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-KUKA-2.4","N","07-KUKA-2.4-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 09:45:00,"ALK","T",129,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Aluminum",2019-06-25 09:45:00,"7429-90-5","T",3860,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Arsenic",2019-06-25 09:45:00,"7440-38-2","T",2.4,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Cadmium",2019-06-25 09:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Calcium",2019-06-25 09:45:00,"7440-70-2","T",52000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","CHLORIDE (AS CL)",2019-06-25 09:45:00,"16887-00-6","T",36.3,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Copper",2019-06-25 09:45:00,"7440-50-8","T",7.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","HARDNESS (AS CACO3)",2019-06-25 09:45:00,"HARD","T",184,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Iron",2019-06-25 09:45:00,"7439-89-6","T",8130,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Lead",2019-06-25 09:45:00,"7439-92-1","T",5.8,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Magnesium",2019-06-25 09:45:00,"7439-95-4","T",13100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Nickel",2019-06-25 09:45:00,"7440-02-0","T",9,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Nitrate+Nitrite as Nitrogen",2019-06-25 09:45:00,"NO3NO2N","T",0.528,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Nitrogen",2019-06-25 09:45:00,"KN","T",1.88,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Nitrogen, ammonia (As N)",2019-06-25 09:45:00,"7664-41-7","T",0.0135,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","NITROGEN, KJELDAHL, TOTAL",2019-06-25 09:45:00,"KN","T",1.35,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","NITROGEN, NITRATE (AS N)",2019-06-25 09:45:00,"14797-55-8","T",0.528,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","NITROGEN, NITRITE",2019-06-25 09:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Orthophosphate as Phosphorus, Dissolved",2019-06-25 09:45:00,"PDORTHO","D",0.0124,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","PHOSPHORUS, TOTAL (AS P)",2019-06-25 09:45:00,"7723-14-0","T",0.185,"mg/l",0.008,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Silver",2019-06-25 09:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","TOTAL ORGANIC CARBON",2019-06-25 09:45:00,"TOC","T",4.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Total Suspended Solids",2019-06-25 09:45:00,"TSS","T",263,"mg/l",NA,"mg/l",6.7,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","TURBIDITY",2019-06-25 09:45:00,"TURB","T",181,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-06252019-W","R1905959","Zinc",2019-06-25 09:45:00,"7440-66-6","T",26.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 12:00:00,"ALK","T",179,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Aluminum",2019-07-15 12:00:00,"7429-90-5","T",65.6,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Arsenic",2019-07-15 12:00:00,"7440-38-2","T",0.51,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Cadmium",2019-07-15 12:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Calcium",2019-07-15 12:00:00,"7440-70-2","T",64500,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 12:00:00,"16887-00-6","T",56.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Copper",2019-07-15 12:00:00,"7440-50-8","T",0.97,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 12:00:00,"HARD","T",226,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Iron",2019-07-15 12:00:00,"7439-89-6","T",193,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Lead",2019-07-15 12:00:00,"7439-92-1","T",0.72,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Magnesium",2019-07-15 12:00:00,"7439-95-4","T",15900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Nickel",2019-07-15 12:00:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 12:00:00,"NO3NO2N","T",0.937,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Nitrogen",2019-07-15 12:00:00,"KN","T",1.17,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 12:00:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 12:00:00,"KN","T",0.24,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 12:00:00,"14797-55-8","T",0.937,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 12:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 12:00:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 12:00:00,"7723-14-0","T",0.0091,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Silver",2019-07-15 12:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 12:00:00,"TOC","T",1.9,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Total Suspended Solids",2019-07-15 12:00:00,"TSS","T",3.3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","TURBIDITY",2019-07-15 12:00:00,"TURB","T",2.1,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-07152019-W","R1906621","Zinc",2019-07-15 12:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 12:20:00,"ALK","T",184,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Aluminum",2019-08-12 12:20:00,"7429-90-5","T",60.6,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Arsenic",2019-08-12 12:20:00,"7440-38-2","T",0.6,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Cadmium",2019-08-12 12:20:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Calcium",2019-08-12 12:20:00,"7440-70-2","T",66300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 12:20:00,"16887-00-6","T",59.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Copper",2019-08-12 12:20:00,"7440-50-8","T",0.79,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 12:20:00,"HARD","T",236,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Iron",2019-08-12 12:20:00,"7439-89-6","T",204,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Lead",2019-08-12 12:20:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Magnesium",2019-08-12 12:20:00,"7439-95-4","T",17100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Nickel",2019-08-12 12:20:00,"7440-02-0","T",0.81,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 12:20:00,"NO3NO2N","T",0.817,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Nitrogen",2019-08-12 12:20:00,"KN","T",0.95,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 12:20:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 12:20:00,"KN","T",0.13,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 12:20:00,"14797-55-8","T",0.817,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 12:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 12:20:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 12:20:00,"7723-14-0","T",0.0115,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Silver",2019-08-12 12:20:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 12:20:00,"TOC","T",1.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Total Suspended Solids",2019-08-12 12:20:00,"TSS","T",3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","TURBIDITY",2019-08-12 12:20:00,"TURB","T",3.33,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-08122019-W","R1907624","Zinc",2019-08-12 12:20:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","ALKALINITY, TOTAL (AS CaCO3)",2019-09-17 15:30:00,"ALK","T",191,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Aluminum",2019-09-17 15:30:00,"7429-90-5","T",70.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Arsenic",2019-09-17 15:30:00,"7440-38-2","T",0.6,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Cadmium",2019-09-17 15:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Calcium",2019-09-17 15:30:00,"7440-70-2","T",66400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","CHLORIDE (AS CL)",2019-09-17 15:30:00,"16887-00-6","T",65.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Copper",2019-09-17 15:30:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","HARDNESS (AS CACO3)",2019-09-17 15:30:00,"HARD","T",237,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Iron",2019-09-17 15:30:00,"7439-89-6","T",192,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Lead",2019-09-17 15:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Magnesium",2019-09-17 15:30:00,"7439-95-4","T",17400,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Nickel",2019-09-17 15:30:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Nitrate+Nitrite as Nitrogen",2019-09-17 15:30:00,"NO3NO2N","T",0.714,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Nitrogen",2019-09-17 15:30:00,"7727-37-9","T",0.85,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Nitrogen, ammonia (As N)",2019-09-17 15:30:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","NITROGEN, KJELDAHL, TOTAL",2019-09-17 15:30:00,"KN","T",0.13,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","NITROGEN, NITRATE (AS N)",2019-09-17 15:30:00,"14797-55-8","T",0.714,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","NITROGEN, NITRITE",2019-09-17 15:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Orthophosphate as Phosphorus, Dissolved",2019-09-17 15:30:00,"PDORTHO","D",0.005,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","PHOSPHORUS, TOTAL (AS P)",2019-09-17 15:30:00,"7723-14-0","T",0.0128,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Silver",2019-09-17 15:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","TOTAL ORGANIC CARBON",2019-09-17 15:30:00,"TOC","T",1.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Total Suspended Solids",2019-09-17 15:30:00,"TSS","T",3.6,"mg/l",NA,"mg/l",1.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","TURBIDITY",2019-09-17 15:30:00,"TURB","T",3.77,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-09172019-W","R1909018","Zinc",2019-09-17 15:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",197,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",197,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",0.76,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",67700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",68.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",1.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",240,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",495,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",17300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.694,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",0.96,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",0.012,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.27,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.694,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0058,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.015,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",2.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",18.1,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",6.32,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-NAPL-2.9","N","07-NAPL-2.9-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","ALKALINITY, TOTAL (AS CaCO3)",2019-06-20 10:30:00,"ALK","T",168,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Aluminum",2019-06-20 10:30:00,"7429-90-5","T",1060,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Arsenic",2019-06-20 10:30:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Cadmium",2019-06-20 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Calcium",2019-06-20 10:30:00,"7440-70-2","T",56700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","CHLORIDE (AS CL)",2019-06-20 10:30:00,"16887-00-6","T",28.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Copper",2019-06-20 10:30:00,"7440-50-8","T",2.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","HARDNESS (AS CACO3)",2019-06-20 10:30:00,"HARD","T",207,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Iron",2019-06-20 10:30:00,"7439-89-6","T",2180,"ug/l",13,"ug/l",100,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Lead",2019-06-20 10:30:00,"7439-92-1","T",1.5,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Magnesium",2019-06-20 10:30:00,"7439-95-4","T",16000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Nickel",2019-06-20 10:30:00,"7440-02-0","T",3.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Nitrate+Nitrite as Nitrogen",2019-06-20 10:30:00,"NO3NO2N","T",0.528,"mg/l",0.0015,"mg/l",0.002,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Nitrogen",2019-06-20 10:30:00,"KN","T",1.46,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Nitrogen, ammonia (As N)",2019-06-20 10:30:00,"7664-41-7","T",0.0526,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","NITROGEN, KJELDAHL, TOTAL",2019-06-20 10:30:00,"KN","T",0.93,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","NITROGEN, NITRATE (AS N)",2019-06-20 10:30:00,"14797-55-8","T",0.515,"mg/l",NA,"mg/l",0.01,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","NITROGEN, NITRITE",2019-06-20 10:30:00,"14797-65-0","T",0.013,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Orthophosphate as Phosphorus, Dissolved",2019-06-20 10:30:00,"PDORTHO","D",0.0138,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","PHOSPHORUS, TOTAL (AS P)",2019-06-20 10:30:00,"7723-14-0","T",0.079,"mg/l",0.008,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Silver",2019-06-20 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","TOTAL ORGANIC CARBON",2019-06-20 10:30:00,"TOC","T",3.7,"mg/l",0.5,"mg/l",1,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Total Suspended Solids",2019-06-20 10:30:00,"TSS","T",62.8,"mg/l",NA,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","TURBIDITY",2019-06-20 10:30:00,"TURB","T",49.7,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-06202019-W","R1905830","Zinc",2019-06-20 10:30:00,"7440-66-6","T",7.6,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 11:00:00,"ALK","T",205,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Aluminum",2019-07-15 11:00:00,"7429-90-5","T",428,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Arsenic",2019-07-15 11:00:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Cadmium",2019-07-15 11:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Calcium",2019-07-15 11:00:00,"7440-70-2","T",68100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 11:00:00,"16887-00-6","T",34.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Copper",2019-07-15 11:00:00,"7440-50-8","T",1.7,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 11:00:00,"HARD","T",246,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Iron",2019-07-15 11:00:00,"7439-89-6","T",1180,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Lead",2019-07-15 11:00:00,"7439-92-1","T",1.4,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Magnesium",2019-07-15 11:00:00,"7439-95-4","T",18500,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Nickel",2019-07-15 11:00:00,"7440-02-0","T",2.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 11:00:00,"NO3NO2N","T",0.665,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Nitrogen",2019-07-15 11:00:00,"KN","T",1.11,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 11:00:00,"7664-41-7","T",0.0246,"mg/l",0.0036,"mg/l",0.005,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 11:00:00,"KN","T",0.44,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 11:00:00,"14797-55-8","T",0.665,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 11:00:00,"PDORTHO","D",0.0065,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 11:00:00,"7723-14-0","T",0.0423,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Silver",2019-07-15 11:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 11:00:00,"TOC","T",2.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Total Suspended Solids",2019-07-15 11:00:00,"TSS","T",27.8,"mg/l",NA,"mg/l",1.2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","TURBIDITY",2019-07-15 11:00:00,"TURB","T",17.2,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-07152019-W","R1906621","Zinc",2019-07-15 11:00:00,"7440-66-6","T",3.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 10:56:00,"ALK","T",211,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Aluminum",2019-08-12 10:56:00,"7429-90-5","T",251,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Arsenic",2019-08-12 10:56:00,"7440-38-2","T",1.2,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Cadmium",2019-08-12 10:56:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Calcium",2019-08-12 10:56:00,"7440-70-2","T",69600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 10:56:00,"16887-00-6","T",40.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Copper",2019-08-12 10:56:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 10:56:00,"HARD","T",256,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Iron",2019-08-12 10:56:00,"7439-89-6","T",816,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Lead",2019-08-12 10:56:00,"7439-92-1","T",0.68,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Magnesium",2019-08-12 10:56:00,"7439-95-4","T",19900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Nickel",2019-08-12 10:56:00,"7440-02-0","T",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 10:56:00,"NO3NO2N","T",0.302,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Nitrogen",2019-08-12 10:56:00,"KN","T",0.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 10:56:00,"7664-41-7","T",0.055,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 10:56:00,"KN","T",0.42,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 10:56:00,"14797-55-8","T",0.302,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 10:56:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 10:56:00,"PDORTHO","D",0.0069,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 10:56:00,"7723-14-0","T",0.0383,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Silver",2019-08-12 10:56:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 10:56:00,"TOC","T",4,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Total Suspended Solids",2019-08-12 10:56:00,"TSS","T",15.7,"mg/l",NA,"mg/l",1.3,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","TURBIDITY",2019-08-12 10:56:00,"TURB","T",15.3,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-08122019-W","R1907624","Zinc",2019-08-12 10:56:00,"7440-66-6","T",4.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","ALKALINITY, TOTAL (AS CaCO3)",2019-09-10 11:00:00,"ALK","T",240,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Aluminum",2019-09-10 11:00:00,"7429-90-5","T",229,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Arsenic",2019-09-10 11:00:00,"7440-38-2","T",1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Cadmium",2019-09-10 11:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Calcium",2019-09-10 11:00:00,"7440-70-2","T",68200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","CHLORIDE (AS CL)",2019-09-10 11:00:00,"16887-00-6","T",45.9,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Copper",2019-09-10 11:00:00,"7440-50-8","T",1.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","HARDNESS (AS CACO3)",2019-09-10 11:00:00,"HARD","T",253,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Iron",2019-09-10 11:00:00,"7439-89-6","T",671,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Lead",2019-09-10 11:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Magnesium",2019-09-10 11:00:00,"7439-95-4","T",20100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Nickel",2019-09-10 11:00:00,"7440-02-0","T",1.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Nitrate+Nitrite as Nitrogen",2019-09-10 11:00:00,"NO3NO2N","T",0.175,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Nitrogen",2019-09-10 11:00:00,"7727-37-9","T",0.45,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Nitrogen, ammonia (As N)",2019-09-10 11:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","NITROGEN, KJELDAHL, TOTAL",2019-09-10 11:00:00,"KN","T",0.28,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","NITROGEN, NITRATE (AS N)",2019-09-10 11:00:00,"14797-55-8","T",0.175,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","NITROGEN, NITRITE",2019-09-10 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Orthophosphate as Phosphorus, Dissolved",2019-09-10 11:00:00,"PDORTHO","D",0.0055,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","PHOSPHORUS, TOTAL (AS P)",2019-09-10 11:00:00,"7723-14-0","T",0.0307,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Silver",2019-09-10 11:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","TOTAL ORGANIC CARBON",2019-09-10 11:00:00,"TOC","T",2.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Total Suspended Solids",2019-09-10 11:00:00,"TSS","T",13.5,"mg/l",NA,"mg/l",1.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","TURBIDITY",2019-09-10 11:00:00,"TURB","T",11.9,"ntu",0.06,"ntu",1,"","R","Holding Time error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-09102019-W","R1908910","Zinc",2019-09-10 11:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",218,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",139,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",69500,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",47.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",1.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",257,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",625,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",20100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",1.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.309,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",0.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",0.029,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.42,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.309,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0074,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.024,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",4.4,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",8,"mg/l",NA,"mg/l",1.3,"","A","",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",10.1,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SGAR-2.5","N","07-SGAR-2.5-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 12:20:00,"ALK","T",210,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Aluminum",2019-06-25 12:20:00,"7429-90-5","T",804,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Arsenic",2019-06-25 12:20:00,"7440-38-2","T",1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Cadmium",2019-06-25 12:20:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Calcium",2019-06-25 12:20:00,"7440-70-2","T",78200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","CHLORIDE (AS CL)",2019-06-25 12:20:00,"16887-00-6","T",126,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Copper",2019-06-25 12:20:00,"7440-50-8","T",3.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","HARDNESS (AS CACO3)",2019-06-25 12:20:00,"HARD","T",263,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Iron",2019-06-25 12:20:00,"7439-89-6","T",1250,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Lead",2019-06-25 12:20:00,"7439-92-1","T",1.7,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Magnesium",2019-06-25 12:20:00,"7439-95-4","T",16300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Nickel",2019-06-25 12:20:00,"7440-02-0","T",3.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Nitrate+Nitrite as Nitrogen",2019-06-25 12:20:00,"NO3NO2N","T",1.06,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Nitrogen",2019-06-25 12:20:00,"KN","T",2.16,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Nitrogen, ammonia (As N)",2019-06-25 12:20:00,"7664-41-7","T",0.0181,"mg/l",0.0036,"mg/l",0.005,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","NITROGEN, KJELDAHL, TOTAL",2019-06-25 12:20:00,"KN","T",1.1,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","NITROGEN, NITRATE (AS N)",2019-06-25 12:20:00,"14797-55-8","T",1.05,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","NITROGEN, NITRITE",2019-06-25 12:20:00,"14797-65-0","T",0.016,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Orthophosphate as Phosphorus, Dissolved",2019-06-25 12:20:00,"PDORTHO","D",0.0551,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","PHOSPHORUS, TOTAL (AS P)",2019-06-25 12:20:00,"7723-14-0","T",0.135,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Silver",2019-06-25 12:20:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","TOTAL ORGANIC CARBON",2019-06-25 12:20:00,"TOC","T",9.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Total Suspended Solids",2019-06-25 12:20:00,"TSS","T",37.2,"mg/l",NA,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","TURBIDITY",2019-06-25 12:20:00,"TURB","T",42.6,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-06252019-W","R1905959","Zinc",2019-06-25 12:20:00,"7440-66-6","T",20.3,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 13:40:00,"ALK","T",242,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Aluminum",2019-07-15 13:40:00,"7429-90-5","T",54.9,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Arsenic",2019-07-15 13:40:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Cadmium",2019-07-15 13:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Calcium",2019-07-15 13:40:00,"7440-70-2","T",96300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 13:40:00,"16887-00-6","T",265,"mg/l",1.7,"mg/l",8,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Copper",2019-07-15 13:40:00,"7440-50-8","T",3.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 13:40:00,"HARD","T",343,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Iron",2019-07-15 13:40:00,"7439-89-6","T",206,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Lead",2019-07-15 13:40:00,"7439-92-1","T",1.1,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Magnesium",2019-07-15 13:40:00,"7439-95-4","T",24900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Nickel",2019-07-15 13:40:00,"7440-02-0","T",2.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 13:40:00,"NO3NO2N","T",0.384,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Nitrogen",2019-07-15 13:40:00,"KN","T",1.09,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 13:40:00,"7664-41-7","T",0.0137,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 13:40:00,"KN","T",0.71,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 13:40:00,"14797-55-8","T",0.384,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 13:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 13:40:00,"PDORTHO","D",0.056,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 13:40:00,"7723-14-0","T",0.0819,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Silver",2019-07-15 13:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 13:40:00,"TOC","T",5.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Total Suspended Solids",2019-07-15 13:40:00,"TSS","T",3.1,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","TURBIDITY",2019-07-15 13:40:00,"TURB","T",2.47,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-07152019-W","R1906621","Zinc",2019-07-15 13:40:00,"7440-66-6","T",3.2,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 15:00:00,"ALK","T",NA,"mg/l",1.8,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Aluminum",2019-08-12 15:00:00,"7429-90-5","T",NA,"ug/l",2.3,"ug/l",10,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Arsenic",2019-08-12 15:00:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Cadmium",2019-08-12 15:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Calcium",2019-08-12 15:00:00,"7440-70-2","T",NA,"ug/l",110,"ug/l",1000,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 15:00:00,"16887-00-6","T",NA,"mg/l",0.5,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Copper",2019-08-12 15:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 15:00:00,"HARD","T",NA,"mg/l",NA,"mg/l",6.62,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Iron",2019-08-12 15:00:00,"7439-89-6","T",NA,"ug/l",13,"ug/l",100,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Lead",2019-08-12 15:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Magnesium",2019-08-12 15:00:00,"7439-95-4","T",NA,"ug/l",68,"ug/l",1000,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Nickel",2019-08-12 15:00:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 15:00:00,"NO3NO2N","T",NA,"mg/l",0.0015,"mg/l",0.002,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Nitrogen",2019-08-12 15:00:00,"KN","T",NA,"mg/l",NA,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 15:00:00,"7664-41-7","T",0.022,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 15:00:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 15:00:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 15:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 15:00:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 15:00:00,"7723-14-0","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Silver",2019-08-12 15:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 15:00:00,"TOC","T",NA,"mg/l",0.5,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Total Suspended Solids",2019-08-12 15:00:00,"TSS","T",NA,"mg/l",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","TURBIDITY",2019-08-12 15:00:00,"TURB","T",0.27,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08122019-W","R1907624","Zinc",2019-08-12 15:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-14 13:00:00,"ALK","T",211,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Aluminum",2019-08-14 13:00:00,"7429-90-5","T",43.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Arsenic",2019-08-14 13:00:00,"7440-38-2","T",1.3,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Cadmium",2019-08-14 13:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Calcium",2019-08-14 13:00:00,"7440-70-2","T",88000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","CHLORIDE (AS CL)",2019-08-14 13:00:00,"16887-00-6","T",265,"mg/l",1.7,"mg/l",8,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Copper",2019-08-14 13:00:00,"7440-50-8","T",2.9,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","HARDNESS (AS CACO3)",2019-08-14 13:00:00,"HARD","T",308,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Iron",2019-08-14 13:00:00,"7439-89-6","T",165,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Lead",2019-08-14 13:00:00,"7439-92-1","T",0.65,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Magnesium",2019-08-14 13:00:00,"7439-95-4","T",21400,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Nickel",2019-08-14 13:00:00,"7440-02-0","T",1.8,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-14 13:00:00,"NO3NO2N","T",0.202,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Nitrogen",2019-08-14 13:00:00,"KN","T",0.66,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-14 13:00:00,"7664-41-7","T",0.047,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-14 13:00:00,"KN","T",0.45,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-14 13:00:00,"14797-55-8","T",0.202,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","NITROGEN, NITRITE",2019-08-14 13:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-14 13:00:00,"PDORTHO","D",0.0712,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-14 13:00:00,"7723-14-0","T",0.099,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Silver",2019-08-14 13:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-14 13:00:00,"TOC","T",6,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Total Suspended Solids",2019-08-14 13:00:00,"TSS","T",1.9,"mg/l",NA,"mg/l",1.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","TURBIDITY",2019-08-14 13:00:00,"TURB","T",2.66,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-08142019-W","R1907624","Zinc",2019-08-14 13:00:00,"7440-66-6","T",6.9,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","ALKALINITY, TOTAL (AS CaCO3)",2019-09-17 12:30:00,"ALK","T",203,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Aluminum",2019-09-17 12:30:00,"7429-90-5","T",77.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Arsenic",2019-09-17 12:30:00,"7440-38-2","T",0.78,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Cadmium",2019-09-17 12:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Calcium",2019-09-17 12:30:00,"7440-70-2","T",79900,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","CHLORIDE (AS CL)",2019-09-17 12:30:00,"16887-00-6","T",240,"mg/l",1.7,"mg/l",8,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Copper",2019-09-17 12:30:00,"7440-50-8","T",4.1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","HARDNESS (AS CACO3)",2019-09-17 12:30:00,"HARD","T",280,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Iron",2019-09-17 12:30:00,"7439-89-6","T",216,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Lead",2019-09-17 12:30:00,"7439-92-1","T",1.1,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Magnesium",2019-09-17 12:30:00,"7439-95-4","T",19600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Nickel",2019-09-17 12:30:00,"7440-02-0","T",1.9,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Nitrate+Nitrite as Nitrogen",2019-09-17 12:30:00,"NO3NO2N","T",0.267,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Nitrogen",2019-09-17 12:30:00,"7727-37-9","T",0.54,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Nitrogen, ammonia (As N)",2019-09-17 12:30:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","NITROGEN, KJELDAHL, TOTAL",2019-09-17 12:30:00,"KN","T",0.27,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","NITROGEN, NITRATE (AS N)",2019-09-17 12:30:00,"14797-55-8","T",0.267,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","NITROGEN, NITRITE",2019-09-17 12:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Orthophosphate as Phosphorus, Dissolved",2019-09-17 12:30:00,"PDORTHO","D",0.0833,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","PHOSPHORUS, TOTAL (AS P)",2019-09-17 12:30:00,"7723-14-0","T",0.125,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Silver",2019-09-17 12:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","TOTAL ORGANIC CARBON",2019-09-17 12:30:00,"TOC","T",5.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Total Suspended Solids",2019-09-17 12:30:00,"TSS","T",5.5,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","TURBIDITY",2019-09-17 12:30:00,"TURB","T",4.06,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-09172019-W","R1909018","Zinc",2019-09-17 12:30:00,"7440-66-6","T",6.6,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",193,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",85.9,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",75800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",182,"mg/l",1.3,"mg/l",6,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",263,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",202,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",18000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",1.7,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",2.6,"mg/l",0.008,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",3.62,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",0.02,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",1.02,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",2.59,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0254,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0464,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",4.8,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",3.8,"mg/l",NA,"mg/l",1.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",5.6,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-SUKE-0.3","N","07-SUKE-0.3-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",4.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","ALKALINITY, TOTAL (AS CaCO3)",2019-06-20 10:15:00,"ALK","T",51.6,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Aluminum",2019-06-20 10:15:00,"7429-90-5","T",5630,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Arsenic",2019-06-20 10:15:00,"7440-38-2","T",2.3,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Cadmium",2019-06-20 10:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Calcium",2019-06-20 10:15:00,"7440-70-2","T",19000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","CHLORIDE (AS CL)",2019-06-20 10:15:00,"16887-00-6","T",8.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Copper",2019-06-20 10:15:00,"7440-50-8","T",8.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","HARDNESS (AS CACO3)",2019-06-20 10:15:00,"HARD","T",75.8,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Iron",2019-06-20 10:15:00,"7439-89-6","T",10600,"ug/l",13,"ug/l",100,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Lead",2019-06-20 10:15:00,"7439-92-1","T",6.5,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Magnesium",2019-06-20 10:15:00,"7439-95-4","T",6910,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Nickel",2019-06-20 10:15:00,"7440-02-0","T",11.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Nitrate+Nitrite as Nitrogen",2019-06-20 10:15:00,"NO3NO2N","T",0.0833,"mg/l",0.0015,"mg/l",0.002,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Nitrogen",2019-06-20 10:15:00,"KN","T",1.39,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Nitrogen, ammonia (As N)",2019-06-20 10:15:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","NITROGEN, KJELDAHL, TOTAL",2019-06-20 10:15:00,"KN","T",1.3,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","NITROGEN, NITRATE (AS N)",2019-06-20 10:15:00,"14797-55-8","T",0.083,"mg/l",NA,"mg/l",0.01,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","NITROGEN, NITRITE",2019-06-20 10:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Orthophosphate as Phosphorus, Dissolved",2019-06-20 10:15:00,"PDORTHO","D",0.0161,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","PHOSPHORUS, TOTAL (AS P)",2019-06-20 10:15:00,"7723-14-0","T",0.237,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Silver",2019-06-20 10:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","TOTAL ORGANIC CARBON",2019-06-20 10:15:00,"TOC","T",6.6,"mg/l",0.5,"mg/l",1,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Total Suspended Solids",2019-06-20 10:15:00,"TSS","T",275,"mg/l",NA,"mg/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","TURBIDITY",2019-06-20 10:15:00,"TURB","T",244,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-06202019-W","R1905830","Zinc",2019-06-20 10:15:00,"7440-66-6","T",30.7,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 10:45:00,"ALK","T",147,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Aluminum",2019-07-15 10:45:00,"7429-90-5","T",15,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Arsenic",2019-07-15 10:45:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Cadmium",2019-07-15 10:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Calcium",2019-07-15 10:45:00,"7440-70-2","T",52800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 10:45:00,"16887-00-6","T",27.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Copper",2019-07-15 10:45:00,"7440-50-8","T",1.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 10:45:00,"HARD","T",188,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Iron",2019-07-15 10:45:00,"7439-89-6","T",15.3,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Lead",2019-07-15 10:45:00,"7439-92-1","T",0.62,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Magnesium",2019-07-15 10:45:00,"7439-95-4","T",13800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Nickel",2019-07-15 10:45:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 10:45:00,"NO3NO2N","T",1.71,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Nitrogen",2019-07-15 10:45:00,"KN","T",1.85,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 10:45:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 10:45:00,"KN","T",0.13,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 10:45:00,"14797-55-8","T",1.71,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 10:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 10:45:00,"PDORTHO","D",0.0128,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 10:45:00,"7723-14-0","T",0.0092,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Silver",2019-07-15 10:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 10:45:00,"TOC","T",1.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Total Suspended Solids",2019-07-15 10:45:00,"TSS","T",NA,"mg/l",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","TURBIDITY",2019-07-15 10:45:00,"TURB","T",1.2,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-07152019-W","R1906621","Zinc",2019-07-15 10:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 10:20:00,"ALK","T",150,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Aluminum",2019-08-12 10:20:00,"7429-90-5","T",7.6,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Arsenic",2019-08-12 10:20:00,"7440-38-2","T",0.52,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Cadmium",2019-08-12 10:20:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Calcium",2019-08-12 10:20:00,"7440-70-2","T",56300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 10:20:00,"16887-00-6","T",35.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Copper",2019-08-12 10:20:00,"7440-50-8","T",1.2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 10:20:00,"HARD","T",203,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Iron",2019-08-12 10:20:00,"7439-89-6","T",NA,"ug/l",13,"ug/l",100,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Lead",2019-08-12 10:20:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Magnesium",2019-08-12 10:20:00,"7439-95-4","T",15100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Nickel",2019-08-12 10:20:00,"7440-02-0","T",0.89,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 10:20:00,"NO3NO2N","T",1.75,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Nitrogen",2019-08-12 10:20:00,"KN","T",1.98,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 10:20:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 10:20:00,"KN","T",0.23,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 10:20:00,"14797-55-8","T",1.75,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 10:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 10:20:00,"PDORTHO","D",0.0064,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 10:20:00,"7723-14-0","T",0.0082,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Silver",2019-08-12 10:20:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 10:20:00,"TOC","T",2.2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Total Suspended Solids",2019-08-12 10:20:00,"TSS","T",NA,"mg/l",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","TURBIDITY",2019-08-12 10:20:00,"TURB","T",0.44,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-08122019-W","R1907624","Zinc",2019-08-12 10:20:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","ALKALINITY, TOTAL (AS CaCO3)",2019-09-10 10:30:00,"ALK","T",156,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Aluminum",2019-09-10 10:30:00,"7429-90-5","T",56.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Arsenic",2019-09-10 10:30:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Cadmium",2019-09-10 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Calcium",2019-09-10 10:30:00,"7440-70-2","T",50400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","CHLORIDE (AS CL)",2019-09-10 10:30:00,"16887-00-6","T",30.1,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Copper",2019-09-10 10:30:00,"7440-50-8","T",1.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","HARDNESS (AS CACO3)",2019-09-10 10:30:00,"HARD","T",182,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Iron",2019-09-10 10:30:00,"7439-89-6","T",109,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Lead",2019-09-10 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Magnesium",2019-09-10 10:30:00,"7439-95-4","T",13600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Nickel",2019-09-10 10:30:00,"7440-02-0","T",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Nitrate+Nitrite as Nitrogen",2019-09-10 10:30:00,"NO3NO2N","T",1.22,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Nitrogen",2019-09-10 10:30:00,"7727-37-9","T",1.39,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Nitrogen, ammonia (As N)",2019-09-10 10:30:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","NITROGEN, KJELDAHL, TOTAL",2019-09-10 10:30:00,"KN","T",0.18,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","NITROGEN, NITRATE (AS N)",2019-09-10 10:30:00,"14797-55-8","T",1.22,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","NITROGEN, NITRITE",2019-09-10 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Orthophosphate as Phosphorus, Dissolved",2019-09-10 10:30:00,"PDORTHO","D",0.0079,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","PHOSPHORUS, TOTAL (AS P)",2019-09-10 10:30:00,"7723-14-0","T",0.0124,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Silver",2019-09-10 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","TOTAL ORGANIC CARBON",2019-09-10 10:30:00,"TOC","T",2.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Total Suspended Solids",2019-09-10 10:30:00,"TSS","T",3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","TURBIDITY",2019-09-10 10:30:00,"TURB","T",1.81,"ntu",0.06,"ntu",1,"","R","Equipment Blank error ; Holding Time error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-09102019-W","R1908910","Zinc",2019-09-10 10:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",114,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",43,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",0.69,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",38300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",28.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",138,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",70.8,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",10300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",0.97,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.363,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",0.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.36,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.363,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0068,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0088,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",3.8,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",2.9,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",2.25,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Finger Lakes RAS","07-WAGG-0.1","N","07-WAGG-0.1-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 10:30:00,"ALK","T",246,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Aluminum",2019-06-25 10:30:00,"7429-90-5","T",573,"ug/l",20,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Arsenic",2019-06-25 10:30:00,"7440-38-2","T",0.65,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Cadmium",2019-06-25 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Calcium",2019-06-25 10:30:00,"7440-70-2","T",94100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","CHLORIDE (AS CL)",2019-06-25 10:30:00,"16887-00-6","T",76.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Copper",2019-06-25 10:30:00,"7440-50-8","T",2.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","HARDNESS (AS CACO3)",2019-06-25 10:30:00,"HARD","T",321,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Iron",2019-06-25 10:30:00,"7439-89-6","T",1020,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Lead",2019-06-25 10:30:00,"7439-92-1","T",0.81,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Magnesium",2019-06-25 10:30:00,"7439-95-4","T",20800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Nickel",2019-06-25 10:30:00,"7440-02-0","T",3.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Nitrate+Nitrite as Nitrogen",2019-06-25 10:30:00,"NO3NO2N","T",1.86,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Nitrogen",2019-06-25 10:30:00,"KN","T",2.52,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Nitrogen, ammonia (As N)",2019-06-25 10:30:00,"7664-41-7","T",0.0148,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Accuracy error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","NITROGEN, KJELDAHL, TOTAL",2019-06-25 10:30:00,"KN","T",0.65,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","NITROGEN, NITRATE (AS N)",2019-06-25 10:30:00,"14797-55-8","T",1.85,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","NITROGEN, NITRITE",2019-06-25 10:30:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Orthophosphate as Phosphorus, Dissolved",2019-06-25 10:30:00,"PDORTHO","D",0.0361,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","PHOSPHORUS, TOTAL (AS P)",2019-06-25 10:30:00,"7723-14-0","T",0.0772,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Silver",2019-06-25 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","TOTAL ORGANIC CARBON",2019-06-25 10:30:00,"TOC","T",4.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Total Suspended Solids",2019-06-25 10:30:00,"TSS","T",32,"mg/l",NA,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","TURBIDITY",2019-06-25 10:30:00,"TURB","T",25.6,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-06252019-W","R1905959","Zinc",2019-06-25 10:30:00,"7440-66-6","T",4.4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","ALKALINITY, TOTAL (AS CaCO3)",2019-07-15 12:30:00,"ALK","T",273,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Aluminum",2019-07-15 12:30:00,"7429-90-5","T",188,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Arsenic",2019-07-15 12:30:00,"7440-38-2","T",1.3,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Cadmium",2019-07-15 12:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Calcium",2019-07-15 12:30:00,"7440-70-2","T",101000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","CHLORIDE (AS CL)",2019-07-15 12:30:00,"16887-00-6","T",89.1,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Copper",2019-07-15 12:30:00,"7440-50-8","T",2.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","HARDNESS (AS CACO3)",2019-07-15 12:30:00,"HARD","T",347,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Iron",2019-07-15 12:30:00,"7439-89-6","T",399,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Lead",2019-07-15 12:30:00,"7439-92-1","T",0.97,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Magnesium",2019-07-15 12:30:00,"7439-95-4","T",23000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Nickel",2019-07-15 12:30:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Nitrate+Nitrite as Nitrogen",2019-07-15 12:30:00,"NO3NO2N","T",0.817,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Nitrogen",2019-07-15 12:30:00,"KN","T",1.23,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Nitrogen, ammonia (As N)",2019-07-15 12:30:00,"7664-41-7","T",0.0231,"mg/l",0.0036,"mg/l",0.005,"","R","Accuracy error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","NITROGEN, KJELDAHL, TOTAL",2019-07-15 12:30:00,"KN","T",0.42,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","NITROGEN, NITRATE (AS N)",2019-07-15 12:30:00,"14797-55-8","T",0.791,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","NITROGEN, NITRITE",2019-07-15 12:30:00,"14797-65-0","T",0.025,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Orthophosphate as Phosphorus, Dissolved",2019-07-15 12:30:00,"PDORTHO","D",0.0223,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","PHOSPHORUS, TOTAL (AS P)",2019-07-15 12:30:00,"7723-14-0","T",0.049,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Silver",2019-07-15 12:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","TOTAL ORGANIC CARBON",2019-07-15 12:30:00,"TOC","T",3.9,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Total Suspended Solids",2019-07-15 12:30:00,"TSS","T",10.3,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","TURBIDITY",2019-07-15 12:30:00,"TURB","T",10.9,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-07152019-W","R1906621","Zinc",2019-07-15 12:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","ALKALINITY, TOTAL (AS CaCO3)",2019-08-12 12:50:00,"ALK","T",256,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Aluminum",2019-08-12 12:50:00,"7429-90-5","T",203,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Arsenic",2019-08-12 12:50:00,"7440-38-2","T",1.9,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Cadmium",2019-08-12 12:50:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Calcium",2019-08-12 12:50:00,"7440-70-2","T",93900,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","CHLORIDE (AS CL)",2019-08-12 12:50:00,"16887-00-6","T",97.7,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Copper",2019-08-12 12:50:00,"7440-50-8","T",1.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","HARDNESS (AS CACO3)",2019-08-12 12:50:00,"HARD","T",325,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Iron",2019-08-12 12:50:00,"7439-89-6","T",579,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Lead",2019-08-12 12:50:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Magnesium",2019-08-12 12:50:00,"7439-95-4","T",22000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Nickel",2019-08-12 12:50:00,"7440-02-0","T",2.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Nitrate+Nitrite as Nitrogen",2019-08-12 12:50:00,"NO3NO2N","T",0.0964,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Nitrogen",2019-08-12 12:50:00,"KN","T",0.57,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Nitrogen, ammonia (As N)",2019-08-12 12:50:00,"7664-41-7","T",0.083,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","NITROGEN, KJELDAHL, TOTAL",2019-08-12 12:50:00,"KN","T",0.48,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","NITROGEN, NITRATE (AS N)",2019-08-12 12:50:00,"14797-55-8","T",0.083,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","NITROGEN, NITRITE",2019-08-12 12:50:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Orthophosphate as Phosphorus, Dissolved",2019-08-12 12:50:00,"PDORTHO","D",0.0194,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","PHOSPHORUS, TOTAL (AS P)",2019-08-12 12:50:00,"7723-14-0","T",0.0622,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Silver",2019-08-12 12:50:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","TOTAL ORGANIC CARBON",2019-08-12 12:50:00,"TOC","T",4.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Total Suspended Solids",2019-08-12 12:50:00,"TSS","T",13.2,"mg/l",NA,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","TURBIDITY",2019-08-12 12:50:00,"TURB","T",13.4,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-08122019-W","R1907624","Zinc",2019-08-12 12:50:00,"7440-66-6","T",2.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","ALKALINITY, TOTAL (AS CaCO3)",2019-09-10 11:30:00,"ALK","T",300,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Aluminum",2019-09-10 11:30:00,"7429-90-5","T",214,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Arsenic",2019-09-10 11:30:00,"7440-38-2","T",1.4,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Cadmium",2019-09-10 11:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Calcium",2019-09-10 11:30:00,"7440-70-2","T",93200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","CHLORIDE (AS CL)",2019-09-10 11:30:00,"16887-00-6","T",109,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Copper",2019-09-10 11:30:00,"7440-50-8","T",1.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","HARDNESS (AS CACO3)",2019-09-10 11:30:00,"HARD","T",327,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Iron",2019-09-10 11:30:00,"7439-89-6","T",584,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Lead",2019-09-10 11:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Magnesium",2019-09-10 11:30:00,"7439-95-4","T",23000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Nickel",2019-09-10 11:30:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Nitrate+Nitrite as Nitrogen",2019-09-10 11:30:00,"NO3NO2N","T",0.0962,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Nitrogen",2019-09-10 11:30:00,"7727-37-9","T",0.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Nitrogen, ammonia (As N)",2019-09-10 11:30:00,"7664-41-7","T",0.077,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","NITROGEN, KJELDAHL, TOTAL",2019-09-10 11:30:00,"KN","T",0.59,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","NITROGEN, NITRATE (AS N)",2019-09-10 11:30:00,"14797-55-8","T",0.078,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","NITROGEN, NITRITE",2019-09-10 11:30:00,"14797-65-0","T",0.018,"mg/l",0.007,"mg/l",0.01,"","R","Holding Time error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Orthophosphate as Phosphorus, Dissolved",2019-09-10 11:30:00,"PDORTHO","D",0.013,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","PHOSPHORUS, TOTAL (AS P)",2019-09-10 11:30:00,"7723-14-0","T",0.059,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Silver",2019-09-10 11:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","TOTAL ORGANIC CARBON",2019-09-10 11:30:00,"TOC","T",4.2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Total Suspended Solids",2019-09-10 11:30:00,"TSS","T",13.3,"mg/l",NA,"mg/l",1.3,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","TURBIDITY",2019-09-10 11:30:00,"TURB","T",14.2,"ntu",0.06,"ntu",1,"","R","Holding Time error",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-09102019-W","R1908910","Zinc",2019-09-10 11:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 00:00:00,"ALK","T",272,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Aluminum",2019-10-10 00:00:00,"7429-90-5","T",280,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Arsenic",2019-10-10 00:00:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Cadmium",2019-10-10 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Calcium",2019-10-10 00:00:00,"7440-70-2","T",1e+05,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","CHLORIDE (AS CL)",2019-10-10 00:00:00,"16887-00-6","T",122,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Copper",2019-10-10 00:00:00,"7440-50-8","T",2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","HARDNESS (AS CACO3)",2019-10-10 00:00:00,"HARD","T",345,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Iron",2019-10-10 00:00:00,"7439-89-6","T",527,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Lead",2019-10-10 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Magnesium",2019-10-10 00:00:00,"7439-95-4","T",23300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Nickel",2019-10-10 00:00:00,"7440-02-0","T",2.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Nitrate+Nitrite as Nitrogen",2019-10-10 00:00:00,"NO3NO2N","T",0.789,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Nitrogen",2019-10-10 00:00:00,"7727-37-9","T",1.29,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Nitrogen, ammonia (As N)",2019-10-10 00:00:00,"7664-41-7","T",0.054,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","NITROGEN, KJELDAHL, TOTAL",2019-10-10 00:00:00,"KN","T",0.5,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","NITROGEN, NITRATE (AS N)",2019-10-10 00:00:00,"14797-55-8","T",0.76,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","NITROGEN, NITRITE",2019-10-10 00:00:00,"14797-65-0","T",0.029,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Orthophosphate as Phosphorus, Dissolved",2019-10-10 00:00:00,"PDORTHO","D",0.0258,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","PHOSPHORUS, TOTAL (AS P)",2019-10-10 00:00:00,"7723-14-0","T",0.0497,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Silver",2019-10-10 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","TOTAL ORGANIC CARBON",2019-10-10 00:00:00,"TOC","T",3.9,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Total Suspended Solids",2019-10-10 00:00:00,"TSS","T",12.3,"mg/l",NA,"mg/l",1.7,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","TURBIDITY",2019-10-10 00:00:00,"TURB","T",16.6,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Finger Lakes RAS","07-WEST-7.3","N","07-WEST-7.3-10102019-WS","R1909990","Zinc",2019-10-10 00:00:00,"7440-66-6","T",2.9,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-11

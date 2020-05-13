@@ -1,0 +1,495 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 14:30:00,"ALK","T",64.8,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Aluminum",2019-06-25 14:30:00,"7429-90-5","T",8.4,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Arsenic",2019-06-25 14:30:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Cadmium",2019-06-25 14:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Calcium",2019-06-25 14:30:00,"7440-70-2","T",19600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","CHLORIDE (AS CL)",2019-06-25 14:30:00,"16887-00-6","T",15.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Chlorophyll A",2019-06-25 14:30:00,"479-61-8","T",1.34,"ug/l",NA,"ug/l",0.096,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Copper",2019-06-25 14:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","HARDNESS (AS CACO3)",2019-06-25 14:30:00,"HARD","T",68.7,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Iron",2019-06-25 14:30:00,"7439-89-6","T",164,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Lead",2019-06-25 14:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Magnesium",2019-06-25 14:30:00,"7439-95-4","T",4800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Nickel",2019-06-25 14:30:00,"7440-02-0","T",NA,"ug/l",0.26,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Nitrate+Nitrite as Nitrogen",2019-06-25 14:30:00,"NO3NO2N","T",NA,"mg/l",0.0015,"mg/l",0.002,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Nitrogen",2019-06-25 14:30:00,"KN","T",0.57,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Nitrogen, ammonia (As N)",2019-06-25 14:30:00,"7664-41-7","T",0.009,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","NITROGEN, KJELDAHL, TOTAL",2019-06-25 14:30:00,"KN","T",0.57,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","NITROGEN, NITRATE (AS N)",2019-06-25 14:30:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","NITROGEN, NITRITE",2019-06-25 14:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Orthophosphate as Phosphorus, Dissolved",2019-06-25 14:30:00,"PDORTHO","D",0.0227,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","PHOSPHORUS, TOTAL (AS P)",2019-06-25 14:30:00,"7723-14-0","T",0.0397,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Silver",2019-06-25 14:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","TURBIDITY",2019-06-25 14:30:00,"TURB","T",1.8,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-06252019-W","R1905962","Zinc",2019-06-25 14:30:00,"7440-66-6","T",2.9,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","ALKALINITY, TOTAL (AS CaCO3)",2019-07-23 11:45:00,"ALK","T",63.2,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Aluminum",2019-07-23 11:45:00,"7429-90-5","T",9.3,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Arsenic",2019-07-23 11:45:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Cadmium",2019-07-23 11:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Calcium",2019-07-23 11:45:00,"7440-70-2","T",20300,"ug/l",110,"ug/l",1000,"E","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","CHLORIDE (AS CL)",2019-07-23 11:45:00,"16887-00-6","T",15.7,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Chlorophyll A",2019-07-23 11:45:00,"479-61-8","T",2.51,"ug/l",NA,"ug/l",0.13,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Copper",2019-07-23 11:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","HARDNESS (AS CACO3)",2019-07-23 11:45:00,"HARD","T",69.7,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Iron",2019-07-23 11:45:00,"7439-89-6","T",831,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Lead",2019-07-23 11:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Magnesium",2019-07-23 11:45:00,"7439-95-4","T",4610,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Nickel",2019-07-23 11:45:00,"7440-02-0","T",0.48,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Nitrate+Nitrite as Nitrogen",2019-07-23 11:45:00,"NO3NO2N","T",0.0051,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Nitrogen",2019-07-23 11:45:00,"KN","T",0.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Nitrogen, ammonia (As N)",2019-07-23 11:45:00,"7664-41-7","T",0.017,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","NITROGEN, KJELDAHL, TOTAL",2019-07-23 11:45:00,"KN","T",0.69,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","NITROGEN, NITRATE (AS N)",2019-07-23 11:45:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","NITROGEN, NITRITE",2019-07-23 11:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Orthophosphate as Phosphorus, Dissolved",2019-07-23 11:45:00,"PDORTHO","D",0.0562,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","PHOSPHORUS, TOTAL (AS P)",2019-07-23 11:45:00,"7723-14-0","T",0.105,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Silver",2019-07-23 11:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","TOTAL ORGANIC CARBON",2019-07-23 11:45:00,"TOC","T",11.1,"mg/l",0.9,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","TURBIDITY",2019-07-23 11:45:00,"TURB","T",2.67,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-07232019-W","R1906908","Zinc",2019-07-23 11:45:00,"7440-66-6","T",3.9,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","ALKALINITY, TOTAL (AS CaCO3)",2019-08-27 11:00:00,"ALK","T",58.8,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Aluminum",2019-08-27 11:00:00,"7429-90-5","T",6.1,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Arsenic",2019-08-27 11:00:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Cadmium",2019-08-27 11:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Calcium",2019-08-27 11:00:00,"7440-70-2","T",18200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","CHLORIDE (AS CL)",2019-08-27 11:00:00,"16887-00-6","T",19.8,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Chlorophyll A",2019-08-27 11:00:00,"479-61-8","T",5.55,"ug/l",NA,"ug/l",0.24,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Copper",2019-08-27 11:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","HARDNESS (AS CACO3)",2019-08-27 11:00:00,"HARD","T",62.8,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Iron",2019-08-27 11:00:00,"7439-89-6","T",428,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Lead",2019-08-27 11:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Magnesium",2019-08-27 11:00:00,"7439-95-4","T",4190,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Nickel",2019-08-27 11:00:00,"7440-02-0","T",0.38,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Nitrate+Nitrite as Nitrogen",2019-08-27 11:00:00,"NO3NO2N","T",0.0029,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Nitrogen",2019-08-27 11:00:00,"7727-37-9","T",0.6,"mg/l",NA,"mg/l",0.1,"","T","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Nitrogen, ammonia (As N)",2019-08-27 11:00:00,"7664-41-7","T",0.016,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","NITROGEN, KJELDAHL, TOTAL",2019-08-27 11:00:00,"KN","T",0.6,"mg/l",0.1,"mg/l",0.1,"","T","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","NITROGEN, NITRATE (AS N)",2019-08-27 11:00:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","NITROGEN, NITRITE",2019-08-27 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Orthophosphate as Phosphorus, Dissolved",2019-08-27 11:00:00,"PDORTHO","D",0.0389,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","PHOSPHORUS, TOTAL (AS P)",2019-08-27 11:00:00,"7723-14-0","T",0.0692,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Silver",2019-08-27 11:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","TOTAL ORGANIC CARBON",2019-08-27 11:00:00,"TOC","T",9.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","TURBIDITY",2019-08-27 11:00:00,"TURB","T",0.86,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-08272019-W","R1908225","Zinc",2019-08-27 11:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 10:30:00,"ALK","T",62.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Aluminum",2019-10-10 10:30:00,"7429-90-5","T",16.2,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Arsenic",2019-10-10 10:30:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Cadmium",2019-10-10 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Calcium",2019-10-10 10:30:00,"7440-70-2","T",19900,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","CHLORIDE (AS CL)",2019-10-10 10:30:00,"16887-00-6","T",32.3,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Chlorophyll A",2019-10-10 10:30:00,"479-61-8","T",2.82,"ug/l",NA,"ug/l",0.17,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Copper",2019-10-10 10:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","HARDNESS (AS CACO3)",2019-10-10 10:30:00,"HARD","T",70.2,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Iron",2019-10-10 10:30:00,"7439-89-6","T",589,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Lead",2019-10-10 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Magnesium",2019-10-10 10:30:00,"7439-95-4","T",4980,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Nickel",2019-10-10 10:30:00,"7440-02-0","T",0.52,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Nitrate+Nitrite as Nitrogen",2019-10-10 10:30:00,"NO3NO2N","T",0.0037,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Nitrogen",2019-10-10 10:30:00,"7727-37-9","T",1.03,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Nitrogen, ammonia (As N)",2019-10-10 10:30:00,"7664-41-7","T",0.041,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","NITROGEN, KJELDAHL, TOTAL",2019-10-10 10:30:00,"KN","T",1.03,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","NITROGEN, NITRATE (AS N)",2019-10-10 10:30:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","NITROGEN, NITRITE",2019-10-10 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Orthophosphate as Phosphorus, Dissolved",2019-10-10 10:30:00,"PDORTHO","D",0.0639,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","PHOSPHORUS, TOTAL (AS P)",2019-10-10 10:30:00,"7723-14-0","T",0.0977,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Silver",2019-10-10 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","TOTAL ORGANIC CARBON",2019-10-10 10:30:00,"TOC","T",11.6,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","TURBIDITY",2019-10-10 10:30:00,"TURB","T",2.82,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-BLAH-4.2","N","09-BLAH-4.2-10102019-WS","R1909988","Zinc",2019-10-10 10:30:00,"7440-66-6","T",5.3,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 10:30:00,"ALK","T",95.2,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Aluminum",2019-06-25 10:30:00,"7429-90-5","T",19.2,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Arsenic",2019-06-25 10:30:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Cadmium",2019-06-25 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Calcium",2019-06-25 10:30:00,"7440-70-2","T",29400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","CHLORIDE (AS CL)",2019-06-25 10:30:00,"16887-00-6","T",8.8,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Chlorophyll A",2019-06-25 10:30:00,"479-61-8","T",1.92,"ug/l",NA,"ug/l",0.12,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Copper",2019-06-25 10:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","HARDNESS (AS CACO3)",2019-06-25 10:30:00,"HARD","T",104,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Iron",2019-06-25 10:30:00,"7439-89-6","T",398,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Lead",2019-06-25 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Magnesium",2019-06-25 10:30:00,"7439-95-4","T",7490,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Nickel",2019-06-25 10:30:00,"7440-02-0","T",0.56,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Nitrate+Nitrite as Nitrogen",2019-06-25 10:30:00,"NO3NO2N","T",0.0026,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Nitrogen",2019-06-25 10:30:00,"KN","T",0.87,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Nitrogen, ammonia (As N)",2019-06-25 10:30:00,"7664-41-7","T",0.0163,"mg/l",0.0036,"mg/l",0.005,"","R","Equipment Blank error ; Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","NITROGEN, KJELDAHL, TOTAL",2019-06-25 10:30:00,"KN","T",0.87,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","NITROGEN, NITRATE (AS N)",2019-06-25 10:30:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","NITROGEN, NITRITE",2019-06-25 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Orthophosphate as Phosphorus, Dissolved",2019-06-25 10:30:00,"PDORTHO","D",0.0624,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","PHOSPHORUS, TOTAL (AS P)",2019-06-25 10:30:00,"7723-14-0","T",0.0879,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Silver",2019-06-25 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","TURBIDITY",2019-06-25 10:30:00,"TURB","T",2.04,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-06252019-W","R1905962","Zinc",2019-06-25 10:30:00,"7440-66-6","T",3,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","ALKALINITY, TOTAL (AS CaCO3)",2019-07-23 08:30:00,"ALK","T",114,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Aluminum",2019-07-23 08:30:00,"7429-90-5","T",15.3,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Arsenic",2019-07-23 08:30:00,"7440-38-2","T",0.52,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Cadmium",2019-07-23 08:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Calcium",2019-07-23 08:30:00,"7440-70-2","T",35000,"ug/l",110,"ug/l",1000,"E","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","CHLORIDE (AS CL)",2019-07-23 08:30:00,"16887-00-6","T",6.8,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Chlorophyll A",2019-07-23 08:30:00,"479-61-8","T",3.91,"ug/l",NA,"ug/l",0.14,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Copper",2019-07-23 08:30:00,"7440-50-8","T",0.82,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","HARDNESS (AS CACO3)",2019-07-23 08:30:00,"HARD","T",122,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Iron",2019-07-23 08:30:00,"7439-89-6","T",1660,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Lead",2019-07-23 08:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Magnesium",2019-07-23 08:30:00,"7439-95-4","T",8280,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Nickel",2019-07-23 08:30:00,"7440-02-0","T",0.72,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Nitrate+Nitrite as Nitrogen",2019-07-23 08:30:00,"NO3NO2N","T",0.0127,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Nitrogen",2019-07-23 08:30:00,"KN","T",1.16,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Nitrogen, ammonia (As N)",2019-07-23 08:30:00,"7664-41-7","T",0.035,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","NITROGEN, KJELDAHL, TOTAL",2019-07-23 08:30:00,"KN","T",1.15,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","NITROGEN, NITRATE (AS N)",2019-07-23 08:30:00,"14797-55-8","T",0.013,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","NITROGEN, NITRITE",2019-07-23 08:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Orthophosphate as Phosphorus, Dissolved",2019-07-23 08:30:00,"PDORTHO","D",0.0708,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","PHOSPHORUS, TOTAL (AS P)",2019-07-23 08:30:00,"7723-14-0","T",0.154,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Silver",2019-07-23 08:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","TOTAL ORGANIC CARBON",2019-07-23 08:30:00,"TOC","T",16.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","TURBIDITY",2019-07-23 08:30:00,"TURB","T",6.2,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-07232019-W","R1906908","Zinc",2019-07-23 08:30:00,"7440-66-6","T",5.5,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","ALKALINITY, TOTAL (AS CaCO3)",2019-08-27 08:53:00,"ALK","T",118,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Aluminum",2019-08-27 08:53:00,"7429-90-5","T",8.1,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Arsenic",2019-08-27 08:53:00,"7440-38-2","T",0.52,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Cadmium",2019-08-27 08:53:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Calcium",2019-08-27 08:53:00,"7440-70-2","T",35800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","CHLORIDE (AS CL)",2019-08-27 08:53:00,"16887-00-6","T",10.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Chlorophyll A",2019-08-27 08:53:00,"479-61-8","T",16.1,"ug/l",NA,"ug/l",0.79,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Copper",2019-08-27 08:53:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","HARDNESS (AS CACO3)",2019-08-27 08:53:00,"HARD","T",123,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Iron",2019-08-27 08:53:00,"7439-89-6","T",630,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Lead",2019-08-27 08:53:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Magnesium",2019-08-27 08:53:00,"7439-95-4","T",8140,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Nickel",2019-08-27 08:53:00,"7440-02-0","T",0.66,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Nitrate+Nitrite as Nitrogen",2019-08-27 08:53:00,"NO3NO2N","T",0.0061,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Nitrogen",2019-08-27 08:53:00,"7727-37-9","T",1.35,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Nitrogen, ammonia (As N)",2019-08-27 08:53:00,"7664-41-7","T",0.011,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","NITROGEN, KJELDAHL, TOTAL",2019-08-27 08:53:00,"KN","T",1.34,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","NITROGEN, NITRATE (AS N)",2019-08-27 08:53:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","NITROGEN, NITRITE",2019-08-27 08:53:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Orthophosphate as Phosphorus, Dissolved",2019-08-27 08:53:00,"PDORTHO","D",0.0539,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","PHOSPHORUS, TOTAL (AS P)",2019-08-27 08:53:00,"7723-14-0","T",0.109,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Silver",2019-08-27 08:53:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","TOTAL ORGANIC CARBON",2019-08-27 08:53:00,"TOC","T",17.2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","TURBIDITY",2019-08-27 08:53:00,"TURB","T",2.95,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-08272019-W","R1908225","Zinc",2019-08-27 08:53:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 08:45:00,"ALK","T",103,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Aluminum",2019-10-10 08:45:00,"7429-90-5","T",17,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Arsenic",2019-10-10 08:45:00,"7440-38-2","T",0.6,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Cadmium",2019-10-10 08:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Calcium",2019-10-10 08:45:00,"7440-70-2","T",29800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","CHLORIDE (AS CL)",2019-10-10 08:45:00,"16887-00-6","T",13.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Chlorophyll A",2019-10-10 08:45:00,"479-61-8","T",5.39,"ug/l",NA,"ug/l",0.32,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Copper",2019-10-10 08:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","HARDNESS (AS CACO3)",2019-10-10 08:45:00,"HARD","T",106,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Iron",2019-10-10 08:45:00,"7439-89-6","T",318,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Lead",2019-10-10 08:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Magnesium",2019-10-10 08:45:00,"7439-95-4","T",7700,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Nickel",2019-10-10 08:45:00,"7440-02-0","T",0.65,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Nitrate+Nitrite as Nitrogen",2019-10-10 08:45:00,"NO3NO2N","T",0.0043,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Nitrogen",2019-10-10 08:45:00,"7727-37-9","T",0.98,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Nitrogen, ammonia (As N)",2019-10-10 08:45:00,"7664-41-7","T",0.042,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","NITROGEN, KJELDAHL, TOTAL",2019-10-10 08:45:00,"KN","T",0.98,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","NITROGEN, NITRATE (AS N)",2019-10-10 08:45:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","NITROGEN, NITRITE",2019-10-10 08:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Orthophosphate as Phosphorus, Dissolved",2019-10-10 08:45:00,"PDORTHO","D",0.0247,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","PHOSPHORUS, TOTAL (AS P)",2019-10-10 08:45:00,"7723-14-0","T",0.0442,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Silver",2019-10-10 08:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","TOTAL ORGANIC CARBON",2019-10-10 08:45:00,"TOC","T",17.4,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","TURBIDITY",2019-10-10 08:45:00,"TURB","T",2.33,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-FSCR-1.0","N","09-FSCR-1.0-10102019-WS","R1909988","Zinc",2019-10-10 08:45:00,"7440-66-6","T",3,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 12:35:00,"ALK","T",68,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Aluminum",2019-06-25 12:35:00,"7429-90-5","T",39.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Arsenic",2019-06-25 12:35:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Cadmium",2019-06-25 12:35:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Calcium",2019-06-25 12:35:00,"7440-70-2","T",22700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","CHLORIDE (AS CL)",2019-06-25 12:35:00,"16887-00-6","T",NA,"mg/l",0.5,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Chlorophyll A",2019-06-25 12:35:00,"479-61-8","T",3.43,"ug/l",NA,"ug/l",0.2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Copper",2019-06-25 12:35:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","HARDNESS (AS CACO3)",2019-06-25 12:35:00,"HARD","T",74.6,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Iron",2019-06-25 12:35:00,"7439-89-6","T",852,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Lead",2019-06-25 12:35:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Magnesium",2019-06-25 12:35:00,"7439-95-4","T",4360,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Nickel",2019-06-25 12:35:00,"7440-02-0","T",0.44,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Nitrate+Nitrite as Nitrogen",2019-06-25 12:35:00,"NO3NO2N","T",0.0051,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Nitrogen",2019-06-25 12:35:00,"KN","T",0.76,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Nitrogen, ammonia (As N)",2019-06-25 12:35:00,"7664-41-7","T",0.0191,"mg/l",0.0036,"mg/l",0.005,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","NITROGEN, KJELDAHL, TOTAL",2019-06-25 12:35:00,"KN","T",0.76,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","NITROGEN, NITRATE (AS N)",2019-06-25 12:35:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","NITROGEN, NITRITE",2019-06-25 12:35:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Orthophosphate as Phosphorus, Dissolved",2019-06-25 12:35:00,"PDORTHO","D",0.042,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","PHOSPHORUS, TOTAL (AS P)",2019-06-25 12:35:00,"7723-14-0","T",0.0852,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Silver",2019-06-25 12:35:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","TURBIDITY",2019-06-25 12:35:00,"TURB","T",2.85,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-06252019-W","R1905962","Zinc",2019-06-25 12:35:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","ALKALINITY, TOTAL (AS CaCO3)",2019-07-23 10:34:00,"ALK","T",89.6,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Aluminum",2019-07-23 10:34:00,"7429-90-5","T",33,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Arsenic",2019-07-23 10:34:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Cadmium",2019-07-23 10:34:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Calcium",2019-07-23 10:34:00,"7440-70-2","T",28100,"ug/l",110,"ug/l",1000,"E","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","CHLORIDE (AS CL)",2019-07-23 10:34:00,"16887-00-6","T",NA,"mg/l",0.5,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Chlorophyll A",2019-07-23 10:34:00,"479-61-8","T",2.07,"ug/l",NA,"ug/l",0.099,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Copper",2019-07-23 10:34:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","HARDNESS (AS CACO3)",2019-07-23 10:34:00,"HARD","T",91.1,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Iron",2019-07-23 10:34:00,"7439-89-6","T",1610,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Lead",2019-07-23 10:34:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Magnesium",2019-07-23 10:34:00,"7439-95-4","T",5080,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Nickel",2019-07-23 10:34:00,"7440-02-0","T",0.68,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Nitrate+Nitrite as Nitrogen",2019-07-23 10:34:00,"NO3NO2N","T",0.0051,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Nitrogen",2019-07-23 10:34:00,"KN","T",0.67,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Nitrogen, ammonia (As N)",2019-07-23 10:34:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","NITROGEN, KJELDAHL, TOTAL",2019-07-23 10:34:00,"KN","T",0.67,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","NITROGEN, NITRATE (AS N)",2019-07-23 10:34:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","NITROGEN, NITRITE",2019-07-23 10:34:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Orthophosphate as Phosphorus, Dissolved",2019-07-23 10:34:00,"PDORTHO","D",0.0459,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","PHOSPHORUS, TOTAL (AS P)",2019-07-23 10:34:00,"7723-14-0","T",0.121,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Silver",2019-07-23 10:34:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","TOTAL ORGANIC CARBON",2019-07-23 10:34:00,"TOC","T",10.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","TURBIDITY",2019-07-23 10:34:00,"TURB","T",7.08,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-07232019-W","R1906908","Zinc",2019-07-23 10:34:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","ALKALINITY, TOTAL (AS CaCO3)",2019-08-27 10:30:00,"ALK","T",102,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Aluminum",2019-08-27 10:30:00,"7429-90-5","T",34,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Arsenic",2019-08-27 10:30:00,"7440-38-2","T",0.37,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Cadmium",2019-08-27 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Calcium",2019-08-27 10:30:00,"7440-70-2","T",31000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","CHLORIDE (AS CL)",2019-08-27 10:30:00,"16887-00-6","T",NA,"mg/l",0.5,"mg/l",2,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Chlorophyll A",2019-08-27 10:30:00,"479-61-8","T",NA,"ug/l",NA,"ug/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Copper",2019-08-27 10:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","HARDNESS (AS CACO3)",2019-08-27 10:30:00,"HARD","T",102,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Iron",2019-08-27 10:30:00,"7439-89-6","T",1810,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Lead",2019-08-27 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Magnesium",2019-08-27 10:30:00,"7439-95-4","T",5870,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Nickel",2019-08-27 10:30:00,"7440-02-0","T",0.73,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Nitrate+Nitrite as Nitrogen",2019-08-27 10:30:00,"NO3NO2N","T",0.0075,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Nitrogen",2019-08-27 10:30:00,"7727-37-9","T",0.85,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Nitrogen, ammonia (As N)",2019-08-27 10:30:00,"7664-41-7","T",0.022,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","NITROGEN, KJELDAHL, TOTAL",2019-08-27 10:30:00,"KN","T",0.84,"mg/l",0.1,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","NITROGEN, NITRATE (AS N)",2019-08-27 10:30:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","NITROGEN, NITRITE",2019-08-27 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Orthophosphate as Phosphorus, Dissolved",2019-08-27 10:30:00,"PDORTHO","D",0.03,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","PHOSPHORUS, TOTAL (AS P)",2019-08-27 10:30:00,"7723-14-0","T",0.114,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Silver",2019-08-27 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","TURBIDITY",2019-08-27 10:30:00,"TURB","T",5.98,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-08272019-W","R1908225","Zinc",2019-08-27 10:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 11:15:00,"ALK","T",94.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Aluminum",2019-10-10 11:15:00,"7429-90-5","T",166,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Arsenic",2019-10-10 11:15:00,"7440-38-2","T",0.71,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Cadmium",2019-10-10 11:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Calcium",2019-10-10 11:15:00,"7440-70-2","T",29000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","CHLORIDE (AS CL)",2019-10-10 11:15:00,"16887-00-6","T",9.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Chlorophyll A",2019-10-10 11:15:00,"479-61-8","T",5.62,"ug/l",NA,"ug/l",0.32,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Copper",2019-10-10 11:15:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","HARDNESS (AS CACO3)",2019-10-10 11:15:00,"HARD","T",97.3,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Iron",2019-10-10 11:15:00,"7439-89-6","T",1100,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Lead",2019-10-10 11:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Magnesium",2019-10-10 11:15:00,"7439-95-4","T",6060,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Nickel",2019-10-10 11:15:00,"7440-02-0","T",0.8,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Nitrate+Nitrite as Nitrogen",2019-10-10 11:15:00,"NO3NO2N","T",0.0075,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Nitrogen",2019-10-10 11:15:00,"7727-37-9","T",0.87,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Nitrogen, ammonia (As N)",2019-10-10 11:15:00,"7664-41-7","T",0.031,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","NITROGEN, KJELDAHL, TOTAL",2019-10-10 11:15:00,"KN","T",0.86,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","NITROGEN, NITRATE (AS N)",2019-10-10 11:15:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","NITROGEN, NITRITE",2019-10-10 11:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Orthophosphate as Phosphorus, Dissolved",2019-10-10 11:15:00,"PDORTHO","D",0.021,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","PHOSPHORUS, TOTAL (AS P)",2019-10-10 11:15:00,"7723-14-0","T",0.0683,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Silver",2019-10-10 11:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","TOTAL ORGANIC CARBON",2019-10-10 11:15:00,"TOC","T",12.4,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","TURBIDITY",2019-10-10 11:15:00,"TURB","T",7.45,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Black Lake RAS","09-GRAC-0.8","N","09-GRAC-0.8-10102019-WS","R1909988","Zinc",2019-10-10 11:15:00,"7440-66-6","T",5.9,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 15:30:00,"ALK","T",220,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Aluminum",2019-06-25 15:30:00,"7429-90-5","T",259,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Arsenic",2019-06-25 15:30:00,"7440-38-2","T",2.6,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Cadmium",2019-06-25 15:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Calcium",2019-06-25 15:30:00,"7440-70-2","T",61900,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","CHLORIDE (AS CL)",2019-06-25 15:30:00,"16887-00-6","T",72,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Chlorophyll A",2019-06-25 15:30:00,"479-61-8","T",25.1,"ug/l",NA,"ug/l",1.9,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Copper",2019-06-25 15:30:00,"7440-50-8","T",6.5,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","HARDNESS (AS CACO3)",2019-06-25 15:30:00,"HARD","T",234,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Iron",2019-06-25 15:30:00,"7439-89-6","T",4570,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Lead",2019-06-25 15:30:00,"7439-92-1","T",2.4,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Magnesium",2019-06-25 15:30:00,"7439-95-4","T",19300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Nickel",2019-06-25 15:30:00,"7440-02-0","T",3.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Nitrate+Nitrite as Nitrogen",2019-06-25 15:30:00,"NO3NO2N","T",0.357,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Nitrogen",2019-06-25 15:30:00,"KN","T",8.76,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Nitrogen, ammonia (As N)",2019-06-25 15:30:00,"7664-41-7","T",3.94,"mg/l",0.036,"mg/l",0.05,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","NITROGEN, KJELDAHL, TOTAL",2019-06-25 15:30:00,"KN","T",8.4,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","NITROGEN, NITRATE (AS N)",2019-06-25 15:30:00,"14797-55-8","T",0.179,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","NITROGEN, NITRITE",2019-06-25 15:30:00,"14797-65-0","T",0.178,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Orthophosphate as Phosphorus, Dissolved",2019-06-25 15:30:00,"PDORTHO","D",1.54,"mg/l",0.025,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","PHOSPHORUS, TOTAL (AS P)",2019-06-25 15:30:00,"7723-14-0","T",2.86,"mg/l",0.18,"mg/l",0.25,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Silver",2019-06-25 15:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","TURBIDITY",2019-06-25 15:30:00,"TURB","T",24.2,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-06252019-W","R1905962","Zinc",2019-06-25 15:30:00,"7440-66-6","T",31.3,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","ALKALINITY, TOTAL (AS CaCO3)",2019-07-23 12:45:00,"ALK","T",283,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Aluminum",2019-07-23 12:45:00,"7429-90-5","T",389,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Arsenic",2019-07-23 12:45:00,"7440-38-2","T",1.7,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Cadmium",2019-07-23 12:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Calcium",2019-07-23 12:45:00,"7440-70-2","T",93000,"ug/l",110,"ug/l",1000,"E","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","CHLORIDE (AS CL)",2019-07-23 12:45:00,"16887-00-6","T",159,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Chlorophyll A",2019-07-23 12:45:00,"479-61-8","T",17.5,"ug/l",NA,"ug/l",0.68,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Copper",2019-07-23 12:45:00,"7440-50-8","T",2.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","HARDNESS (AS CACO3)",2019-07-23 12:45:00,"HARD","T",358,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Iron",2019-07-23 12:45:00,"7439-89-6","T",1030,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Lead",2019-07-23 12:45:00,"7439-92-1","T",0.91,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Magnesium",2019-07-23 12:45:00,"7439-95-4","T",30500,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Nickel",2019-07-23 12:45:00,"7440-02-0","T",3.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Nitrate+Nitrite as Nitrogen",2019-07-23 12:45:00,"NO3NO2N","T",0.226,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Nitrogen",2019-07-23 12:45:00,"KN","T",1.55,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Nitrogen, ammonia (As N)",2019-07-23 12:45:00,"7664-41-7","T",0.247,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","NITROGEN, KJELDAHL, TOTAL",2019-07-23 12:45:00,"KN","T",1.32,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","NITROGEN, NITRATE (AS N)",2019-07-23 12:45:00,"14797-55-8","T",0.216,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","NITROGEN, NITRITE",2019-07-23 12:45:00,"14797-65-0","T",0.01,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Orthophosphate as Phosphorus, Dissolved",2019-07-23 12:45:00,"PDORTHO","D",0.684,"mg/l",0.025,"mg/l",0.025,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","PHOSPHORUS, TOTAL (AS P)",2019-07-23 12:45:00,"7723-14-0","T",1.02,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Silver",2019-07-23 12:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","TOTAL ORGANIC CARBON",2019-07-23 12:45:00,"TOC","T",9.3,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","TURBIDITY",2019-07-23 12:45:00,"TURB","T",11.6,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-07232019-W","R1906908","Zinc",2019-07-23 12:45:00,"7440-66-6","T",6.6,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","ALKALINITY, TOTAL (AS CaCO3)",2019-08-27 11:50:00,"ALK","T",265,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Aluminum",2019-08-27 11:50:00,"7429-90-5","T",252,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Arsenic",2019-08-27 11:50:00,"7440-38-2","T",1.6,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Cadmium",2019-08-27 11:50:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Calcium",2019-08-27 11:50:00,"7440-70-2","T",83600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","CHLORIDE (AS CL)",2019-08-27 11:50:00,"16887-00-6","T",156,"mg/l",3,"mg/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Chlorophyll A",2019-08-27 11:50:00,"479-61-8","T",35.7,"ug/l",NA,"ug/l",1.4,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Copper",2019-08-27 11:50:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","HARDNESS (AS CACO3)",2019-08-27 11:50:00,"HARD","T",326,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Iron",2019-08-27 11:50:00,"7439-89-6","T",810,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Lead",2019-08-27 11:50:00,"7439-92-1","T",0.61,"ug/l",0.57,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Magnesium",2019-08-27 11:50:00,"7439-95-4","T",28500,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Nickel",2019-08-27 11:50:00,"7440-02-0","T",3.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Nitrate+Nitrite as Nitrogen",2019-08-27 11:50:00,"NO3NO2N","T",0.0295,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Nitrogen",2019-08-27 11:50:00,"7727-37-9","T",1.03,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Nitrogen, ammonia (As N)",2019-08-27 11:50:00,"7664-41-7","T",0.083,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","NITROGEN, KJELDAHL, TOTAL",2019-08-27 11:50:00,"KN","T",1,"mg/l",0.1,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","NITROGEN, NITRATE (AS N)",2019-08-27 11:50:00,"14797-55-8","T",0.03,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","NITROGEN, NITRITE",2019-08-27 11:50:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Orthophosphate as Phosphorus, Dissolved",2019-08-27 11:50:00,"PDORTHO","D",0.696,"mg/l",0.03,"mg/l",0.03,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","PHOSPHORUS, TOTAL (AS P)",2019-08-27 11:50:00,"7723-14-0","T",0.91,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Silver",2019-08-27 11:50:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","TOTAL ORGANIC CARBON",2019-08-27 11:50:00,"TOC","T",8.9,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","TURBIDITY",2019-08-27 11:50:00,"TURB","T",10,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-08272019-W","R1908225","Zinc",2019-08-27 11:50:00,"7440-66-6","T",4.7,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 09:45:00,"ALK","T",211,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Aluminum",2019-10-10 09:45:00,"7429-90-5","T",454,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Arsenic",2019-10-10 09:45:00,"7440-38-2","T",0.69,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Cadmium",2019-10-10 09:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Calcium",2019-10-10 09:45:00,"7440-70-2","T",70600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","CHLORIDE (AS CL)",2019-10-10 09:45:00,"16887-00-6","T",137,"mg/l",0.9,"mg/l",4,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Chlorophyll A",2019-10-10 09:45:00,"479-61-8","T",1.15,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Copper",2019-10-10 09:45:00,"7440-50-8","T",2.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","HARDNESS (AS CACO3)",2019-10-10 09:45:00,"HARD","T",267,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Iron",2019-10-10 09:45:00,"7439-89-6","T",914,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Lead",2019-10-10 09:45:00,"7439-92-1","T",1,"ug/l",0.57,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Magnesium",2019-10-10 09:45:00,"7439-95-4","T",22000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Nickel",2019-10-10 09:45:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Nitrate+Nitrite as Nitrogen",2019-10-10 09:45:00,"NO3NO2N","T",1.97,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Nitrogen",2019-10-10 09:45:00,"7727-37-9","T",2.99,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Nitrogen, ammonia (As N)",2019-10-10 09:45:00,"7664-41-7","T",0.161,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","NITROGEN, KJELDAHL, TOTAL",2019-10-10 09:45:00,"KN","T",1.02,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","NITROGEN, NITRATE (AS N)",2019-10-10 09:45:00,"14797-55-8","T",1.82,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","NITROGEN, NITRITE",2019-10-10 09:45:00,"14797-65-0","T",0.141,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Orthophosphate as Phosphorus, Dissolved",2019-10-10 09:45:00,"PDORTHO","D",0.362,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","PHOSPHORUS, TOTAL (AS P)",2019-10-10 09:45:00,"7723-14-0","T",0.424,"mg/l",0.036,"mg/l",0.05,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Silver",2019-10-10 09:45:00,"7440-22-4","T",0.2,"ug/l",0.15,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","TOTAL ORGANIC CARBON",2019-10-10 09:45:00,"TOC","T",7.8,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","TURBIDITY",2019-10-10 09:45:00,"TURB","T",14.4,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Black Lake RAS","09-HAMM-1.9","N","09-HAMM-1.9-10102019-WS","R1909988","Zinc",2019-10-10 09:45:00,"7440-66-6","T",6.4,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","ALKALINITY, TOTAL (AS CaCO3)",2019-06-25 11:30:00,"ALK","T",46.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Aluminum",2019-06-25 11:30:00,"7429-90-5","T",108,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Arsenic",2019-06-25 11:30:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Cadmium",2019-06-25 11:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Calcium",2019-06-25 11:30:00,"7440-70-2","T",15200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","CHLORIDE (AS CL)",2019-06-25 11:30:00,"16887-00-6","T",10.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Chlorophyll A",2019-06-25 11:30:00,"479-61-8","T",1.11,"ug/l",NA,"ug/l",0.12,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Copper",2019-06-25 11:30:00,"7440-50-8","T",0.93,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","HARDNESS (AS CACO3)",2019-06-25 11:30:00,"HARD","T",52.4,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Iron",2019-06-25 11:30:00,"7439-89-6","T",840,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Lead",2019-06-25 11:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Magnesium",2019-06-25 11:30:00,"7439-95-4","T",3520,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Nickel",2019-06-25 11:30:00,"7440-02-0","T",0.43,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Nitrate+Nitrite as Nitrogen",2019-06-25 11:30:00,"NO3NO2N","T",0.0381,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Nitrogen",2019-06-25 11:30:00,"KN","T",0.66,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Nitrogen, ammonia (As N)",2019-06-25 11:30:00,"7664-41-7","T",0.0311,"mg/l",0.0036,"mg/l",0.005,"","R","estimated value due to Equipment Blank error ; Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","NITROGEN, KJELDAHL, TOTAL",2019-06-25 11:30:00,"KN","T",0.62,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","NITROGEN, NITRATE (AS N)",2019-06-25 11:30:00,"14797-55-8","T",0.038,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","NITROGEN, NITRITE",2019-06-25 11:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Orthophosphate as Phosphorus, Dissolved",2019-06-25 11:30:00,"PDORTHO","D",0.0373,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","PHOSPHORUS, TOTAL (AS P)",2019-06-25 11:30:00,"7723-14-0","T",0.069,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Silver",2019-06-25 11:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","TURBIDITY",2019-06-25 11:30:00,"TURB","T",4.42,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-06252019-W","R1905962","Zinc",2019-06-25 11:30:00,"7440-66-6","T",6.7,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","ALKALINITY, TOTAL (AS CaCO3)",2019-07-23 09:30:00,"ALK","T",58.4,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Aluminum",2019-07-23 09:30:00,"7429-90-5","T",53.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Arsenic",2019-07-23 09:30:00,"7440-38-2","T",0.44,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Cadmium",2019-07-23 09:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Calcium",2019-07-23 09:30:00,"7440-70-2","T",18400,"ug/l",110,"ug/l",1000,"E","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","CHLORIDE (AS CL)",2019-07-23 09:30:00,"16887-00-6","T",16.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Chlorophyll A",2019-07-23 09:30:00,"479-61-8","T",0.979,"ug/l",NA,"ug/l",0.039,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Copper",2019-07-23 09:30:00,"7440-50-8","T",0.74,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","HARDNESS (AS CACO3)",2019-07-23 09:30:00,"HARD","T",62,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Iron",2019-07-23 09:30:00,"7439-89-6","T",930,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Lead",2019-07-23 09:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Magnesium",2019-07-23 09:30:00,"7439-95-4","T",3900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Nickel",2019-07-23 09:30:00,"7440-02-0","T",0.64,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Nitrate+Nitrite as Nitrogen",2019-07-23 09:30:00,"NO3NO2N","T",0.087,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Nitrogen",2019-07-23 09:30:00,"KN","T",0.6,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Nitrogen, ammonia (As N)",2019-07-23 09:30:00,"7664-41-7","T",0.031,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","NITROGEN, KJELDAHL, TOTAL",2019-07-23 09:30:00,"KN","T",0.51,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","NITROGEN, NITRATE (AS N)",2019-07-23 09:30:00,"14797-55-8","T",0.087,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","NITROGEN, NITRITE",2019-07-23 09:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Orthophosphate as Phosphorus, Dissolved",2019-07-23 09:30:00,"PDORTHO","D",0.0461,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","PHOSPHORUS, TOTAL (AS P)",2019-07-23 09:30:00,"7723-14-0","T",0.0708,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Silver",2019-07-23 09:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","TOTAL ORGANIC CARBON",2019-07-23 09:30:00,"TOC","T",9.7,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","TURBIDITY",2019-07-23 09:30:00,"TURB","T",3.7,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-07232019-W","R1906908","Zinc",2019-07-23 09:30:00,"7440-66-6","T",5.7,"ug/l",2.5,"ug/l",5,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","ALKALINITY, TOTAL (AS CaCO3)",2019-08-27 09:37:00,"ALK","T",79.2,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Aluminum",2019-08-27 09:37:00,"7429-90-5","T",24.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Arsenic",2019-08-27 09:37:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Cadmium",2019-08-27 09:37:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Calcium",2019-08-27 09:37:00,"7440-70-2","T",27200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","CHLORIDE (AS CL)",2019-08-27 09:37:00,"16887-00-6","T",52.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Chlorophyll A",2019-08-27 09:37:00,"479-61-8","T",2.22,"ug/l",NA,"ug/l",0.081,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Copper",2019-08-27 09:37:00,"7440-50-8","T",0.71,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","HARDNESS (AS CACO3)",2019-08-27 09:37:00,"HARD","T",91.9,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Iron",2019-08-27 09:37:00,"7439-89-6","T",167,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Lead",2019-08-27 09:37:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Magnesium",2019-08-27 09:37:00,"7439-95-4","T",5830,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Nickel",2019-08-27 09:37:00,"7440-02-0","T",0.6,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Nitrate+Nitrite as Nitrogen",2019-08-27 09:37:00,"NO3NO2N","T",0.0059,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Nitrogen",2019-08-27 09:37:00,"7727-37-9","T",0.36,"mg/l",NA,"mg/l",0.1,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Nitrogen, ammonia (As N)",2019-08-27 09:37:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","NITROGEN, KJELDAHL, TOTAL",2019-08-27 09:37:00,"KN","T",0.36,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","NITROGEN, NITRATE (AS N)",2019-08-27 09:37:00,"14797-55-8","T",NA,"mg/l",NA,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","NITROGEN, NITRITE",2019-08-27 09:37:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Orthophosphate as Phosphorus, Dissolved",2019-08-27 09:37:00,"PDORTHO","D",0.0134,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","PHOSPHORUS, TOTAL (AS P)",2019-08-27 09:37:00,"7723-14-0","T",0.0259,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Silver",2019-08-27 09:37:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","TOTAL ORGANIC CARBON",2019-08-27 09:37:00,"TOC","T",6.5,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","TURBIDITY",2019-08-27 09:37:00,"TURB","T",1.22,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-08272019-W","R1908225","Zinc",2019-08-27 09:37:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","ALKALINITY, TOTAL (AS CaCO3)",2019-10-10 12:15:00,"ALK","T",68.8,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Aluminum",2019-10-10 12:15:00,"7429-90-5","T",72.6,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Arsenic",2019-10-10 12:15:00,"7440-38-2","T",0.61,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Cadmium",2019-10-10 12:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Calcium",2019-10-10 12:15:00,"7440-70-2","T",23200,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","CHLORIDE (AS CL)",2019-10-10 12:15:00,"16887-00-6","T",29.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Chlorophyll A",2019-10-10 12:15:00,"479-61-8","T",1.21,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Copper",2019-10-10 12:15:00,"7440-50-8","T",0.75,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","HARDNESS (AS CACO3)",2019-10-10 12:15:00,"HARD","T",79.1,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Iron",2019-10-10 12:15:00,"7439-89-6","T",391,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Lead",2019-10-10 12:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Magnesium",2019-10-10 12:15:00,"7439-95-4","T",5160,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Nickel",2019-10-10 12:15:00,"7440-02-0","T",0.56,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Nitrate+Nitrite as Nitrogen",2019-10-10 12:15:00,"NO3NO2N","T",0.173,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Nitrogen",2019-10-10 12:15:00,"7727-37-9","T",0.75,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Nitrogen, ammonia (As N)",2019-10-10 12:15:00,"7664-41-7","T",0.031,"mg/l",0.003,"mg/l",0.01,"","R","Precision error",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","NITROGEN, KJELDAHL, TOTAL",2019-10-10 12:15:00,"KN","T",0.57,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","NITROGEN, NITRATE (AS N)",2019-10-10 12:15:00,"14797-55-8","T",0.173,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","NITROGEN, NITRITE",2019-10-10 12:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Orthophosphate as Phosphorus, Dissolved",2019-10-10 12:15:00,"PDORTHO","D",0.0149,"mg/l",0.0049,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","PHOSPHORUS, TOTAL (AS P)",2019-10-10 12:15:00,"7723-14-0","T",0.0286,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Silver",2019-10-10 12:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","TOTAL ORGANIC CARBON",2019-10-10 12:15:00,"TOC","T",7.2,"mg/l",0.5,"mg/l",1,"","A","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","TURBIDITY",2019-10-10 12:15:00,"TURB","T",4.87,"ntu",0.06,"ntu",1,"","T","",2020-05-11
+"Black Lake RAS","09-INDN-2.0","N","09-INDN-2.0-10102019-WS","R1909988","Zinc",2019-10-10 12:15:00,"7440-66-6","T",2.9,"ug/l",2.5,"ug/l",5,"J","R","estimated value due to lab error ; Precision error",2020-05-11

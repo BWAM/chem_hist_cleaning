@@ -1,0 +1,461 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","ALKALINITY, TOTAL (AS CaCO3)",2019-07-02 09:45:00,"ALK","T",122,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Aluminum",2019-07-02 09:45:00,"7429-90-5","T",271,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Arsenic",2019-07-02 09:45:00,"7440-38-2","T",0.54,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Cadmium",2019-07-02 09:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Calcium",2019-07-02 09:45:00,"7440-70-2","T",40400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","CHLORIDE (AS CL)",2019-07-02 09:45:00,"16887-00-6","T",53.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Chlorophyll A",2019-07-02 09:45:00,"479-61-8","T",1.15,"ug/l",NA,"ug/l",0.065,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Copper",2019-07-02 09:45:00,"7440-50-8","T",1.3,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","HARDNESS (AS CACO3)",2019-07-02 09:45:00,"HARD","T",145,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Iron",2019-07-02 09:45:00,"7439-89-6","T",501,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Lead",2019-07-02 09:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Magnesium",2019-07-02 09:45:00,"7439-95-4","T",10800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Nickel",2019-07-02 09:45:00,"7440-02-0","T",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Nitrate+Nitrite as Nitrogen",2019-07-02 09:45:00,"NO3NO2N","T",0.461,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Nitrogen",2019-07-02 09:45:00,"KN","T",0.86,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Nitrogen, ammonia (As N)",2019-07-02 09:45:00,"7664-41-7","T",0.005,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","NITROGEN, KJELDAHL, TOTAL",2019-07-02 09:45:00,"KN","T",0.4,"mg/l",0.1,"mg/l",0.1,"","T","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","NITROGEN, NITRATE (AS N)",2019-07-02 09:45:00,"14797-55-8","T",0.461,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","NITROGEN, NITRITE",2019-07-02 09:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","PHOSPHORUS, TOTAL (AS P)",2019-07-02 09:45:00,"7723-14-0","T",0.035,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Silver",2019-07-02 09:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","TURBIDITY",2019-07-02 09:45:00,"TURB","T",14.1,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-07022019-W","R1906233","Zinc",2019-07-02 09:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"UN","R","lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","ALKALINITY, TOTAL (AS CaCO3)",2019-08-05 09:00:00,"ALK","T",100,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Aluminum",2019-08-05 09:00:00,"7429-90-5","T",177,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Arsenic",2019-08-05 09:00:00,"7440-38-2","T",0.9,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Cadmium",2019-08-05 09:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Calcium",2019-08-05 09:00:00,"7440-70-2","T",34100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","CHLORIDE (AS CL)",2019-08-05 09:00:00,"16887-00-6","T",52.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Chlorophyll A",2019-08-05 09:00:00,"479-61-8","T",18.6,"ug/l",NA,"ug/l",0.54,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Copper",2019-08-05 09:00:00,"7440-50-8","T",0.86,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","HARDNESS (AS CACO3)",2019-08-05 09:00:00,"HARD","T",125,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Iron",2019-08-05 09:00:00,"7439-89-6","T",369,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Lead",2019-08-05 09:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Magnesium",2019-08-05 09:00:00,"7439-95-4","T",9650,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Nickel",2019-08-05 09:00:00,"7440-02-0","T",0.97,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Nitrate+Nitrite as Nitrogen",2019-08-05 09:00:00,"NO3NO2N","T",0.0823,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Nitrogen",2019-08-05 09:00:00,"KN","T",0.55,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Nitrogen, ammonia (As N)",2019-08-05 09:00:00,"7664-41-7","T",0.025,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","NITROGEN, KJELDAHL, TOTAL",2019-08-05 09:00:00,"KN","T",0.47,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","NITROGEN, NITRATE (AS N)",2019-08-05 09:00:00,"14797-55-8","T",0.082,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","NITROGEN, NITRITE",2019-08-05 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","PHOSPHORUS, TOTAL (AS P)",2019-08-05 09:00:00,"7723-14-0","T",0.0401,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Silver",2019-08-05 09:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","TURBIDITY",2019-08-05 09:00:00,"TURB","T",11.6,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-08052019-W","R1907352","Zinc",2019-08-05 09:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","ALKALINITY, TOTAL (AS CaCO3)",2019-09-05 09:15:00,"ALK","T",109,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Aluminum",2019-09-05 09:15:00,"7429-90-5","T",107,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Arsenic",2019-09-05 09:15:00,"7440-38-2","T",0.37,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Cadmium",2019-09-05 09:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Calcium",2019-09-05 09:15:00,"7440-70-2","T",38400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","CHLORIDE (AS CL)",2019-09-05 09:15:00,"16887-00-6","T",60.1,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Chlorophyll A",2019-09-05 09:15:00,"479-61-8","T",3.89,"ug/l",NA,"ug/l",0.17,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Copper",2019-09-05 09:15:00,"7440-50-8","T",1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","HARDNESS (AS CACO3)",2019-09-05 09:15:00,"HARD","T",142,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Iron",2019-09-05 09:15:00,"7439-89-6","T",197,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Lead",2019-09-05 09:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Magnesium",2019-09-05 09:15:00,"7439-95-4","T",11200,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Nickel",2019-09-05 09:15:00,"7440-02-0","T",0.88,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Nitrate+Nitrite as Nitrogen",2019-09-05 09:15:00,"NO3NO2N","T",0.265,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Nitrogen",2019-09-05 09:15:00,"7727-37-9","T",0.57,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Nitrogen, ammonia (As N)",2019-09-05 09:15:00,"7664-41-7","T",0.014,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","NITROGEN, KJELDAHL, TOTAL",2019-09-05 09:15:00,"KN","T",0.31,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","NITROGEN, NITRATE (AS N)",2019-09-05 09:15:00,"14797-55-8","T",0.265,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","NITROGEN, NITRITE",2019-09-05 09:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","PHOSPHORUS, TOTAL (AS P)",2019-09-05 09:15:00,"7723-14-0","T",0.0248,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Silver",2019-09-05 09:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","TURBIDITY",2019-09-05 09:15:00,"TURB","T",5.12,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-09052019-W","R1908632","Zinc",2019-09-05 09:15:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","ALKALINITY, TOTAL (AS CaCO3)",2019-10-03 09:15:00,"ALK","T",160,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Aluminum",2019-10-03 09:15:00,"7429-90-5","T",87.5,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Arsenic",2019-10-03 09:15:00,"7440-38-2","T",0.51,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Cadmium",2019-10-03 09:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Calcium",2019-10-03 09:15:00,"7440-70-2","T",53000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","CHLORIDE (AS CL)",2019-10-03 09:15:00,"16887-00-6","T",80.9,"mg/l",0.5,"mg/l",2,"","R","Accuracy error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Chlorophyll A",2019-10-03 09:15:00,"479-61-8","T",0.952,"ug/l",NA,"ug/l",0.038,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Copper",2019-10-03 09:15:00,"7440-50-8","T",0.88,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","HARDNESS (AS CACO3)",2019-10-03 09:15:00,"HARD","T",196,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Iron",2019-10-03 09:15:00,"7439-89-6","T",216,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Lead",2019-10-03 09:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Magnesium",2019-10-03 09:15:00,"7439-95-4","T",15400,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Nickel",2019-10-03 09:15:00,"7440-02-0","T",0.99,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Nitrate+Nitrite as Nitrogen",2019-10-03 09:15:00,"NO3NO2N","T",0.533,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Nitrogen",2019-10-03 09:15:00,"7727-37-9","T",0.68,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Nitrogen, ammonia (As N)",2019-10-03 09:15:00,"7664-41-7","T",0.012,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","NITROGEN, KJELDAHL, TOTAL",2019-10-03 09:15:00,"KN","T",0.14,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","NITROGEN, NITRATE (AS N)",2019-10-03 09:15:00,"14797-55-8","T",0.533,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","NITROGEN, NITRITE",2019-10-03 09:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","PHOSPHORUS, TOTAL (AS P)",2019-10-03 09:15:00,"7723-14-0","T",0.0292,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Silver",2019-10-03 09:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","TURBIDITY",2019-10-03 09:15:00,"TURB","T",5.67,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.1","N","10-HALF-0.1-10032019-W","R1909697","Zinc",2019-10-03 09:15:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","ALKALINITY, TOTAL (AS CaCO3)",2019-07-02 10:30:00,"ALK","T",122,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Aluminum",2019-07-02 10:30:00,"7429-90-5","T",233,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Arsenic",2019-07-02 10:30:00,"7440-38-2","T",0.56,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Cadmium",2019-07-02 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Calcium",2019-07-02 10:30:00,"7440-70-2","T",41100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","CHLORIDE (AS CL)",2019-07-02 10:30:00,"16887-00-6","T",52.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Chlorophyll A",2019-07-02 10:30:00,"479-61-8","T",0.999,"ug/l",NA,"ug/l",0.062,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Copper",2019-07-02 10:30:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","HARDNESS (AS CACO3)",2019-07-02 10:30:00,"HARD","T",148,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Iron",2019-07-02 10:30:00,"7439-89-6","T",514,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Lead",2019-07-02 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Magnesium",2019-07-02 10:30:00,"7439-95-4","T",11000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Nickel",2019-07-02 10:30:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Nitrate+Nitrite as Nitrogen",2019-07-02 10:30:00,"NO3NO2N","T",0.439,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Nitrogen",2019-07-02 10:30:00,"KN","T",0.84,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Nitrogen, ammonia (As N)",2019-07-02 10:30:00,"7664-41-7","T",0.0064,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","NITROGEN, KJELDAHL, TOTAL",2019-07-02 10:30:00,"KN","T",0.4,"mg/l",0.1,"mg/l",0.1,"","T","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","NITROGEN, NITRATE (AS N)",2019-07-02 10:30:00,"14797-55-8","T",0.439,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","NITROGEN, NITRITE",2019-07-02 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","PHOSPHORUS, TOTAL (AS P)",2019-07-02 10:30:00,"7723-14-0","T",0.0302,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Silver",2019-07-02 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","TURBIDITY",2019-07-02 10:30:00,"TURB","T",12.1,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-07022019-W","R1906233","Zinc",2019-07-02 10:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"UN","R","lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","ALKALINITY, TOTAL (AS CaCO3)",2019-08-05 09:30:00,"ALK","T",142,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Aluminum",2019-08-05 09:30:00,"7429-90-5","T",113,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Arsenic",2019-08-05 09:30:00,"7440-38-2","T",0.48,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Cadmium",2019-08-05 09:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Calcium",2019-08-05 09:30:00,"7440-70-2","T",50300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","CHLORIDE (AS CL)",2019-08-05 09:30:00,"16887-00-6","T",72.6,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Chlorophyll A",2019-08-05 09:30:00,"479-61-8","T",1.08,"ug/l",NA,"ug/l",0.041,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Copper",2019-08-05 09:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","HARDNESS (AS CACO3)",2019-08-05 09:30:00,"HARD","T",185,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Iron",2019-08-05 09:30:00,"7439-89-6","T",247,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Lead",2019-08-05 09:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Magnesium",2019-08-05 09:30:00,"7439-95-4","T",14400,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Nickel",2019-08-05 09:30:00,"7440-02-0","T",0.88,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Nitrate+Nitrite as Nitrogen",2019-08-05 09:30:00,"NO3NO2N","T",0.475,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Nitrogen",2019-08-05 09:30:00,"KN","T",0.71,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Nitrogen, ammonia (As N)",2019-08-05 09:30:00,"7664-41-7","T",0.028,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","NITROGEN, KJELDAHL, TOTAL",2019-08-05 09:30:00,"KN","T",0.24,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","NITROGEN, NITRATE (AS N)",2019-08-05 09:30:00,"14797-55-8","T",0.475,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","NITROGEN, NITRITE",2019-08-05 09:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","PHOSPHORUS, TOTAL (AS P)",2019-08-05 09:30:00,"7723-14-0","T",0.0193,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Silver",2019-08-05 09:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","TURBIDITY",2019-08-05 09:30:00,"TURB","T",5.67,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-08052019-W","R1907352","Zinc",2019-08-05 09:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","ALKALINITY, TOTAL (AS CaCO3)",2019-09-05 09:45:00,"ALK","T",146,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Aluminum",2019-09-05 09:45:00,"7429-90-5","T",186,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Arsenic",2019-09-05 09:45:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Cadmium",2019-09-05 09:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Calcium",2019-09-05 09:45:00,"7440-70-2","T",51600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","CHLORIDE (AS CL)",2019-09-05 09:45:00,"16887-00-6","T",74.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Chlorophyll A",2019-09-05 09:45:00,"479-61-8","T",1.14,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Copper",2019-09-05 09:45:00,"7440-50-8","T",0.99,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","HARDNESS (AS CACO3)",2019-09-05 09:45:00,"HARD","T",189,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Iron",2019-09-05 09:45:00,"7439-89-6","T",334,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Lead",2019-09-05 09:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Magnesium",2019-09-05 09:45:00,"7439-95-4","T",14600,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Nickel",2019-09-05 09:45:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Nitrate+Nitrite as Nitrogen",2019-09-05 09:45:00,"NO3NO2N","T",0.488,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Nitrogen",2019-09-05 09:45:00,"7727-37-9","T",0.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Nitrogen, ammonia (As N)",2019-09-05 09:45:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","NITROGEN, KJELDAHL, TOTAL",2019-09-05 09:45:00,"KN","T",0.24,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","NITROGEN, NITRATE (AS N)",2019-09-05 09:45:00,"14797-55-8","T",0.488,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","NITROGEN, NITRITE",2019-09-05 09:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","PHOSPHORUS, TOTAL (AS P)",2019-09-05 09:45:00,"7723-14-0","T",0.017,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Silver",2019-09-05 09:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","TURBIDITY",2019-09-05 09:45:00,"TURB","T",7.45,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-09052019-W","R1908632","Zinc",2019-09-05 09:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","ALKALINITY, TOTAL (AS CaCO3)",2019-10-03 09:45:00,"ALK","T",160,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Aluminum",2019-10-03 09:45:00,"7429-90-5","T",78.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Arsenic",2019-10-03 09:45:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Cadmium",2019-10-03 09:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Calcium",2019-10-03 09:45:00,"7440-70-2","T",55100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","CHLORIDE (AS CL)",2019-10-03 09:45:00,"16887-00-6","T",79.5,"mg/l",0.5,"mg/l",2,"","R","Accuracy error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Chlorophyll A",2019-10-03 09:45:00,"479-61-8","T",0.979,"ug/l",NA,"ug/l",0.038,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Copper",2019-10-03 09:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","HARDNESS (AS CACO3)",2019-10-03 09:45:00,"HARD","T",203,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Iron",2019-10-03 09:45:00,"7439-89-6","T",199,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Lead",2019-10-03 09:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Magnesium",2019-10-03 09:45:00,"7439-95-4","T",16000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Nickel",2019-10-03 09:45:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Nitrate+Nitrite as Nitrogen",2019-10-03 09:45:00,"NO3NO2N","T",0.513,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Nitrogen",2019-10-03 09:45:00,"7727-37-9","T",0.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Nitrogen, ammonia (As N)",2019-10-03 09:45:00,"7664-41-7","T",0.01,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","NITROGEN, KJELDAHL, TOTAL",2019-10-03 09:45:00,"KN","T",0.18,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","NITROGEN, NITRATE (AS N)",2019-10-03 09:45:00,"14797-55-8","T",0.513,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","NITROGEN, NITRITE",2019-10-03 09:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","PHOSPHORUS, TOTAL (AS P)",2019-10-03 09:45:00,"7723-14-0","T",0.0117,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Silver",2019-10-03 09:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","TURBIDITY",2019-10-03 09:45:00,"TURB","T",3.44,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.2","N","10-HALF-0.2-10032019-W","R1909697","Zinc",2019-10-03 09:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","ALKALINITY, TOTAL (AS CaCO3)",2019-07-02 11:00:00,"ALK","T",120,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Aluminum",2019-07-02 11:00:00,"7429-90-5","T",253,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Arsenic",2019-07-02 11:00:00,"7440-38-2","T",0.61,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Cadmium",2019-07-02 11:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Calcium",2019-07-02 11:00:00,"7440-70-2","T",40600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","CHLORIDE (AS CL)",2019-07-02 11:00:00,"16887-00-6","T",53.2,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Chlorophyll A",2019-07-02 11:00:00,"479-61-8","T",1.27,"ug/l",NA,"ug/l",0.055,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Copper",2019-07-02 11:00:00,"7440-50-8","T",0.98,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","HARDNESS (AS CACO3)",2019-07-02 11:00:00,"HARD","T",146,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Iron",2019-07-02 11:00:00,"7439-89-6","T",506,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Lead",2019-07-02 11:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Magnesium",2019-07-02 11:00:00,"7439-95-4","T",10800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Nickel",2019-07-02 11:00:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Nitrate+Nitrite as Nitrogen",2019-07-02 11:00:00,"NO3NO2N","T",0.438,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Nitrogen",2019-07-02 11:00:00,"KN","T",0.76,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Nitrogen, ammonia (As N)",2019-07-02 11:00:00,"7664-41-7","T",NA,"mg/l",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","NITROGEN, KJELDAHL, TOTAL",2019-07-02 11:00:00,"KN","T",0.32,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","NITROGEN, NITRATE (AS N)",2019-07-02 11:00:00,"14797-55-8","T",0.438,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","NITROGEN, NITRITE",2019-07-02 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","PHOSPHORUS, TOTAL (AS P)",2019-07-02 11:00:00,"7723-14-0","T",0.0301,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Silver",2019-07-02 11:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","TURBIDITY",2019-07-02 11:00:00,"TURB","T",12,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-07022019-W","R1906233","Zinc",2019-07-02 11:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"UN","R","lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","ALKALINITY, TOTAL (AS CaCO3)",2019-08-05 10:00:00,"ALK","T",143,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Aluminum",2019-08-05 10:00:00,"7429-90-5","T",125,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Arsenic",2019-08-05 10:00:00,"7440-38-2","T",0.62,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Cadmium",2019-08-05 10:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Calcium",2019-08-05 10:00:00,"7440-70-2","T",50300,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","CHLORIDE (AS CL)",2019-08-05 10:00:00,"16887-00-6","T",73.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Chlorophyll A",2019-08-05 10:00:00,"479-61-8","T",1.45,"ug/l",NA,"ug/l",0.081,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Copper",2019-08-05 10:00:00,"7440-50-8","T",0.69,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","HARDNESS (AS CACO3)",2019-08-05 10:00:00,"HARD","T",184,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Iron",2019-08-05 10:00:00,"7439-89-6","T",291,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Lead",2019-08-05 10:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Magnesium",2019-08-05 10:00:00,"7439-95-4","T",14300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Nickel",2019-08-05 10:00:00,"7440-02-0","T",0.99,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Nitrate+Nitrite as Nitrogen",2019-08-05 10:00:00,"NO3NO2N","T",0.484,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Nitrogen",2019-08-05 10:00:00,"KN","T",0.73,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Nitrogen, ammonia (As N)",2019-08-05 10:00:00,"7664-41-7","T",0.027,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","NITROGEN, KJELDAHL, TOTAL",2019-08-05 10:00:00,"KN","T",0.24,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","NITROGEN, NITRATE (AS N)",2019-08-05 10:00:00,"14797-55-8","T",0.484,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","NITROGEN, NITRITE",2019-08-05 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","PHOSPHORUS, TOTAL (AS P)",2019-08-05 10:00:00,"7723-14-0","T",0.0203,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Silver",2019-08-05 10:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","TURBIDITY",2019-08-05 10:00:00,"TURB","T",8.02,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-08052019-W","R1907352","Zinc",2019-08-05 10:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","ALKALINITY, TOTAL (AS CaCO3)",2019-09-05 10:00:00,"ALK","T",148,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Aluminum",2019-09-05 10:00:00,"7429-90-5","T",150,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Arsenic",2019-09-05 10:00:00,"7440-38-2","T",0.39,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Cadmium",2019-09-05 10:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Calcium",2019-09-05 10:00:00,"7440-70-2","T",51800,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","CHLORIDE (AS CL)",2019-09-05 10:00:00,"16887-00-6","T",75.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Chlorophyll A",2019-09-05 10:00:00,"479-61-8","T",1.26,"ug/l",NA,"ug/l",0.081,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Copper",2019-09-05 10:00:00,"7440-50-8","T",0.86,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","HARDNESS (AS CACO3)",2019-09-05 10:00:00,"HARD","T",190,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Iron",2019-09-05 10:00:00,"7439-89-6","T",299,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Lead",2019-09-05 10:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Magnesium",2019-09-05 10:00:00,"7439-95-4","T",14700,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Nickel",2019-09-05 10:00:00,"7440-02-0","T",0.95,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Nitrate+Nitrite as Nitrogen",2019-09-05 10:00:00,"NO3NO2N","T",0.498,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Nitrogen",2019-09-05 10:00:00,"7727-37-9","T",0.72,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Nitrogen, ammonia (As N)",2019-09-05 10:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","NITROGEN, KJELDAHL, TOTAL",2019-09-05 10:00:00,"KN","T",0.23,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","NITROGEN, NITRATE (AS N)",2019-09-05 10:00:00,"14797-55-8","T",0.498,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","NITROGEN, NITRITE",2019-09-05 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","PHOSPHORUS, TOTAL (AS P)",2019-09-05 10:00:00,"7723-14-0","T",0.0171,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Silver",2019-09-05 10:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","TURBIDITY",2019-09-05 10:00:00,"TURB","T",6.91,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-09052019-W","R1908632","Zinc",2019-09-05 10:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","ALKALINITY, TOTAL (AS CaCO3)",2019-10-03 10:00:00,"ALK","T",160,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Aluminum",2019-10-03 10:00:00,"7429-90-5","T",87.2,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Arsenic",2019-10-03 10:00:00,"7440-38-2","T",NA,"ug/l",0.32,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Cadmium",2019-10-03 10:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Calcium",2019-10-03 10:00:00,"7440-70-2","T",55600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","CHLORIDE (AS CL)",2019-10-03 10:00:00,"16887-00-6","T",80.5,"mg/l",0.5,"mg/l",2,"","R","Accuracy error",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Chlorophyll A",2019-10-03 10:00:00,"479-61-8","T",0.96,"ug/l",NA,"ug/l",0.039,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Copper",2019-10-03 10:00:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","HARDNESS (AS CACO3)",2019-10-03 10:00:00,"HARD","T",205,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Iron",2019-10-03 10:00:00,"7439-89-6","T",198,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Lead",2019-10-03 10:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Magnesium",2019-10-03 10:00:00,"7439-95-4","T",16000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Nickel",2019-10-03 10:00:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Nitrate+Nitrite as Nitrogen",2019-10-03 10:00:00,"NO3NO2N","T",0.534,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Nitrogen",2019-10-03 10:00:00,"7727-37-9","T",0.56,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Nitrogen, ammonia (As N)",2019-10-03 10:00:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","NITROGEN, KJELDAHL, TOTAL",2019-10-03 10:00:00,"KN","T",NA,"mg/l",0.1,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","NITROGEN, NITRATE (AS N)",2019-10-03 10:00:00,"14797-55-8","T",0.534,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","NITROGEN, NITRITE",2019-10-03 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","PHOSPHORUS, TOTAL (AS P)",2019-10-03 10:00:00,"7723-14-0","T",0.0117,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Silver",2019-10-03 10:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","TURBIDITY",2019-10-03 10:00:00,"TURB","T",3.8,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-0.3","N","10-HALF-0.3-10032019-W","R1909697","Zinc",2019-10-03 10:00:00,"7440-66-6","T",11.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","ALKALINITY, TOTAL (AS CaCO3)",2019-07-02 12:00:00,"ALK","T",118,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Aluminum",2019-07-02 12:00:00,"7429-90-5","T",268,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Arsenic",2019-07-02 12:00:00,"7440-38-2","T",0.56,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Cadmium",2019-07-02 12:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Calcium",2019-07-02 12:00:00,"7440-70-2","T",40700,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","CHLORIDE (AS CL)",2019-07-02 12:00:00,"16887-00-6","T",53.4,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Chlorophyll A",2019-07-02 12:00:00,"479-61-8","T",1.16,"ug/l",NA,"ug/l",0.061,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Copper",2019-07-02 12:00:00,"7440-50-8","T",0.96,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","HARDNESS (AS CACO3)",2019-07-02 12:00:00,"HARD","T",146,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Iron",2019-07-02 12:00:00,"7439-89-6","T",567,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Lead",2019-07-02 12:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Magnesium",2019-07-02 12:00:00,"7439-95-4","T",10900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Nickel",2019-07-02 12:00:00,"7440-02-0","T",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Nitrate+Nitrite as Nitrogen",2019-07-02 12:00:00,"NO3NO2N","T",0.439,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Nitrogen",2019-07-02 12:00:00,"KN","T",0.8,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Nitrogen, ammonia (As N)",2019-07-02 12:00:00,"7664-41-7","T",0.0067,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","NITROGEN, KJELDAHL, TOTAL",2019-07-02 12:00:00,"KN","T",0.36,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","NITROGEN, NITRATE (AS N)",2019-07-02 12:00:00,"14797-55-8","T",0.439,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","NITROGEN, NITRITE",2019-07-02 12:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","PHOSPHORUS, TOTAL (AS P)",2019-07-02 12:00:00,"7723-14-0","T",0.0294,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Silver",2019-07-02 12:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","TURBIDITY",2019-07-02 12:00:00,"TURB","T",13,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-07022019-W","R1906233","Zinc",2019-07-02 12:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"UN","R","lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","ALKALINITY, TOTAL (AS CaCO3)",2019-08-05 10:45:00,"ALK","T",144,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Aluminum",2019-08-05 10:45:00,"7429-90-5","T",209,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Arsenic",2019-08-05 10:45:00,"7440-38-2","T",0.46,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Cadmium",2019-08-05 10:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Calcium",2019-08-05 10:45:00,"7440-70-2","T",50000,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","CHLORIDE (AS CL)",2019-08-05 10:45:00,"16887-00-6","T",72.5,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Chlorophyll A",2019-08-05 10:45:00,"479-61-8","T",2.22,"ug/l",NA,"ug/l",0.087,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Copper",2019-08-05 10:45:00,"7440-50-8","T",0.73,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","HARDNESS (AS CACO3)",2019-08-05 10:45:00,"HARD","T",184,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Iron",2019-08-05 10:45:00,"7439-89-6","T",404,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Lead",2019-08-05 10:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Magnesium",2019-08-05 10:45:00,"7439-95-4","T",14300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Nickel",2019-08-05 10:45:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Nitrate+Nitrite as Nitrogen",2019-08-05 10:45:00,"NO3NO2N","T",0.507,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Nitrogen",2019-08-05 10:45:00,"KN","T",0.87,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Nitrogen, ammonia (As N)",2019-08-05 10:45:00,"7664-41-7","T",0.028,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","NITROGEN, KJELDAHL, TOTAL",2019-08-05 10:45:00,"KN","T",0.36,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","NITROGEN, NITRATE (AS N)",2019-08-05 10:45:00,"14797-55-8","T",0.507,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","NITROGEN, NITRITE",2019-08-05 10:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","PHOSPHORUS, TOTAL (AS P)",2019-08-05 10:45:00,"7723-14-0","T",0.0236,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Silver",2019-08-05 10:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","TURBIDITY",2019-08-05 10:45:00,"TURB","T",10.9,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-08052019-W","R1907352","Zinc",2019-08-05 10:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","ALKALINITY, TOTAL (AS CaCO3)",2019-09-05 10:20:00,"ALK","T",200,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Aluminum",2019-09-05 10:20:00,"7429-90-5","T",181,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Arsenic",2019-09-05 10:20:00,"7440-38-2","T",1,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Cadmium",2019-09-05 10:20:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Calcium",2019-09-05 10:20:00,"7440-70-2","T",75600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","CHLORIDE (AS CL)",2019-09-05 10:20:00,"16887-00-6","T",146,"mg/l",5,"mg/l",20,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Chlorophyll A",2019-09-05 10:20:00,"479-61-8","T",1.87,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Copper",2019-09-05 10:20:00,"7440-50-8","T",2.8,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","HARDNESS (AS CACO3)",2019-09-05 10:20:00,"HARD","T",296,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Iron",2019-09-05 10:20:00,"7439-89-6","T",321,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Lead",2019-09-05 10:20:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Magnesium",2019-09-05 10:20:00,"7439-95-4","T",25900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Nickel",2019-09-05 10:20:00,"7440-02-0","T",2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Nitrate+Nitrite as Nitrogen",2019-09-05 10:20:00,"NO3NO2N","T",0.0903,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Nitrogen",2019-09-05 10:20:00,"7727-37-9","T",0.61,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Nitrogen, ammonia (As N)",2019-09-05 10:20:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","NITROGEN, KJELDAHL, TOTAL",2019-09-05 10:20:00,"KN","T",0.52,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","NITROGEN, NITRATE (AS N)",2019-09-05 10:20:00,"14797-55-8","T",0.09,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","NITROGEN, NITRITE",2019-09-05 10:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","PHOSPHORUS, TOTAL (AS P)",2019-09-05 10:20:00,"7723-14-0","T",0.098,"mg/l",0.008,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Silver",2019-09-05 10:20:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","TURBIDITY",2019-09-05 10:20:00,"TURB","T",11.9,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-09052019-W","R1908632","Zinc",2019-09-05 10:20:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","ALKALINITY, TOTAL (AS CaCO3)",2019-10-03 10:30:00,"ALK","T",222,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Aluminum",2019-10-03 10:30:00,"7429-90-5","T",115,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Arsenic",2019-10-03 10:30:00,"7440-38-2","T",1.4,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Cadmium",2019-10-03 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Calcium",2019-10-03 10:30:00,"7440-70-2","T",72100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","CHLORIDE (AS CL)",2019-10-03 10:30:00,"16887-00-6","T",123,"mg/l",1.3,"mg/l",6,"","R","Accuracy error",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Chlorophyll A",2019-10-03 10:30:00,"479-61-8","T",1.71,"ug/l",NA,"ug/l",0.039,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Copper",2019-10-03 10:30:00,"7440-50-8","T",1.6,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","HARDNESS (AS CACO3)",2019-10-03 10:30:00,"HARD","T",292,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Iron",2019-10-03 10:30:00,"7439-89-6","T",357,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Lead",2019-10-03 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Magnesium",2019-10-03 10:30:00,"7439-95-4","T",27100,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Nickel",2019-10-03 10:30:00,"7440-02-0","T",1.9,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Nitrate+Nitrite as Nitrogen",2019-10-03 10:30:00,"NO3NO2N","T",0.0249,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Nitrogen",2019-10-03 10:30:00,"7727-37-9","T",0.54,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Nitrogen, ammonia (As N)",2019-10-03 10:30:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","NITROGEN, KJELDAHL, TOTAL",2019-10-03 10:30:00,"KN","T",0.52,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","NITROGEN, NITRATE (AS N)",2019-10-03 10:30:00,"14797-55-8","T",0.025,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","NITROGEN, NITRITE",2019-10-03 10:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","PHOSPHORUS, TOTAL (AS P)",2019-10-03 10:30:00,"7723-14-0","T",0.162,"mg/l",0.018,"mg/l",0.025,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Silver",2019-10-03 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","TURBIDITY",2019-10-03 10:30:00,"TURB","T",4.34,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF-1.4","N","10-HALF-1.4-10032019-W","R1909697","Zinc",2019-10-03 10:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","ALKALINITY, TOTAL (AS CaCO3)",2019-07-02 11:30:00,"ALK","T",159,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Aluminum",2019-07-02 11:30:00,"7429-90-5","T",308,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Arsenic",2019-07-02 11:30:00,"7440-38-2","T",0.84,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Cadmium",2019-07-02 11:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Calcium",2019-07-02 11:30:00,"7440-70-2","T",51400,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","CHLORIDE (AS CL)",2019-07-02 11:30:00,"16887-00-6","T",48.7,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Chlorophyll A",2019-07-02 11:30:00,"479-61-8","T",1.62,"ug/l",NA,"ug/l",0.083,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Copper",2019-07-02 11:30:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","HARDNESS (AS CACO3)",2019-07-02 11:30:00,"HARD","T",189,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Iron",2019-07-02 11:30:00,"7439-89-6","T",558,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Lead",2019-07-02 11:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Magnesium",2019-07-02 11:30:00,"7439-95-4","T",14800,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Nickel",2019-07-02 11:30:00,"7440-02-0","T",1.6,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Nitrate+Nitrite as Nitrogen",2019-07-02 11:30:00,"NO3NO2N","T",0.401,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Nitrogen",2019-07-02 11:30:00,"KN","T",0.83,"mg/l",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Nitrogen, ammonia (As N)",2019-07-02 11:30:00,"7664-41-7","T",0.0109,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","NITROGEN, KJELDAHL, TOTAL",2019-07-02 11:30:00,"KN","T",0.43,"mg/l",0.1,"mg/l",0.1,"","T","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","NITROGEN, NITRATE (AS N)",2019-07-02 11:30:00,"14797-55-8","T",0.401,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","NITROGEN, NITRITE",2019-07-02 11:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","PHOSPHORUS, TOTAL (AS P)",2019-07-02 11:30:00,"7723-14-0","T",0.0535,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Silver",2019-07-02 11:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","TURBIDITY",2019-07-02 11:30:00,"TURB","T",12.7,"ntu",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-07022019-W","R1906233","Zinc",2019-07-02 11:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"UN","R","lab error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","ALKALINITY, TOTAL (AS CaCO3)",2019-08-05 10:20:00,"ALK","T",181,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Aluminum",2019-08-05 10:20:00,"7429-90-5","T",104,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Arsenic",2019-08-05 10:20:00,"7440-38-2","T",1.4,"ug/l",0.32,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Cadmium",2019-08-05 10:20:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Calcium",2019-08-05 10:20:00,"7440-70-2","T",58500,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","CHLORIDE (AS CL)",2019-08-05 10:20:00,"16887-00-6","T",99.3,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Chlorophyll A",2019-08-05 10:20:00,"479-61-8","T",23.3,"ug/l",NA,"ug/l",2.2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Copper",2019-08-05 10:20:00,"7440-50-8","T",2,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","HARDNESS (AS CACO3)",2019-08-05 10:20:00,"HARD","T",225,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Iron",2019-08-05 10:20:00,"7439-89-6","T",259,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Lead",2019-08-05 10:20:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Magnesium",2019-08-05 10:20:00,"7439-95-4","T",19300,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Nickel",2019-08-05 10:20:00,"7440-02-0","T",1.7,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Nitrate+Nitrite as Nitrogen",2019-08-05 10:20:00,"NO3NO2N","T",0.0303,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Nitrogen",2019-08-05 10:20:00,"KN","T",0.63,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Nitrogen, ammonia (As N)",2019-08-05 10:20:00,"7664-41-7","T",0.017,"mg/l",0.003,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","NITROGEN, KJELDAHL, TOTAL",2019-08-05 10:20:00,"KN","T",0.6,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","NITROGEN, NITRATE (AS N)",2019-08-05 10:20:00,"14797-55-8","T",0.03,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","NITROGEN, NITRITE",2019-08-05 10:20:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","PHOSPHORUS, TOTAL (AS P)",2019-08-05 10:20:00,"7723-14-0","T",0.0937,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Silver",2019-08-05 10:20:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","TURBIDITY",2019-08-05 10:20:00,"TURB","T",6.78,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-08052019-W","R1907352","Zinc",2019-08-05 10:20:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","ALKALINITY, TOTAL (AS CaCO3)",2019-09-05 10:40:00,"ALK","T",164,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Aluminum",2019-09-05 10:40:00,"7429-90-5","T",223,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Arsenic",2019-09-05 10:40:00,"7440-38-2","T",0.51,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Cadmium",2019-09-05 10:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Calcium",2019-09-05 10:40:00,"7440-70-2","T",52600,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","CHLORIDE (AS CL)",2019-09-05 10:40:00,"16887-00-6","T",73.9,"mg/l",0.5,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Chlorophyll A",2019-09-05 10:40:00,"479-61-8","T",6.09,"ug/l",NA,"ug/l",0.41,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Copper",2019-09-05 10:40:00,"7440-50-8","T",1,"ug/l",0.66,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","HARDNESS (AS CACO3)",2019-09-05 10:40:00,"HARD","T",193,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Iron",2019-09-05 10:40:00,"7439-89-6","T",415,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Lead",2019-09-05 10:40:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Magnesium",2019-09-05 10:40:00,"7439-95-4","T",15000,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Nickel",2019-09-05 10:40:00,"7440-02-0","T",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Nitrate+Nitrite as Nitrogen",2019-09-05 10:40:00,"NO3NO2N","T",0.516,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Nitrogen",2019-09-05 10:40:00,"7727-37-9","T",0.69,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Nitrogen, ammonia (As N)",2019-09-05 10:40:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","NITROGEN, KJELDAHL, TOTAL",2019-09-05 10:40:00,"KN","T",0.17,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","NITROGEN, NITRATE (AS N)",2019-09-05 10:40:00,"14797-55-8","T",0.516,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","NITROGEN, NITRITE",2019-09-05 10:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","PHOSPHORUS, TOTAL (AS P)",2019-09-05 10:40:00,"7723-14-0","T",0.0195,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Silver",2019-09-05 10:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","TURBIDITY",2019-09-05 10:40:00,"TURB","T",7.84,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-09052019-W","R1908632","Zinc",2019-09-05 10:40:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","ALKALINITY, TOTAL (AS CaCO3)",2019-10-03 10:45:00,"ALK","T",163,"mg/l",1.8,"mg/l",2,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Aluminum",2019-10-03 10:45:00,"7429-90-5","T",88.2,"ug/l",2.3,"ug/l",10,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Arsenic",2019-10-03 10:45:00,"7440-38-2","T",0.35,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Cadmium",2019-10-03 10:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Calcium",2019-10-03 10:45:00,"7440-70-2","T",55100,"ug/l",110,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","CHLORIDE (AS CL)",2019-10-03 10:45:00,"16887-00-6","T",80,"mg/l",0.5,"mg/l",2,"","R","Accuracy error",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Chlorophyll A",2019-10-03 10:45:00,"479-61-8","T",1.26,"ug/l",NA,"ug/l",0.038,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Copper",2019-10-03 10:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","HARDNESS (AS CACO3)",2019-10-03 10:45:00,"HARD","T",203,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Iron",2019-10-03 10:45:00,"7439-89-6","T",193,"ug/l",13,"ug/l",100,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Lead",2019-10-03 10:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Magnesium",2019-10-03 10:45:00,"7439-95-4","T",15900,"ug/l",68,"ug/l",1000,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Nickel",2019-10-03 10:45:00,"7440-02-0","T",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Nitrate+Nitrite as Nitrogen",2019-10-03 10:45:00,"NO3NO2N","T",0.579,"mg/l",0.0015,"mg/l",0.002,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Nitrogen",2019-10-03 10:45:00,"7727-37-9","T",0.74,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Nitrogen, ammonia (As N)",2019-10-03 10:45:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","NITROGEN, KJELDAHL, TOTAL",2019-10-03 10:45:00,"KN","T",0.17,"mg/l",0.1,"mg/l",0.1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","NITROGEN, NITRATE (AS N)",2019-10-03 10:45:00,"14797-55-8","T",0.579,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","NITROGEN, NITRITE",2019-10-03 10:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","PHOSPHORUS, TOTAL (AS P)",2019-10-03 10:45:00,"7723-14-0","T",0.0097,"mg/l",0.0036,"mg/l",0.005,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Silver",2019-10-03 10:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","TURBIDITY",2019-10-03 10:45:00,"TURB","T",6.35,"ntu",0.06,"ntu",1,"","A","",2020-05-11
+"Halfway Cr RAS","10-HALF_T1-0.1","N","10-HALF_T1-0.1-10032019-W","R1909697","Zinc",2019-10-03 10:45:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-11

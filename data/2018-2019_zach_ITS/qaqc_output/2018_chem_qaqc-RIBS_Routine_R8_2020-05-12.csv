@@ -1,0 +1,768 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-18 10:00:00,"ALK","T",168,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Aluminum",2018-04-18 10:00:00,"7429-90-5","D",164,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Arsenic",2018-04-18 10:00:00,"7440-38-2","T",0.7,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Cadmium",2018-04-18 10:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Calcium",2018-04-18 10:00:00,"7440-70-2","T",57500,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-18 10:00:00,"DOC","D",6.7,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","CHLORIDE (AS CL)",2018-04-18 10:00:00,"16887-00-6","T",110,"mg/l",0.3,"mg/l",4,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Chlorophyll A",2018-04-18 10:00:00,"479-61-8","T",3.18,"ug/l",NA,"ug/l",0.32,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Copper",2018-04-18 10:00:00,"7440-50-8","D",2.1,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Fluoride, undistilled",2018-04-18 10:00:00,"16984-48-8","T",0.1,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-18 10:00:00,"HARD","T",197,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Iron",2018-04-18 10:00:00,"7439-89-6","T",734,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Lead",2018-04-18 10:00:00,"7439-92-1","D",0.29,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Magnesium",2018-04-18 10:00:00,"7439-95-4","T",12900,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Manganese",2018-04-18 10:00:00,"7439-96-5","T",57.3,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803386","Mercury",2018-04-18 10:00:00,"7439-97-6","T",4.7,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Nickel",2018-04-18 10:00:00,"7440-02-0","D",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-18 10:00:00,"NO3NO2N","T",0.724,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Nitrogen",2018-04-18 10:00:00,"KN","T",1.26,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-18 10:00:00,"7664-41-7","T",0.0119,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-18 10:00:00,"KN","T",0.54,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-18 10:00:00,"14797-55-8","T",0.724,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","NITROGEN, NITRITE",2018-04-18 10:00:00,"14797-65-0","T",NA,"mg/l",0.004,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-18 10:00:00,"PDORTHO","D",0.0107,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-18 10:00:00,"7723-14-0","T",0.056,"mg/l",0.002,"mg/l",0.003,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Potassium",2018-04-18 10:00:00,"7440-09-7","T",3050,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Silver",2018-04-18 10:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Sodium",2018-04-18 10:00:00,"7440-23-5","T",71900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","SULFATE (AS SO4)",2018-04-18 10:00:00,"14808-79-8","T",28.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-18 10:00:00,"TDS","T",390,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","TURBIDITY",2018-04-18 10:00:00,"TURB","T",15.2,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-04182018-WS","R1803385","Zinc",2018-04-18 10:00:00,"7440-66-6","D",4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-11 11:00:00,"ALK","T",142,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Aluminum",2018-06-11 11:00:00,"7429-90-5","D",9.6,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Arsenic",2018-06-11 11:00:00,"7440-38-2","T",0.96,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Cadmium",2018-06-11 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Calcium",2018-06-11 11:00:00,"7440-70-2","T",68800,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-11 11:00:00,"DOC","D",4.8,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","CHLORIDE (AS CL)",2018-06-11 11:00:00,"16887-00-6","T",77.2,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Chlorophyll A",2018-06-11 11:00:00,"479-61-8","T",3.39,"ug/l",NA,"ug/l",0.08,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Copper",2018-06-11 11:00:00,"7440-50-8","D",1.6,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Fluoride, undistilled",2018-06-11 11:00:00,"16984-48-8","T",0.15,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-11 11:00:00,"HARD","T",234,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Iron",2018-06-11 11:00:00,"7439-89-6","T",229,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Lead",2018-06-11 11:00:00,"7439-92-1","D",0.073,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Magnesium",2018-06-11 11:00:00,"7439-95-4","T",15100,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Manganese",2018-06-11 11:00:00,"7439-96-5","T",42.6,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805353","Mercury",2018-06-11 11:00:00,"7439-97-6","T",1,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Nickel",2018-06-11 11:00:00,"7440-02-0","D",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-11 11:00:00,"NO3NO2N","T",0.561,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Nitrogen",2018-06-11 11:00:00,"KN","T",1,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-11 11:00:00,"7664-41-7","T",0.0117,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-11 11:00:00,"KN","T",0.44,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-11 11:00:00,"14797-55-8","T",0.561,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","NITROGEN, NITRITE",2018-06-11 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-11 11:00:00,"PDORTHO","D",0.0328,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-11 11:00:00,"7723-14-0","T",0.0576,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Potassium",2018-06-11 11:00:00,"7440-09-7","T",2340,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Silver",2018-06-11 11:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Sodium",2018-06-11 11:00:00,"7440-23-5","T",44800,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","SULFATE (AS SO4)",2018-06-11 11:00:00,"14808-79-8","T",77.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-11 11:00:00,"TDS","T",383,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","TURBIDITY",2018-06-11 11:00:00,"TURB","T",2.5,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-06112018-WS","R1805352","Zinc",2018-06-11 11:00:00,"7440-66-6","D",3.1,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-13 09:00:00,"ALK","T",108,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Aluminum",2018-08-13 09:00:00,"7429-90-5","D",8.6,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Arsenic",2018-08-13 09:00:00,"7440-38-2","T",0.95,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Cadmium",2018-08-13 09:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Calcium",2018-08-13 09:00:00,"7440-70-2","T",52000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-13 09:00:00,"DOC","D",3.3,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","CHLORIDE (AS CL)",2018-08-13 09:00:00,"16887-00-6","T",45.5,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Chlorophyll A",2018-08-13 09:00:00,"479-61-8","T",4.09,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Copper",2018-08-13 09:00:00,"7440-50-8","D",1.1,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Fluoride, undistilled",2018-08-13 09:00:00,"16984-48-8","T",0.14,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-13 09:00:00,"HARD","T",173,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Iron",2018-08-13 09:00:00,"7439-89-6","T",160,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Lead",2018-08-13 09:00:00,"7439-92-1","D",0.069,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Magnesium",2018-08-13 09:00:00,"7439-95-4","T",10400,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Manganese",2018-08-13 09:00:00,"7439-96-5","T",32.3,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807655","Mercury",2018-08-13 09:00:00,"7439-97-6","T",0.9,"ng/l",0.2,"ng/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Nickel",2018-08-13 09:00:00,"7440-02-0","D",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-13 09:00:00,"NO3NO2N","T",0.461,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Nitrogen",2018-08-13 09:00:00,"KN","T",0.84,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-13 09:00:00,"7664-41-7","T",0.0086,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-13 09:00:00,"KN","T",0.38,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-13 09:00:00,"14797-55-8","T",0.461,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","NITROGEN, NITRITE",2018-08-13 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-13 09:00:00,"PDORTHO","D",0.0462,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-13 09:00:00,"7723-14-0","T",0.0634,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Potassium",2018-08-13 09:00:00,"7440-09-7","T",2270,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Silver",2018-08-13 09:00:00,"7440-22-4","T",0.13,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Sodium",2018-08-13 09:00:00,"7440-23-5","T",28600,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","SULFATE (AS SO4)",2018-08-13 09:00:00,"14808-79-8","T",54.3,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-13 09:00:00,"TDS","T",271,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","TURBIDITY",2018-08-13 09:00:00,"TURB","T",1.86,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-08132018-WS","R1807656","Zinc",2018-08-13 09:00:00,"7440-66-6","D",4.9,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-16 10:00:00,"ALK","T",130,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Aluminum",2018-10-16 10:00:00,"7429-90-5","D",5.1,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Arsenic",2018-10-16 10:00:00,"7440-38-2","T",0.79,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Cadmium",2018-10-16 10:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Calcium",2018-10-16 10:00:00,"7440-70-2","T",66600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-16 10:00:00,"DOC","D",4.4,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","CHLORIDE (AS CL)",2018-10-16 10:00:00,"16887-00-6","T",71,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Chlorophyll A",2018-10-16 10:00:00,"479-61-8","T",0.839,"ug/l",NA,"ug/l",0.041,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Copper",2018-10-16 10:00:00,"7440-50-8","D",3.4,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Fluoride, undistilled",2018-10-16 10:00:00,"16984-48-8","T",0.17,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-16 10:00:00,"HARD","T",223,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Iron",2018-10-16 10:00:00,"7439-89-6","T",82.5,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Lead",2018-10-16 10:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Magnesium",2018-10-16 10:00:00,"7439-95-4","T",13700,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Manganese",2018-10-16 10:00:00,"7439-96-5","T",18,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809965","Mercury",2018-10-16 10:00:00,"7439-97-6","T",0.7,"ng/l",0.2,"ng/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Nickel",2018-10-16 10:00:00,"7440-02-0","D",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-16 10:00:00,"NO3NO2N","T",0.531,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Nitrogen",2018-10-16 10:00:00,"KN","T",0.84,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-16 10:00:00,"7664-41-7","T",NA,"mg/l",8e-04,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-16 10:00:00,"KN","T",0.31,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-16 10:00:00,"14797-55-8","T",0.531,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","NITROGEN, NITRITE",2018-10-16 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-16 10:00:00,"PDORTHO","D",0.0539,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-16 10:00:00,"7723-14-0","T",0.0407,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Potassium",2018-10-16 10:00:00,"7440-09-7","T",3300,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Silver",2018-10-16 10:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Sodium",2018-10-16 10:00:00,"7440-23-5","T",46100,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","SULFATE (AS SO4)",2018-10-16 10:00:00,"14808-79-8","T",82.4,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-16 10:00:00,"TDS","T",392,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","TURBIDITY",2018-10-16 10:00:00,"TURB","T",2.97,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","03-NRUP-3.1","N","03-NRUP-3.1-10162018-WS","R1809964","Zinc",2018-10-16 10:00:00,"7440-66-6","D",3.7,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-17 10:00:00,"ALK","T",136,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Aluminum",2018-04-17 10:00:00,"7429-90-5","D",61.9,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Arsenic",2018-04-17 10:00:00,"7440-38-2","T",4.5,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Cadmium",2018-04-17 10:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Calcium",2018-04-17 10:00:00,"7440-70-2","T",62000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-17 10:00:00,"DOC","D",5.2,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","CHLORIDE (AS CL)",2018-04-17 10:00:00,"16887-00-6","T",54.9,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Chlorophyll A",2018-04-17 10:00:00,"479-61-8","T",16.8,"ug/l",NA,"ug/l",0.8,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Copper",2018-04-17 10:00:00,"7440-50-8","D",2.3,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Fluoride, undistilled",2018-04-17 10:00:00,"16984-48-8","T",0.11,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-17 10:00:00,"HARD","T",230,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Iron",2018-04-17 10:00:00,"7439-89-6","T",18700,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Lead",2018-04-17 10:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Magnesium",2018-04-17 10:00:00,"7439-95-4","T",18300,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Manganese",2018-04-17 10:00:00,"7439-96-5","T",491,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803386","Mercury",2018-04-17 10:00:00,"7439-97-6","T",10.9,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Nickel",2018-04-17 10:00:00,"7440-02-0","D",1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-17 10:00:00,"NO3NO2N","T",0.828,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Nitrogen",2018-04-17 10:00:00,"KN","T",2.83,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-17 10:00:00,"7664-41-7","T",0.0493,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-17 10:00:00,"KN","T",2,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-17 10:00:00,"14797-55-8","T",0.818,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","NITROGEN, NITRITE",2018-04-17 10:00:00,"14797-65-0","T",0.01,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-17 10:00:00,"PDORTHO","D",0.0277,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-17 10:00:00,"7723-14-0","T",0.567,"mg/l",0.02,"mg/l",0.03,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Potassium",2018-04-17 10:00:00,"7440-09-7","T",5030,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Silver",2018-04-17 10:00:00,"7440-22-4","T",0.1,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Sodium",2018-04-17 10:00:00,"7440-23-5","T",32800,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","SULFATE (AS SO4)",2018-04-17 10:00:00,"14808-79-8","T",35.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-17 10:00:00,"TDS","T",266,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","TURBIDITY",2018-04-17 10:00:00,"TURB","T",176,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-04172018-WS","R1803385","Zinc",2018-04-17 10:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-11 10:00:00,"ALK","T",141,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Aluminum",2018-06-11 10:00:00,"7429-90-5","D",47.7,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Arsenic",2018-06-11 10:00:00,"7440-38-2","T",1.4,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Cadmium",2018-06-11 10:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Calcium",2018-06-11 10:00:00,"7440-70-2","T",68900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-11 10:00:00,"DOC","D",4.9,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","CHLORIDE (AS CL)",2018-06-11 10:00:00,"16887-00-6","T",59.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Chlorophyll A",2018-06-11 10:00:00,"479-61-8","T",30.6,"ug/l",NA,"ug/l",0.98,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Copper",2018-06-11 10:00:00,"7440-50-8","D",2.4,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Fluoride, undistilled",2018-06-11 10:00:00,"16984-48-8","T",0.14,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-11 10:00:00,"HARD","T",233,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Iron",2018-06-11 10:00:00,"7439-89-6","T",608,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Lead",2018-06-11 10:00:00,"7439-92-1","D",0.12,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Magnesium",2018-06-11 10:00:00,"7439-95-4","T",14700,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Manganese",2018-06-11 10:00:00,"7439-96-5","T",61,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805353","Mercury",2018-06-11 10:00:00,"7439-97-6","T",2,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Nickel",2018-06-11 10:00:00,"7440-02-0","D",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-11 10:00:00,"NO3NO2N","T",0.913,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Nitrogen",2018-06-11 10:00:00,"KN","T",1.79,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-11 10:00:00,"7664-41-7","T",0.0192,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-11 10:00:00,"KN","T",0.88,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-11 10:00:00,"14797-55-8","T",0.885,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","NITROGEN, NITRITE",2018-06-11 10:00:00,"14797-65-0","T",0.028,"mg/l",0.007,"mg/l",0.01,"","R","Holding Time error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-11 10:00:00,"PDORTHO","D",0.0431,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-11 10:00:00,"7723-14-0","T",0.038,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Potassium",2018-06-11 10:00:00,"7440-09-7","T",2570,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Silver",2018-06-11 10:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Sodium",2018-06-11 10:00:00,"7440-23-5","T",35900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","SULFATE (AS SO4)",2018-06-11 10:00:00,"14808-79-8","T",76.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-11 10:00:00,"TDS","T",373,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","TURBIDITY",2018-06-11 10:00:00,"TURB","T",9.12,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-06112018-WS","R1805352","Zinc",2018-06-11 10:00:00,"7440-66-6","D",3.2,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-13 11:00:00,"ALK","T",115,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Aluminum",2018-08-13 11:00:00,"7429-90-5","D",10.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Arsenic",2018-08-13 11:00:00,"7440-38-2","T",1.3,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Cadmium",2018-08-13 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Calcium",2018-08-13 11:00:00,"7440-70-2","T",54700,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-13 11:00:00,"DOC","D",3.4,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","CHLORIDE (AS CL)",2018-08-13 11:00:00,"16887-00-6","T",47.1,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Chlorophyll A",2018-08-13 11:00:00,"479-61-8","T",25.5,"ug/l",NA,"ug/l",0.82,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Copper",2018-08-13 11:00:00,"7440-50-8","D",2,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Fluoride, undistilled",2018-08-13 11:00:00,"16984-48-8","T",0.12,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-13 11:00:00,"HARD","T",182,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Iron",2018-08-13 11:00:00,"7439-89-6","T",595,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Lead",2018-08-13 11:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Magnesium",2018-08-13 11:00:00,"7439-95-4","T",11000,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Manganese",2018-08-13 11:00:00,"7439-96-5","T",47.7,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807655","Mercury",2018-08-13 11:00:00,"7439-97-6","T",4.9,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Nickel",2018-08-13 11:00:00,"7440-02-0","D",1.2,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-13 11:00:00,"NO3NO2N","T",0.467,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Nitrogen",2018-08-13 11:00:00,"KN","T",1.06,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-13 11:00:00,"7664-41-7","T",0.103,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-13 11:00:00,"KN","T",0.6,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-13 11:00:00,"14797-55-8","T",0.456,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","NITROGEN, NITRITE",2018-08-13 11:00:00,"14797-65-0","T",0.012,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-13 11:00:00,"PDORTHO","D",0.0176,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-13 11:00:00,"7723-14-0","T",0.0347,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Potassium",2018-08-13 11:00:00,"7440-09-7","T",2650,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Silver",2018-08-13 11:00:00,"7440-22-4","T",0.15,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Sodium",2018-08-13 11:00:00,"7440-23-5","T",30400,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","SULFATE (AS SO4)",2018-08-13 11:00:00,"14808-79-8","T",60.8,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-13 11:00:00,"TDS","T",290,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","TURBIDITY",2018-08-13 11:00:00,"TURB","T",5.07,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-08132018-WS","R1807656","Zinc",2018-08-13 11:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-16 11:00:00,"ALK","T",108,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Aluminum",2018-10-16 11:00:00,"7429-90-5","D",19.6,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Arsenic",2018-10-16 11:00:00,"7440-38-2","T",1.5,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Cadmium",2018-10-16 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Calcium",2018-10-16 11:00:00,"7440-70-2","T",43000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-16 11:00:00,"DOC","D",4,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","CHLORIDE (AS CL)",2018-10-16 11:00:00,"16887-00-6","T",27.8,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Chlorophyll A",2018-10-16 11:00:00,"479-61-8","T",1.12,"ug/l",NA,"ug/l",0.11,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Copper",2018-10-16 11:00:00,"7440-50-8","D",2.2,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Fluoride, undistilled",2018-10-16 11:00:00,"16984-48-8","T",0.11,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-16 11:00:00,"HARD","T",148,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Iron",2018-10-16 11:00:00,"7439-89-6","T",1320,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Lead",2018-10-16 11:00:00,"7439-92-1","D",0.091,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Magnesium",2018-10-16 11:00:00,"7439-95-4","T",9740,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Manganese",2018-10-16 11:00:00,"7439-96-5","T",50.9,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809965","Mercury",2018-10-16 11:00:00,"7439-97-6","T",2.6,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Nickel",2018-10-16 11:00:00,"7440-02-0","D",0.83,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-16 11:00:00,"NO3NO2N","T",0.901,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Nitrogen",2018-10-16 11:00:00,"KN","T",1.27,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-16 11:00:00,"7664-41-7","T",0.0186,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-16 11:00:00,"KN","T",0.37,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-16 11:00:00,"14797-55-8","T",0.889,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","NITROGEN, NITRITE",2018-10-16 11:00:00,"14797-65-0","T",0.012,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-16 11:00:00,"PDORTHO","D",0.0206,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-16 11:00:00,"7723-14-0","T",0.0527,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Potassium",2018-10-16 11:00:00,"7440-09-7","T",2560,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Silver",2018-10-16 11:00:00,"7440-22-4","T",0.067,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Sodium",2018-10-16 11:00:00,"7440-23-5","T",18700,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","SULFATE (AS SO4)",2018-10-16 11:00:00,"14808-79-8","T",36.2,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-16 11:00:00,"TDS","T",238,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","TURBIDITY",2018-10-16 11:00:00,"TURB","T",35.6,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-GENS-2.6","N","04-GENS-2.6-10162018-WS","R1809964","Zinc",2018-10-16 11:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-17 12:00:00,"ALK","T",82.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Aluminum",2018-04-17 12:00:00,"7429-90-5","D",526,"ug/l",23,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Arsenic",2018-04-17 12:00:00,"7440-38-2","T",3.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Cadmium",2018-04-17 12:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Calcium",2018-04-17 12:00:00,"7440-70-2","T",36600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-17 12:00:00,"DOC","D",4.7,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","CHLORIDE (AS CL)",2018-04-17 12:00:00,"16887-00-6","T",24.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Chlorophyll A",2018-04-17 12:00:00,"479-61-8","T",4.92,"ug/l",NA,"ug/l",0.4,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Copper",2018-04-17 12:00:00,"7440-50-8","D",4,"ug/l",0.66,"ug/l",1,"","T","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Fluoride, undistilled",2018-04-17 12:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-17 12:00:00,"HARD","T",139,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Iron",2018-04-17 12:00:00,"7439-89-6","T",12500,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Lead",2018-04-17 12:00:00,"7439-92-1","D",0.42,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Magnesium",2018-04-17 12:00:00,"7439-95-4","T",11700,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Manganese",2018-04-17 12:00:00,"7439-96-5","T",275,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803386","Mercury",2018-04-17 12:00:00,"7439-97-6","T",12.7,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Nickel",2018-04-17 12:00:00,"7440-02-0","D",1.4,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-17 12:00:00,"NO3NO2N","T",0.712,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Nitrogen",2018-04-17 12:00:00,"KN","T",2.16,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-17 12:00:00,"7664-41-7","T",0.0463,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-17 12:00:00,"KN","T",1.44,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-17 12:00:00,"14797-55-8","T",0.712,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","NITROGEN, NITRITE",2018-04-17 12:00:00,"14797-65-0","T",NA,"mg/l",0.004,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-17 12:00:00,"PDORTHO","D",0.022,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-17 12:00:00,"7723-14-0","T",0.29,"mg/l",0.01,"mg/l",0.015,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Potassium",2018-04-17 12:00:00,"7440-09-7","T",3710,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Silver",2018-04-17 12:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Sodium",2018-04-17 12:00:00,"7440-23-5","T",15100,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","SULFATE (AS SO4)",2018-04-17 12:00:00,"14808-79-8","T",14,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-17 12:00:00,"TDS","T",147,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","TURBIDITY",2018-04-17 12:00:00,"TURB","T",172,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-04172018-WS","R1803385","Zinc",2018-04-17 12:00:00,"7440-66-6","D",3.2,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-12 09:00:00,"ALK","T",168,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Aluminum",2018-06-12 09:00:00,"7429-90-5","D",3.5,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Arsenic",2018-06-12 09:00:00,"7440-38-2","T",1.4,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Cadmium",2018-06-12 09:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Calcium",2018-06-12 09:00:00,"7440-70-2","T",62300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-12 09:00:00,"DOC","D",2.6,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","CHLORIDE (AS CL)",2018-06-12 09:00:00,"16887-00-6","T",50.2,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Chlorophyll A",2018-06-12 09:00:00,"479-61-8","T",3.89,"ug/l",NA,"ug/l",0.34,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Copper",2018-06-12 09:00:00,"7440-50-8","D",1.5,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Fluoride, undistilled",2018-06-12 09:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-12 09:00:00,"HARD","T",227,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Iron",2018-06-12 09:00:00,"7439-89-6","T",1850,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Lead",2018-06-12 09:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Magnesium",2018-06-12 09:00:00,"7439-95-4","T",17300,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Manganese",2018-06-12 09:00:00,"7439-96-5","T",110,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805353","Mercury",2018-06-12 09:00:00,"7439-97-6","T",1.2,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Nickel",2018-06-12 09:00:00,"7440-02-0","D",0.97,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-12 09:00:00,"NO3NO2N","T",1.18,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Nitrogen",2018-06-12 09:00:00,"KN","T",1.81,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-12 09:00:00,"7664-41-7","T",0.0493,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-12 09:00:00,"KN","T",0.64,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-12 09:00:00,"14797-55-8","T",1.16,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","NITROGEN, NITRITE",2018-06-12 09:00:00,"14797-65-0","T",0.019,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-12 09:00:00,"PDORTHO","D",0.0212,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-12 09:00:00,"7723-14-0","T",0.0705,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Potassium",2018-06-12 09:00:00,"7440-09-7","T",2180,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Silver",2018-06-12 09:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Sodium",2018-06-12 09:00:00,"7440-23-5","T",26000,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","SULFATE (AS SO4)",2018-06-12 09:00:00,"14808-79-8","T",27.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-12 09:00:00,"TDS","T",307,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","TURBIDITY",2018-06-12 09:00:00,"TURB","T",11.2,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-06122018-WS","R1805352","Zinc",2018-06-12 09:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-15 12:00:00,"ALK","T",125,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Aluminum",2018-08-15 12:00:00,"7429-90-5","D",12.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Arsenic",2018-08-15 12:00:00,"7440-38-2","T",2.1,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Cadmium",2018-08-15 12:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Calcium",2018-08-15 12:00:00,"7440-70-2","T",46900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-15 12:00:00,"DOC","D",7.1,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","CHLORIDE (AS CL)",2018-08-15 12:00:00,"16887-00-6","T",38.7,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Chlorophyll A",2018-08-15 12:00:00,"479-61-8","T",4.26,"ug/l",NA,"ug/l",0.22,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Copper",2018-08-15 12:00:00,"7440-50-8","D",2.6,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Fluoride, undistilled",2018-08-15 12:00:00,"16984-48-8","T",0.1,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-15 12:00:00,"HARD","T",163,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Iron",2018-08-15 12:00:00,"7439-89-6","T",3190,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Lead",2018-08-15 12:00:00,"7439-92-1","D",0.083,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Magnesium",2018-08-15 12:00:00,"7439-95-4","T",11200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Manganese",2018-08-15 12:00:00,"7439-96-5","T",120,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807655","Mercury",2018-08-15 12:00:00,"7439-97-6","T",4.9,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Nickel",2018-08-15 12:00:00,"7440-02-0","D",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-15 12:00:00,"NO3NO2N","T",0.786,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Nitrogen",2018-08-15 12:00:00,"KN","T",1.66,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-15 12:00:00,"7664-41-7","T",0.0938,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-15 12:00:00,"KN","T",0.88,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-15 12:00:00,"14797-55-8","T",0.786,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","NITROGEN, NITRITE",2018-08-15 12:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-15 12:00:00,"PDORTHO","D",0.0097,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-15 12:00:00,"7723-14-0","T",0.0962,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Potassium",2018-08-15 12:00:00,"7440-09-7","T",3500,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Silver",2018-08-15 12:00:00,"7440-22-4","T",0.15,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Sodium",2018-08-15 12:00:00,"7440-23-5","T",25800,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","SULFATE (AS SO4)",2018-08-15 12:00:00,"14808-79-8","T",19.8,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-15 12:00:00,"TDS","T",254,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","TURBIDITY",2018-08-15 12:00:00,"TURB","T",71,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-08152018-WS","R1807656","Zinc",2018-08-15 12:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-17 11:00:00,"ALK","T",162,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Aluminum",2018-10-17 11:00:00,"7429-90-5","D",6.1,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Arsenic",2018-10-17 11:00:00,"7440-38-2","T",0.81,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Cadmium",2018-10-17 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Calcium",2018-10-17 11:00:00,"7440-70-2","T",58300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-17 11:00:00,"DOC","D",3.5,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","CHLORIDE (AS CL)",2018-10-17 11:00:00,"16887-00-6","T",38,"mg/l",0.3,"mg/l",4,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Chlorophyll A",2018-10-17 11:00:00,"479-61-8","T",2.25,"ug/l",NA,"ug/l",0.083,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Copper",2018-10-17 11:00:00,"7440-50-8","D",2,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Fluoride, undistilled",2018-10-17 11:00:00,"16984-48-8","T",0.1,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-17 11:00:00,"HARD","T",206,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Iron",2018-10-17 11:00:00,"7439-89-6","T",574,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Lead",2018-10-17 11:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Magnesium",2018-10-17 11:00:00,"7439-95-4","T",14500,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Manganese",2018-10-17 11:00:00,"7439-96-5","T",59.7,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809965","Mercury",2018-10-17 11:00:00,"7439-97-6","T",1.1,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Nickel",2018-10-17 11:00:00,"7440-02-0","D",0.75,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-17 11:00:00,"NO3NO2N","T",1.22,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Nitrogen",2018-10-17 11:00:00,"KN","T",1.55,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-17 11:00:00,"7664-41-7","T",0.0232,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-17 11:00:00,"KN","T",0.32,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-17 11:00:00,"14797-55-8","T",1.21,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","NITROGEN, NITRITE",2018-10-17 11:00:00,"14797-65-0","T",0.01,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-17 11:00:00,"PDORTHO","D",0.0165,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-17 11:00:00,"7723-14-0","T",0.041,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Potassium",2018-10-17 11:00:00,"7440-09-7","T",2450,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Silver",2018-10-17 11:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Sodium",2018-10-17 11:00:00,"7440-23-5","T",24900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","SULFATE (AS SO4)",2018-10-17 11:00:00,"14808-79-8","T",22.3,"mg/l",0.4,"mg/l",4,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-17 11:00:00,"TDS","T",280,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","TURBIDITY",2018-10-17 11:00:00,"TURB","T",10.8,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","04-RAGA-1.4","N","04-RAGA-1.4-10172018-WS","R1809964","Zinc",2018-10-17 11:00:00,"7440-66-6","D",2.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-19 00:00:00,"ALK","T",62.4,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Aluminum",2018-04-19 00:00:00,"7429-90-5","D",39.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Arsenic",2018-04-19 00:00:00,"7440-38-2","T",1.7,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Cadmium",2018-04-19 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Calcium",2018-04-19 00:00:00,"7440-70-2","T",22700,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-19 00:00:00,"DOC","D",3.9,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","CHLORIDE (AS CL)",2018-04-19 00:00:00,"16887-00-6","T",25.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Chlorophyll A",2018-04-19 00:00:00,"479-61-8","T",1.45,"ug/l",NA,"ug/l",0.31,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Copper",2018-04-19 00:00:00,"7440-50-8","D",1.1,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Fluoride, undistilled",2018-04-19 00:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-19 00:00:00,"HARD","T",78,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Iron",2018-04-19 00:00:00,"7439-89-6","T",3390,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Lead",2018-04-19 00:00:00,"7439-92-1","D",0.069,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Magnesium",2018-04-19 00:00:00,"7439-95-4","T",5180,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Manganese",2018-04-19 00:00:00,"7439-96-5","T",96.1,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803386","Mercury",2018-04-19 00:00:00,"7439-97-6","T",3,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Nickel",2018-04-19 00:00:00,"7440-02-0","D",0.47,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-19 00:00:00,"NO3NO2N","T",0.3,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Nitrogen",2018-04-19 00:00:00,"KN","T",0.87,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-19 00:00:00,"7664-41-7","T",0.0166,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-19 00:00:00,"KN","T",0.57,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-19 00:00:00,"14797-55-8","T",0.3,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","NITROGEN, NITRITE",2018-04-19 00:00:00,"14797-65-0","T",NA,"mg/l",0.004,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-19 00:00:00,"PDORTHO","D",0.006,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-19 00:00:00,"7723-14-0","T",0.0268,"mg/l",0.002,"mg/l",0.003,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Potassium",2018-04-19 00:00:00,"7440-09-7","T",2130,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Silver",2018-04-19 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Sodium",2018-04-19 00:00:00,"7440-23-5","T",16700,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","SULFATE (AS SO4)",2018-04-19 00:00:00,"14808-79-8","T",7,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-19 00:00:00,"TDS","T",131,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","TURBIDITY",2018-04-19 00:00:00,"TURB","T",66,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-04192018-WS","R1803385","Zinc",2018-04-19 00:00:00,"7440-66-6","D",3.4,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-13 00:00:00,"ALK","T",152,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Aluminum",2018-06-13 00:00:00,"7429-90-5","D",20.7,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Arsenic",2018-06-13 00:00:00,"7440-38-2","T",2.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Cadmium",2018-06-13 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Calcium",2018-06-13 00:00:00,"7440-70-2","T",52600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-13 00:00:00,"DOC","D",2.9,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","CHLORIDE (AS CL)",2018-06-13 00:00:00,"16887-00-6","T",62,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Chlorophyll A",2018-06-13 00:00:00,"479-61-8","T",5.39,"ug/l",NA,"ug/l",0.17,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Copper",2018-06-13 00:00:00,"7440-50-8","D",1.3,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Fluoride, undistilled",2018-06-13 00:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-13 00:00:00,"HARD","T",183,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Iron",2018-06-13 00:00:00,"7439-89-6","T",365,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Lead",2018-06-13 00:00:00,"7439-92-1","D",0.074,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Magnesium",2018-06-13 00:00:00,"7439-95-4","T",12500,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Manganese",2018-06-13 00:00:00,"7439-96-5","T",110,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805353","Mercury",2018-06-13 00:00:00,"7439-97-6","T",0.6,"ng/l",0.2,"ng/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Nickel",2018-06-13 00:00:00,"7440-02-0","D",0.86,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-13 00:00:00,"NO3NO2N","T",0.458,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Nitrogen",2018-06-13 00:00:00,"KN","T",0.78,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-13 00:00:00,"7664-41-7","T",0.0103,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-13 00:00:00,"KN","T",0.32,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-13 00:00:00,"14797-55-8","T",0.458,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","NITROGEN, NITRITE",2018-06-13 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-13 00:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-13 00:00:00,"7723-14-0","T",0.0213,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Potassium",2018-06-13 00:00:00,"7440-09-7","T",2360,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Silver",2018-06-13 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Sodium",2018-06-13 00:00:00,"7440-23-5","T",32400,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","SULFATE (AS SO4)",2018-06-13 00:00:00,"14808-79-8","T",13.3,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-13 00:00:00,"TDS","T",268,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","TURBIDITY",2018-06-13 00:00:00,"TURB","T",5.61,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-06132018-WS","R1805352","Zinc",2018-06-13 00:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-15 10:00:00,"ALK","T",86,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Aluminum",2018-08-15 10:00:00,"7429-90-5","D",45.8,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Arsenic",2018-08-15 10:00:00,"7440-38-2","T",2.6,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Cadmium",2018-08-15 10:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Calcium",2018-08-15 10:00:00,"7440-70-2","T",29200,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-15 10:00:00,"DOC","D",7.3,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","CHLORIDE (AS CL)",2018-08-15 10:00:00,"16887-00-6","T",27.5,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Chlorophyll A",2018-08-15 10:00:00,"479-61-8","T",5.74,"ug/l",NA,"ug/l",0.8,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Copper",2018-08-15 10:00:00,"7440-50-8","D",2.6,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Fluoride, undistilled",2018-08-15 10:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-15 10:00:00,"HARD","T",96.8,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Iron",2018-08-15 10:00:00,"7439-89-6","T",3150,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Lead",2018-08-15 10:00:00,"7439-92-1","D",0.14,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Magnesium",2018-08-15 10:00:00,"7439-95-4","T",5800,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Manganese",2018-08-15 10:00:00,"7439-96-5","T",143,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Nickel",2018-08-15 10:00:00,"7440-02-0","D",0.81,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-15 10:00:00,"NO3NO2N","T",0.203,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Nitrogen",2018-08-15 10:00:00,"KN","T",0.97,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-15 10:00:00,"7664-41-7","T",0.0462,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-15 10:00:00,"KN","T",0.77,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-15 10:00:00,"14797-55-8","T",0.203,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","NITROGEN, NITRITE",2018-08-15 10:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-15 10:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-15 10:00:00,"7723-14-0","T",0.0687,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Potassium",2018-08-15 10:00:00,"7440-09-7","T",2740,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Silver",2018-08-15 10:00:00,"7440-22-4","T",0.2,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Sodium",2018-08-15 10:00:00,"7440-23-5","T",19400,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","SULFATE (AS SO4)",2018-08-15 10:00:00,"14808-79-8","T",6.7,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-15 10:00:00,"TDS","T",181,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","TURBIDITY",2018-08-15 10:00:00,"TURB","T",86,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-08152018-WS","R1807656","Zinc",2018-08-15 10:00:00,"7440-66-6","D",2.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-17 09:00:00,"ALK","T",133,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Aluminum",2018-10-17 09:00:00,"7429-90-5","D",9.8,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Arsenic",2018-10-17 09:00:00,"7440-38-2","T",1.3,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Cadmium",2018-10-17 09:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Calcium",2018-10-17 09:00:00,"7440-70-2","T",43000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-17 09:00:00,"DOC","D",3.5,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","CHLORIDE (AS CL)",2018-10-17 09:00:00,"16887-00-6","T",36.7,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Chlorophyll A",2018-10-17 09:00:00,"479-61-8","T",18,"ug/l",NA,"ug/l",0.82,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Copper",2018-10-17 09:00:00,"7440-50-8","D",1.6,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Fluoride, undistilled",2018-10-17 09:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-17 09:00:00,"HARD","T",145,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Iron",2018-10-17 09:00:00,"7439-89-6","T",259,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Lead",2018-10-17 09:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Magnesium",2018-10-17 09:00:00,"7439-95-4","T",9220,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Manganese",2018-10-17 09:00:00,"7439-96-5","T",56.6,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809965","Mercury",2018-10-17 09:00:00,"7439-97-6","T",1,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Nickel",2018-10-17 09:00:00,"7440-02-0","D",0.57,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-17 09:00:00,"NO3NO2N","T",0.273,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Nitrogen",2018-10-17 09:00:00,"KN","T",0.67,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-17 09:00:00,"7664-41-7","T",0.027,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-17 09:00:00,"KN","T",0.4,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-17 09:00:00,"14797-55-8","T",0.273,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","NITROGEN, NITRITE",2018-10-17 09:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-17 09:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-17 09:00:00,"7723-14-0","T",0.0184,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Potassium",2018-10-17 09:00:00,"7440-09-7","T",2430,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Silver",2018-10-17 09:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Sodium",2018-10-17 09:00:00,"7440-23-5","T",24900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","SULFATE (AS SO4)",2018-10-17 09:00:00,"14808-79-8","T",9.5,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-17 09:00:00,"TDS","T",222,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","TURBIDITY",2018-10-17 09:00:00,"TURB","T",8.19,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CDEA-1.8","N","05-CDEA-1.8-10172018-WS","R1809964","Zinc",2018-10-17 09:00:00,"7440-66-6","D",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-19 00:00:00,"ALK","T",44.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Aluminum",2018-04-19 00:00:00,"7429-90-5","D",45.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Arsenic",2018-04-19 00:00:00,"7440-38-2","T",1.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Cadmium",2018-04-19 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Calcium",2018-04-19 00:00:00,"7440-70-2","T",17300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-19 00:00:00,"DOC","D",4,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","CHLORIDE (AS CL)",2018-04-19 00:00:00,"16887-00-6","T",33.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Chlorophyll A",2018-04-19 00:00:00,"479-61-8","T",5.93,"ug/l",NA,"ug/l",0.16,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Copper",2018-04-19 00:00:00,"7440-50-8","D",1.3,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Fluoride, undistilled",2018-04-19 00:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-19 00:00:00,"HARD","T",59.6,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Iron",2018-04-19 00:00:00,"7439-89-6","T",2190,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Lead",2018-04-19 00:00:00,"7439-92-1","D",0.086,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Magnesium",2018-04-19 00:00:00,"7439-95-4","T",3970,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Manganese",2018-04-19 00:00:00,"7439-96-5","T",118,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803386","Mercury",2018-04-19 00:00:00,"7439-97-6","T",2.6,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Nickel",2018-04-19 00:00:00,"7440-02-0","D",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-19 00:00:00,"NO3NO2N","T",0.576,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Nitrogen",2018-04-19 00:00:00,"KN","T",1.22,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-19 00:00:00,"7664-41-7","T",0.0138,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-19 00:00:00,"KN","T",0.65,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-19 00:00:00,"14797-55-8","T",0.564,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","NITROGEN, NITRITE",2018-04-19 00:00:00,"14797-65-0","T",0.012,"mg/l",0.004,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-19 00:00:00,"PDORTHO","D",0.0055,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-19 00:00:00,"7723-14-0","T",0.0675,"mg/l",0.002,"mg/l",0.003,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Potassium",2018-04-19 00:00:00,"7440-09-7","T",1910,"ug/l",70,"ug/l",2000,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Silver",2018-04-19 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Sodium",2018-04-19 00:00:00,"7440-23-5","T",21500,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","SULFATE (AS SO4)",2018-04-19 00:00:00,"14808-79-8","T",9.8,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-19 00:00:00,"TDS","T",121,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","TURBIDITY",2018-04-19 00:00:00,"TURB","T",17.1,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-04192018-WS","R1803385","Zinc",2018-04-19 00:00:00,"7440-66-6","D",14.4,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-13 00:00:00,"ALK","T",105,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Aluminum",2018-06-13 00:00:00,"7429-90-5","D",34.7,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Arsenic",2018-06-13 00:00:00,"7440-38-2","T",0.82,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Cadmium",2018-06-13 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Calcium",2018-06-13 00:00:00,"7440-70-2","T",39900,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-13 00:00:00,"DOC","D",4.1,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","CHLORIDE (AS CL)",2018-06-13 00:00:00,"16887-00-6","T",56.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Chlorophyll A",2018-06-13 00:00:00,"479-61-8","T",16.3,"ug/l",NA,"ug/l",0.82,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Copper",2018-06-13 00:00:00,"7440-50-8","D",1.5,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Fluoride, undistilled",2018-06-13 00:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-13 00:00:00,"HARD","T",138,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Iron",2018-06-13 00:00:00,"7439-89-6","T",266,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Lead",2018-06-13 00:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Magnesium",2018-06-13 00:00:00,"7439-95-4","T",9260,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Manganese",2018-06-13 00:00:00,"7439-96-5","T",68.9,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805353","Mercury",2018-06-13 00:00:00,"7439-97-6","T",1.1,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Nickel",2018-06-13 00:00:00,"7440-02-0","D",1.3,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-13 00:00:00,"NO3NO2N","T",0.741,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Nitrogen",2018-06-13 00:00:00,"KN","T",1.25,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-13 00:00:00,"7664-41-7","T",0.0065,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-13 00:00:00,"KN","T",0.51,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-13 00:00:00,"14797-55-8","T",0.728,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","NITROGEN, NITRITE",2018-06-13 00:00:00,"14797-65-0","T",0.013,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-13 00:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-13 00:00:00,"7723-14-0","T",0.0389,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Potassium",2018-06-13 00:00:00,"7440-09-7","T",2200,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Silver",2018-06-13 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Sodium",2018-06-13 00:00:00,"7440-23-5","T",28900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","SULFATE (AS SO4)",2018-06-13 00:00:00,"14808-79-8","T",16.9,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-13 00:00:00,"TDS","T",222,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","TURBIDITY",2018-06-13 00:00:00,"TURB","T",7.42,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-06132018-WS","R1805352","Zinc",2018-06-13 00:00:00,"7440-66-6","D",5.2,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-14 11:00:00,"ALK","T",44.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Aluminum",2018-08-14 11:00:00,"7429-90-5","D",103,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Arsenic",2018-08-14 11:00:00,"7440-38-2","T",7.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Cadmium",2018-08-14 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Calcium",2018-08-14 11:00:00,"7440-70-2","T",19700,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-14 11:00:00,"DOC","D",8.1,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","CHLORIDE (AS CL)",2018-08-14 11:00:00,"16887-00-6","T",15.8,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Chlorophyll A",2018-08-14 11:00:00,"479-61-8","T",2.51,"ug/l",NA,"ug/l",0.8,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Copper",2018-08-14 11:00:00,"7440-50-8","D",2.2,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Fluoride, undistilled",2018-08-14 11:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-14 11:00:00,"HARD","T",87.4,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Iron",2018-08-14 11:00:00,"7439-89-6","T",37600,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Lead",2018-08-14 11:00:00,"7439-92-1","D",0.25,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Magnesium",2018-08-14 11:00:00,"7439-95-4","T",9270,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Manganese",2018-08-14 11:00:00,"7439-96-5","T",954,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807655","Mercury",2018-08-14 11:00:00,"7439-97-6","T",23.5,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Nickel",2018-08-14 11:00:00,"7440-02-0","D",1.1,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-14 11:00:00,"NO3NO2N","T",0.185,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Nitrogen",2018-08-14 11:00:00,"KN","T",1.4,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-14 11:00:00,"7664-41-7","T",0.0305,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-14 11:00:00,"KN","T",1.22,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-14 11:00:00,"14797-55-8","T",0.185,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","NITROGEN, NITRITE",2018-08-14 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-14 11:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-14 11:00:00,"7723-14-0","T",0.455,"mg/l",0.02,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Potassium",2018-08-14 11:00:00,"7440-09-7","T",4130,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Silver",2018-08-14 11:00:00,"7440-22-4","T",0.18,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Sodium",2018-08-14 11:00:00,"7440-23-5","T",12400,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","SULFATE (AS SO4)",2018-08-14 11:00:00,"14808-79-8","T",6.5,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-14 11:00:00,"TDS","T",213,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","TURBIDITY",2018-08-14 11:00:00,"TURB","T",609,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-08142018-WS","R1807656","Zinc",2018-08-14 11:00:00,"7440-66-6","D",5.1,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-15 11:00:00,"ALK","T",82.8,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Aluminum",2018-10-15 11:00:00,"7429-90-5","D",42.4,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Arsenic",2018-10-15 11:00:00,"7440-38-2","T",1.2,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Cadmium",2018-10-15 11:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Calcium",2018-10-15 11:00:00,"7440-70-2","T",28300,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-15 11:00:00,"DOC","D",4.6,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","CHLORIDE (AS CL)",2018-10-15 11:00:00,"16887-00-6","T",23.1,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Chlorophyll A",2018-10-15 11:00:00,"479-61-8","T",2.31,"ug/l",NA,"ug/l",0.2,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Copper",2018-10-15 11:00:00,"7440-50-8","D",1.7,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Fluoride, undistilled",2018-10-15 11:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-15 11:00:00,"HARD","T",95.3,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Iron",2018-10-15 11:00:00,"7439-89-6","T",726,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Lead",2018-10-15 11:00:00,"7439-92-1","D",0.088,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Magnesium",2018-10-15 11:00:00,"7439-95-4","T",5970,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Manganese",2018-10-15 11:00:00,"7439-96-5","T",62.7,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809965","Mercury",2018-10-15 11:00:00,"7439-97-6","T",1.8,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Nickel",2018-10-15 11:00:00,"7440-02-0","D",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-15 11:00:00,"NO3NO2N","T",0.655,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Nitrogen",2018-10-15 11:00:00,"KN","T",1.04,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-15 11:00:00,"7664-41-7","T",0.0071,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-15 11:00:00,"KN","T",0.39,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-15 11:00:00,"14797-55-8","T",0.655,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","NITROGEN, NITRITE",2018-10-15 11:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-15 11:00:00,"PDORTHO","D",0.0133,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-15 11:00:00,"7723-14-0","T",0.0348,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Potassium",2018-10-15 11:00:00,"7440-09-7","T",2350,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Silver",2018-10-15 11:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Sodium",2018-10-15 11:00:00,"7440-23-5","T",16000,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","SULFATE (AS SO4)",2018-10-15 11:00:00,"14808-79-8","T",10.2,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-15 11:00:00,"TDS","T",158,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","TURBIDITY",2018-10-15 11:00:00,"TURB","T",18.3,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","05-CHEM-5.4","N","05-CHEM-5.4-10152018-WS","R1809964","Zinc",2018-10-15 11:00:00,"7440-66-6","D",22.6,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","ALKALINITY, TOTAL (AS CaCO3)",2018-04-19 00:00:00,"ALK","T",107,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Aluminum",2018-04-19 00:00:00,"7429-90-5","D",6.4,"ug/l",2.3,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Arsenic",2018-04-19 00:00:00,"7440-38-2","T",0.64,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Cadmium",2018-04-19 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Calcium",2018-04-19 00:00:00,"7440-70-2","T",37000,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Carbon, Dissolved Organic (DOC)",2018-04-19 00:00:00,"DOC","D",2.5,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","CHLORIDE (AS CL)",2018-04-19 00:00:00,"16887-00-6","T",36.1,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Chlorophyll A",2018-04-19 00:00:00,"479-61-8","T",6.69,"ug/l",NA,"ug/l",0.22,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Copper",2018-04-19 00:00:00,"7440-50-8","D",1.7,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Fluoride, undistilled",2018-04-19 00:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","HARDNESS (AS CACO3)",2018-04-19 00:00:00,"HARD","T",139,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Iron",2018-04-19 00:00:00,"7439-89-6","T",518,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Lead",2018-04-19 00:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Magnesium",2018-04-19 00:00:00,"7439-95-4","T",11200,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Manganese",2018-04-19 00:00:00,"7439-96-5","T",20.7,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Nickel",2018-04-19 00:00:00,"7440-02-0","D",0.6,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Nitrate+Nitrite as Nitrogen",2018-04-19 00:00:00,"NO3NO2N","T",0.535,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Nitrogen",2018-04-19 00:00:00,"KN","T",0.87,"mg/l",NA,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Nitrogen, ammonia (As N)",2018-04-19 00:00:00,"7664-41-7","T",0.014,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","NITROGEN, KJELDAHL, TOTAL",2018-04-19 00:00:00,"KN","T",0.34,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","NITROGEN, NITRATE (AS N)",2018-04-19 00:00:00,"14797-55-8","T",0.535,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","NITROGEN, NITRITE",2018-04-19 00:00:00,"14797-65-0","T",NA,"mg/l",0.004,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Orthophosphate as Phosphorus, Dissolved",2018-04-19 00:00:00,"PDORTHO","D",NA,"mg/l",0.0014,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Precision error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","PHOSPHORUS, TOTAL (AS P)",2018-04-19 00:00:00,"7723-14-0","T",0.068,"mg/l",0.002,"mg/l",0.003,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Potassium",2018-04-19 00:00:00,"7440-09-7","T",2380,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Silver",2018-04-19 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Sodium",2018-04-19 00:00:00,"7440-23-5","T",19900,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","SULFATE (AS SO4)",2018-04-19 00:00:00,"14808-79-8","T",21.4,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-04-19 00:00:00,"TDS","T",194,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","TURBIDITY",2018-04-19 00:00:00,"TURB","T",4.92,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04182018-WS","R1803385","Zinc",2018-04-19 00:00:00,"7440-66-6","D",5.9,"ug/l",2.5,"ug/l",5,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-04192018-WS","R1803386","Mercury",2018-04-19 00:00:00,"7439-97-6","T",4,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","ALKALINITY, TOTAL (AS CaCO3)",2018-06-13 00:00:00,"ALK","T",138,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Aluminum",2018-06-13 00:00:00,"7429-90-5","D",19.1,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Arsenic",2018-06-13 00:00:00,"7440-38-2","T",0.57,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Cadmium",2018-06-13 00:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Calcium",2018-06-13 00:00:00,"7440-70-2","T",48700,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Carbon, Dissolved Organic (DOC)",2018-06-13 00:00:00,"DOC","D",3.4,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","CHLORIDE (AS CL)",2018-06-13 00:00:00,"16887-00-6","T",52.5,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Chlorophyll A",2018-06-13 00:00:00,"479-61-8","T",0.21,"ug/l",NA,"ug/l",0.054,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Copper",2018-06-13 00:00:00,"7440-50-8","D",2.9,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Fluoride, undistilled",2018-06-13 00:00:00,"16984-48-8","T",0.12,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","HARDNESS (AS CACO3)",2018-06-13 00:00:00,"HARD","T",182,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Iron",2018-06-13 00:00:00,"7439-89-6","T",59.6,"ug/l",13,"ug/l",100,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Lead",2018-06-13 00:00:00,"7439-92-1","D",0.14,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Magnesium",2018-06-13 00:00:00,"7439-95-4","T",14600,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Manganese",2018-06-13 00:00:00,"7439-96-5","T",7.5,"ug/l",1.7,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805353","Mercury",2018-06-13 00:00:00,"7439-97-6","T",1.1,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Nickel",2018-06-13 00:00:00,"7440-02-0","D",0.95,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Nitrate+Nitrite as Nitrogen",2018-06-13 00:00:00,"NO3NO2N","T",1.5,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Nitrogen",2018-06-13 00:00:00,"KN","T",2,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Nitrogen, ammonia (As N)",2018-06-13 00:00:00,"7664-41-7","T",0.0102,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","NITROGEN, KJELDAHL, TOTAL",2018-06-13 00:00:00,"KN","T",0.5,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","NITROGEN, NITRATE (AS N)",2018-06-13 00:00:00,"14797-55-8","T",1.48,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","NITROGEN, NITRITE",2018-06-13 00:00:00,"14797-65-0","T",0.029,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Orthophosphate as Phosphorus, Dissolved",2018-06-13 00:00:00,"PDORTHO","D",0.0144,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","PHOSPHORUS, TOTAL (AS P)",2018-06-13 00:00:00,"7723-14-0","T",0.024,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Potassium",2018-06-13 00:00:00,"7440-09-7","T",2900,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Silver",2018-06-13 00:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Sodium",2018-06-13 00:00:00,"7440-23-5","T",30200,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","SULFATE (AS SO4)",2018-06-13 00:00:00,"14808-79-8","T",30.9,"mg/l",0.2,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-06-13 00:00:00,"TDS","T",266,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","TURBIDITY",2018-06-13 00:00:00,"TURB","T",1.01,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-06132018-WS","R1805352","Zinc",2018-06-13 00:00:00,"7440-66-6","D",3.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","ALKALINITY, TOTAL (AS CaCO3)",2018-08-14 14:00:00,"ALK","T",128,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Aluminum",2018-08-14 14:00:00,"7429-90-5","D",26,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Arsenic",2018-08-14 14:00:00,"7440-38-2","T",1.8,"ug/l",0.39,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Cadmium",2018-08-14 14:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Calcium",2018-08-14 14:00:00,"7440-70-2","T",54600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Carbon, Dissolved Organic (DOC)",2018-08-14 14:00:00,"DOC","D",7.6,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","CHLORIDE (AS CL)",2018-08-14 14:00:00,"16887-00-6","T",37.4,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Chlorophyll A",2018-08-14 14:00:00,"479-61-8","T",8.84,"ug/l",NA,"ug/l",0.8,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Copper",2018-08-14 14:00:00,"7440-50-8","D",3.3,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Fluoride, undistilled",2018-08-14 14:00:00,"16984-48-8","T",0.13,"mg/l",0.004,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","HARDNESS (AS CACO3)",2018-08-14 14:00:00,"HARD","T",189,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Iron",2018-08-14 14:00:00,"7439-89-6","T",3900,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Lead",2018-08-14 14:00:00,"7439-92-1","D",0.1,"ug/l",0.067,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Magnesium",2018-08-14 14:00:00,"7439-95-4","T",12900,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Manganese",2018-08-14 14:00:00,"7439-96-5","T",140,"ug/l",1.7,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807655","Mercury",2018-08-14 14:00:00,"7439-97-6","T",16,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Nickel",2018-08-14 14:00:00,"7440-02-0","D",1.5,"ug/l",0.26,"ug/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Nitrate+Nitrite as Nitrogen",2018-08-14 14:00:00,"NO3NO2N","T",1.78,"mg/l",7e-04,"mg/l",0.002,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Nitrogen",2018-08-14 14:00:00,"KN","T",3.34,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Nitrogen, ammonia (As N)",2018-08-14 14:00:00,"7664-41-7","T",0.348,"mg/l",8e-04,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","NITROGEN, KJELDAHL, TOTAL",2018-08-14 14:00:00,"KN","T",1.56,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","NITROGEN, NITRATE (AS N)",2018-08-14 14:00:00,"14797-55-8","T",1.7,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","NITROGEN, NITRITE",2018-08-14 14:00:00,"14797-65-0","T",0.086,"mg/l",0.007,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Orthophosphate as Phosphorus, Dissolved",2018-08-14 14:00:00,"PDORTHO","D",0.133,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","PHOSPHORUS, TOTAL (AS P)",2018-08-14 14:00:00,"7723-14-0","T",0.316,"mg/l",0.02,"mg/l",0.05,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Potassium",2018-08-14 14:00:00,"7440-09-7","T",7510,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Silver",2018-08-14 14:00:00,"7440-22-4","T",0.14,"ug/l",0.039,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Sodium",2018-08-14 14:00:00,"7440-23-5","T",27700,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","SULFATE (AS SO4)",2018-08-14 14:00:00,"14808-79-8","T",29,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-08-14 14:00:00,"TDS","T",282,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","TURBIDITY",2018-08-14 14:00:00,"TURB","T",64.6,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-08142018-WS","R1807656","Zinc",2018-08-14 14:00:00,"7440-66-6","D",3,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","ALKALINITY, TOTAL (AS CaCO3)",2018-10-15 14:00:00,"ALK","T",106,"mg/l",1,"mg/l",2,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Aluminum",2018-10-15 14:00:00,"7429-90-5","D",10.9,"ug/l",2.3,"ug/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Arsenic",2018-10-15 14:00:00,"7440-38-2","T",0.81,"ug/l",0.39,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Cadmium",2018-10-15 14:00:00,"7440-43-9","D",NA,"ug/l",0.064,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Calcium",2018-10-15 14:00:00,"7440-70-2","T",35600,"ug/l",110,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Carbon, Dissolved Organic (DOC)",2018-10-15 14:00:00,"DOC","D",3.2,"mg/l",0.05,"mg/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","CHLORIDE (AS CL)",2018-10-15 14:00:00,"16887-00-6","T",34.9,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Chlorophyll A",2018-10-15 14:00:00,"479-61-8","T",2.57,"ug/l",NA,"ug/l",0.078,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Copper",2018-10-15 14:00:00,"7440-50-8","D",1.7,"ug/l",0.66,"ug/l",1,"","R","Equipment Blank error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Fluoride, undistilled",2018-10-15 14:00:00,"16984-48-8","T",NA,"mg/l",0.004,"mg/l",0.1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","HARDNESS (AS CACO3)",2018-10-15 14:00:00,"HARD","T",134,"mg/l",NA,"mg/l",6.62,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Iron",2018-10-15 14:00:00,"7439-89-6","T",175,"ug/l",13,"ug/l",100,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Lead",2018-10-15 14:00:00,"7439-92-1","D",NA,"ug/l",0.067,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Magnesium",2018-10-15 14:00:00,"7439-95-4","T",10800,"ug/l",29,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Manganese",2018-10-15 14:00:00,"7439-96-5","T",8.3,"ug/l",1.7,"ug/l",10,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809965","Mercury",2018-10-15 14:00:00,"7439-97-6","T",1.9,"ng/l",0.2,"ng/l",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Nickel",2018-10-15 14:00:00,"7440-02-0","D",0.52,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Nitrate+Nitrite as Nitrogen",2018-10-15 14:00:00,"NO3NO2N","T",0.37,"mg/l",0.0026,"mg/l",0.008,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Nitrogen",2018-10-15 14:00:00,"KN","T",0.68,"mg/l",NA,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Nitrogen, ammonia (As N)",2018-10-15 14:00:00,"7664-41-7","T",NA,"mg/l",8e-04,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","NITROGEN, KJELDAHL, TOTAL",2018-10-15 14:00:00,"KN","T",0.31,"mg/l",0.08,"mg/l",0.1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","NITROGEN, NITRATE (AS N)",2018-10-15 14:00:00,"14797-55-8","T",0.37,"mg/l",NA,"mg/l",0.01,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","NITROGEN, NITRITE",2018-10-15 14:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Orthophosphate as Phosphorus, Dissolved",2018-10-15 14:00:00,"PDORTHO","D",0.006,"mg/l",0.0014,"mg/l",0.005,"","R","Precision error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","PHOSPHORUS, TOTAL (AS P)",2018-10-15 14:00:00,"7723-14-0","T",0.0161,"mg/l",0.002,"mg/l",0.005,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Potassium",2018-10-15 14:00:00,"7440-09-7","T",2510,"ug/l",70,"ug/l",2000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Silver",2018-10-15 14:00:00,"7440-22-4","T",NA,"ug/l",0.039,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Sodium",2018-10-15 14:00:00,"7440-23-5","T",20600,"ug/l",44,"ug/l",1000,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","SULFATE (AS SO4)",2018-10-15 14:00:00,"14808-79-8","T",21,"mg/l",0.2,"mg/l",2,"","R","Accuracy error",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",2018-10-15 14:00:00,"TDS","T",205,"mg/l",4,"mg/l",10,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","TURBIDITY",2018-10-15 14:00:00,"TURB","T",9.49,"ntu",0.06,"ntu",1,"","A","",2020-05-12
+"RIBS_Routine_R8","07-KEUK-0.3","N","07-KEUK-0.3-10152018-WS","R1809964","Zinc",2018-10-15 14:00:00,"7440-66-6","D",3.5,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2020-05-12
