@@ -1,0 +1,63 @@
+---
+title: "compile_2018_2019"
+output: html_document
+---
+
+Load in libs, set project dirs
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+target.dir <- file.path(root.dir, "data", "2018-2019_zach_ITS")
+qaqc_dir <- file.path(target.dir, "qaqc_output")
+
+
+```
+
+
+Data prep for Zach, for testing assessment script 
+```{r}
+# Imprort unflagged data sent to Zach
+unflagged.18.19 <- read_csv(file.path(root.dir, "/data/2018-2019_zach_ITS/SMAS_chem_2018_2019_preqaqc_simple.csv")) %>% 
+  select(-Project_name, -validator_qualifiers, -interpreted_qualifiers, -qaqc_date)
+
+# Import all qaqc output files in subdir and bind together as a dataframe
+setwd(qaqc_dir)
+qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>% 
+  map_df(~read_csv(.,  col_types = cols(fraction = col_character()))) %>% 
+  mutate(project_name = str_replace(project_name, "RIBS_", "")) %>% 
+  mutate(project_name = str_replace(project_name, " - ", "_")) %>% 
+  mutate(project_name = str_replace(project_name, "_-_", "_")) %>% 
+  mutate(project_name = str_replace_all(project_name, " ", "_")) %>% 
+  mutate(chemical_name = tolower(chemical_name))
+
+qaqc.output.bound <- qaqc.output.bound %>% 
+  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>% 
+  filter(chemical_name != "selenium")
+
+# unflagged.18.19 <- unflagged.18.19 %>% 
+#   mutate(SSC_SDG = paste0(sys_sample_code,"_",sample_delivery_group))
+# qaqc.output.bound <- qaqc.output.bound %>% 
+#   mutate(SSC_SDG = paste0(sys_sample_code,"_",sample_delivery_group))
+# flags.joined.18.19 <- left_join(unflagged.18.19, qaqc.output.bound, by = "SSC_SDG")
+# flags.joined.18.19_2 <- left_join(unflagged.18.19, qaqc.output.bound, by = c("SSC_SDG", "chemical_name"))
+
+flags.joined.18.19.left <- left_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+
+flags.joined.18.19.inner <- inner_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+
+flags.joined.18.19.anti <- anti_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+
+count.recs <- flags.joined.18.19.left %>% 
+  group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
+  mutate(dups = n()) %>% 
+  filter(dups > 1)
+
+# Export data
+flags.joined.18.19.left <- flags.joined.18.19.left %>% 
+  select(project_name, everything())
+
+# write_csv(flags.joined.18.19.left, file.path(target.dir, "SMAS_chem_2018-2018_flagged_simple_2020-05-13.csv"))
+
+```
+

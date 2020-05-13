@@ -68,6 +68,8 @@ params.new <- anti_join(params.all, params.exisinglist)
 
 ```
 
+### ADD IN LAKES PARAMS HERE ###
+
 Crosscheck draft param code table for matches with streams params.all list
 ```{r}
 pcode.draft <- readxl::read_excel(file.path(root.dir, "parameters/draft_CHEM_4_23.xlsx")) %>% 
