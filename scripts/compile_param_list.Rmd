@@ -19,16 +19,21 @@ result.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_result.csv"), string
 
 RESULT.2017 <- read_csv(file.path(root.dir, "data/2017-2019/2017_chem_preqaqc_RESULT-SBU_complete_2020-03-26.csv"), col_types = cols(fraction = col_character()))
 RESULT.2018 <- read_csv(file.path(root.dir, "data/2017-2019/2018_chem_preqaqc_RESULT-SBU_complete_2020-03-25.csv"))
-RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SBU_Mohawk_complete_2020-03-27.csv"))
+
+# Setting aside PCBs for possible later addition.
+# RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SBU_Mohawk_complete_2020-03-27.csv"))
+RESULT.2019 <- read_csv(file.path(root.dir, "data/2017-2019/2019_chem_preqaqc_RESULT-SMAS_complete_2020-05-11_NO_PCBs.csv"))
+
 result.2016to2019 <- bind_rows(result.2016, RESULT.2017, RESULT.2018, RESULT.2019)
 rm(result.2016, RESULT.2017, RESULT.2018, RESULT.2019)
 
 # Routine data not yet included in above data
 routine.2017 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2017/routine_2020-01-28/2017_routine_all_2020-04-14.csv")
 routine.2018 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2018/routine_all_converted/2018_routine_all_chem_preqaqc_2020-04-14.csv")
-routine.2019 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2019/Routine/all/2019_chem_routine_pre-qaqc_2020-03-13.csv")
-routine.2017to2019 <- bind_rows(routine.2017, routine.2018, routine.2019)
-rm(routine.2017, routine.2018, routine.2019)
+# Commented out below to remove PCBs. Added RESULT.2019 file above does includes routine data.
+# routine.2019 <- read_csv("C:/Data/RIBS/Chem_raw_processing/data_output/2019/Routine/all/2019_chem_routine_pre-qaqc_2020-03-13.csv")
+routine.2017to2019 <- bind_rows(routine.2017, routine.2018)
+rm(routine.2017, routine.2018)
 ```
 
 
@@ -51,7 +56,8 @@ params.2017to2019.routine <- routine.2017to2019 %>%
 
 params.all <- bind_rows(params.equis, params.2016to2019, params.2017to2019.routine) %>% 
   mutate(chemical_name = toupper(chemical_name)) %>% 
-  distinct()
+  distinct() %>% 
+  mutate(streams_param = "X")
 
 ```
 
@@ -68,9 +74,31 @@ params.new <- anti_join(params.all, params.exisinglist)
 
 ```
 
-### ADD IN LAKES PARAMS HERE ###
+Add in Lakes params to params.all list
+```{r}
+lakes.params <- read_csv(file.path(root.dir, "parameters/lakes_new.csv")) %>% 
+  select(Characteristic.Name, Result.Sample.Fraction, Result.Unit) %>% 
+  mutate(lakes_param = "X") %>% 
+  rename(chemical_name = Characteristic.Name,
+         fraction = Result.Sample.Fraction,
+         result_unit = Result.Unit)
 
-Crosscheck draft param code table for matches with streams params.all list
+params.all.v2 <- params.all %>% 
+  # select(-cas_rn) %>%
+  bind_rows(lakes.params)
+  # mutate_each(funs(toupper))
+
+# params.all.v2.distinct <- params.all.v2 %>% 
+#   distinct(chemical_name, fraction, result_unit)
+# 
+# params.all.v2.unique <- unique(params.all.v2[,1:3])
+
+params.all.v2.notduplicated <- subset(params.all.v2, !duplicated(subset(params.all.v2, select=c(chemical_name, fraction, result_unit))))
+
+```
+
+
+Crosscheck Keleigh's draft param code table for matches with streams params.all list and lakes_new.csv list
 ```{r}
 pcode.draft <- readxl::read_excel(file.path(root.dir, "parameters/draft_CHEM_4_23.xlsx")) %>% 
   rename(cas_rn = CHEM_PARAMETER_CAS_RN,
@@ -78,13 +106,31 @@ pcode.draft <- readxl::read_excel(file.path(root.dir, "parameters/draft_CHEM_4_2
          chemical_name = CHEM_PARAMETER_NAME_SHORT,
          result_unit = CHEM_PARAMETER_UNIT) %>% 
   mutate(fraction = ifelse(fraction %in% "NA", NA, fraction))
-  
+
 params.new.pcodejoin <- left_join(params.all, pcode.draft, by = c("chemical_name", "fraction"))
-
 # write_csv(params.new.pcodejoin, "parameters/params.new.pcodejoin.2020-04-24.csv")
+# Sent above to Keleigh and she made updates/edits
 
+params.new.pcodejoin_b <- left_join(params.all, pcode.draft, by = c("chemical_name", "fraction", "result_unit"))
+# But should have used this code to join.
+
+# Remove cas_rn and just retain original in params.all.v2 list
+pcode.draft <- pcode.draft %>% 
+  select(-cas_rn)
+
+params.all.v2.notduplicated$rownum <- 1:nrow(params.all.v2.notduplicated) 
+params.all.v2.notduplicated <- params.all.v2.notduplicated %>% 
+  group_by(rownum) %>% 
+  mutate(dups = n())
+  
+# New version of join with lakes params added.
+params.new.pcodejoin_v2 <- left_join(params.all.v2.notduplicated, pcode.draft, by = c("chemical_name", "fraction", "result_unit"))
+
+write_csv(params.new.pcodejoin_v2, file.path(root.dir, "parameters/params.new.pcodejoin_v2.2020-05-13.csv"))
 
 ```
+
+
 
 See if 2016 USGS Mohawk params need to be added
 ```{r}
