@@ -95,6 +95,12 @@ params.all.v2 <- params.all %>%
 
 params.all.v2.notduplicated <- subset(params.all.v2, !duplicated(subset(params.all.v2, select=c(chemical_name, fraction, result_unit))))
 
+params.all.v2.notduplicated.simple <- params.all.v2.notduplicated %>% 
+  select(-streams_param, -lakes_param)
+
+# write_csv(params.all.v2.notduplicated.simple, file.path(root.dir, "parameters/params.all.streams.lakes.2020-05-15.csv"))
+
+
 ```
 
 
@@ -126,7 +132,7 @@ params.all.v2.notduplicated <- params.all.v2.notduplicated %>%
 # New version of join with lakes params added.
 params.new.pcodejoin_v2 <- left_join(params.all.v2.notduplicated, pcode.draft, by = c("chemical_name", "fraction", "result_unit"))
 
-write_csv(params.new.pcodejoin_v2, file.path(root.dir, "parameters/params.new.pcodejoin_v2.2020-05-13.csv"))
+# write_csv(params.new.pcodejoin_v2, file.path(root.dir, "parameters/params.new.pcodejoin_v2.2020-05-13.csv"))
 
 ```
 
