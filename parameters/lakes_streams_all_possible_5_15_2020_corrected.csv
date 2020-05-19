@@ -1,0 +1,220 @@
+chemical_name,fraction,result_unit,CHEM_PARAMETER_CDE,parameter_group_nm,SRS_Name,Long_Name,cas_rn
+"1,2-DICHLOROETHANE-D4",T,%,U99832,Information,,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",17060-07-0
+"1,2-DICHLOROETHANE-D4",T,ug/l,D99832,Information,,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",17060-07-0
+1-BROMO-4-FLUOROBENZENE BROMOFLUOROBENZENE),T,percent,U90449,Information,,"1-Bromo-4-fluorobenzene, surrogate, EPA 524.2 VOC schedules, water, unfiltered, percent recovery",460-00-4
+"2,3-DIBROMOPROPIONIC ACID",T,percent,D91998,Information,,,600-05-5
+"ACIDITY, HYDROGEN ION (H+)",NA,NA,U71825,"Inorganics, Major, Non-metals",Acidity,"Acidity, water, unfiltered, heated, milligrams per liter as hydrogen ion",
+"ALKALINITY, TOTAL (AS CACO3)",NA,mg/l,U00421,"Inorganics, Major, Non-metals",Alkalinity,"Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbote",ALK
+"ALKALINITY, TOTAL (AS CACO3)",T,mg/l,U00421,"Inorganics, Major, Non-metals",Alkalinity,"Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbote",ALK
+"ALKALINITY, TOTAL (AS CACO3)",T,mg/L,U00421,"Inorganics, Major, Non-metals",Alkalinity,"Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbote",
+ALUMINUM,D,ug/l,U01106,"Inorganics, Minor, Metals",Aluminum,"Aluminum, water, filtered, micrograms per liter",7429-90-5
+ALUMINUM,T,ug/l,U01105,"Inorganics, Minor, Metals",Aluminum,"Aluminum, water, unfiltered, recoverable, micrograms per liter",7429-90-5
+ALUMINUM,T,ug/L,U01105,"Inorganics, Minor, Metals",Aluminum,"Aluminum, water, unfiltered, recoverable, micrograms per liter",
+AMMONIA,T,mg/L,U00610,Nutrient,Ammonia and ammonium,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",
+ANATOXIN-A,NA,ug/L,U68287,"Organics, other",,"Atoxin-a, water, unfiltered, recoverable, micrograms per liter",
+APPARENT COLOR,T,color units,U00081,Physical,Apparent color,"Apparent color, water, unfiltered, platinum-cobalt units",
+ARSENIC,D,ug/l,U10000,Physical,,,7440-38-2
+ARSENIC,T,ug/l,U50316,"Inorganics, Minor, Non-metals",Arsenic acid,"Arsenic acid, water, filtered, micrograms per liter",7440-38-2
+ARSENIC,T,ug/L,U50316,"Inorganics, Minor, Non-metals",Arsenic acid,"Arsenic acid, water, filtered, micrograms per liter",
+BENZENE,T,mg/L,U34030,"Organics, other",Benzene,"Benzene, water, unfiltered, recoverable, micrograms per liter",
+BMAA (BETA-METHYL-AMINO-(L)-ALANINE),NA,ug/L,U65192,"Organics, other",,"beta-N-Methylamino-L-alanine, water, filtered, recoverable, micrograms per liter",
+BORON,T,ug/L,U52275,"Inorganics, Minor, Non-metals",,"Boron, water, unfiltered, total, micrograms per liter",
+BROMODICHLOROMETHANE,T,ug/l,U34328,"Organics, other",Dichlorobromomethane,"Bromodichloromethane, water, filtered, recoverable, micrograms per liter",75-27-4
+BROMOFORM,T,ug/l,D00004,"Organics, other",,,75-25-2
+CADMIUM,D,ug/l,U52775,"Inorganics, Minor, Metals",,"Cadmium, water, filtered, milligrams per liter",7440-43-9
+CADMIUM,T,ug/l,U01027,"Inorganics, Minor, Metals",Cadmium,"Cadmium, water, unfiltered, micrograms per liter",7440-43-9
+CALCIUM,T,mg/l,U52528,"Inorganics, Major, Metals",,"Calcium, water, unfiltered, total, milligrams per liter",7440-70-2
+CALCIUM,T,mg/L,U52528,"Inorganics, Major, Metals",,"Calcium, water, unfiltered, total, milligrams per liter",
+CALCIUM,T,ug/l,U52505,"Inorganics, Major, Metals",,"Calcium, water, unfiltered, micrograms per liter",7440-70-2
+"CARBON, DISSOLVED ORGANIC (DOC)",D,mg/l,U00681,"Organics, other",Organic carbon,"Organic carbon, water, filtered, milligrams per liter",DOC
+"CARBON, DISSOLVED ORGANIC (DOC)",T,mg/l,U00681,"Organics, other",Organic carbon,"Organic carbon, water, filtered, milligrams per liter",DOC
+CHLORIDE,T,mg/L,U99220,"Inorganics, Major, Non-metals",Chloride,"Chloride, water, unfiltered, milligrams per liter",
+CHLORIDE (AS CL),T,mg/l,U99220,"Inorganics, Major, Non-metals",Chloride,"Chloride, water, unfiltered, milligrams per liter",16887-00-6
+CHLORODIBROMOMETHANE,T,ug/l,U32105,"Organics, other",Chlorodibromomethane,"Dibromochloromethane, water, unfiltered, recoverable, micrograms per liter",121-48-1
+CHLOROFORM,T,ug/l,U99281,"Organics, other",,"Chloroform formation potential, water, filtered, micrograms per liter",67-66-3
+CHLOROMETHANE,T,ug/l,U34418,"Organics, other",Chloromethane,"Chloromethane, water, unfiltered, recoverable, micrograms per liter",74-87-3
+CHLOROPHYLL A,T,ug/l,U32735,Biological,,"Chlorophyll a, phytoplankton, water, acetone extraction and spectrophotometry, milligrams per liter",479-61-8
+CHLOROPHYLL A,T,ug/L,U32735,Biological,,"Chlorophyll a, phytoplankton, water, acetone extraction and spectrophotometry, milligrams per liter",
+CHLOROPHYLL A (PROBE RELATIVE FLUORESCENCE),NA,NA,U32316,Physical,Chlorophyll a,"Chlorophyll fluorescence (fChl), water, in situ, concentration estimated from reference material, micrograms per liter as chlorophyll",
+CHLOROPHYLL A (PROBE),NA,ug/L,U32316,Physical,Chlorophyll a,"Chlorophyll fluorescence (fChl), water, in situ, concentration estimated from reference material, micrograms per liter as chlorophyll",
+"CHLOROPHYLL A (PROBE) CONCENTRATION, CHLOROPHYTE (GREEN ALGAE)",NA,ug/L,D65231,Biological,,,
+"CHLOROPHYLL A (PROBE) CONCENTRATION, CHRYSOPHYTA (BROWN ALGAE)",NA,ug/L,D32287,Biological,,,
+"CHLOROPHYLL A (PROBE) CONCENTRATION, CRYPTOPHYTA (CRYPTOPHYTES)",NA,ug/L,U32287,Biological,,"Chlorophyll a, cryptophytes, in situ, fluorescence excitation at 370, 470, 525, 570, 590, 610 nm, fluorescence emission at 700 nm with correction for CDOM, ug/L",
+"CHLOROPHYLL A (PROBE) CONCENTRATION, CYANOBACTERIA (BLUEGREEN)",NA,ug/L,U32286,Biological,,"Chlorophyll a, cyanobacteria, in situ, fluorescence excitation at 370, 470, 525, 570, 590, 610 nm, fluorescence emission at 700 nm with correction for CDOM, ug/L",
+"CHLOROPHYLL A (PROBE) CONCENTRATION, DINOPHYTA (DIATOMS)",NA,ug/L,U32288,Biological,,"Chlorophyll a, diatoms and dinoflagellates, in situ, excitation at 370, 470, 525, 570, 590, 610 nm, fluorescence emission at 700 nm with correction for CDOM, ug/L",
+COLIFORM,NA,cfu/100ml,U61213,Microbiological,Total coliforms,"Total coliforms, water, colonies per 100 milliliters",COLIF
+COLIFORM,T,cfu/100ml,U61213,Microbiological,Total coliforms,"Total coliforms, water, colonies per 100 milliliters",COLIF
+"COLOR, UNKNOWN",T,color units,U00080,Physical,Color,"Color, water, filtered, platinum cobalt units",
+CONDUCTIVITY,T,ugS/cm,D00095,Physical,,,
+CONDUCTIVITY,T,umhos/cm,U00095,Physical,Specific conductance,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",COND
+CONDUCTIVITY AT 25 DEGREES CELSIUS,T,deg c,U00095,Physical,Specific conductance,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",COND
+CONDUCTIVITY AT 25 DEGREES CELSIUS,T,umhos/cm,U00095,Physical,Specific conductance,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",COND
+COPPER,D,ug/l,U01040,"Inorganics, Minor, Metals",Copper,"Copper, water, filtered, micrograms per liter",7440-50-8
+COPPER,T,ug/l,U01119,"Inorganics, Minor, Metals",Copper,"Copper, water, unfiltered, recoverable, micrograms per liter",7440-50-8
+COPPER,T,ug/L,U01119,"Inorganics, Minor, Metals",Copper,"Copper, water, unfiltered, recoverable, micrograms per liter",
+CYLINDROSPERMOPSIN,NA,ug/L,U65190,"Organics, other",,"Cylindrospermopsin, water, filtered, recoverable, micrograms per liter",
+DEPTH,NA,m,U72147,Information,,"Depth of sensor below water surface, feet",
+"DEPTH, BOTTOM",NA,m,U82903,Physical,Depth,"Depth to bottom from water surface, at sampling location, meters",
+"DEPTH, SECCHI DISK DEPTH",NA,m,U00078,Physical,"Water transparency, Secchi disc","Transparency, water, in situ, Secchi disc, meters",
+DIBROMOACETIC ACID,T,ug/l,U99312,"Organics, other",Dibromoacetic acid,"Dibromoacetic acid, disinfection byproduct, water, unfiltered, EPA method 552.2, micrograms per liter",631-64-1
+DIBROMOCHLOROMETHANE,T,ug/l,U32105,"Organics, other",Chlorodibromomethane,"Dibromochloromethane, water, unfiltered, recoverable, micrograms per liter",124-48-1
+DIBROMODIFLUOROMETHANE,T,%,U52001,Information,,"Dibromofluoromethane, surrogate, water, unfiltered, percent recovery",
+DIBROMOFLUOROMETHANE,T,percent,U52001,Information,,"Dibromofluoromethane, surrogate, water, unfiltered, percent recovery",1868-53-7
+DICHLOROACETIC ACID,T,ug/l,U99309,"Organics, other",Dichloroacetic acid,"Dichloroacetic acid, disinfection byproduct, water, unfiltered, EPA method 552.2, micrograms per liter",79-43-6
+DIHYDRO-ATX-A,NA,ug/L,D00001,"Organics, other",,,
+DISSOLVED ORGANIC CARBON,D,mg/l,U00681,"Organics, other",Organic carbon,"Organic carbon, water, filtered, milligrams per liter",DOC
+DISSOLVED ORGANIC CARBON,D,mg/L,U00681,"Organics, other",Organic carbon,"Organic carbon, water, filtered, milligrams per liter",
+DISSOLVED ORGANIC CARBON,T,mg/l,U00681,"Organics, other",Organic carbon,"Organic carbon, water, filtered, milligrams per liter",DOC
+DISSOLVED OXYGEN,D,mg/l,U00300,"Inorganics, Major, Non-metals",Oxygen,"Dissolved oxygen, water, unfiltered, milligrams per liter",DISS_OXYGEN
+DISSOLVED OXYGEN,NA,mg/l,U00300,"Inorganics, Major, Non-metals",Oxygen,"Dissolved oxygen, water, unfiltered, milligrams per liter",DISS_OXYGEN
+DISSOLVED OXYGEN,T,mg/l,U00300,"Inorganics, Major, Non-metals",Oxygen,"Dissolved oxygen, water, unfiltered, milligrams per liter",DISS_OXYGEN
+DISSOLVED OXYGEN (DO),NA,mg/L,U00300,"Inorganics, Major, Non-metals",,0,
+DISSOLVED OXYGEN SATURATION,NA,%,U72210,"Inorganics, Major, Non-metals",,"Dissolved oxygen, water, unfiltered, mid-depth of water column, percent of saturation",
+DOMINANT ALGAL SPECIES,NA,NA,D32346,Biological,,,
+ETHYLBENZENE,T,mg/L,U34371,"Organics, other",Ethylbenzene,"Ethylbenzene, water, unfiltered, recoverable, micrograms per liter",
+FECAL COLIFORM,NA,cfu/100ml,U61215,Microbiological,Fecal coliforms,"Fecal coliforms, water, colonies per 100 milliliters",FECCOLIFORM
+FECAL COLIFORM,T,cfu/100ml,U61215,Microbiological,Fecal coliforms,"Fecal coliforms, water, colonies per 100 milliliters",FECCOLIFORM
+FLUORIDE,T,mg/l,U00951,"Inorganics, Major, Non-metals",Fluoride,"Fluoride, water, unfiltered, milligrams per liter",16984-48-8
+FLUORIDE,T,mg/L,U00951,"Inorganics, Major, Non-metals",Fluoride,"Fluoride, water, unfiltered, milligrams per liter",
+"FLUORIDE, UNDISTILLED",T,mg/l,U00951,"Inorganics, Major, Non-metals",Fluoride,"Fluoride, water, unfiltered, milligrams per liter",16984-48-8
+HARDNESS (AS CACO3),T,mg/l,U00900,Physical,Total hardness -- SDWA NPDWR,"Hardness, water, milligrams per liter as calcium carbote",HARD
+IRON,T,ug/l,U00980,"Inorganics, Minor, Metals",,,7439-89-6
+IRON,T,ug/L,U00980,"Inorganics, Minor, Metals",,,
+LEAD,D,ug/l,U01049,"Inorganics, Minor, Metals",Lead,"Lead, water, filtered, micrograms per liter",7439-92-1
+LEAD,T,ug/l,U52286,"Inorganics, Minor, Metals",,"Lead, water, unfiltered, total, micrograms per liter",7439-92-1
+MAGNESIUM,T,mg/l,U52289,"Inorganics, Major, Metals",,"Magnesium, water, unfiltered, milligrams per liter",7439-95-4
+MAGNESIUM,T,ug/l,U52282,"Inorganics, Minor, Metals",,"Magnesium, water, unfiltered, total, milligrams per liter",7439-95-4
+MAGNESIUM,T,ug/L,U52282,"Inorganics, Minor, Metals",,"Magnesium, water, unfiltered, total, milligrams per liter",
+MANGANESE,T,ug/l,U71883,"Inorganics, Minor, Metals",Manganese,"Manganese, water, unfiltered, micrograms per liter",7439-96-5
+MANGANESE,T,ug/L,U71883,"Inorganics, Minor, Metals",Manganese,"Manganese, water, unfiltered, micrograms per liter",
+MERCURY,T,ng/l,U50284,"Organics, other",Methylmercury(1+),"Methylmercury, water, unfiltered, recoverable, nograms per liter",7439-97-6
+MERCURY,T,ng/L,U50284,"Organics, other",Methylmercury(1+),"Methylmercury, water, unfiltered, recoverable, nograms per liter",7439-97-6
+MERCURY,T,ppt,U71900,"Inorganics, Minor, Metals",Mercury,"Mercury, water, unfiltered, recoverable, micrograms per liter",7439-97-6
+MERCURY,T,ug/l,U71900,"Inorganics, Minor, Metals",Mercury,"Mercury, water, unfiltered, recoverable, micrograms per liter",7439-97-6
+METHYLENE CHLORIDE,T,ug/l,U34423,"Organics, other",Methylene chloride,"Dichloromethane, water, unfiltered, recoverable, micrograms per liter",75-09-2
+MICROCYSTIN,NA,ug/L,U63686,"Organics, other",Microcystin LR,"Microcystin LR, water, unfiltered, recoverable, micrograms per liter",
+MICROCYSTIN AR,NA,ug/L,D63686,"Organics, other",,,
+MICROCYSTIN DLR,NA,ug/L,D63687,"Organics, other",,,
+MICROCYSTIN DRR,NA,ug/L,D63688,"Organics, other",,,
+MICROCYSTIN FR,NA,ug/L,D63689,"Organics, other",,,
+MICROCYSTIN HYR,NA,ug/L,D63690,"Organics, other",,,
+MICROCYSTIN LA,NA,ug/L,D63691,"Organics, other",,,
+MICROCYSTIN LR,NA,ug/L,U63686,"Organics, other",Microcystin LR,"Microcystin LR, water, unfiltered, recoverable, micrograms per liter",
+MICROCYSTIN LW,NA,ug/L,D63693,"Organics, other",,,
+MICROCYSTIN LY,NA,ug/L,D63694,"Organics, other",,,
+MICROCYSTIN MLR,NA,ug/L,D63695,"Organics, other",,,
+MICROCYSTIN MRR,NA,ug/L,D63696,"Organics, other",,,
+MICROCYSTIN RR,NA,ug/L,D63697,"Organics, other",,,
+MICROCYSTIN UNKNOWN,NA,ug/L,D63698,"Organics, other",,,
+MICROCYSTIN WR,NA,ug/L,D63699,"Organics, other",,,
+MICROCYSTIN YR,NA,ug/L,D63700,"Organics, other",,,
+MONOBROMOACETIC ACID,T,ug/l,U99311,"Organics, other",Bromoacetic acid,"Bromoacetic acid, disinfection byproduct, water, unfiltered, EPA method 552.2, micrograms per liter",79-08-3
+MONOCHLOROACETIC ACID,T,ug/l,U82730,"Organics, other",,"Bromodichloroacetic acid, water, unfiltered, recoverable, micrograms per liter",79-11-8
+"M-XYLENE (1,3-DIMETHYLBENZENE)",T,mg/L,U77134,"Organics, other",m-Xylene,"m-Xylene, water, unfiltered, recoverable, micrograms per liter",
+NICKEL,D,ug/l,U01065,"Inorganics, Minor, Metals",Nickel,"Nickel, water, filtered, micrograms per liter",7440-02-0
+NICKEL,T,ug/l,U52300,"Inorganics, Minor, Metals",,"Nickel, water, unfiltered, micrograms per liter",7440-02-0
+NITRATE+NITRITE AS NITROGEN,T,mg/l,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",NO3NO2N
+NITRITE,T,mg/L,U71855,Nutrient,Nitrite,"Nitrite, water, unfiltered, milligrams per liter as nitrite",
+NITROGEN,T,mg/l,U00597,Nutrient,Nitrogen,"Dinitrogen, water, unfiltered, milligrams per liter",7727-37-9
+"NITROGEN, AMMONIA (AS N)",T,mg/l,U00610,Nutrient,Ammonia and ammonium,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",7664-41-7
+"NITROGEN, KJELDAHL, TOTAL",NA,mg/l,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",KN
+"NITROGEN, KJELDAHL, TOTAL",T,mg/l,U00629,Nutrient,,,KN
+"NITROGEN, KJELDAHL, TOTAL",T,mg/L,U00629,Nutrient,,,
+"NITROGEN, NITRATE (AS N)",NA,mg/l,U00617,Nutrient,,,14797-55-8
+"NITROGEN, NITRATE (AS N)",T,mg/l,U00618,Nutrient,Nitrate,"Nitrate, water, filtered, milligrams per liter as nitrogen",14797-55-8
+"NITROGEN, NITRATE (AS N)",T,mg/L,U00618,Nutrient,Nitrate,"Nitrate, water, filtered, milligrams per liter as nitrogen",
+"NITROGEN, NITRATE-NITRITE",NA,mg/l,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",NO3NO2N
+"NITROGEN, NITRATE-NITRITE",T,mg/l,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",NO3NO2N
+"NITROGEN, NITRATE-NITRITE",T,mg/L,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",
+"NITROGEN, NITRITE",NA,mg/l,U71855,Nutrient,Nitrite,"Nitrite, water, unfiltered, milligrams per liter as nitrite",14797-65-0
+"NITROGEN, NITRITE",T,mg/l,U71855,Nutrient,Nitrite,"Nitrite, water, unfiltered, milligrams per liter as nitrite",14797-65-0
+"NITROGEN, NITRITE + NITRATE",T,mg/l,U00628,Nutrient,Inorganic nitrogen (nitrate and nitrite),"Nitrate plus nitrite, suspended sediment, total, milligrams per liter as nitrogen",ARC-NO3NO2N
+"NITROGEN, TOTAL",T,mg/L,U00602,Nutrient,"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)","Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, filtered, milligrams per liter",
+"NITROGEN, TOTAL DISSOLVED",D,mg/L,U71856,Nutrient,Nitrite,"Nitrite, water, filtered, milligrams per liter as nitrite",
+ORTHOPHOSPHATE,D,mg/L,U00671,Nutrient,Phosphate,"Orthophosphate, water, filtered, milligrams per liter as phosphorus",
+"ORTHOPHOSPHATE AS PHOSPHORUS, DISSOLVED",D,mg/l,U00671,Nutrient,Phosphate,"Orthophosphate, water, filtered, milligrams per liter as phosphorus",PDORTHO
+"ORTHOPHOSPHATE AS PHOSPHORUS, DISSOLVED",T,mg/l,U00671,Nutrient,Phosphate,"Orthophosphate, water, filtered, milligrams per liter as phosphorus",PDORTHO
+OXIDATION REDUCTION POTENTIAL (ORP),NA,mV,U46480,Information,,,
+"O-XYLENE (1,2-DIMETHYLBENZENE)",T,mg/L,U81711,"Organics, other",o-Xylene,"o-Xylene, water, unfiltered, recoverable, milligrams per liter",
+P-BROMOFLUOROBENZENE,T,%,U90654,Information,,"1-Bromo-4-fluorobenzene, surrogate, water, filtered, percent recovery",460-00-4
+P-BROMOFLUOROBENZENE,T,percent,U90654,Information,,"1-Bromo-4-fluorobenzene, surrogate, water, filtered, percent recovery",460-00-4
+P-BROMOFLUOROBENZENE,T,ug/l,D90654,Information,,,460-00-4
+PH,NA,ph units,U00400,Physical,pH,"pH, water, unfiltered, field, standard units",PH
+PH,NA,pH units,U00400,Physical,pH,"pH, water, unfiltered, field, standard units",
+PH,T,ph units,U00400,Physical,pH,"pH, water, unfiltered, field, standard units",PH
+PH,T,pH units,U00400,Physical,pH,"pH, water, unfiltered, field, standard units",PH
+PH (WATER),T,ph units,U00400,Physical,pH,"pH, water, unfiltered, field, standard units",PHWATER
+PH FOR COLOR ANALYSIS,NA,pH units,D00403,Physical,,,
+PH FOR COLOR ANALYSIS,T,pH units,D00403,Physical,,,
+"PHENOLICS, TOTAL RECOVERABLE",NA,mg/l,U32730,"Organics, other",Phenols and phenolic compounds,"Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",TOTPHEN
+"PHENOLICS, TOTAL RECOVERABLE",T,mg/l,U32730,"Organics, other",Phenols and phenolic compounds,"Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",TOTPHEN
+PHOSPHATE ION,D,mg/l,U70507,Nutrient,Phosphate,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",14265-44-2
+PHOSPHATE ION,NA,mg/l,U70507,Nutrient,Phosphate,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",14265-44-2
+PHOSPHATE ION,T,mg/l,U70507,Nutrient,Phosphate,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",14265-44-2
+PHOSPHORUS,D,mg/L,U00666,Nutrient,Phosphorus,"Phosphorus, water, filtered, milligrams per liter as phosphorus",
+PHOSPHORUS,NA,mg/l,U00665,Nutrient,Phosphorus,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",7723-14-0
+PHOSPHORUS,NA,mg/L,U00665,Nutrient,Phosphorus,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",
+PHOSPHORUS,T,mg/l,U00665,Nutrient,Phosphorus,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",7723-14-0
+PHOSPHORUS,T,mg/L,U00665,Nutrient,Phosphorus,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",
+"PHOSPHORUS, DISSOLVED ORTHOPHOSPHATE (AS P)",D,mg/l,U70507,Nutrient,Phosphate,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",PDORTHO
+"PHOSPHORUS, DISSOLVED ORTHOPHOSPHATE (AS P)",T,mg/l,U51131,Nutrient,Phosphate,"Orthophosphate, water, unfiltered, recoverable, milligrams per liter as phosphate",PDORTHO
+"PHOSPHORUS, TOTAL (AS P)",T,mg/l,U00665,Nutrient,Phosphorus,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",7723-14-0
+PHYCOCYANIN,NA,ug/L,D32329,Physical,,,
+PHYCOCYANIN (PROBE RELATIVE FLUORESCENCE),NA,NA,U32319,Physical,,"Phycocyanin fluorescence (fPC), water, in situ, concentration estimated from reference material, micrograms per liter as phycocyanin",
+PHYCOCYANIN (PROBE),NA,ug/L,U32319,Physical,,"Phycocyanin fluorescence (fPC), water, in situ, concentration estimated from reference material, micrograms per liter as phycocyanin",
+POTASSIUM,T,mg/l,U52291,"Inorganics, Major, Metals",,"Potassium, water, unfiltered, milligrams per liter",9/7/7440
+POTASSIUM,T,ug/l,U52507,"Inorganics, Major, Metals",,"Potassium, water, unfiltered, micrograms per liter",9/7/7440
+POTASSIUM,T,ug/L,U52507,"Inorganics, Major, Metals",,"Potassium, water, unfiltered, micrograms per liter",
+"P-XYLENE (1,4-DIMETHYLBENZENE)",T,mg/L,U77133,"Organics, other",p-Xylene,"p-Xylene, water, unfiltered, recoverable, micrograms per liter",
+SILICA,T,mg/L,U00954,"Inorganics, Major, Non-metals",Silica,"Silica, water, unfiltered, recoverable, micrograms per liter as SiO2",
+SILVER,D,ug/l,U01075,"Inorganics, Minor, Metals",Silver,"Silver, water, filtered, micrograms per liter",7440-22-4
+SILVER,T,ug/l,U01077,"Inorganics, Minor, Metals",Silver,"Silver, water, unfiltered, recoverable, micrograms per liter",7440-22-4
+SODIUM,T,mg/l,U00930,"Inorganics, Major, Metals",Sodium,"Sodium, water, filtered, milligrams per liter",7440-23-5
+SODIUM,T,ug/l,U52290,"Inorganics, Major, Metals",,"Sodium, water, unfiltered, milligrams per liter",7440-23-5
+SODIUM,T,ug/L,U52290,"Inorganics, Major, Metals",,"Sodium, water, unfiltered, milligrams per liter",
+SOLUBLE REACTIVE PHOSPHORUS (SRP),NA,mg/L,U71889,Nutrient,,,
+SPECIFIC CONDUCTANCE,D,umhos/cm,U00095,Physical,Specific conductance,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",SC
+SPECIFIC CONDUCTANCE,NA,umhos/cm,U00094,Physical,Specific conductance,"Specific conductance, water, unfiltered, field, microsiemens per centimeter at 25 degrees Celsius",SC
+SPECIFIC CONDUCTANCE,NA,uS/cm,D00094,Physical,,,
+SPECIFIC CONDUCTANCE,T,umhos/cm,U00094,Physical,Specific conductance,"Specific conductance, water, unfiltered, field, microsiemens per centimeter at 25 degrees Celsius",SC
+SULFATE (AS SO4),T,mg/l,U00946,"Inorganics, Major, Non-metals",Sulfate,"Sulfate, water, unfiltered, milligrams per liter",14808-79-8
+SULFATE (AS SO4),T,mg/L,U00946,"Inorganics, Major, Non-metals",Sulfate,"Sulfate, water, unfiltered, milligrams per liter",
+TEMPERATURE,NA,deg c,U00010,Physical,"Temperature, water","Temperature, water, degrees Celsius",TEMP
+TEMPERATURE,T,deg c,U00010,Physical,"Temperature, water","Temperature, water, degrees Celsius",TEMP
+TEMPERATURE OF PH ANALYSIS,T,deg c,U00010,Physical,"Temperature, water","Temperature, water, degrees Celsius",TEMP
+"TEMPERATURE, AIR",NA,deg C,U00020,Physical,"Temperature, air, deg C","Temperature, air, degrees Celsius",
+"TEMPERATURE, WATER",NA,deg C,U00010,Physical,"Temperature, water","Temperature, water, degrees Celsius",
+TETRACHLOROETHYLENE (PCE),T,ug/l,U34475,"Organics, other",Tetrachloroethylene,"Tetrachloroethene, water, unfiltered, recoverable, micrograms per liter",127-18-4
+TOLUENE-D8,T,%,U99833,Information,,"Toluene-d8, surrogate, water, unfiltered, percent recovery",2037-26-5
+TOLUENE-D8,T,percent,U99833,Information,,"Toluene-d8, surrogate, water, unfiltered, percent recovery",2037-26-5
+TOLUENE-D8,T,ug/l,D99833,"Inorganics, Major, Non-metals",,,2037-26-5
+TOTAL CARBON,D,mg/l,U00682,"Inorganics, Major, Non-metals",Total Carbon,"Carbon [inorganic plus organic], water, filtered, milligrams per liter",7440-44-0
+TOTAL CARBON,T,mg/l,U00690,"Inorganics, Major, Non-metals",Total Carbon,"Carbon [inorganic plus organic], water, unfiltered, milligrams per liter",7440-44-0
+TOTAL DISSOLVED SOLIDS,NA,mg/L,U70301,Physical,Total dissolved solids,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",
+"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",D,mg/l,U70301,Physical,Total dissolved solids,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",TDS
+"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",NA,mg/l,U70301,Physical,Total dissolved solids,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",TDS
+"TOTAL DISSOLVED SOLIDS (RESIDUE, FILTERABLE)",T,mg/l,U70301,Physical,Total dissolved solids,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",TDS
+TOTAL HARDNESS,T,mg/L,U00900,Physical,Total hardness -- SDWA NPDWR,"Hardness, water, milligrams per liter as calcium carbote",
+TOTAL ORGANIC CARBON,D,mg/l,U00680,"Organics, other",Organic carbon,"Organic carbon, water, unfiltered, milligrams per liter",TOC
+TOTAL ORGANIC CARBON,T,mg/l,U00680,"Organics, other",Organic carbon,"Organic carbon, water, unfiltered, milligrams per liter",TOC
+TOTAL ORGANIC CARBON,T,mg/L,U00680,"Organics, other",Organic carbon,"Organic carbon, water, unfiltered, milligrams per liter",
+"TOTAL PHOSPHORUS, MIXED FORMS",NA,mg/L,U52635,Nutrient,,"Phosphorus, water, unfiltered, total, milligrams per liter as phosphorus",
+"TOTAL PHOSPHORUS, MIXED FORMS",T,mg/L,U52635,Nutrient,,"Phosphorus, water, unfiltered, total, milligrams per liter as phosphorus",
+TOTAL SOLIDS,NA,mg/l,U00500,Physical,Total solids,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",TSO
+TOTAL SOLIDS,T,mg/l,U00500,Physical,Total solids,"Total solids dried at 105 degrees Celsius, water, unfiltered, milligrams per liter",TSO
+TOTAL SUSPENDED SOLIDS,NA,mg/l,U00530,Physical,Total suspended solids,"Suspended solids, water, unfiltered, milligrams per liter",TSS
+TOTAL SUSPENDED SOLIDS,T,mg/l,U00530,Physical,Total suspended solids,"Suspended solids, water, unfiltered, milligrams per liter",TSS
+TOTAL SUSPENDED SOLIDS,T,mg/L,U00530,Physical,Total suspended solids,"Suspended solids, water, unfiltered, milligrams per liter",
+TOTAL VOLATILE SOLIDS,NA,mg/l,D00003,Physical,,,TVS
+TOTAL VOLATILE SOLIDS,T,mg/l,D00003,Physical,,,TVS
+TRICHLOROACETIC ACID,T,ug/l,D99310,"Organics, other",,,76-03-9
+TRICHLOROETHYLENE (TCE),T,ug/l,U39180,"Organics, other",Trichloroethylene,"Trichloroethene, water, unfiltered, recoverable, micrograms per liter",79-01-6
+TRUE COLOR,T,color units,U00081,Physical,Apparent color,"Apparent color, water, unfiltered, platinum-cobalt units",
+TURBIDITY,NA,FNU,U63680,Physical,Turbidity,"Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +-2.5 degrees, formazin nephelometric units (FNU)",
+TURBIDITY,NA,ntu,U00076,Physical,Turbidity,"Turbidity, water, unfiltered, nephelometric turbidity units",TURB
+TURBIDITY,T,ntu,U00076,Physical,Turbidity,"Turbidity, water, unfiltered, nephelometric turbidity units",TURB
+TURBIDITY,T,NTU,U00076,Physical,Turbidity,"Turbidity, water, unfiltered, nephelometric turbidity units",
+UV 254,T,1/cm,U50624,Physical,UV 254 -- SDWA NPDWR,"Absorbance, 254 nm, water, filtered, absorbance units per centimeter",
+VINYL CHLORIDE,T,ug/l,U39175,"Organics, other",Vinyl chloride,"Vinyl chloride, water, unfiltered, recoverable, micrograms per liter",75-01-4
+ZINC,D,ug/l,U01090,"Inorganics, Minor, Metals",Zinc,"Zinc, water, filtered, micrograms per liter",7440-66-6
+ZINC,T,ug/l,U52303,"Inorganics, Minor, Metals",,"Zinc, water, unfiltered, micrograms per liter",7440-66-6

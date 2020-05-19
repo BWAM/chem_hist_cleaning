@@ -99,12 +99,11 @@ params.all.v2.notduplicated.simple <- params.all.v2.notduplicated %>%
   select(-streams_param, -lakes_param)
 
 # write_csv(params.all.v2.notduplicated.simple, file.path(root.dir, "parameters/params.all.streams.lakes.2020-05-15.csv"))
-
+# Sent above to Keleigh for her to join pcodes that she has designated 
 
 ```
 
-
-Crosscheck Keleigh's draft param code table for matches with streams params.all list and lakes_new.csv list
+[OLD CHUNK] Crosscheck Keleigh's draft param code table for matches with streams params.all list and lakes_new.csv list
 ```{r}
 pcode.draft <- readxl::read_excel(file.path(root.dir, "parameters/draft_CHEM_4_23.xlsx")) %>% 
   rename(cas_rn = CHEM_PARAMETER_CAS_RN,
@@ -136,6 +135,66 @@ params.new.pcodejoin_v2 <- left_join(params.all.v2.notduplicated, pcode.draft, b
 
 ```
 
+Import Keleigh's new pcode join, compare to param list, and test joining with various chem data sets.
+```{r}
+pcode_join_0515 <- read_csv(file.path(root.dir, "parameters/lakes_streams_all_possible_5_15_2020_corrected.csv")) %>% 
+  mutate(cas_rn = str_replace(cas_rn, "9/7/7440", "7440-09-7"))
+
+pcode_join_0515.simple <- pcode_join_0515 %>% 
+  select(cas_rn, chemical_name, fraction, result_unit) %>% 
+  arrange(chemical_name, fraction, result_unit)
+
+params.all.v2.notduplicated.simple <- params.all.v2.notduplicated.simple %>% 
+  arrange(chemical_name, fraction, result_unit)
+
+check_match <- identical(pcode_join_0515.simple, params.all.v2.notduplicated.simple)
+# Doesn't say they match, but they visibly do.
+
+write_csv(params.all.v2.notduplicated.simple, file.path(root.dir, "parameters/match1.csv"))
+write_csv(pcode_join_0515.simple, file.path(root.dir, "parameters/match2.csv"))
+# Ran through ExamDiff and they are identical.
+
+rm(check_match)
+
+# Test on various SMAS datasets:
+
+pcode_join_0515.forjoin <- pcode_join_0515 %>% 
+  select(cas_rn, chemical_name, fraction, result_unit, CHEM_PARAMETER_CDE)
+
+# result.2016to2019
+result.2016to2019 <- result.2016to2019 %>% 
+  mutate(chemical_name = toupper(chemical_name))
+
+result.2016to2019.pjoin <- left_join(result.2016to2019, pcode_join_0515.forjoin, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  select(CHEM_PARAMETER_CDE, chemical_name, fraction, result_unit, everything())
+
+result.2016to2019.pjoin.na <- result.2016to2019.pjoin %>% 
+  filter(is.na(CHEM_PARAMETER_CDE))
+
+
+# routine.2017to2019
+routine.2017to2019 <- routine.2017to2019 %>% 
+  mutate(chemical_name = toupper(chemical_name))
+
+routine.2017to2019.pjoin <- left_join(routine.2017to2019, pcode_join_0515.forjoin, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  select(CHEM_PARAMETER_CDE, chemical_name, fraction, result_unit, everything())
+
+routine.2017to2019.pjoin.na <- routine.2017to2019.pjoin %>% 
+  filter(is.na(CHEM_PARAMETER_CDE))
+
+# equis.result
+equis.result <- equis.result %>% 
+  mutate(chemical_name = toupper(chemical_name))
+
+equis.result.pjoin <- left_join(equis.result, pcode_join_0515.forjoin, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  select(CHEM_PARAMETER_CDE, chemical_name, fraction, result_unit, everything())
+
+equis.result.pjoin.na <- equis.result.pjoin %>% 
+  filter(is.na(CHEM_PARAMETER_CDE))
+
+# 31,667 record that could not join becaust result_unit is blank!
+
+```
 
 
 See if 2016 USGS Mohawk params need to be added
