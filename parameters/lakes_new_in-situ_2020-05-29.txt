@@ -1,0 +1,14 @@
+here are our in situ parameters:
+                            Characteristic.Name Result.Sample.Fraction
+5                     CHLOROPHYLL A (PROBE RELATIVE FLUORESCENCE)                   lab or in situ
+6                                           CHLOROPHYLL A (PROBE)                   lab or in situ
+9                                                           DEPTH                   in situ
+10                                                  DEPTH, BOTTOM                   in situ
+11                                          DISSOLVED OXYGEN (DO)                   in situ
+12                                    DISSOLVED OXYGEN SATURATION                   in situ
+17                            OXIDATION REDUCTION POTENTIAL (ORP)                   in situ
+18                                                             PH                   in situ
+21                      PHYCOCYANIN (PROBE RELATIVE FLUORESCENCE)                   in situ
+22                                            PHYCOCYANIN (PROBE)                   in situ
+23                                           SPECIFIC CONDUCTANCE                   in situ
+24                                               TEMPERATURE, AIR                   in situ

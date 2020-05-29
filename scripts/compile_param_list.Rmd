@@ -216,3 +216,14 @@ mohawk.2016.params.nomatch <- anti_join(mohawk.2016.params, pcode.draft, by = "C
 
 ```
 
+TEMPORARY (subsetting for solvingn param issues)
+```{r}
+equis.result.P <- equis.result %>% 
+  filter(chemical_name %in% "Phosphorus") %>% 
+  filter(!is.na(fraction))
+
+equis.result.P.na <- equis.result %>% 
+  filter(chemical_name %in% "Phosphorus") %>% 
+  filter(is.na(fraction))
+```
+

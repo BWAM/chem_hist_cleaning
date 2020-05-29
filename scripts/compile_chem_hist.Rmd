@@ -88,17 +88,17 @@ Remove field YSI data from equis data, and lab data from field table, and set as
 ```{r}
 # First subset out by results table (where there's more info to deduce field vs lab data) then %in% match to subset samples table
 
-result.equis.field <- result.equis %>% 
+equis.result.field <- equis.result %>% 
   filter(grepl("*FS", sys_sample_code))
-result.equis.lab <- result.equis %>% 
+equis.result.lab <- equis.result %>% 
   filter(!grepl("*FS", sys_sample_code))
 
 # Looking at unique parameters in field and lab subsets
 
-# > unique(result.equis.field$cas_rn)
+# > unique(equis.result.field$cas_rn)
 # [1] TURB        TEMP        SC          DISS_OXYGEN PH          PHWATER     COLIF       FECCOLIFORM
 
-# > unique(result.equis.lab$cas_rn)
+# > unique(equis.result.lab$cas_rn)
 #  [1] TVS         TSO         TDS         PH          HARD        SC          FECCOLIFORM COLIF       TSS         TEMP        DISS_OXYGEN TOC        
 # [13] 14265-44-2  7723-14-0   14797-65-0  NO3NO2N     14797-55-8  KN          7664-41-7   ALK         16887-00-6  14808-79-8  16984-48-8  7439-97-6  
 # [25] 7439-92-1   7440-02-0   7440-43-9   7440-50-8   7429-90-5   7439-89-6   7439-95-4   7439-96-5   7440-09-7   7440-23-5   7440-66-6   7440-70-2  
@@ -109,69 +109,69 @@ result.equis.lab <- result.equis %>%
 ### Cleaning up field data
 
 # Subset fecal data from field for binding to lab later
-result.equis.lab.fecal <- result.equis.field %>% 
+equis.result.lab.fecal <- equis.result.field %>% 
   filter(grepl("COLIF|FECCOLIFORM", cas_rn))
 # Remove fecal data from field
-result.equis.field <- result.equis.field %>% 
+equis.result.field <- equis.result.field %>% 
   filter(!grepl("COLIF|FECCOLIFORM", cas_rn))
 
 # Subset turbidity data from field for binding to lab later
-result.equis.lab.turb <- result.equis.field %>% 
+equis.result.lab.turb <- equis.result.field %>% 
   filter(grepl("TURB", cas_rn))
 # Remove turbidity data from field
-result.equis.field <- result.equis.field %>% 
+equis.result.field <- equis.result.field %>% 
   filter(!grepl("TURB", cas_rn))
 
 # Subset SC data to invesigate and confirm if field-derive or lab-derived
-result.equis.field.SC <- result.equis.field %>% 
+equis.result.field.SC <- equis.result.field %>% 
   filter(grepl("SC", cas_rn))
-rm(result.equis.field.SC)
+rm(equis.result.field.SC)
   #conclusion: no indiciation that any records are lab data.
 
 # Subset PH data to invesigate and confirm if field-derive or lab-derived
-result.equis.field.PH <- result.equis.field %>% 
+equis.result.field.PH <- equis.result.field %>% 
   filter(grepl("PH|PHWATER", cas_rn))
-rm(result.equis.field.PH)
+rm(equis.result.field.PH)
   #conclusion: no indiciation that any records are lab data.
 
 # Subset temp data to invesigate and confirm if field-derive or lab-derived
-result.equis.field.temp <- result.equis.field %>% 
+equis.result.field.temp <- equis.result.field %>% 
   filter(grepl("TEMP", cas_rn))
-rm(result.equis.field.temp)
+rm(equis.result.field.temp)
   #conclusion: no indiciation that any records are lab data.
 
 
 ### Cleaning up lab data
 
 # Subset DO data from lab for binding to field later
-result.equis.field.DO <- result.equis.lab %>% 
+equis.result.field.DO <- equis.result.lab %>% 
   filter(grepl("DISS_OXYGEN", cas_rn))
 # Remove DO data from lab
-result.equis.lab <- result.equis.lab %>% 
+equis.result.lab <- equis.result.lab %>% 
   filter(!grepl("DISS_OXYGEN", cas_rn))
 
 # Subset SC data to invesigate and confirm if field-derive or lab-derived
-result.equis.lab.SC <- result.equis.lab %>% 
+equis.result.lab.SC <- equis.result.lab %>% 
   filter(grepl("SC", cas_rn))
-rm(result.equis.lab.SC)
+rm(equis.result.lab.SC)
   #conclusion: no indiciation that any records are field data.
 
 # Subset COND data to invesigate and confirm if field-derive or lab-derived
-result.equis.lab.COND <- result.equis.lab %>% 
+equis.result.lab.COND <- equis.result.lab %>% 
   filter(grepl("COND", cas_rn))
-rm(result.equis.lab.COND)
+rm(equis.result.lab.COND)
   #conclusion: All confirmed lab data.
 
 # Subset PH data to invesigate and confirm if field-derived or lab-derived
-result.equis.lab.PH <- result.equis.lab %>% 
+equis.result.lab.PH <- equis.result.lab %>% 
   filter(grepl("PH|PHWATER", cas_rn))
-rm(result.equis.lab.PH)
+rm(equis.result.lab.PH)
   #conclusion: no indiciation that any records are field data.
 
 # Subset TEMP data to invesigate and confirm if field-derive or lab-derived
-result.equis.lab.TEMP <- result.equis.lab %>% 
+equis.result.lab.TEMP <- equis.result.lab %>% 
   filter(grepl("TEMP", cas_rn))
-rm(result.equis.lab.TEMP)
+rm(equis.result.lab.TEMP)
   #conclusion: no indiciation that any records are field data.
 
 
@@ -182,21 +182,21 @@ rm(result.equis.lab.TEMP)
 Bind orphaned field and lab data to their respective tables and create their repsective sample tables
 ```{r}
 
-result.equis.field <- bind_rows(result.equis.field, result.equis.field.DO)
+equis.result.field <- bind_rows(equis.result.field, equis.result.field.DO)
 
-result.equis.lab <- bind_rows(result.equis.lab, result.equis.lab.fecal, result.equis.lab.turb)
+equis.result.lab <- bind_rows(equis.result.lab, equis.result.lab.fecal, equis.result.lab.turb)
 
-rm(result.equis.field.DO, result.equis.lab.fecal, result.equis.lab.turb)
+rm(equis.result.field.DO, equis.result.lab.fecal, equis.result.lab.turb)
 
 # Create lab and field sample tables from existing results
- sample.equis.field <- sample.equis[sample.equis$sys_sample_code %in% result.equis.field$sys_sample_code, ]
+ equis.sample.field <- equis.sample[equis.sample$sys_sample_code %in% equis.result.field$sys_sample_code, ]
 #   check to make sure length is same as unique sys_sample_codes
-#     > length(unique(result.equis.field$sys_sample_code))
+#     > length(unique(equis.result.field$sys_sample_code))
 #     [1] 5564
  
- sample.equis.lab <- sample.equis[sample.equis$sys_sample_code %in% result.equis.lab$sys_sample_code, ]
+ equis.sample.lab <- equis.sample[equis.sample$sys_sample_code %in% equis.result.lab$sys_sample_code, ]
 #   check to make sure length is same as unique sys_sample_codes
-#     > length(unique(result.equis.lab$sys_sample_code))
+#     > length(unique(equis.result.lab$sys_sample_code))
 #     [1] 15195
  
 # Export field data for appending to appropirate field table
@@ -208,10 +208,10 @@ Investigate field name matches between equis and 2016 data
 ### See fixing_2016_chem.Rmd ###
 ```{r}
 # Get column names and see which match
-names_result.equis <- names(result.equis)
+names_equis.result <- names(equis.result)
 names_result.2016 <- names(result.2016)
 
-result.unmatch_cols.eq <- names_result.equis[!names_result.equis %in% names_result.2016]
+result.unmatch_cols.eq <- names_equis.result[!names_equis.result %in% names_result.2016]
 # Output: > result.unmatch_cols.eq
 # [1] "test_comment"        "result_text"         "result_numeric"      "results_historic_id" "facility_name"  
 
@@ -219,22 +219,22 @@ result.unmatch_cols.eq <- names_result.equis[!names_result.equis %in% names_resu
 # "result_text" can be ignored (identical to result_numeric) 
 # "results_historic_id" and "facility_name" can be ignored, as these are equis fields.
 
-result.unmatch_cols.2016 <- names_result.2016[!names_result.2016 %in% names_result.equis]
+result.unmatch_cols.2016 <- names_result.2016[!names_result.2016 %in% names_equis.result]
 # Output: > result.unmatch_cols.2016
 # [1] "comment"      "result_value" 
 # "comment" can be ignored (all NAs)
 # "result_value" will become "result_numeric"
 
 
-names_sample.equis <- names(sample.equis)
+names_equis.sample <- names(equis.sample)
 names_sample.2016 <- names(sample.2016)
 
-sample.unmatch_cols.eq <- names_sample.equis[!names_sample.equis %in% names_sample.2016]
+sample.unmatch_cols.eq <- names_equis.sample[!names_equis.sample %in% names_sample.2016]
 # Output: > sample.unmatch_cols.eq
 # [1] "sample_method" "comments"      "facility_name"
 # "sample_method" 
 
-sample.unmatch_cols.2016 <- names_sample.2016[!names_sample.2016 %in% names_sample.equis]
+sample.unmatch_cols.2016 <- names_sample.2016[!names_sample.2016 %in% names_equis.sample]
 # > sample.unmatch_cols.2016
 # [1] "sampling_technique" "comment"            "siteid"
 # "sampling_technique" is blank and will be populated with "SOP201" and append to equis "sample_method""
