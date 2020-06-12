@@ -12,3 +12,16 @@ here are our in situ parameters:
 22                                            PHYCOCYANIN (PROBE)                   in situ
 23                                           SPECIFIC CONDUCTANCE                   in situ
 24                                               TEMPERATURE, AIR                   in situ
+6                                           TURBIDITY                   			lab or in situ
+
+Streams:
+Chl_RFU
+Chl_ugL
+CONDUCTANCE
+DISSOLVED_OXYGEN
+PC_RFU
+PC_ugL
+PCT_SATURATION
+PH
+SALINITY
+TEMPERATURE

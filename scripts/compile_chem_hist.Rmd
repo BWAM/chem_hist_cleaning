@@ -72,13 +72,21 @@ Join sample and result tables and check for issues
 ```{r}
 # SDG not populated for all records. Must use only sys_sample_code.
 
-equis.join <- left_join(equis.sample, equis.result, by = "sys_sample_code")
+equis.join <- left_join(equis.sample.siteids, equis.result, by = "sys_sample_code")
 # 110 extra records created
 
 # See if there are records in each table that don't have matches in the other
 equis.sample.nomatch <- anti_join(equis.sample, equis.result, by = "sys_sample_code")
 equis.result.nomatch <- anti_join(equis.result, equis.sample, by = "sys_sample_code")
 
+# Export data in-progress for subsetting for finger lakes basin percentiles for Brian's presentation; 6/12/2020
+equis.join.bas7.simple <- equis.join %>% 
+  filter(grepl("*07-", SBU_ID)) %>% 
+  filter(sample_type_code %in% "N") %>% 
+  filter(chemical_name %in% c("Phosphorus", "Nitrogen, Nitrate (As N)", "Turbidity", "Nitrogen")) %>% 
+  select(sys_sample_code, SBU_ID, sample_date, chemical_name, fraction, result_numeric, result_unit, interpreted_qualifiers, method_detection_limit, detection_limit_unit)
+
+write_csv(equis.join.bas7.simple, "equis.basin7.N-P-turb.simple.csv")
 
 ```
 
