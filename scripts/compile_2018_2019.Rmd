@@ -11,13 +11,15 @@ root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 target.dir <- file.path(root.dir, "data", "2018-2019_zach_ITS")
 qaqc_dir <- file.path(target.dir, "qaqc_output")
 
+raw_dir_2018 <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2018/all_SBU_routine/")
+raw_dir_2019 <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2019/all_SBU_Mohawk_Routine_complete/")
 
 ```
 
 
 Data prep for Zach, for testing assessment script 
 ```{r}
-# Imprort unflagged data sent to Zach
+# Imprort unflagged data sent to Zach (prepped at end of 2018 and 2019 raw processing)
 unflagged.18.19 <- read_csv(file.path(root.dir, "/data/2018-2019_zach_ITS/SMAS_chem_2018_2019_preqaqc_simple.csv")) %>% 
   select(-Project_name, -validator_qualifiers, -interpreted_qualifiers, -qaqc_date)
 
@@ -60,4 +62,184 @@ flags.joined.18.19.left <- flags.joined.18.19.left %>%
 # write_csv(flags.joined.18.19.left, file.path(target.dir, "SMAS_chem_2018-2018_flagged_simple_2020-05-13.csv"))
 
 ```
+
+Import and join bound sample, result, and batch files from raw processing. Perform necessary mutations.
+```{r}
+sample.2018 <- read_csv(file.path(raw_dir_2018, "2018_chem_preqaqc_SAMPLE-SMAS_complete_2020-05-08.csv"))
+result.2018 <- read_csv(file.path(raw_dir_2018, "2018_chem_preqaqc_RESULT-SMAS_complete_2020-05-08.csv"))
+batch.2018 <- read_csv(file.path(raw_dir_2018, "2018_chem_preqaqc_BATCH-SMAS_complete_2020-05-08.csv"))
+
+sample.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_SAMPLE-SMAS_complete_2020-05-11.csv"))
+result.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_RESULT-SMAS_complete_2020-05-11.csv"))
+batch.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_BATCH-SMAS_complete_2020-05-11.csv"))
+
+sample.all <- bind_rows(sample.2018, sample.2019)
+result.all <- bind_rows(result.2018, result.2019)
+batch.all <- bind_rows(batch.2018, batch.2019)
+
+rm(sample.2018, sample.2019, result.2018, result.2019, batch.2018, batch.2019)
+```
+
+Test join by sys_sample_code and SDG
+```{r}
+result.all <- result.all %>% 
+  rename(sample_delivery_group = lab_sdg)
+test_join_sample.result <- left_join(sample.all, result.all, by = c("sys_sample_code", "sample_delivery_group"))
+
+# CHECKS OUT OKAY. Same number of records created in joined table as in RESULT table.
+```
+
+Reformat field names and add blank fields
+```{r}
+
+
+sample.all.form <- sample.all %>%
+  rename_all(toupper) %>%
+  rename(
+    SITE_HISTORY_ID = SITE_ID,
+    DEC_SAMPLE_TYPE_CDE = DEC_SAMPLE_TYPE,
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    SAMPLE_MATRIX_CDE = SAMPLE_MATRIX_CODE,
+    LAB_SAMPLE_TYPE_CDE = SAMPLE_TYPE_CODE,
+    PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP
+  ) %>%
+  rename_all(function(x)
+    paste0("CHS_", x))
+# mutate(EVENT_ID_DATE = strftime(CHS_SAMPLE_DATE, "%Y%m%d")) %>%
+# mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
+
+result.all.form <- result.all %>%
+  rename_all(toupper) %>%
+  #### MAKE ALL CHEMICAL_NAMEs UPPERCASE ###
+  rename(
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
+    LAB_MATRIX_CDE = LAB_MATRIX_CODE,
+    LAB_NAME_CDE = LAB_NAME_CODE,
+    SUBSAMPLE_AMT = SUBSAMPLE_AMOUNT,
+    SUBSAMPLE_AMT_UNIT = SUBSAMPLE_AMOUNT_UNIT,
+    RESULT_TYPE_CDE = RESULT_TYPE_CODE,
+    REPORTABLE_RESULT_IND = REPORTABLE_RESULT,
+    LAB_QUAL = LAB_QUALIFIERS,
+    VALIDATOR_QUAL = VALIDATOR_QUALIFIERS,
+    INTERPRETED_QUAL = INTERPRETED_QUALIFIERS,
+    VALIDATED_IND = VALIDATED_YN,
+    METHOD_DETECT_LIMIT = METHOD_DETECTION_LIMIT,
+    REPORTING_DETECT_LIMIT = REPORTING_DETECTION_LIMIT,
+    QC_ORIG_CONC = QC_ORIGINAL_CONC,
+    QC_DUP_ORIG_CONC = QC_DUP_ORIGINAL_CONC,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP
+  ) %>%
+  mutate(
+    VALIDATOR_QUAL_REASON_CDE = "",
+    VALIDATOR_SAMPLE_ACCURACY = "",
+    VALIDATOR_SAMPLE_PRECISION_FIELD = "",
+    VALIDATOR_SAMPLE_PRECISION_LAB = "",
+    VALIDATOR_SAMPLE_EQUIP_BLANK = "",
+    VALIDATOR_SAMPLE_PARAM_PAIR = "",
+    VALIDATOR_QUAL_EXPLN = "",
+    VALIDATION_DATE = "",
+    LAB_VALIDATION_LEVEL = NA
+  ) %>%
+  mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  rename_all(function(x)
+    paste0("CHR_", x)) %>%
+  mutate(
+    CHEM_HISTORY_RESULT_ID = "",
+    CHEM_HISTORY_SAMPLE_ID = "",
+    CHEM_PARAMETER_ID = "",
+    CREATE_DATE = "",
+    END_DATE = "",
+    UPDATE_DATE = "",
+    UPDATED_BY_GUID = ""
+  )
+
+batch.all.form <- batch.all %>%
+  rename_all(toupper) %>%
+  rename(SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+         LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME) %>%
+  mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  rename_all(function(x)
+    paste0("CHB_", x)) %>%
+  mutate(
+    CHEM_HISTORY_BATCH_ID = "",
+    CHEM_HISTORY_SAMPLE_ID = "",
+    CREATE_DATE = "",
+    END_DATE = "",
+    UPDATE_DATE = "",
+    UPDATED_BY_GUID = ""
+  )
+
+```
+
+Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
+```{r}
+# Headers selections below copied directly from the data dictionary, 3/27/20.
+
+# SAMPLE table
+sample.all.FINAL <- sample.all.form %>% 
+    select(EVENT_SMAS_ID, CHS_SITE_ID, CHS_SITE_HISTORY_ID_CORR_IND, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+           CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
+           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATE, CHS_SAMPLE_RECEIPT_DATE,
+           CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
+
+# RESULT table
+result.all.FINAL <- result.all.form %>% 
+    select(CHEM_HISTORY_RESULT_ID, CHEM_HISTORY_SAMPLE_ID, CHEM_PARAMETER_ID, CHR_SYS_SAMPLE_CDE, CHR_LAB_ANAL_METHOD_NAME,
+           CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, CHR_DILUTION_FACTOR, CHR_PREP_METHOD, 
+           CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
+           CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_CHEMICAL_NAME, CHR_RESULT_VALUE, 
+           CHR_RESULT_UNIT, CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_LAB_QUAL, CHR_INTERPRETED_QUAL, 
+           CHR_VALIDATED_IND, CHR_VALIDATOR_QUAL, CHR_VALIDATOR_QUAL_EXPLN, CHR_VALIDATOR_QUAL_REASON_CDE, CHR_VALIDATION_DATE, 
+           CHR_VALIDATOR_SAMPLE_ACCURACY, CHR_VALIDATOR_SAMPLE_PRECISION_FIELD, CHR_VALIDATOR_SAMPLE_PRECISION_LAB, 
+           CHR_VALIDATOR_SAMPLE_EQUIP_BLANK, CHR_VALIDATOR_SAMPLE_PARAM_PAIR, CHR_METHOD_DETECT_LIMIT, CHR_REPORTING_DETECT_LIMIT, 
+           CHR_QUANTITATION_LIMIT, CHR_DETECTION_LIMIT_UNIT, CHR_VALIDATION_LEVEL, CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, 
+           CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC, CHR_QC_DUP_SPIKE_ADDED, 
+           CHR_QC_DUP_SPIKE_MEASURED, CHR_QC_DUP_SPIKE_RECOVERY, CHR_QC_RPD, CHR_QC_SPIKE_LCL, CHR_QC_SPIKE_UCL, CHR_QC_RPD_CL, 
+           CHR_QC_SPIKE_STATUS, CHR_QC_DUP_SPIKE_STATUS, CHR_QC_RPD_STATUS, CHR_SAMPLE_DEL_GRP)
+
+# BATCH table
+batch.all.FINAL <- batch.all.form %>% 
+    select(CHEM_HISTORY_BATCH_ID, CHEM_HISTORY_SAMPLE_ID, CHB_SYS_SAMPLE_CDE, CHB_LAB_ANAL_METHOD_NAME, CHB_ANALYSIS_DATE, 
+           CHB_FRACTION, CHB_TEST_TYPE, CHB_TEST_BATCH_TYPE, CHB_TEST_BATCH_ID)
+
+```
+
+Modify data as needed to meet ITS submission guidelines
+```{r}
+library(datetime)
+
+sample.all.form <- sample.all.form %>%
+  mutate(CHS_SAMPLE_DATE = as.POSIXct(CHS_SAMPLE_DATE, format = "%m/%d/%Y %H:%M:%S"),
+         CHS_SAMPLE_DATE_2 = format((CHS_SAMPLE_DATE), "%m/%d/%Y %H:%M:%S"),
+         CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"))
+
+
+
+```
+
+Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
+```{r}
+
+
+
+
+```
+
+
+
+
+Export data (copied from compile_2017-2019.Rmd)
+```{r}
+
+write.table(sample.all.FINAL, file= paste0(output.path,"/",output.filename.sample),sep=",", row.names = FALSE)
+write.table(result.all.FINAL, file= paste0(output.path,"/",output.filename.result),sep=",", row.names = FALSE)
+write.table(batch.all.FINAL, file= paste0(output.path,"/",output.filename.batch),sep=",", row.names = FALSE)
+
+```
+
+
+
 
