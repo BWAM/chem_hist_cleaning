@@ -13,7 +13,6 @@ qaqc_dir <- file.path(target.dir, "qaqc_output")
 
 raw_dir_2018 <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2018/all_SBU_routine/")
 raw_dir_2019 <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2019/all_SBU_Mohawk_Routine_complete/")
-raw_dir_2019.pcb <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2019/routine_pcbs/")
 
 ```
 
@@ -74,19 +73,11 @@ sample.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_SAMPLE-SMAS_c
 result.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_RESULT-SMAS_complete_2020-05-11.csv"))
 batch.2019 <- read_csv(file.path(raw_dir_2019, "2019_chem_preqaqc_BATCH-SMAS_complete_2020-05-11.csv"))
 
-# Add in PCBs separately (processed raw separately)
-sample.2019.pcb <- read_csv(file.path(raw_dir_2019.pcb, "2019_chem_preqaqc_SAMPLE-EMIL_PCBs_2020-06-22.csv"))
-result.2019.pcb <- read_csv(file.path(raw_dir_2019.pcb, "2019_chem_preqaqc_RESULT-EMIL_PCBs_2020-06-22.csv"), col_types = cols(fraction = col_character())) %>% 
-  # mutate(lab_sdg = word(lab_sdg, 3))
-  # Correct bad contractor SDG formatting 
-  mutate(lab_sdg = sub("R1903399 - L2261539", "L2261539", lab_sdg))
-batch.2019.pcb <- read_csv(file.path(raw_dir_2019.pcb, "2019_chem_preqaqc_BATCH-EMIL_PCBs_2020-06-22.csv"), col_types = cols(fraction = col_character()))
+sample.all <- bind_rows(sample.2018, sample.2019)
+result.all <- bind_rows(result.2018, result.2019)
+batch.all <- bind_rows(batch.2018, batch.2019)
 
-sample.all <- bind_rows(sample.2018, sample.2019, sample.2019.pcb)
-result.all <- bind_rows(result.2018, result.2019, result.2019.pcb)
-batch.all <- bind_rows(batch.2018, batch.2019, batch.2019.pcb)
-
-rm(sample.2018, sample.2019, sample.2019.pcb, result.2018, result.2019, result.2019.pcb, batch.2018, batch.2019, batch.2019.pcb)
+rm(sample.2018, sample.2019, result.2018, result.2019, batch.2018, batch.2019)
 ```
 
 Test join by sys_sample_code and SDG
@@ -108,13 +99,6 @@ Join pcodes field using "pcode join table" (based on chemical_name, fraction, an
 
 ```
 
-Join flags from QAQC output files
-```{r}
-
-
-
-
-```
 
 
 
