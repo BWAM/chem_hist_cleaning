@@ -17,53 +17,6 @@ raw_dir_2019.pcb <- file.path("C:/Data/RIBS/Chem_raw_processing/data_output/2019
 
 ```
 
-
-Data prep for Zach, for testing assessment script 
-```{r}
-# Imprort unflagged data sent to Zach (prepped at end of 2018 and 2019 raw processing)
-unflagged.18.19 <- read_csv(file.path(root.dir, "/data/2018-2019_zach_ITS/SMAS_chem_2018_2019_preqaqc_simple.csv")) %>% 
-  select(-Project_name, -validator_qualifiers, -interpreted_qualifiers, -qaqc_date)
-
-# Import all qaqc output files in subdir and bind together as a dataframe
-setwd(qaqc_dir)
-qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>% 
-  map_df(~read_csv(.,  col_types = cols(fraction = col_character()))) %>% 
-  mutate(project_name = str_replace(project_name, "RIBS_", "")) %>% 
-  mutate(project_name = str_replace(project_name, " - ", "_")) %>% 
-  mutate(project_name = str_replace(project_name, "_-_", "_")) %>% 
-  mutate(project_name = str_replace_all(project_name, " ", "_")) %>% 
-  mutate(chemical_name = tolower(chemical_name))
-
-qaqc.output.bound <- qaqc.output.bound %>% 
-  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>% 
-  filter(chemical_name != "selenium")
-
-# unflagged.18.19 <- unflagged.18.19 %>% 
-#   mutate(SSC_SDG = paste0(sys_sample_code,"_",sample_delivery_group))
-# qaqc.output.bound <- qaqc.output.bound %>% 
-#   mutate(SSC_SDG = paste0(sys_sample_code,"_",sample_delivery_group))
-# flags.joined.18.19 <- left_join(unflagged.18.19, qaqc.output.bound, by = "SSC_SDG")
-# flags.joined.18.19_2 <- left_join(unflagged.18.19, qaqc.output.bound, by = c("SSC_SDG", "chemical_name"))
-
-flags.joined.18.19.left <- left_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-
-flags.joined.18.19.inner <- inner_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-
-flags.joined.18.19.anti <- anti_join(unflagged.18.19, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-
-count.recs <- flags.joined.18.19.left %>% 
-  group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
-  mutate(dups = n()) %>% 
-  filter(dups > 1)
-
-# Export data
-flags.joined.18.19.left <- flags.joined.18.19.left %>% 
-  select(project_name, everything())
-
-# write_csv(flags.joined.18.19.left, file.path(target.dir, "SMAS_chem_2018-2018_flagged_simple_2020-05-13.csv"))
-
-```
-
 Import and join bound sample, result, and batch files from raw processing. Perform necessary mutations.
 ```{r}
 sample.2018 <- read_csv(file.path(raw_dir_2018, "2018_chem_preqaqc_SAMPLE-SMAS_complete_2020-05-08.csv"))
@@ -83,7 +36,8 @@ result.2019.pcb <- read_csv(file.path(raw_dir_2019.pcb, "2019_chem_preqaqc_RESUL
 batch.2019.pcb <- read_csv(file.path(raw_dir_2019.pcb, "2019_chem_preqaqc_BATCH-EMIL_PCBs_2020-06-22.csv"), col_types = cols(fraction = col_character()))
 
 sample.all <- bind_rows(sample.2018, sample.2019, sample.2019.pcb)
-result.all <- bind_rows(result.2018, result.2019, result.2019.pcb)
+result.all <- bind_rows(result.2018, result.2019, result.2019.pcb) %>% 
+  rename(sample_delivery_group = lab_sdg)
 batch.all <- bind_rows(batch.2018, batch.2019, batch.2019.pcb)
 
 rm(sample.2018, sample.2019, sample.2019.pcb, result.2018, result.2019, result.2019.pcb, batch.2018, batch.2019, batch.2019.pcb)
@@ -91,13 +45,59 @@ rm(sample.2018, sample.2019, sample.2019.pcb, result.2018, result.2019, result.2
 
 Test join by sys_sample_code and SDG
 ```{r}
-result.all <- result.all %>% 
-  rename(sample_delivery_group = lab_sdg)
-test_join_sample.result <- left_join(sample.all, result.all, by = c("sys_sample_code", "sample_delivery_group"))
+test_join_sample.result <- full_join(sample.all, result.all, by = c("sys_sample_code", "sample_delivery_group"))
 
 # CHECKS OUT OKAY. Same number of records created in joined table as in RESULT table.
+
+rm(test_join_sample.result)
 ```
 
+
+
+Import and bind flags from QAQC output files
+```{r}
+# Import all qaqc output files in subdir and bind together as a dataframe
+setwd(qaqc_dir)
+qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>% 
+  map_df(~read_csv(.,  col_types = cols(fraction = col_character()))) %>% 
+  mutate(project_name = str_replace(project_name, "RIBS_", "")) %>% 
+  mutate(project_name = str_replace(project_name, " - ", "_")) %>% 
+  mutate(project_name = str_replace(project_name, "_-_", "_")) %>% 
+  mutate(project_name = str_replace_all(project_name, " ", "_")) %>% 
+  mutate(chemical_name = tolower(chemical_name))
+
+qaqc.output.bound <- qaqc.output.bound %>%
+  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>%
+  filter(chemical_name != "selenium")
+
+```
+
+
+Join flags and related fields to results table
+```{r}
+result.all <- result.all %>% 
+  mutate(chemical_name = tolower(chemical_name))
+
+
+# Test various joins and compare to identify possible issues
+result.all.flags.left <- left_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+result.all.flags.full <- full_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+# Resulting left and full joins are identical (no recs left behind)
+
+result.all.flags.inner <- inner_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+# matches number of QAQC records in chunk above (all have match)
+
+result.all.flags.anti <- anti_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+result.sample.anti <- right_join(sample.all, result.all.flags.anti, by = c("sys_sample_code", "sample_delivery_group"))
+
+result.sample.full <- full_join(sample.all, result.all.flags.full, by = c("sys_sample_code", "sample_delivery_group"))
+
+
+dups <- result.sample.full %>% 
+  group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
+  mutate(dups = n()) %>% 
+  filter(dups > 1)
+```
 
 
 Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
@@ -108,21 +108,12 @@ Join pcodes field using "pcode join table" (based on chemical_name, fraction, an
 
 ```
 
-Join flags from QAQC output files
-```{r}
-
-
-
-
-```
-
-
-
 
 
 Reformat field names and add blank fields
 ```{r}
 
+# REMOVE PROJECT NAME FIELD
 
 sample.all.form <- sample.all %>%
   rename_all(toupper) %>%
