@@ -68,7 +68,9 @@ qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>%
 
 qaqc.output.bound <- qaqc.output.bound %>%
   select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>%
-  filter(chemical_name != "selenium")
+  filter(chemical_name != "selenium") %>% 
+  mutate(validated_yn = "Y")
+# Ignore selenium flags (erroneously reported by ALS; already removed from RESULT file)
 
 ```
 
@@ -76,8 +78,8 @@ qaqc.output.bound <- qaqc.output.bound %>%
 Join flags and related fields to results table
 ```{r}
 result.all <- result.all %>% 
-  mutate(chemical_name = tolower(chemical_name))
-
+  mutate(chemical_name = tolower(chemical_name)) %>% 
+  select(-validated_yn)
 
 # Test various joins and compare to identify possible issues
 result.all.flags.left <- left_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
@@ -87,16 +89,54 @@ result.all.flags.full <- full_join(result.all, qaqc.output.bound, by = c("sys_sa
 result.all.flags.inner <- inner_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
 # matches number of QAQC records in chunk above (all have match)
 
+# Do antijoin to make sure non-joined records are all lab and QC samples.
 result.all.flags.anti <- anti_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
 result.sample.anti <- right_join(sample.all, result.all.flags.anti, by = c("sys_sample_code", "sample_delivery_group"))
 
-result.sample.full <- full_join(sample.all, result.all.flags.full, by = c("sys_sample_code", "sample_delivery_group"))
+# filter to non-lab and QC samples to verify what's missing was intentional (Ausable, Qaussaic, Duane Lake, PCBs)
 
+result.sample.anti.sub <- result.sample.anti %>% 
+  filter(sample_type_code %in% "N",
+         DEC_sample_type %in% "N") 
 
-dups <- result.sample.full %>% 
+# > sort(unique(result.sample.anti.sub$SITE_ID))
+#  [1] "03-EMIL-5.1"       "10-CHUB-5.0"       "10-CHUB_T4-0.6"    "10-CHUB_T4-0.7"    "10-NMOW_T1-1.7"    "10-NMOW_T1-1.8"    "10-SABL_W-10.3"    "10-SABL_W-12.9"    "10-SABL_W-15.1"   
+# [10] "10-SABL_W-18.6"    "10-SABL_W-20.7"    "10-SABL_W_T13-0.1" "10-SABL_W_T13-0.2" "10-SABL_W_T14-0.2" "10-SABL_W_T14-0.3" "10-SABL_W_T26-0.1" "10-SABL_W_T26-0.2" "10-SABL_W_T27-0.1"
+# [19] "10-SABL_W_T27-0.2" "11-UHUD-2.7"       "12-LDUAN_T1-0.1"   "12-MOHK-1.5"       "12-MOHK-13.4"      "12-MOHK-17.3"      "12-MOHK-24.0"      "13-WQUAS-9.8"   
+
+# All above sites are PCBs, Ausable, Duane Lake. Mohawk sites present are likely DBP surrogate parameters that we don't flag and don't need to retain. Double checking this below.
+
+result.sample.anti.sub.mohk <- result.sample.anti.sub %>% 
+  filter(grepl("MOHK|UHUD", SITE_ID))
+
+# > unique(result.sample.anti.sub.mohk$chemical_name)
+# [1] "p-bromofluorobenzene"                        "dibromofluoromethane"                        "toluene-d8"                                  "2,3-dibromopropionic acid"                  
+# [5] "1-bromo-4-fluorobenzene bromofluorobenzene)"
+
+#  Look for duplicate records (possible issues with join)
+dups <- result.all.flags.full %>% 
   group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
   mutate(dups = n()) %>% 
   filter(dups > 1)
+ # Only dups present are with PCBs and they are present in the raw EDDs.
+
+# Clean up dataframes and rename
+result.all.flagged <- result.all.flags.full
+rm(result.all, qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, result.sample.anti.sub.mohk, dups)
+
+```
+
+Poplulate valididated indicator field 
+```{r}
+
+# Add "N" for those projects not run? Filter to N, N, missing flags...
+
+```
+
+
+Omit data to be excluded from final database
+```{r}
+# Mohawk DBP surrogate params?
 ```
 
 
