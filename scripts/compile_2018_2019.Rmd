@@ -143,9 +143,34 @@ Omit data to be excluded from final database
 Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
 ```{r}
 
+# Import pcodes 
+pcode_path <- file.path("C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization/to_be_cleaned/chem_parameters")
+pcode.join <- readxl::read_excel(file.path(pcode_path, "pcode_join_table_CLEAN_2020-06-25.xlsx")) %>% 
+  select(RESULT_TYPE, everything()) %>% 
+  select(-"Has duplicate", -"Notes") %>% 
+  mutate(chemical_name = tolower(chemical_name)) %>% 
+  mutate(result_unit = tolower(result_unit)) %>% 
+  mutate(DEC_pcode_FINAL = formatC(DEC_pcode_FINAL, width = 3, format = "d", flag = "0")) %>% 
+  # Remove instances of duplicate rows that represented differing unit capitalization (will just do this in the data) 
+  distinct()
 
+# Export cleaned pcode table for sending to LMAS
+write.csv(pcode.join, file.path(root.dir, "parameters", "dec_pcode_join_2020-08-24.csv"), row.names = FALSE)
 
+# Filter to lab only for joining to chem data
+pcode.join.lab <- pcode.join %>% 
+  filter(RESULT_TYPE %in% "lab") %>%
+  select(-RESULT_TYPE)
 
+# Join to chem results table
+result.pcodes <- left_join(result.all.flagged, pcode.join.lab, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  select(DEC_pcode_FINAL, chemical_name, everything())
+
+result.pcodes.na <- result.pcodes %>% 
+  filter(is.na(DEC_pcode_FINAL))
+
+# result.pcodes.pcbpct <- result.pcodes %>% 
+#   filter(grepl("*pcb"))
 ```
 
 
