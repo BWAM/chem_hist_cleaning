@@ -69,7 +69,8 @@ qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>%
 qaqc.output.bound <- qaqc.output.bound %>%
   select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>%
   filter(chemical_name != "selenium") %>% 
-  mutate(validated_yn = "Y")
+  mutate(validated_yn = "Y") %>% 
+  rename(VALIDATOR_QUAL_EXPLN = interpreted_qualifiers)
 # Ignore selenium flags (erroneously reported by ALS; already removed from RESULT file)
 
 ```
@@ -79,7 +80,7 @@ Join flags and related fields to results table
 ```{r}
 result.all <- result.all %>% 
   mutate(chemical_name = tolower(chemical_name)) %>% 
-  select(-validated_yn)
+  select(-validated_yn, -validator_qualifiers)
 
 # Test various joins and compare to identify possible issues
 result.all.flags.left <- left_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
@@ -112,6 +113,7 @@ result.sample.anti.sub.mohk <- result.sample.anti.sub %>%
 # > unique(result.sample.anti.sub.mohk$chemical_name)
 # [1] "p-bromofluorobenzene"                        "dibromofluoromethane"                        "toluene-d8"                                  "2,3-dibromopropionic acid"                  
 # [5] "1-bromo-4-fluorobenzene bromofluorobenzene)"
+# Confirmed, above are DBP surrograte params that we do not flag.
 
 #  Look for duplicate records (possible issues with join)
 dups <- result.all.flags.full %>% 
@@ -121,22 +123,64 @@ dups <- result.all.flags.full %>%
  # Only dups present are with PCBs and they are present in the raw EDDs.
 
 # Clean up dataframes and rename
-result.all.flagged <- result.all.flags.full
-rm(result.all, qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, result.sample.anti.sub.mohk, dups)
+result.all <- result.all.flags.full
+rm(qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, result.sample.anti.sub.mohk, dups)
 
 ```
 
-Poplulate valididated indicator field 
+Flag any field results not run through QAQC (Duane Lake, Quassiac Creek, Ausable 2018)
 ```{r}
+# Join sample type field from SAMPLE table to gather required info for filtering
+sample.all.type <- sample.all %>% 
+  select(SITE_ID, sys_sample_code, sample_source, sample_delivery_group, DEC_sample_type, sample_type_code)
+result.all.type <- left_join(result.all, sample.all.type, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  # select(SITE_ID, sample_source, DEC_sample_type, sample_type_code, validator_qualifiers, VALIDATOR_QUAL_EXPLN, everything())
+  select(SITE_ID, sample_source, DEC_sample_type, sample_type_code, everything())
 
-# Add "N" for those projects not run? Filter to N, N, missing flags...
+# Check what types of samples got flags
+result.all.type.check <- result.all.type %>% 
+  select(validator_qualifiers, DEC_sample_type) %>% 
+  distinct()
 
-```
+# Filter out normal samples that didn't get flags to verify that only the ones intentionally not flagged are there.
+result.all.notflagged.n <- result.all.type %>% 
+  filter(is.na(validator_qualifiers),
+         DEC_sample_type %in% "N",
+         sample_source %in% "Field")
+
+# List output below as expected. EMIL and MOHWK sites had parameters that we don't flag, and the remaining are sites from projects with QAQC errors or insufficient QAQC samples were collected.
+# > sort(unique(result.all.notflagged.n$SITE_ID))
+#  [1] "03-EMIL-5.1"       "10-CHUB-5.0"       "10-CHUB_T4-0.6"    "10-CHUB_T4-0.7"    "10-NMOW_T1-1.7"    "10-NMOW_T1-1.8"    "10-SABL_W-10.3"    "10-SABL_W-12.9"    "10-SABL_W-15.1"   
+# [10] "10-SABL_W-18.6"    "10-SABL_W-20.7"    "10-SABL_W_T13-0.1" "10-SABL_W_T13-0.2" "10-SABL_W_T14-0.2" "10-SABL_W_T14-0.3" "10-SABL_W_T26-0.1" "10-SABL_W_T26-0.2" "10-SABL_W_T27-0.1"
+# [19] "10-SABL_W_T27-0.2" "11-UHUD-2.7"       "12-LDUAN_T1-0.1"   "12-MOHK-1.5"       "12-MOHK-13.4"      "12-MOHK-17.3"      "12-MOHK-24.0"      "13-WQUAS-9.8"   
+
+# Add NF flags and explanations to all those above except EMIL and MOHK sites
+result.all.flagged2 <- result.all.type %>% 
+  mutate(validator_qualifiers = ifelse(
+    is.na(validator_qualifiers) &
+      DEC_sample_type %in% "N" &
+      sample_source %in% "Field" &
+      !grepl("*EMIL", SITE_ID) &
+      !grepl("*MOHK", SITE_ID), 
+    "NF", validator_qualifiers)) %>% 
+  mutate(VALIDATOR_QUAL_EXPLN = ifelse(validator_qualifiers %in% "NF", 
+    "Not flagged due to QAQC error or insufficient QAQC sampling", VALIDATOR_QUAL_EXPLN))  
+
+# Veryify that only remaining field "N" samples without flags are those params we don't flag (PCBs and 5 DBP surrogate params)
+result.all.flagged2.naflags <- result.all.flagged2 %>% 
+  filter(is.na(validator_qualifiers),
+         sample_source %in% "Field",
+         DEC_sample_type %in% "N")
+# Above checks out :)
+
+# Clean up new result table and remove joined fields
+result.all.flagged2 <- result.all.flagged2 %>% 
+  # select(everything(), validator_qualifiers, VALIDATOR_QUAL_EXPLN, qaqc_date, validated_yn) %>% 
+  select(-SITE_ID, -sample_source, -DEC_sample_type, -sample_type_code) 
+
+rm(sample.all.type, result.all.type, result.all.type.check, result.all.notflagged.n, result.all.flagged2.naflags)
 
 
-Omit data to be excluded from final database
-```{r}
-# Mohawk DBP surrogate params?
 ```
 
 
@@ -155,7 +199,7 @@ pcode.join <- readxl::read_excel(file.path(pcode_path, "pcode_join_table_CLEAN_2
   distinct()
 
 # Export cleaned pcode table for sending to LMAS
-write.csv(pcode.join, file.path(root.dir, "parameters", "dec_pcode_join_2020-08-24.csv"), row.names = FALSE)
+# write.csv(pcode.join, file.path(root.dir, "parameters", "dec_pcode_join_2020-08-24.csv"), row.names = FALSE)
 
 # Filter to lab only for joining to chem data
 pcode.join.lab <- pcode.join %>% 
@@ -163,22 +207,33 @@ pcode.join.lab <- pcode.join %>%
   select(-RESULT_TYPE)
 
 # Join to chem results table
-result.pcodes <- left_join(result.all.flagged, pcode.join.lab, by = c("chemical_name", "fraction", "result_unit")) %>% 
+result.pcodes <- left_join(result.all.flagged2, pcode.join.lab, by = c("chemical_name", "fraction", "result_unit")) %>% 
   select(DEC_pcode_FINAL, chemical_name, everything())
 
+# Review records that didn't get pcodes assigned
 result.pcodes.na <- result.pcodes %>% 
   filter(is.na(DEC_pcode_FINAL))
+rm(result.pcodes.na)
 
-# result.pcodes.pcbpct <- result.pcodes %>% 
-#   filter(grepl("*pcb"))
+# Populate missing pcodes (PCBs)
+result.pcodes <- result.pcodes %>% 
+  mutate(DEC_pcode_FINAL = ifelse(is.na(DEC_pcode_FINAL) & result_unit %in% "pg/l", 168, DEC_pcode_FINAL)) %>% 
+  mutate(DEC_pcode_FINAL = ifelse(is.na(DEC_pcode_FINAL) & result_unit %in% "percent", 169, DEC_pcode_FINAL))
+
+# summarize join for review  
+result.pcodes.check <- result.pcodes %>% 
+  select(DEC_pcode_FINAL, chemical_name, fraction, result_unit) %>% 
+  distinct()
+
+rm(pcode.join, pcode.join.lab, result.all.flagged2)
+
+
 ```
 
 
 
 Reformat field names and add blank fields
 ```{r}
-
-# REMOVE PROJECT NAME FIELD
 
 sample.all.form <- sample.all %>%
   rename_all(toupper) %>%
@@ -229,8 +284,12 @@ result.all.form <- result.all %>%
     VALIDATION_DATE = "",
     LAB_VALIDATION_LEVEL = NA
   ) %>%
-  mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
-  mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(FRACTION = case_when(
+    FRACTION == "T" ~ "TOTAL",
+    FRACTION == "D" ~ "DISSOLVED",
+    TRUE ~ FRACTION)) %>% 
   rename_all(function(x)
     paste0("CHR_", x)) %>%
   mutate(
@@ -247,19 +306,29 @@ batch.all.form <- batch.all %>%
   rename_all(toupper) %>%
   rename(SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
          LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME) %>%
-  mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(FRACTION = case_when(
+    FRACTION == "T" ~ "TOTAL",
+    FRACTION == "D" ~ "DISSOLVED",
+    TRUE ~ FRACTION)) %>% 
   rename_all(function(x)
-    paste0("CHB_", x)) %>%
-  mutate(
-    CHEM_HISTORY_BATCH_ID = "",
-    CHEM_HISTORY_SAMPLE_ID = "",
-    CREATE_DATE = "",
-    END_DATE = "",
-    UPDATE_DATE = "",
-    UPDATED_BY_GUID = ""
-  )
+    paste0("CHB_", x))
 
 ```
+
+
+Fix bad dates from ALS
+```{r}
+# Sample dates in SAMPLE file
+# Analysis dates in RESULT and BATCH files
+# 1999-08-07 should be ...
+# 2016-06-16 sould be ...
+
+result.all.form.datecheck <- result.all.form %>% 
+  filter(grepl("*2016", CHR_ANALYSIS_DATE))
+```
+
+
 
 Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
 ```{r}
@@ -289,19 +358,39 @@ result.all.FINAL <- result.all.form %>%
 
 # BATCH table
 batch.all.FINAL <- batch.all.form %>% 
-    select(CHEM_HISTORY_BATCH_ID, CHEM_HISTORY_SAMPLE_ID, CHB_SYS_SAMPLE_CDE, CHB_LAB_ANAL_METHOD_NAME, CHB_ANALYSIS_DATE, 
+    select(CHB_SYS_SAMPLE_CDE, CHB_LAB_ANAL_METHOD_NAME, CHB_ANALYSIS_DATE, 
            CHB_FRACTION, CHB_TEST_TYPE, CHB_TEST_BATCH_TYPE, CHB_TEST_BATCH_ID)
 
 ```
 
-Modify data as needed to meet ITS submission guidelines
+Modify data further as needed to meet ITS submission guidelines
 ```{r}
-library(datetime)
+# library(datetime)
+# 
+# sample.all.form <- sample.all.form %>%
+#   mutate(CHS_SAMPLE_DATE = as.POSIXct(CHS_SAMPLE_DATE, format = "%m/%d/%Y %H:%M:%S"),
+#          CHS_SAMPLE_DATE_2 = format((CHS_SAMPLE_DATE), "%m/%d/%Y %H:%M:%S"),
+#          CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"),
+#          CHS_SAMPLE_RECEIPT_DATE_2 = format((CHS_SAMPLE_RECEIPT_DATE), "%m/%d/%Y"))
 
-sample.all.form <- sample.all.form %>%
-  mutate(CHS_SAMPLE_DATE = as.POSIXct(CHS_SAMPLE_DATE, format = "%m/%d/%Y %H:%M:%S"),
-         CHS_SAMPLE_DATE_2 = format((CHS_SAMPLE_DATE), "%m/%d/%Y %H:%M:%S"),
-         CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"))
+# Not needed since data comes in the format that ITS (Cindy) is requesting. Retain above code for future reference when similar formatting is needed.
+
+```
+
+Replace all NA as blanks (run this???)
+```{r}
+
+
+
+
+sample.all.FINAL.noNA <- sample.all.FINAL %>% 
+  replace(is.na(.), "")
+result.all.FINAL.noNA <- result.all.FINAL %>% 
+  replace(is.na(.), "")
+batch.all.FINAL.noNA <- batch.all.FINAL %>% 
+  replace(is.na(.), "")
+
+
 
 
 
@@ -309,15 +398,19 @@ sample.all.form <- sample.all.form %>%
 
 
 
-Export data (copied from compile_2017-2019.Rmd)
+Export 2018-2019 chem tables 
 ```{r}
 
-write.table(sample.all.FINAL, file= paste0(output.path,"/",output.filename.sample),sep=",", row.names = FALSE)
-write.table(result.all.FINAL, file= paste0(output.path,"/",output.filename.result),sep=",", row.names = FALSE)
-write.table(batch.all.FINAL, file= paste0(output.path,"/",output.filename.batch),sep=",", row.names = FALSE)
+write.table(sample.all.FINAL.noNA, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE)
+write.table(result.all.FINAL.noNA, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE)
+write.table(batch.all.FINAL.noNA, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE)
 
 ```
 
 
+Import final pcode table and reformat for ITS submission
+```{r}
+
+```
 
 
