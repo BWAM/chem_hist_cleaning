@@ -232,10 +232,54 @@ rm(pcode.join, pcode.join.lab, result.all.flagged2)
 
 
 
+Fix bad dates from ALS
+```{r}
+# Correct bad years in sample_date and analysis_date fields (for just a handful lab QC samples of TDS and chlorophyll-a results)
+
+# Sample dates in SAMPLE file
+# Analysis dates in RESULT and BATCH files
+# 1999-08-07 should be ...
+# 2016-06-16 sould be ...
+
+# Find bad years
+sample.all.form.datecheck <- sample.all %>% 
+  filter(!grepl("*2018", sample_date)) %>% 
+  filter(!grepl("*2019", sample_date))
+
+# Test mutation
+sample.all.form.datecheck <- sample.all.form.datecheck %>% 
+  mutate(sample_date = str_replace(sample_date, "1999", "2019")) %>% 
+  mutate(sample_date = str_replace(sample_date, "2016", "2019"))
+
+# Perform mutation
+sample.all.corr <- sample.all %>% 
+  mutate(sample_date = str_replace(sample_date, "1999", "2019")) %>% 
+  mutate(sample_date = str_replace(sample_date, "2016", "2019"))
+
+rm(sample.all.form.datecheck)
+
+
+
+
+
+##### COMPLETE FOR BATCH AND RESULT #### (analysis date too)
+
+
+
+
+
+
+
+
+
+
+```
+
+
 Reformat field names and add blank fields
 ```{r}
 
-sample.all.form <- sample.all %>%
+sample.all.form <- sample.all.corr %>%
   rename_all(toupper) %>%
   rename(
     SITE_HISTORY_ID = SITE_ID,
@@ -244,11 +288,14 @@ sample.all.form <- sample.all %>%
     SAMPLE_MATRIX_CDE = SAMPLE_MATRIX_CODE,
     LAB_SAMPLE_TYPE_CDE = SAMPLE_TYPE_CODE,
     PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
-    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
+    SYS_LOC_CDE = SYS_LOC_CODE,
+    WTR_SAMPLE_DATETIME = SAMPLE_DATE
   ) %>%
+  mutate(WTR_SAMPLE_DATETIME.posixct = as.POSIXct(WTR_SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(SAMPLE_DATE = strftime(WTR_SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
   rename_all(function(x)
     paste0("CHS_", x))
-# mutate(EVENT_ID_DATE = strftime(CHS_SAMPLE_DATE, "%Y%m%d")) %>%
 # mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
 
 result.all.form <- result.all %>%
@@ -317,29 +364,16 @@ batch.all.form <- batch.all %>%
 ```
 
 
-Fix bad dates from ALS
-```{r}
-# Sample dates in SAMPLE file
-# Analysis dates in RESULT and BATCH files
-# 1999-08-07 should be ...
-# 2016-06-16 sould be ...
-
-result.all.form.datecheck <- result.all.form %>% 
-  filter(grepl("*2016", CHR_ANALYSIS_DATE))
-```
-
-
-
 Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
 ```{r}
 # Headers selections below copied directly from the data dictionary, 3/27/20.
 
 # SAMPLE table
 sample.all.FINAL <- sample.all.form %>% 
-    select(EVENT_SMAS_ID, CHS_SITE_ID, CHS_SITE_HISTORY_ID_CORR_IND, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+    select(CHS_SITE_HISTORY_ID, CHS_SAMPLE_DATE, CHS_SITE_ID_CORR_IND, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
            CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
-           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATE, CHS_SAMPLE_RECEIPT_DATE,
-           CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
+           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_WTR_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
+           CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
 
 # RESULT table
 result.all.FINAL <- result.all.form %>% 
@@ -383,12 +417,12 @@ Replace all NA as blanks (run this???)
 
 
 
-sample.all.FINAL.noNA <- sample.all.FINAL %>% 
+sample.all.FINAL.noNA <- sample.all.FINAL %>%
   replace(is.na(.), "")
-result.all.FINAL.noNA <- result.all.FINAL %>% 
-  replace(is.na(.), "")
-batch.all.FINAL.noNA <- batch.all.FINAL %>% 
-  replace(is.na(.), "")
+# result.all.FINAL.noNA <- result.all.FINAL %>% 
+#   replace(is.na(.), "")
+# batch.all.FINAL.noNA <- batch.all.FINAL %>% 
+#   replace(is.na(.), "")
 
 
 
