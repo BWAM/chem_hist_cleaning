@@ -222,9 +222,9 @@ result.all.pcodes <- result.all.pcodes %>%
   mutate(DEC_pcode_FINAL = ifelse(is.na(DEC_pcode_FINAL) & result_unit %in% "percent", 169, DEC_pcode_FINAL))
 
 # summarize join for review  
-result.all.pcodes.check <- result.all.pcodes %>% 
-  select(DEC_pcode_FINAL, chemical_name, fraction, result_unit) %>% 
-  distinct()
+# result.all.pcodes.check <- result.all.pcodes %>% 
+#   select(DEC_pcode_FINAL, chemical_name, fraction, result_unit) %>% 
+#   distinct()
 
 result.all <- result.all.pcodes
 
@@ -330,17 +330,17 @@ sample.all.form <- sample.all %>%
     PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
     SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
     SYS_LOC_CDE = SYS_LOC_CODE,
-    WTR_SAMPLE_DATETIME = SAMPLE_DATE
+    SAMPLE_DATETIME = SAMPLE_DATE
   ) %>%
-  mutate(WTR_SAMPLE_DATETIME.posixct = as.POSIXct(WTR_SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
-  mutate(SAMPLE_DATE = strftime(WTR_SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
+  mutate(SAMPLE_DATETIME.posixct = as.POSIXct(SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
   rename_all(function(x)
     paste0("CHS_", x))
 # mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
 
 result.all.form <- result.all %>%
   rename_all(toupper) %>%
-  mutate(QLFR_SRC = 1) %>% 
+  mutate(QLFR_SRC = "A") %>% 
   rename(
     SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
     LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
@@ -374,6 +374,8 @@ result.all.form <- result.all %>%
   # ) %>%
   # mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
   # mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(VALIDATION_DATE = as.Date(VALIDATION_DATE, format = "%m/%d/%Y"),
+         VALIDATION_DATE = format((VALIDATION_DATE), "%m/%d/%Y")) %>% 
   mutate(FRACTION = case_when(
     FRACTION == "T" ~ "TOTAL",
     FRACTION == "D" ~ "DISSOLVED",
@@ -404,7 +406,7 @@ Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
 sample.all.FINAL <- sample.all.form %>% 
     select(CHS_SITE_HISTORY_ID, CHS_SAMPLE_DATE, CHS_SITE_ID_CORR_IND, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
            CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
-           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_WTR_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
+           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
            CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
 
 # RESULT table
@@ -412,8 +414,8 @@ result.all.FINAL <- result.all.form %>%
   select(CHEM_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, 
          CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
          CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_CHEMICAL_NAME, CHR_RESULT_VALUE, CHR_RESULT_UNIT, 
-         CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_INTERPRETED_QUAL, CHR_VALIDATED_IND, CHR_VALIDATOR_QUAL, 
-         CHR_VALIDATOR_QUAL_EXPLN, CHR_VALIDATION_DATE, CHR_METHOD_DETECT_LIMIT, 
+         CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_INTERPRETED_QUAL, CHR_VALIDATED_IND, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, 
+         CHR_VALIDATOR_QUAL_EXPLN, CHR_METHOD_DETECT_LIMIT, 
          CHR_REPORTING_DETECT_LIMIT, CHR_QUANTITATION_LIMIT, CHR_DETECTION_LIMIT_UNIT, CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, 
          CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC, CHR_QC_DUP_SPIKE_ADDED, CHR_QC_DUP_SPIKE_MEASURED, 
          CHR_QC_DUP_SPIKE_RECOVERY, CHR_QC_RPD, CHR_QC_SPIKE_LCL, CHR_QC_SPIKE_UCL, CHR_QC_RPD_CL, CHR_QC_SPIKE_STATUS, CHR_QC_DUP_SPIKE_STATUS, 
@@ -436,32 +438,39 @@ Modify data further as needed to meet ITS submission guidelines
 #          CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"),
 #          CHS_SAMPLE_RECEIPT_DATE_2 = format((CHS_SAMPLE_RECEIPT_DATE), "%m/%d/%Y"))
 
-# Not needed since data comes in the format that ITS (Cindy) is requesting. Retain above code for future reference when similar formatting is needed.
+# Not needed since data comes in the format that ITS (Cindy) is requesting. BUT Retain above code for future reference when similar formatting is needed. This was tricky...
 
 ```
 
-Replace all NAs as blanks (run this???)
+
+Test table joins
 ```{r}
+test.sample.result <- left_join(result.all, sample.all, by = c("sys_sample_code", "sample_delivery_group")) 
+# checks out okay
+rm(test.sample.result)
 
-sample.all.FINAL.noNA <- sample.all.FINAL %>%
-  replace(is.na(.), "")
-result.all.FINAL.noNA <- result.all.FINAL %>%
-  replace(is.na(.), "")
+test.result.pcode <- result.all %>% 
+  rename(CHEM_PARAMETER_PCODE = DEC_pcode_FINAL) %>% 
+  left_join(pcode.final, by = "CHEM_PARAMETER_PCODE") %>% 
+  select(CHEM_PARAMETER_PCODE, CHEM_PARAMETER_NAME, chemical_name, CHEM_PARAMETER_UNIT, result_unit, CHEM_PARAMETER_FRACTION, fraction) %>% 
+  unique()
+rm(test.result.pcode)
 
-result.all.FINAL.noNA <- result.all.FINAL %>%
-  replace_na(0)
-  
-batch.all.FINAL.noNA <- batch.all.FINAL %>%
-  replace(is.na(.), "")
+# Import Keleigh's qualifier tables
+
+
+
 
 ```
+
+
 
 Export 2018-2019 chem tables 
 ```{r}
 
-write.table(sample.all.FINAL.noNA, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE)
+write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
 write.table(result.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
-write.table(batch.all.FINAL.noNA, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE)
+write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
 
