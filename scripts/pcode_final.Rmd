@@ -1,0 +1,50 @@
+---
+title: "pcode_final"
+output: html_document
+---
+
+Load in libs, set project dirs
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+```
+
+
+Load in draft pcode table and format
+```{r}
+pcode.draft.input <- readxl::read_excel(file.path(root.dir, "parameters", "pcode_table_FINAL_CODES_2020-08-28.xlsx")) 
+
+pcode.final <- pcode.draft.input %>%   
+    rename(
+    PCODE = DEC_pcode_FINAL,
+    NAME = chemical_name,
+    UNIT = result_unit,
+    UNIT_NOSP = result_unit_no_sp_chars,
+    FRACTION = fraction,
+    SOURCE = RESULT_TYPE,
+    NOTES = Notes_final
+  ) %>% 
+  mutate(PCODE = sprintf("%03d", PCODE)) %>% 
+  mutate(SOURCE = toupper(SOURCE)) %>% 
+  mutate(FRACTION = case_when(
+    FRACTION == "T" ~ "TOTAL",
+    FRACTION == "D" ~ "DISSOLVED",
+    TRUE ~ FRACTION)) %>% 
+  rename_all(function(x)
+    paste0("CHEM_PARAMETER_", x)) %>% 
+  select(CHEM_PARAMETER_PCODE,
+         CHEM_PARAMETER_NAME,
+         CHEM_PARAMETER_UNIT,
+         CHEM_PARAMETER_UNIT_NOSP,
+         CHEM_PARAMETER_FRACTION,
+         CHEM_PARAMETER_SOURCE,
+         # CHEM_PARAMETER_GROUP,
+         CHEM_PARAMETER_NOTES
+         )
+
+write.table(pcode.final, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_PARAMETER.csv"),sep=",", row.names = FALSE,  na = "")
+
+
+```
