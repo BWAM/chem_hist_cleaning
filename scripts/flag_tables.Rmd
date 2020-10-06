@@ -1,0 +1,47 @@
+---
+title: "flag_tables"
+output: html_document
+date: 10/6/2020
+---
+
+Import existing flag tables (created by Keleigh for 8/28/20 submission)
+```{r}
+library(tidyverse)
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+qual.lab <- read_csv(file.path(root.dir, "flags", "S_CHEM_QUALIFIER_LAB_2020-08-28.csv"))
+qual.val <- read_csv(file.path(root.dir, "flags", "S_CHEM_QUALIFIER_VALIDATOR_2020-08-28.csv"))
+
+```
+
+10/6/20 - Convert flags to single-character formats
+```{r}
+qual.lab.v2 <- qual.lab %>% 
+ # Update qualifier sources to AE and GS to avoid confusion with validator flags. Add to notes field.
+  mutate(CQL_QLFR_SRC = str_replace(CQL_QLFR_SRC, "A", "AE")) %>% 
+  mutate(CQL_QLFR_SRC = str_replace(CQL_QLFR_SRC, "U", "GS")) %>% 
+  # Change KK and LL flag to F and G, respectively, to standardize to single chars.
+  mutate(CQL_LAB_INTERP_QUAL = str_replace(CQL_LAB_INTERP_QUAL, "KK", "F")) %>% 
+  mutate(CQL_LAB_INTERP_QUAL = str_replace(CQL_LAB_INTERP_QUAL, "LL", "G"))  %>% 
+  mutate(CQL_QLFR_NOTES = ifelse(CQL_LAB_INTERP_QUAL %in% "F" & CQL_QLFR_SRC %in% "AE", "Changed from 'KK' 10/6/20 to standardize to single-char.", CQL_QLFR_NOTES)) %>% 
+  mutate(CQL_QLFR_NOTES = ifelse(CQL_LAB_INTERP_QUAL %in% "G" & CQL_QLFR_SRC %in% "AE", "Changed from 'LL' 10/6/20 to standardize to single-char.", CQL_QLFR_NOTES)) %>% 
+  # Update notes field as needed.
+  mutate(CQL_QLFR_NOTES = str_replace(CQL_QLFR_NOTES, "2016 USGS Mohawk", "USGS")) %>% 
+  mutate(CQL_QLFR_NOTES = str_replace(CQL_QLFR_NOTES, "exists in both historic EQUIS data set and ALS results", "Exists in both historic EQUIS data set and ALS results.")) %>% 
+  arrange(CQL_QLFR_SRC, CQL_LAB_INTERP_QUAL)
+
+# Change NF flag to E to standardize to single chars.
+qual.val.v2 <- qual.val %>% 
+  mutate(CQV_VALIDATOR_QUAL = str_replace(CQV_VALIDATOR_QUAL, "NF", "E"))
+
+
+```
+
+Export
+```{r}
+write_csv(qual.lab.v2, file.path(root.dir, "flags", "S_CHEM_QUALIFIER_LAB_2020-10-06.csv"), na = "")
+write_csv(qual.val.v2, file.path(root.dir, "flags", "S_CHEM_QUALIFIER_VALIDATOR_2020-10-06.csv"), na = "")
+
+```
+

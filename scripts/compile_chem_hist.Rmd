@@ -90,6 +90,18 @@ write_csv(equis.join.bas7.simple, "equis.basin7.N-P-turb.simple.csv")
 
 ```
 
+Investigate flag field values and change as needed
+```{r}
+# Make table of unique flags and test methods of removing special characters
+labflags <- equis.result %>% 
+  select(lab_qualifiers, interpreted_qualifiers) %>% 
+  distinct()
+
+### CHANGE DOUBLE LETTER FLAGS TO SINGLE ##
+#casewhen... "KK" to "F" and "LL" to "G"
+# As in CHEM_QUALIFIER_LAB table
+
+```
 
 
 Remove field YSI data from equis data, and lab data from field table, and set aside for binding later

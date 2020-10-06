@@ -145,13 +145,15 @@ result.all.notflagged.n <- result.all.type %>%
          DEC_sample_type %in% "N",
          sample_source %in% "Field")
 
-# List output below as expected. EMIL and MOHWK sites had parameters that we don't flag, and the remaining are sites from projects with QAQC errors or insufficient QAQC samples were collected.
+# List output below as expected. EMIL, MOHK+UHUD-2.7 sites had parameters that we don't flag, and the remaining are sites from projects with QAQC errors or insufficient QAQC samples were collected.
 # > sort(unique(result.all.notflagged.n$SITE_ID))
 #  [1] "03-EMIL-5.1"       "10-CHUB-5.0"       "10-CHUB_T4-0.6"    "10-CHUB_T4-0.7"    "10-NMOW_T1-1.7"    "10-NMOW_T1-1.8"    "10-SABL_W-10.3"    "10-SABL_W-12.9"    "10-SABL_W-15.1"   
 # [10] "10-SABL_W-18.6"    "10-SABL_W-20.7"    "10-SABL_W_T13-0.1" "10-SABL_W_T13-0.2" "10-SABL_W_T14-0.2" "10-SABL_W_T14-0.3" "10-SABL_W_T26-0.1" "10-SABL_W_T26-0.2" "10-SABL_W_T27-0.1"
 # [19] "10-SABL_W_T27-0.2" "11-UHUD-2.7"       "12-LDUAN_T1-0.1"   "12-MOHK-1.5"       "12-MOHK-13.4"      "12-MOHK-17.3"      "12-MOHK-24.0"      "13-WQUAS-9.8"   
 
-# Mark validated_yn as "N" for all those above. Add NF flags and explanations to all those above except EMIL and MOHK sites.
+
+# Mark validated_yn as "N" for all those above then add NF flags and explanations to all those above except EMIL and MOHK+UHUD-2.7 sites.
+ 
 result.all.flagged2 <- result.all.type %>% 
   mutate(validated_yn = ifelse(
     is.na(validator_qualifiers) &
@@ -163,6 +165,7 @@ result.all.flagged2 <- result.all.type %>%
       DEC_sample_type %in% "N" &
       sample_source %in% "Field" &
       !grepl("*EMIL", SITE_ID) &
+      !grepl("*UHUD", SITE_ID) &    # Added 2020-10-05
       !grepl("*MOHK", SITE_ID), 
     "NF", validator_qualifiers)) %>% 
   mutate(VALIDATOR_QUAL_EXPLN = ifelse(validator_qualifiers %in% "NF", 
@@ -182,6 +185,29 @@ result.all.flagged2 <- result.all.flagged2 %>%
 
 rm(sample.all.type, result.all.type, result.all.type.check, result.all.notflagged.n, result.all.flagged2.naflags)
 
+
+```
+
+Fix inconsistent lab_qualifiers and interpreted_qualifiers fields (subcontracted data uses commas)
+```{r}
+# Make table of unique flags and test methods of removing special characters
+labflags <- result.all.flagged2 %>% 
+  select(lab_qualifiers, interpreted_qualifiers) %>% 
+  distinct()
+  
+labflags.edit <- labflags %>%
+  mutate(lab_qualifiers2 = str_replace_all(lab_qualifiers, "[^[:alnum:]]", "")) %>% 
+  mutate(interpreted_qualifiers2 = str_replace_all(interpreted_qualifiers, "[^[:alnum:]]", ""))
+
+result.all.flagged2 <- result.all.flagged2 %>% 
+  mutate(lab_qualifiers = str_replace_all(lab_qualifiers, "[^[:alnum:]]", "")) %>% 
+  mutate(interpreted_qualifiers = str_replace_all(interpreted_qualifiers, "[^[:alnum:]]", ""))
+  
+labflags.new <- result.all.flagged2 %>% 
+  select(lab_qualifiers, interpreted_qualifiers) %>% 
+  distinct()
+
+rm(labflags, labflags.edit, labflags.new)
 
 ```
 
@@ -322,7 +348,7 @@ Reformat field names and add blank fields
 sample.all.form <- sample.all %>%
   rename_all(toupper) %>%
   rename(
-    SITE_HISTORY_ID = SITE_ID,
+    EVENT_SMAS_HISTORY_ID = SITE_ID,
     DEC_SAMPLE_TYPE_CDE = DEC_SAMPLE_TYPE,
     SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
     SAMPLE_MATRIX_CDE = SAMPLE_MATRIX_CODE,
@@ -330,17 +356,18 @@ sample.all.form <- sample.all %>%
     PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
     SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
     SYS_LOC_CDE = SYS_LOC_CODE,
-    SAMPLE_DATETIME = SAMPLE_DATE
+    SAMPLE_DATETIME = SAMPLE_DATE,
+    SITE_ID_CORR = SITE_ID_CORR_IND
   ) %>%
   mutate(SAMPLE_DATETIME.posixct = as.POSIXct(SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
-  mutate(SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
+  mutate(EVENT_SMAS_SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
   rename_all(function(x)
     paste0("CHS_", x))
 # mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
 
 result.all.form <- result.all %>%
   rename_all(toupper) %>%
-  mutate(QLFR_SRC = "A") %>% 
+  mutate(QLFR_SRC = "AE") %>% 
   rename(
     SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
     LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
@@ -382,7 +409,8 @@ result.all.form <- result.all %>%
     TRUE ~ FRACTION)) %>% 
   rename_all(function(x)
     paste0("CHR_", x)) %>% 
-  rename(CHEM_PCODE = CHR_DEC_PCODE_FINAL)
+  rename(CHR_PCODE = CHR_DEC_PCODE_FINAL)
+    # fixed above from CHEM_PCODE on 9/11/20.
 
 batch.all.form <- batch.all %>%
   rename_all(toupper) %>%
@@ -404,14 +432,14 @@ Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
 
 # SAMPLE table
 sample.all.FINAL <- sample.all.form %>% 
-    select(CHS_SITE_HISTORY_ID, CHS_SAMPLE_DATE, CHS_SITE_ID_CORR_IND, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+    select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
            CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
            CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
            CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
 
 # RESULT table
 result.all.FINAL <- result.all.form %>% 
-  select(CHEM_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, 
+  select(CHR_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, 
          CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
          CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_CHEMICAL_NAME, CHR_RESULT_VALUE, CHR_RESULT_UNIT, 
          CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_INTERPRETED_QUAL, CHR_VALIDATED_IND, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, 
@@ -468,9 +496,9 @@ rm(test.result.pcode)
 Export 2018-2019 chem tables 
 ```{r}
 
-write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
-write.table(result.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
-write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
+write.table(result.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
+write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
 
@@ -492,6 +520,24 @@ result.2019.2019.flags <- result.all %>%
   select(lab_qualifiers, interpreted_qualifiers) %>% 
   distinct()
 
+# See when lab_qual and interp_qual differ
+result.all.flagdiff <- result.all %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(flagdiff, lab_qualifiers, interpreted_qualifiers, everything())
+
+result.equis.flagdiff <- equis.result %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(flagdiff, lab_qualifiers, interpreted_qualifiers, everything())
+
+result.2017.flagdiff <- RESULT.2017 %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(flagdiff, lab_qualifiers, interpreted_qualifiers, everything())
+
+result.2016.flagdiff <- result.2016 %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(flagdiff, lab_qualifiers, interpreted_qualifiers, everything())
+
+  
 flags.all <- bind_rows(equis.result.flags, result.2016.flags, result.2017.flags, result.2019.2019.flags) %>% 
   select(interpreted_qualifiers) %>% 
   distinct()
