@@ -188,6 +188,35 @@ rm(sample.all.type, result.all.type, result.all.type.check, result.all.notflagge
 
 ```
 
+Fix EB samples misidentified as FB in ALS data
+```{r}
+
+# Find sys_sample_codes that have FB but are not mercury results
+result.badFBs <- result.all.flagged2 %>% 
+  filter(grepl("*FB", sys_sample_code),
+         !grepl("mercury", chemical_name)
+  )
+
+badFB.SSCs <- result.badFBs %>% 
+  select(sys_sample_code) %>% 
+  distinct() %>% 
+  # Adde EB field to list of bad SSCs to join 
+  mutate(DEC_sample_type.corr = "EB")
+
+# Pull list of matching samples in SAMPLE table and check if all FBs
+sample.badFB.match <- sample.all %>% 
+  filter(sys_sample_code %in% badFB.SSCs$sys_sample_code)
+
+# Change DEC sample type codes for the list above from FB to EB
+sample.all <- sample.all %>% 
+  left_join(badFB.SSCs, by = "sys_sample_code") %>% 
+  mutate(DEC_sample_type = ifelse(DEC_sample_type.corr %in% "EB", "EB", DEC_sample_type)) %>% 
+  select(-DEC_sample_type.corr)
+
+rm(result.badFBs, badFB.SSCs, sample.badFB.match)
+
+```
+
 Fix inconsistent lab_qualifiers and interpreted_qualifiers fields (subcontracted data uses commas)
 ```{r}
 # Make table of unique flags and test methods of removing special characters
@@ -496,7 +525,7 @@ rm(test.result.pcode)
 Export 2018-2019 chem tables 
 ```{r}
 
-write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_SAMPLE_2020-10-07.csv"),sep=",", row.names = FALSE, na = "")
 write.table(result.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
 write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
 
