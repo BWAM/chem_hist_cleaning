@@ -1,0 +1,43 @@
+---
+title: "wave_tables"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(snakecase)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+data.mod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
+
+wave.samp <- read_csv(file.path(data.mod.dir, "Cleaned Files", "S_WAVE_tables", "S_WAVE_SAMPLE_EVENT_INFO.csv"))
+wave.assess <- read_csv(file.path(data.mod.dir, "Cleaned Files", "S_WAVE_tables", "S_WAVE_ASSESSEMENT.csv"))
+wave.macro <- read_csv(file.path(data.mod.dir, "Cleaned Files", "S_WAVE_tables", "S_WAVE_MACROINVERTEBRATE_FAMILY_DATA_HISTORY.csv"))
+
+```
+
+Rename fields
+```{r}
+
+wave.macro.new <- wave.macro %>% 
+  rename_all(funs(str_replace_all(., 'S_', ''))) %>% 
+  select(-WSEI_EVENT_SAMPLE_ID, -WMFDH_EVENT_SAMPLE_ID)
+
+wave.assess.new <- wave.assess %>% 
+  rename_all(funs(str_replace_all(., 'S_', ''))) %>% 
+  select(-WSEI_EVENT_SAMPLE_ID, -WA_EVENT_SAMPLE_ID)
+
+wave.samp.new <- wave.samp %>% 
+  rename_all(funs(str_replace_all(., 'S_', ''))) %>% 
+  select(-WSEI_EVENT_SAMPLE_ID)
+
+```
+
+Export tables
+```{r}
+write.xlsx(wave.macro.new, file.path(data.mod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020", "Final_WAVE_ITS", "20201009_S_WAVE_MACROINVERTEBRATE_FAMILY_DATA_HISTORY.xlsx"))
+write.xlsx(wave.assess.new, file.path(data.mod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020", "Final_WAVE_ITS", "20201009_S_WAVE_ASSESSEMENT.xlsx"))
+write.xlsx(wave.samp.new, file.path(data.mod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020", "Final_WAVE_ITS", "20201009_S_WAVE_SAMPLE_EVENT_INFO.xlsx"))
+
+```
+

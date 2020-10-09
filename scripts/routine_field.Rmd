@@ -1,0 +1,73 @@
+---
+title: "routine_field"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+routine.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Routine Network/field_data"
+data.mod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
+
+routine.field.2018 <- readxl::read_excel(file.path(routine.dir, "RIBS_FieldData_2018.xlsx"))
+                                         # col_types = c("Region" = "text"))
+  # mutate(Region = as.character(Region))
+                                         
+routine.field.2019 <- readxl::read_excel(file.path(routine.dir, "RIBS_FieldData_2019.xlsx")) 
+                                         # col_types = c("Dissolved Oxygen (mg/L)" = "text"))
+  # mutate("Dissolved Oxygen (mg/L)" = as.character("Dissolved Oxygen (mg/L)"))
+
+sites <- readxl::read_excel(file.path(data.mod.dir, "Cleaned Files", "SBU_Sites", "2020_05_01_S_Site.xlsx"))
+
+```
+
+2018-2019 cleaning
+```{r}
+routine.field <- bind_rows(routine.field.2018, routine.field.2019) %>% 
+  rename_all(~ make.names(.)) %>% 
+  rename_all(tolower)
+
+rm(routine.field.2018, routine.field.2019)
+
+# check against sites table 
+routine.field.sites <- routine.field %>% 
+  select(station.id) %>% 
+  rename(SITE_HISTORY_ID = station.id) %>% 
+  distinct() %>% 
+  left_join(sites, by = "SITE_HISTORY_ID")
+
+rm(routine.field.sites)
+
+routine.field.edit <- routine.field %>% 
+  select(-region, -location, -review.notes) %>% 
+  rename(EVENT_SMAS_HISTORY_ID = station.id,
+         EVENT_SMAS_SAMPLE_DATE = sampling.date,
+         SMAS_ARRIVETIME = sampling.time,
+         CREW = samplers,
+         EVENT_BASELINE = flow,  # parse this data out into EVENT_EXTENT or notes
+         CHEM_SAMP_LOC = sampled.from..bridge.waded.,
+         CHEM_SAMP_EQUP = equipment
+         
+         )  
+  # mutate(SMAS_ARRIVETIME = strftime(SMAS_ARRIVETIME, format="%H:%M:%S %p"))
+  # Need to convert time to 24 hr....
+
+# parse transects, dips, trips into notes.
+
+# Pull in-situ fields into another data frame for transforming
+insitu <- routine.field.edit %>% 
+  select(EVENT_SMAS_HISTORY_ID, EVENT_SMAS_SAMPLE_DATE, SMAS_ARRIVETIME, dissolved.oxygen..mg.l., dissolved.oxygen...., conductivity..umhos.cm., water.temperature...c., ph..su.)
+
+# addition fields such as...
+# SITE_TYPE_LNG_TRM_TRND (Y)
+# WATER_CHEM_COLLECT (Y)
+
+
+
+
+# Things not recorded in routine: DEPTH, ....
+
+
+```
+
