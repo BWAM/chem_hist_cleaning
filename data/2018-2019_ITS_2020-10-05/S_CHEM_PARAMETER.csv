@@ -165,3 +165,4 @@
 "167","POLYCHLORINATED BIPHENYLS (PCBS), TOTAL","pg/L","pg/L","TOTAL","LAB",
 "168","POLYCHLORINATED BIPHENYLS (PCBS), VARIOUS","pg/L","pg/L","TOTAL","LAB","Contains all non-total PCB results (concentration). Refer to CHR_CHEMICAL_NAME in CHEM_HISTORY_RESULT table for specific congener/arachlor."
 "169","POLYCHLORINATED BIPHENYLS (PCBS), VARIOUS (PERCENT)","%","percent","TOTAL","LAB","Contains all non-total PCB results (percent)."
+"170","SALINITY","ppt","ppt","NA","IN-SITU",

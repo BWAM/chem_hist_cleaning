@@ -14,7 +14,7 @@ root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 
 Load in draft pcode table and format
 ```{r}
-pcode.draft.input <- readxl::read_excel(file.path(root.dir, "parameters", "pcode_table_FINAL_CODES_2020-08-28.xlsx")) 
+pcode.draft.input <- readxl::read_excel(file.path(root.dir, "parameters", "pcode_table_FINAL_CODES_2020-10-13.xlsx")) 
 
 pcode.final <- pcode.draft.input %>%   
     rename(
@@ -44,7 +44,7 @@ pcode.final <- pcode.draft.input %>%
          CHEM_PARAMETER_NOTES
          )
 
-write.table(pcode.final, file = file.path(root.dir, "data", "2018-2019_ITS_2020-08-25", "S_CHEM_PARAMETER.csv"),sep=",", row.names = FALSE,  na = "")
+write.table(pcode.final, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_PARAMETER.csv"),sep=",", row.names = FALSE,  na = "")
 
 
 ```
