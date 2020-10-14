@@ -16,6 +16,14 @@ wave.macro <- read_csv(file.path(data.mod.dir, "Cleaned Files", "S_WAVE_tables",
 
 ```
 
+Generate list of unique fields
+```{r}
+un.wave.samp <- lapply(wave.samp, unique)
+un.wave.assess <- lapply(wave.assess, unique)
+un.wave.macro <- lapply(wave.macro, unique)
+```
+
+
 Rename fields
 ```{r}
 

@@ -221,8 +221,8 @@ Fix inconsistent lab_qualifiers and interpreted_qualifiers fields (subcontracted
 ```{r}
 # Make table of unique flags and test methods of removing special characters
 labflags <- result.all.flagged2 %>% 
-  select(lab_qualifiers, interpreted_qualifiers) %>% 
-  distinct()
+  select(lab_qualifiers, interpreted_qualifiers, sample_delivery_group) %>% 
+  distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
   
 labflags.edit <- labflags %>%
   mutate(lab_qualifiers2 = str_replace_all(lab_qualifiers, "[^[:alnum:]]", "")) %>% 
@@ -361,7 +361,7 @@ rm(batch.all.form.datecheck, batch.all.corr)
 ```
 
 Reformat field names and add blank fields
-```{r}
+```{r field names}
 
 ## Join project name to sample table for exporting for Charlie (to verify project table)
 # result.projnames <- result.all %>% 
@@ -471,7 +471,7 @@ result.all.FINAL <- result.all.form %>%
   select(CHR_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_FRACTION, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, 
          CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
          CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_CHEMICAL_NAME, CHR_RESULT_VALUE, CHR_RESULT_UNIT, 
-         CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_VALIDATED_IND, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, 
+         CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT_IND, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_VALIDATED_YN, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, 
          CHR_VALIDATOR_QUAL_EXPLN, CHR_METHOD_DETECT_LIMIT, 
          CHR_REPORTING_DETECT_LIMIT, CHR_QUANTITATION_LIMIT, CHR_DETECTION_LIMIT_UNIT, CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, 
          CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC, CHR_QC_DUP_SPIKE_ADDED, CHR_QC_DUP_SPIKE_MEASURED, 
@@ -574,4 +574,19 @@ flags.all <- bind_rows(equis.result.flags, result.2016.flags, result.2017.flags,
 write.table(flags.all, file = file.path(root.dir, "flags", "2001-2019_unique_qualifiers_2020-08-27.csv"),sep=",")
 ```
 
+Invesitigating unique values for determining which fields need coded tables
+```{r}
+unique.batch <- lapply(batch.all.FINAL, unique)
+unique.sample <- lapply(sample.all.FINAL, unique)
+unique.result <- lapply(result.all.FINAL, unique)
+
+unique.result.eq <- lapply(equis.result, unique)
+unique.sample.eq <- lapply(equis.sample, unique)
+
+unique.result.2016 <- lapply(result.2016, unique)
+unique.sample.2016 <- lapply(sample.2016, unique)
+unique.result.2017 <- lapply(RESULT.2017, unique)
+unique.sample.2017 <- lapply(SAMPLE.2017, unique)
+
+```
 
