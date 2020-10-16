@@ -1,0 +1,84 @@
+---
+title: "prehistoric_chem_cleaning"
+output: html_document
+---
+
+Load in libs, data to explore
+```{r}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+prehist.dir <- "C:/Data/RIBS/historic_pre-2002"
+storet.dir <- file.path(prehist.dir, "EPA_waterqualityportal_STORET-WQX_export_2019-11-13")
+storet.dir2 <- file.path(prehist.dir, "STORET_v2_export")
+
+
+
+# IMPORT RIBS.csv and recreate param join here (as in RIBS_pre2002_join_paramnames.R)
+
+
+
+
+# prehist.alene <- read_csv(file.path(prehist.dir, "RIBS.csv"))
+prehist.alene.params <- read.csv(file.path(prehist.dir, "RIBS_pre-2002_complete_2019-06-06.csv")) %>% 
+  mutate(year = format(as.Date(SAMPLE_DATE, format="%Y-%m-%d"),"%Y"))
+st.result <- read.csv(file.path(storet.dir, "result", "result.csv"))
+st.result2.alb <- read.table(file = file.path(storet.dir2, "New_York", "NY_Albany", "NY_Albany_res_001.txt"), sep = "\t")
+
+```
+
+Comparing STORET export to RIBS.csv for missing data
+```{r}
+# There appears to be no non-detects in Alene's RIBS.csv (RIBS_pre-2002_complete_2019-06-06.csv is RIBS.csv joined with STORET params)
+
+# Look at year spans in dataset
+st.result.yrs <- st.result %>% 
+  mutate(year = format(as.Date(ActivityStartDate, format="%Y-%m-%d"),"%Y")) %>% 
+  select(year)
+# > sort(unique(st.result.yrs$year))
+#  [1] "1980" "1988" "1989" "1990" "1991" "1992" "1993" "1994" "1995" "1996" "1997" "1998" "1999" "2000" "2001" "2002" "2003" "2004" "2005" "2006" "2007" "2008" "2009" "2010"
+# [25] "2011" "2012" "2013" "2014" "2015"
+
+ribscsv.yrs <- prehist.alene.params %>% 
+  mutate(year = format(as.Date(SAMPLE_DATE, format="%Y-%m-%d"),"%Y")) %>% 
+  select(year)
+# > sort(unique(ribscsv.yrs$year))
+#  [1] "1960" "1963" "1964" "1965" "1966" "1967" "1968" "1969" "1970" "1971" "1972" "1973" "1974" "1975" "1976" "1977" "1978" "1979" "1980" "1981" "1982" "1983" "1984" "1985"
+# [25] "1986" "1987" "1988" "1989" "1990" "1991" "1992" "1993" "1994" "1995" "1996" "1997" "1998" "1999" "2000" "2001" "2002" "2003" "2004" "2005" "2006" "2007" "2008" "2009"
+# [49] "2010" "2011" "2012" "2013" "2014" "2015"
+
+sort(unique(st.result$year))
+```
+
+Locations
+```{r}
+# See how many distinct locations exist in RIBS.csv
+
+ribs.loc <- prehist.alene.params %>% 
+  select(Station, Station.Name, Longitude, Latitude) %>% 
+  distinct()
+```
+
+Separating RIBS.csv to check data spans
+```{r}
+ribs.storet <- prehist.alene.params %>% 
+  filter(!is.na(STORET_Parameter))
+sort(unique(ribs.storet$year))
+#  [1] "1960" "1963" "1964" "1965" "1966" "1967" "1968" "1969" "1970" "1971" "1972" "1973" "1974" "1975" "1976" "1977" "1978" "1979" "1980" "1981" "1982" "1983" "1984"
+# [24] "1985" "1986" "1987" "1988" "1989" "1990" "1991" "1992" "1993" "1994" "1995" "1996" "1997" "1998"
+
+  subset(RIBS_input, (!is.na(RIBS_input$STORET_Parameter)))
+ribs.equis <- subset(RIBS_input, (!is.na(RIBS_input$EQUIS_Parameter)))
+ribs.bill <- subset(RIBS_input, (!is.na(RIBS_input$BILL_Parameter)))
+```
+
+Investigating flags
+```{r}
+# See if non-detects exist...
+
+
+
+
+
+```
+
