@@ -240,6 +240,44 @@ rm(labflags, labflags.edit, labflags.new)
 
 ```
 
+Investigate T/D reporting issues in Routine
+```{r}
+#Fix SSCs with "Diss" and misidentified fractions
+# Only exist for Routine R7 2018 April samples
+result.all.flagged2_test <- result.all.flagged2 %>% 
+  mutate(fraction = ifelse(grepl("*Diss", sys_sample_code), "D", fraction))
+
+#Load in routine sites list
+
+routine.sites <- readxl::read_excel("C:\\Users\\gmlemley\\New York State Office of Information Technology Services\\SMAS - Routine Network\\contacts_sites\\RIBS_ROUTINE_SITES_REGION_INFO_2020-09-14.xlsx") %>% 
+  select("SBU ID")
+
+# Join result and sample, filter to routine only 
+samp.res.routine <- left_join(sample.all, result.all.flagged2, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  filter(SITE_ID %in% routine.sites$`SBU ID`,
+         sample_source %in% "Field",
+         DEC_sample_type %in% c("N", "N_DUPPARENT")) %>% 
+  mutate(year = substr(sample_date, 7, 10),
+         month = substr(sample_date, 0, 2)) %>% 
+  select(SITE_ID, fraction, month, year, sys_sample_code, sample_delivery_group, sample_date, chemical_name)
+
+samp.res.routine.bad <- samp.res.routine %>% 
+  filter(sample_delivery_group %in% c("R1803378", "R1807696", "R1905509", "R1910407", "R1910662"),
+         chemical_name %in% c("aluminum", "cadmium", "copper", "lead", "nickel", "zinc")) 
+
+samp.res.routine.dissmetals <- samp.res.routine %>% 
+  filter(chemical_name %in% c("aluminum", "cadmium", "copper", "lead", "nickel", "zinc")) %>% 
+  select(-chemical_name) %>% 
+  distinct()
+  
+samp.res.routine.2018 <- samp.res.routine.dissmetals %>% 
+  filter(year %in% "2018")
+samp.res.routine.2019 <- samp.res.routine.dissmetals %>% 
+  filter(year %in% "2019")
+
+```
+
+
 Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
 ```{r}
 

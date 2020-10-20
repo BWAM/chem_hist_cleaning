@@ -51,10 +51,13 @@ write.table(pcode.final, file = file.path(root.dir, "data", "2018-2019_ITS_2020-
 
 Trim down historic pcode join table to current params only for joining pcodes to incoming data. 
 ```{r}
-# Lakes new pcode join: chem_hist_cleaning\parameters\L_PCODE_join_clean_Alene_2020-10-20.csv
+# Lakes new pcode join from Alene: chem_hist_cleaning\parameters\L_PCODE (2).csv
 #    Trimmed down from 8-24 version, used all historic data (which was cleaned)
 
-
+# Import 8-24 version and trim down to unique chemical_names/fractions/result_units in CLEANED 2018-2019 data 
+#    Bind to L_PCODE above, format consistently, and take unique of the 3 fields.
+#    Inlude all PCBs so general pcode can be applied.
+#    Make sure selenium was removed...
 
 ```
 
