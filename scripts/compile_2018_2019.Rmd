@@ -241,7 +241,7 @@ rm(labflags, labflags.edit, labflags.new)
 ```
 
 Investigate T/D reporting issues in Routine
-```{r}
+```{r eval = FALSE}
 #Fix SSCs with "Diss" and misidentified fractions
 # Only exist for Routine R7 2018 April samples
 result.all.flagged2_test <- result.all.flagged2 %>% 
@@ -282,10 +282,11 @@ Join pcodes field using "pcode join table" (based on chemical_name, fraction, an
 ```{r}
 
 # Import pcodes 
-pcode_path <- file.path("C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization/to_be_cleaned/chem_parameters")
-pcode.join <- readxl::read_excel(file.path(pcode_path, "pcode_join_table_CLEAN_2020-06-25.xlsx")) %>% 
+# pcode_path <- file.path("C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization/to_be_cleaned/chem_parameters")
+# pcode.join <- readxl::read_excel(file.path(pcode_path, "pcode_join_table_CLEAN_2020-06-25.xlsx")) %>% 
+pcode.join <- read_csv(file.path(root.dir, "parameters", "dec_pcode_join_2020-08-24.csv")) %>%
   select(RESULT_TYPE, everything()) %>% 
-  select(-"Has duplicate", -"Notes") %>% 
+  # select(-"Has duplicate", -"Notes") %>% 
   mutate(chemical_name = tolower(chemical_name)) %>% 
   mutate(result_unit = tolower(result_unit)) %>% 
   mutate(DEC_pcode_FINAL = formatC(DEC_pcode_FINAL, width = 3, format = "d", flag = "0")) %>% 
@@ -398,7 +399,7 @@ rm(batch.all.form.datecheck, batch.all.corr)
 
 ```
 
-Reformat field names and add blank fields
+Reformat field names
 ```{r field names}
 
 ## Join project name to sample table for exporting for Charlie (to verify project table)
@@ -424,7 +425,7 @@ sample.all.form <- sample.all %>%
     SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
     SYS_LOC_CDE = SYS_LOC_CODE,
     SAMPLE_DATETIME = SAMPLE_DATE,
-    SITE_ID_CORR = SITE_ID_CORR_IND
+    SITE_ID_CORR_YN = SITE_ID_CORR_IND
   ) %>%
   mutate(SAMPLE_DATETIME.posixct = as.POSIXct(SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
   mutate(EVENT_SMAS_SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
@@ -447,7 +448,7 @@ result.all.form <- result.all %>%
     LAB_QUAL = LAB_QUALIFIERS,
     VALIDATOR_QUAL = VALIDATOR_QUALIFIERS,
     INTERPRETED_QUAL = INTERPRETED_QUALIFIERS,
-    VALIDATED_IND = VALIDATED_YN,
+    # VALIDATED_IND = VALIDATED_YN,
     METHOD_DETECT_LIMIT = METHOD_DETECTION_LIMIT,
     REPORTING_DETECT_LIMIT = REPORTING_DETECTION_LIMIT,
     QC_ORIG_CONC = QC_ORIGINAL_CONC,
@@ -499,7 +500,7 @@ Select final headers as per ITS data model (copied from compile_2017-2019.Rmd)
 
 # SAMPLE table
 sample.all.FINAL <- sample.all.form %>% 
-    select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+    select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR_YN, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
            CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
            CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
            CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
@@ -522,6 +523,25 @@ batch.all.FINAL <- batch.all.form %>%
            CHB_FRACTION, CHB_TEST_TYPE, CHB_TEST_BATCH_TYPE, CHB_TEST_BATCH_ID)
 
 ```
+
+Convet NAs to text for not_null fields (for coded tables)
+```{r}
+result.all.FINAL <- result.all.FINAL %>% 
+  mutate(CHR_LAB_QUAL = ifelse(is.na(CHR_LAB_QUAL), 0, CHR_LAB_QUAL),
+         CHR_VALIDATOR_QUAL = ifelse(is.na(CHR_VALIDATOR_QUAL), 0, CHR_VALIDATOR_QUAL))
+```
+
+
+Generate list of unique values for review
+```{r}
+
+batch.unique <- lapply(batch.all.FINAL, unique)
+sample.unique <- lapply(sample.all.FINAL, unique)
+result.unique <- lapply(result.all.FINAL, unique)
+result.unique.nn <- lapply(result.all.FINAL.nn, unique)
+
+```
+
 
 Modify data further as needed to meet ITS submission guidelines
 ```{r}
@@ -562,9 +582,9 @@ rm(test.result.pcode)
 
 Export 2018-2019 chem tables 
 ```{r}
-
-write.table(sample.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_SAMPLE_2020-10-07.csv"),sep=",", row.names = FALSE, na = "")
-write.table(result.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
+path <- "C:\\Users\\gmlemley\\New York State Office of Information Technology Services\\SMAS - Streams Data Modernization\\Cleaned Files\\FINAL_RELOADS_SEPT2020\\Final_Chemistry_ITS"
+write.table(sample.all.FINAL, file = file.path(path, "20201023_S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
+write.table(result.all.FINAL, file = file.path(path, "20201023_S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
 write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
