@@ -11,21 +11,36 @@ library(tidyverse)
 
 root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 
-# result.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_result.csv"), stringsAsFactors = FALSE) %>%
-#   rename_all(tolower)
-# sample.2016 <- read.csv(file.path(root.dir, "data/2016_ribs_sample.csv"), stringsAsFactors = FALSE) %>%
-#   rename_all(tolower)
+datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
+tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chem_2001_to_2017")
+cleaned.dir <- file.path(datamod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020")
 
-equis.result <- read_csv(file.path(root.dir, "data/equis_results_history.csv")) %>% 
+result.equis <- read_csv(file.path(tobecleaned.dir,  "equis_results_history.csv")) %>% 
   rename_all(tolower) %>%
   rename(sample_delivery_group = lab_sdg)
-equis.sample <- read_csv(file.path(root.dir, "data/equis_sample_history.csv")) %>% 
+sample.equis <- read_csv(file.path(tobecleaned.dir, "equis_sample_history.csv")) %>% 
   rename_all(tolower) %>% 
   group_by(sys_sample_code) %>% 
   mutate(n = n()) %>% 
   arrange(n)
 
-sites <- readxl::read_excel(file.path(root.dir, "sites/2020_04_21_S_Site_2020-04-29.xlsx"))
+result.2016 <- read.csv(file.path(tobecleaned.dir, "2016_ribs_result_20201106.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+sample.2016 <- read.csv(file.path(tobecleaned.dir, "2016_ribs_sample_20201106.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+
+result.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_RESULT_complete_2020-11-06.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+sample.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_SAMPLE_complete_2020-11-06.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+
+result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower)
+
+sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
+sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201030_S_SITE.xlsx"))
 
 
 ```
