@@ -172,7 +172,7 @@ chem.2001to2019.cl.charlie <- chem.2001to2019.filter %>%
 
 chem.2001to2019.cl.unique <- lapply(chem.2001to2019.cl.charlie, unique)
 
-write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
+write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "", "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
 
