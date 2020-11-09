@@ -8,6 +8,7 @@ output: html_document
 Load libraries and input files
 ```{r}
 library(tidyverse)
+library(lubridate)
 
 root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 
@@ -15,35 +16,169 @@ datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technolog
 tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chem_2001_to_2017")
 cleaned.dir <- file.path(datamod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020")
 
-result.equis <- read_csv(file.path(tobecleaned.dir,  "equis_results_history.csv")) %>% 
+result.equis <- read.csv(file.path(tobecleaned.dir,  "equis_results_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>%
-  rename(sample_delivery_group = lab_sdg)
-sample.equis <- read_csv(file.path(tobecleaned.dir, "equis_sample_history.csv")) %>% 
+  rename(sample_delivery_group = lab_sdg,
+         result_value = result_numeric) 
+sample.equis <- read.csv(file.path(tobecleaned.dir, "equis_sample_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>% 
-  group_by(sys_sample_code) %>% 
-  mutate(n = n()) %>% 
-  arrange(n)
+  rename(old_ribs_id = sys_loc_code) %>% 
+  mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %I:%M:%S %p", "%m/%d/%Y"))) 
+        # Uncomment and check:
+         # sample_receipt_date = as.POSIXct(sample_receipt_date, format = "%m/%d/%Y %I:%M:%S %p"))
+# select(sample_date, sample_date_test,everything())
+  #Looking at repeat SSCs:
+  # group_by(sys_sample_code) %>% 
+  # mutate(n = n()) %>% 
+  # arrange(n)
 
 result.2016 <- read.csv(file.path(tobecleaned.dir, "2016_ribs_result_20201106.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
-sample.2016 <- read.csv(file.path(tobecleaned.dir, "2016_ribs_sample_20201106.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
+  rename_all(tolower) %>% 
+  rename(sample_delivery_group = lab_sdg)
+sample.2016 <- read.csv(file.path(tobecleaned.dir, "2016_ribs_sample_20201106.csv"), stringsAsFactors = FALSE,
+                        colClasses = c(SiteID="character")) %>%
+  rename_all(tolower) %>% 
+  rename(old_ribs_id = siteid) %>% 
+  mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %H:%M:%S", "%Y/%m/%d %H:%M:%S"))) 
 
 result.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_RESULT_complete_2020-11-06.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
-sample.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_SAMPLE_complete_2020-11-06.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
+  rename_all(tolower) %>% 
+  rename(sample_delivery_group = lab_sdg)
+sample.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_SAMPLE_complete_2020-11-09.csv"), stringsAsFactors = FALSE) %>%
+  rename_all(tolower) %>% 
+  mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %H:%M:%S", "%m/%d/%y %H:%M", "%Y/%m/%d %H:%M:%S")))
 
 result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
+  rename_all(tolower) %>% 
+  setNames(., sub("chr_", "", names(.))) 
 sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>%
-  rename_all(tolower)
+  rename_all(tolower) %>% 
+  setNames(., sub("chs_", "", names(.))) %>% 
+  select(-event_smas_sample_date) %>% 
+  rename(site_id = event_smas_history_id,
+         sample_date = sample_datetime) %>% 
+  mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M:%S"))
 
 sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
 sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201030_S_SITE.xlsx"))
 
+```
+
+Join modern site IDs to 2016 and EQuiS data
+```{r}
+sites.join.sub <- sites.join %>% 
+  select(ADJUST_RIBS_ID, SBU_ID) %>% 
+  rename(site_id = SBU_ID,
+         old_ribs_id = ADJUST_RIBS_ID) %>% 
+  distinct()
+  # Looking at single set of duplicates:
+  # group_by(ADJUST_RIBS_ID, SBU_ID) %>% 
+  # filter(n()>1)
+
+sample.equis.sites <- sample.equis %>% 
+  left_join(sites.join.sub, by = "old_ribs_id") %>% 
+  select(site_id, -old_ribs_id, everything())
+# sample.equis.sites.na <- sample.equis.sites %>% 
+#   filter(is.na(site_id))
+
+
+
+### Look for records that didn't get a sys_loc_code. Some instances of RIBS station 06032102? 	OTER-10.8 (03012310)?
+
+
+
+
+
+sample.2016.sites <- sample.2016 %>% 
+  left_join(sites.join.sub, by = "old_ribs_id") %>% 
+  select(site_id, -old_ribs_id, everything())
+# sample.2016.sites.na <- sample.2016.sites %>%
+#   filter(is.na(site_id))
+```
+
+## Temporary data reqest block ##
+Joining fields for fulfilling data requests in the meantime  
+```{r}
+dr.equis.join <- sample.equis.sites %>% 
+  left_join(result.equis, by = "sys_sample_code") %>% 
+  select(site_id, sample_date, sys_sample_code, sample_matrix_code, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
+  rename(validator_qualifiers_equis = validator_qualifiers,
+         sample_type_code_combined = sample_type_code)
+
+dr.2016.join <- sample.2016.sites %>% 
+  left_join(result.2016, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  select(site_id, sample_date, sys_sample_code, sample_matrix_code, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
+  rename(sample_type_code_combined = sample_type_code)
+  
+dr.2017.join <- sample.2017 %>% 
+  left_join(result.2017, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  select(site_id, sample_date, sys_sample_code, sample_matrix_code, dec_sample_type, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
+  rename(lab_sample_type_cde = sample_type_code,
+         dec_sample_type_cde = dec_sample_type)
+
+# Rename new data fields to match old (since there are more of the latter) 
+sample.2018.2019.rn <- sample.2018.2019 %>% 
+  rename(sys_sample_code = sys_sample_cde,
+         sample_matrix_code = sample_matrix_cde)
+result.2018.2019.rn <- result.2018.2019 %>% 
+  rename(sys_sample_code = sys_sample_cde,
+         lab_qualifiers = lab_qual,
+         validator_qualifiers = validator_qual,
+         method_detection_limit = method_detect_limit,
+         reporting_detection_limit = reporting_detect_limit)
+dr.2018.2019.join <- sample.2018.2019.rn %>% 
+  left_join(result.2018.2019.rn, by = c("sys_sample_code", "sample_del_grp")) %>% 
+  select(site_id, sample_date, sys_sample_code, sample_matrix_code, dec_sample_type_cde, lab_sample_type_cde, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit)
+
+chem.2001to2019 <- bind_rows(dr.equis.join, dr.2016.join, dr.2017.join, dr.2018.2019.join) %>% 
+  select(site_id, sample_date, sys_sample_code, sample_source, sample_matrix_code, dec_sample_type_cde, lab_sample_type_cde, sample_type_code_combined,
+         chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, everything()) %>% 
+  mutate(sample_source = tolower(sample_source),
+         chemical_name = tolower(chemical_name))
+
+
 
 ```
+
+
+#### LOOK INTO MISSING RESULTS DATA IN JOIN ABOVE ###
+
+
+Subsetting clean chloride data for Charlie, 2020-11-09
+```{r}
+chem.2001to2019.filter <- chem.2001to2019 %>% 
+# Filter out unjoined, lab WQ, and field obvservation records
+  filter(!is.na(chemical_name),
+         !(sample_matrix_code %in% "WQ"),
+         !(sample_source %in% "lab"),
+         (sample_type_code_combined %in% c("N", "FB", "DUP", "EB", "FD", NA)))
+
+chem.2001to2019.lab <- chem.2001to2019.filter %>% 
+  filter(sample_source == "lab")
+# > unique(chem.2001to2019.lab$sample_type_code_combined)
+# [1] "SD" "MS" "LR"
+# Should these above have the WQ maxtrix code?
+
+# Look at unique records
+chem.2001to2019.unique <- lapply(chem.2001to2019.filter, unique)
+
+# Filter out clean, non-QC data for Charlie
+chem.2001to2019.cl.charlie <- chem.2001to2019.filter %>% 
+  # filter(grepl("*chloride", chemical_name))
+  filter(chemical_name %in% "chloride (as cl)") %>% 
+  filter(!is.na(site_id),
+         !(dec_sample_type_cde %in% c("DUP", "EB")),
+         !(sample_type_code_combined %in% c("FB", "DUP", "EB")))
+
+chem.2001to2019.cl.unique <- lapply(chem.2001to2019.cl.charlie, unique)
+
+write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
+
+```
+
+
+
+### Old code chunks below ###
 
 Join with sites table to add modern site IDs
 ```{r}
@@ -87,12 +222,12 @@ Join sample and result tables and check for issues
 ```{r}
 # SDG not populated for all records. Must use only sys_sample_code.
 
-equis.join <- left_join(equis.sample.siteids, equis.result, by = "sys_sample_code")
+equis.join <- left_join(sample.equis.sites, result.equis, by = "sys_sample_code")
 # 110 extra records created
 
 # See if there are records in each table that don't have matches in the other
-equis.sample.nomatch <- anti_join(equis.sample, equis.result, by = "sys_sample_code")
-equis.result.nomatch <- anti_join(equis.result, equis.sample, by = "sys_sample_code")
+sample.equis.nomatch <- anti_join(sample.equis, result.equis, by = "sys_sample_code")
+result.equis.nomatch <- anti_join(result.equis, sample.equis, by = "sys_sample_code")
 
 # Export data in-progress for subsetting for finger lakes basin percentiles for Brian's presentation; 6/12/2020
 equis.join.bas7.simple <- equis.join %>% 
