@@ -20,6 +20,7 @@ result.equis <- read.csv(file.path(tobecleaned.dir,  "equis_results_history.csv"
   rename_all(tolower) %>%
   rename(sample_delivery_group = lab_sdg,
          result_value = result_numeric) 
+
 sample.equis <- read.csv(file.path(tobecleaned.dir, "equis_sample_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>% 
   rename(old_ribs_id = sys_loc_code) %>% 
@@ -141,7 +142,7 @@ chem.2001to2019 <- bind_rows(dr.equis.join, dr.2016.join, dr.2017.join, dr.2018.
 ```
 
 
-#### LOOK INTO MISSING RESULTS DATA IN JOIN ABOVE ###
+#### LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT) IN JOIN ABOVE ###
 
 
 Subsetting clean chloride data for Charlie, 2020-11-09
@@ -174,6 +175,15 @@ chem.2001to2019.cl.unique <- lapply(chem.2001to2019.cl.charlie, unique)
 
 write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "", "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
 
+```
+
+Look into EQuIS flags
+```{r}
+# Looking at flag fields
+result.equis.test <- result.equis %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) 
+  # distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
 ```
 
 

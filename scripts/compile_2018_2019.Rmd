@@ -167,8 +167,8 @@ result.all.flagged2 <- result.all.type %>%
       !grepl("*EMIL", SITE_ID) &
       !grepl("*UHUD", SITE_ID) &    # Added 2020-10-05
       !grepl("*MOHK", SITE_ID), 
-    "NF", validator_qualifiers)) %>% 
-  mutate(VALIDATOR_QUAL_EXPLN = ifelse(validator_qualifiers %in% "NF", 
+    "E", validator_qualifiers)) %>% 
+  mutate(VALIDATOR_QUAL_EXPLN = ifelse(validator_qualifiers %in% "E", 
     "Not flagged due to QAQC error or insufficient QAQC sampling", VALIDATOR_QUAL_EXPLN)) 
 
 # Veryify that only remaining field "N" samples without flags are those params we don't flag (PCBs and 5 DBP surrogate params)
@@ -524,7 +524,7 @@ batch.all.FINAL <- batch.all.form %>%
 
 ```
 
-Convet NAs to text for not_null fields (for coded tables)
+Convert NAs to text for not_null fields (for coded tables)
 ```{r}
 result.all.FINAL <- result.all.FINAL %>% 
   mutate(CHR_LAB_QUAL = ifelse(is.na(CHR_LAB_QUAL), 0, CHR_LAB_QUAL),
@@ -533,12 +533,12 @@ result.all.FINAL <- result.all.FINAL %>%
 
 
 Generate list of unique values for review
-```{r}
+```{r eval = FALSE}
 
 batch.unique <- lapply(batch.all.FINAL, unique)
 sample.unique <- lapply(sample.all.FINAL, unique)
 result.unique <- lapply(result.all.FINAL, unique)
-result.unique.nn <- lapply(result.all.FINAL.nn, unique)
+# result.unique.nn <- lapply(result.all.FINAL.nn, unique)
 
 ```
 
@@ -559,7 +559,7 @@ Modify data further as needed to meet ITS submission guidelines
 
 
 Test table joins
-```{r}
+```{r eval = FALSE}
 test.sample.result <- left_join(result.all, sample.all, by = c("sys_sample_code", "sample_delivery_group")) 
 # checks out okay
 rm(test.sample.result)
@@ -584,7 +584,7 @@ Export 2018-2019 chem tables
 ```{r}
 path <- "C:\\Users\\gmlemley\\New York State Office of Information Technology Services\\SMAS - Streams Data Modernization\\Cleaned Files\\FINAL_RELOADS_SEPT2020\\Final_Chemistry_ITS"
 write.table(sample.all.FINAL, file = file.path(path, "20201023_S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
-write.table(result.all.FINAL, file = file.path(path, "20201023_S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
+write.table(result.all.FINAL, file = file.path(path, "20201120_S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
 write.table(batch.all.FINAL, file = file.path(root.dir, "data", "2018-2019_ITS_2020-10-05", "S_CHEM_HISTORY_BATCH.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
