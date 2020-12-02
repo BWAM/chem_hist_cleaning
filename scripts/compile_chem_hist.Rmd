@@ -49,7 +49,7 @@ sample.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_SAMPLE_com
   rename_all(tolower) %>% 
   mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %H:%M:%S", "%m/%d/%y %H:%M", "%Y/%m/%d %H:%M:%S")))
 
-result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
+result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201120_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
   rename_all(tolower) %>% 
   setNames(., sub("chr_", "", names(.))) 
 sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>%
@@ -61,7 +61,7 @@ sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "2020
   mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M:%S"))
 
 sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
-sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201030_S_SITE.xlsx"))
+sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
 
 ```
 
@@ -144,6 +144,27 @@ chem.2001to2019 <- bind_rows(dr.equis.join, dr.2016.join, dr.2017.join, dr.2018.
 
 #### LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT) IN JOIN ABOVE ###
 
+Subsetting for Tin Brook request
+```{r}
+chem.2001to2019.tinbrook <- chem.2001to2019 %>% 
+  filter(grepl("*TINW", site_id)) %>% 
+  mutate(year = substr(sample_date, 0, 4)) %>% 
+  filter(year %in% c("2018", "2019")) %>% 
+  filter(dec_sample_type_cde %in% "N",
+         sample_source %in% "field",
+         !(validator_qualifiers %in% "R")) %>% 
+  # Omit two records that should have been rejected as a result of RPD equation error
+  filter(!(sys_sample_code %in% "13-TINW-0.5-08152018-W" & chemical_name %in% "zinc")) %>% 
+  filter(!(sys_sample_code %in% "13-TINW-0.5-10022018-W" & chemical_name %in% "nitrogen, ammonia (as n)")) %>% 
+  select(-c(sample_type_code_combined, interpreted_qualifiers, validator_qualifiers_equis, year))
+
+# write.table(chem.2001to2019.tinbrook, 
+#             file = file.path("C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Data requests/Single_Data_Requests",
+#                                                        "TinBrook_chem_simple_20201201.csv"),
+#             sep=",", row.names = FALSE, na = "")
+
+```
+
 
 Subsetting clean chloride data for Charlie, 2020-11-09
 ```{r}
@@ -173,7 +194,7 @@ chem.2001to2019.cl.charlie <- chem.2001to2019.filter %>%
 
 chem.2001to2019.cl.unique <- lapply(chem.2001to2019.cl.charlie, unique)
 
-write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "", "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
+# write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "", "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
 
@@ -188,7 +209,10 @@ result.equis.test <- result.equis %>%
 
 
 
+
+
 ### Old code chunks below ###
+
 
 Join with sites table to add modern site IDs
 ```{r}
