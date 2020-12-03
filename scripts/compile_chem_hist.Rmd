@@ -5,17 +5,20 @@ date: "December 18, 2019"
 output: html_document
 ---
 
-Load libraries and input files
+Load libraries and source directories
 ```{r}
 library(tidyverse)
 library(lubridate)
 
 root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
-
 datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
 tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chem_2001_to_2017")
 cleaned.dir <- file.path(datamod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020")
 
+```
+
+Load source data and format
+```{r}
 result.equis <- read.csv(file.path(tobecleaned.dir,  "equis_results_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>%
   rename(sample_delivery_group = lab_sdg,
@@ -67,14 +70,17 @@ sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20
 
 Join modern site IDs to 2016 and EQuiS data
 ```{r}
+
+# Select only required fields and unique entries 
 sites.join.sub <- sites.join %>% 
   select(ADJUST_RIBS_ID, SBU_ID) %>% 
   rename(site_id = SBU_ID,
-         old_ribs_id = ADJUST_RIBS_ID) %>% 
-  distinct()
+         old_ribs_id = ADJUST_RIBS_ID) %>%
+  distinct() 
   # Looking at single set of duplicates:
-  # group_by(ADJUST_RIBS_ID, SBU_ID) %>% 
-  # filter(n()>1)
+#   group_by(ADJUST_RIBS_ID, SBU_ID) %>%
+#   filter(n()>1)
+        #found that one set of dups was simplified to a single SBU ID exists
 
 sample.equis.sites <- sample.equis %>% 
   left_join(sites.join.sub, by = "old_ribs_id") %>% 
@@ -97,8 +103,7 @@ sample.2016.sites <- sample.2016 %>%
 #   filter(is.na(site_id))
 ```
 
-## Temporary data reqest block ##
-Joining fields for fulfilling data requests in the meantime  
+## Temporary block - Join and export data for fulfilling data requests in the meantime until data is fully cleaned ## 
 ```{r}
 dr.equis.join <- sample.equis.sites %>% 
   left_join(result.equis, by = "sys_sample_code") %>% 
@@ -137,7 +142,8 @@ chem.2001to2019 <- bind_rows(dr.equis.join, dr.2016.join, dr.2017.join, dr.2018.
   mutate(sample_source = tolower(sample_source),
          chemical_name = tolower(chemical_name))
 
-
+# write.table(chem.2001to2019, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv", 
+#             sep=",", row.names = FALSE, na = "")
 
 ```
 
