@@ -103,7 +103,9 @@ sample.2016.sites <- sample.2016 %>%
 #   filter(is.na(site_id))
 ```
 
-## Temporary block - Join and export data for fulfilling data requests in the meantime until data is fully cleaned ## 
+
+## Provisional block: Exporting table for fulfulling data requests in the meantime until data is fully cleaned ## 
+## Select useful fields, join, remove QC samples, and export data 
 ```{r}
 dr.equis.join <- sample.equis.sites %>% 
   left_join(result.equis, by = "sys_sample_code") %>% 
@@ -134,23 +136,45 @@ result.2018.2019.rn <- result.2018.2019 %>%
          reporting_detection_limit = reporting_detect_limit)
 dr.2018.2019.join <- sample.2018.2019.rn %>% 
   left_join(result.2018.2019.rn, by = c("sys_sample_code", "sample_del_grp")) %>% 
-  select(site_id, sample_date, sys_sample_code, sample_matrix_code, dec_sample_type_cde, lab_sample_type_cde, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit)
+  select(site_id, sample_date, sys_sample_code, sample_matrix_code, dec_sample_type_cde, lab_sample_type_cde, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, validator_qualifiers, validator_qual_expln, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit)
 
+# Join all data years
 chem.2001to2019 <- bind_rows(dr.equis.join, dr.2016.join, dr.2017.join, dr.2018.2019.join) %>% 
   select(site_id, sample_date, sys_sample_code, sample_source, sample_matrix_code, dec_sample_type_cde, lab_sample_type_cde, sample_type_code_combined,
-         chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, everything()) %>% 
+         chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, validator_qual_expln, everything()) %>% 
   mutate(sample_source = tolower(sample_source),
-         chemical_name = tolower(chemical_name))
+         chemical_name = tolower(chemical_name)) %>% 
+  # Fix fraction naming
+    mutate(fraction = case_when(
+    fraction == "T" ~ "TOTAL",
+    fraction == "D" ~ "DISSOLVED",
+    TRUE ~ fraction)) 
 
-# write.table(chem.2001to2019, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv", 
-#             sep=",", row.names = FALSE, na = "")
+# Filter to remove QC samples and just retain normal samples.
+# First look at what needs to be removed
+chem.2001to2019.unique <- lapply(chem.2001to2019, unique)
+chem.2001to2019.noqc <- chem.2001to2019 %>% 
+  filter(!(sample_matrix_code %in% "WQ"),
+         !(sample_source %in% "lab"),
+         !(dec_sample_type_cde %in% c("DUP", "EB", "FB", "TB")),
+         !(sample_type_code_combined %in% c("FIELD MSR/OBS", "FB", "DUP", "MS", "MSD", "TB", "MB", "EB", "FD", "LCS", "LCSD", "LR")))
+
+# Review unique sample types to ensure all QC types removed
+chem.2001to2019.noqc.unique <- lapply(chem.2001to2019.noqc, unique)
+
+# Export both versions with and without QC
+write.table(chem.2001to2019, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
+            sep=",", row.names = FALSE, na = "")
+
+write.table(chem.2001to2019.noqc, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_noQC_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
+            sep=",", row.names = FALSE, na = "")
 
 ```
 
 
 #### LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT) IN JOIN ABOVE ###
 
-Subsetting for Tin Brook request
+Subsetting for Tin Brook request (completed before subset with no QA was generated above)
 ```{r}
 chem.2001to2019.tinbrook <- chem.2001to2019 %>% 
   filter(grepl("*TINW", site_id)) %>% 
@@ -172,7 +196,7 @@ chem.2001to2019.tinbrook <- chem.2001to2019 %>%
 ```
 
 
-Subsetting clean chloride data for Charlie, 2020-11-09
+Subsetting clean chloride data for Charlie, 2020-11-09 (completed before subset with no QA was generated above)
 ```{r}
 chem.2001to2019.filter <- chem.2001to2019 %>% 
 # Filter out unjoined, lab WQ, and field obvservation records
@@ -198,7 +222,14 @@ chem.2001to2019.cl.charlie <- chem.2001to2019.filter %>%
          !(dec_sample_type_cde %in% c("DUP", "EB")),
          !(sample_type_code_combined %in% c("FB", "DUP", "EB")))
 
+# Review unique sample type codes
 chem.2001to2019.cl.unique <- lapply(chem.2001to2019.cl.charlie, unique)
+
+# Double check that no years are missing from filtering funky sample type code conventions
+chem.2001to2019.cl.charlie.year <- chem.2001to2019.cl.charlie %>% 
+  mutate(year = substr(sample_date, 0, 4)) %>% 
+  select(year) %>% 
+  distinct()
 
 # write.table(chem.2001to2019.cl.charlie, file = file.path(root.dir, "", "chem.2001to2019.cl.N.Charlie.20201109.csv"),sep=",", row.names = FALSE, na = "")
 
