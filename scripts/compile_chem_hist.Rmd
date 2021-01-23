@@ -5,28 +5,31 @@ date: "December 18, 2019"
 output: html_document
 ---
 
-Load libraries and source directories
-```{r}
+For combining EQuIS data (2001-2015), 2016, and 2017 data, then binding to existing 2018-2018 chem ITS tables. Script originally intended for just cleaning equis but added 2016 and 2017 inclusion. Old code at bottom for equis processing/invesitigation. 
+
+# Prep
+
+```{r Load libs and source dirs}
 library(tidyverse)
 library(lubridate)
 
 root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
 tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chem_2001_to_2017")
-cleaned.dir <- file.path(datamod.dir, "Cleaned Files", "FINAL_RELOADS_SEPT2020")
+cleaned.dir <- file.path(datamod.dir, "Cleaned Files")
 
 ```
 
-Load source data and format
-```{r}
+```{r Load source data and format}
 result.equis <- read.csv(file.path(tobecleaned.dir,  "equis_results_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>%
-  rename(sample_delivery_group = lab_sdg,
+  rename(sample_del_grp_equis = lab_sdg,
          result_value = result_numeric) 
 
 sample.equis <- read.csv(file.path(tobecleaned.dir, "equis_sample_history.csv"), stringsAsFactors = FALSE) %>% 
   rename_all(tolower) %>% 
-  rename(old_ribs_id = sys_loc_code) %>% 
+  rename(old_ribs_id = sys_loc_code,
+         sample_del_grp_equis = sample_delivery_group) %>% 
   mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %I:%M:%S %p", "%m/%d/%Y"))) 
         # Uncomment and check:
          # sample_receipt_date = as.POSIXct(sample_receipt_date, format = "%m/%d/%Y %I:%M:%S %p"))
@@ -64,12 +67,11 @@ sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "2020
   mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M:%S"))
 
 sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
-sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
+# sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
 
 ```
 
-Join modern site IDs to 2016 and EQuiS data
-```{r}
+```{r Join modern site IDs to 2016 and EQuiS data}
 
 # Select only required fields and unique entries 
 sites.join.sub <- sites.join %>% 
@@ -80,44 +82,45 @@ sites.join.sub <- sites.join %>%
   # Looking at single set of duplicates:
 #   group_by(ADJUST_RIBS_ID, SBU_ID) %>%
 #   filter(n()>1)
-        #found that one set of dups was simplified to a single SBU ID exists
+        #found that one set of dups was simplified to a single SBU ID 
 
-sample.equis.sites <- sample.equis %>% 
+sample.equis <- sample.equis %>% 
   left_join(sites.join.sub, by = "old_ribs_id") %>% 
-  select(site_id, -old_ribs_id, everything())
-# sample.equis.sites.na <- sample.equis.sites %>% 
+  select(site_id, old_ribs_id, everything()) %>% 
+  # Add site ID for dup missing sys_loc_code
+  mutate(site_id = ifelse(sys_sample_code == "OTER-10.8 DUP", "03-OTER-10.8", site_id))
+
+# To-do later: determine/add site IDs for remaining QC samples
+# sample.equis.na <- sample.equis %>%
 #   filter(is.na(site_id))
 
-
-
-### Look for records that didn't get a sys_loc_code. Some instances of RIBS station 06032102? 	OTER-10.8 (03012310)?
-
-
-
-
-
-sample.2016.sites <- sample.2016 %>% 
+sample.2016 <- sample.2016 %>% 
   left_join(sites.join.sub, by = "old_ribs_id") %>% 
-  select(site_id, -old_ribs_id, everything())
-# sample.2016.sites.na <- sample.2016.sites %>%
+  select(site_id, everything(), -old_ribs_id)
+# sample.2016.na <- sample.2016 %>%
 #   filter(is.na(site_id))
+
+rm(sites.join, sites.join.sub)
 ```
 
 
-## Provisional block: Exporting table for fulfulling data requests in the meantime until data is fully cleaned ## 
-## Select useful fields, join, remove QC samples, and export data 
-```{r}
-dr.equis.join <- sample.equis.sites %>% 
+# Provisional block for data requests (discontinued) 
+Exporting table for fulfulling data requests in the meantime until data is fully cleaned ## 
+Select useful fields, join, remove QC samples, and export data 
+
+##Use bits and pieces of this block for final data cleaning below
+
+```{r, eval = FALSE}
+# Join sample and result files and select only needed fields
+dr.equis.join <- sample.equis %>% 
   left_join(result.equis, by = "sys_sample_code") %>% 
   select(site_id, sample_date, sys_sample_code, sample_matrix_code, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
   rename(validator_qualifiers_equis = validator_qualifiers,
          sample_type_code_combined = sample_type_code)
-
-dr.2016.join <- sample.2016.sites %>% 
+dr.2016.join <- sample.2016 %>% 
   left_join(result.2016, by = c("sys_sample_code", "sample_delivery_group")) %>% 
   select(site_id, sample_date, sys_sample_code, sample_matrix_code, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
   rename(sample_type_code_combined = sample_type_code)
-  
 dr.2017.join <- sample.2017 %>% 
   left_join(result.2017, by = c("sys_sample_code", "sample_delivery_group")) %>% 
   select(site_id, sample_date, sys_sample_code, sample_matrix_code, dec_sample_type, sample_type_code, sample_source, chemical_name, fraction, result_value, result_unit, lab_qualifiers, interpreted_qualifiers, validator_qualifiers, method_detection_limit, reporting_detection_limit, quantitation_limit, detection_limit_unit) %>% 
@@ -163,19 +166,17 @@ chem.2001to2019.noqc <- chem.2001to2019 %>%
 chem.2001to2019.noqc.unique <- lapply(chem.2001to2019.noqc, unique)
 
 # Export both versions with and without QC
-write.table(chem.2001to2019, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
-            sep=",", row.names = FALSE, na = "")
-
-write.table(chem.2001to2019.noqc, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_noQC_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
-            sep=",", row.names = FALSE, na = "")
+# write.table(chem.2001to2019, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
+#             sep=",", row.names = FALSE, na = "")
+# 
+# write.table(chem.2001to2019.noqc, "C:/Data/Data_requests/smas_data_requests/chem_source/SMAS_chem_noQC_2001-2019_PROVIS_FORDATAREQUESTS_20201203.csv",
+#             sep=",", row.names = FALSE, na = "")
 
 ```
 
-
-#### LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT) IN JOIN ABOVE ###
-
+## Misc data requests from provisional block above (no longer served here; see Rproj smas_data_requests)
 Subsetting for Tin Brook request (completed before subset with no QA was generated above)
-```{r}
+```{r, eval = FALSE}
 chem.2001to2019.tinbrook <- chem.2001to2019 %>% 
   filter(grepl("*TINW", site_id)) %>% 
   mutate(year = substr(sample_date, 0, 4)) %>% 
@@ -194,10 +195,8 @@ chem.2001to2019.tinbrook <- chem.2001to2019 %>%
 #             sep=",", row.names = FALSE, na = "")
 
 ```
-
-
 Subsetting clean chloride data for Charlie, 2020-11-09 (completed before subset with no QA was generated above)
-```{r}
+```{r, eval = FALSE}
 chem.2001to2019.filter <- chem.2001to2019 %>% 
 # Filter out unjoined, lab WQ, and field obvservation records
   filter(!is.na(chemical_name),
@@ -235,9 +234,269 @@ chem.2001to2019.cl.charlie.year <- chem.2001to2019.cl.charlie %>%
 
 ```
 
-Look into EQuIS flags
+
+# Required edits prior to joining datasets
+
+```{r Remove equis field data}
+# Split result table into -FS and non-FS data to start
+result.equis.lab <- result.equis %>% 
+  filter(!grepl("*FS", sys_sample_code))
+result.equis.field <- result.equis %>% 
+  filter(grepl("*FS", sys_sample_code))
+
+# Look at unique "FS" records
+# > sort(unique(result.equis.field$chemical_name))
+# [1] "Coliform"             "Dissolved Oxygen"     "Fecal Coliform"       "pH"                   "pH (Water)"           "Specific Conductance"
+# [7] "Temperature"          "Turbidity"  
+
+### From FS results, KEEP ONLY: Turbidity, Coliform, Fecal Coliform
+result.equis.field.keep <- result.equis.field %>% 
+  filter(chemical_name %in% c("Turbidity", "Coliform", "Fecal Coliform"))
+
+# Take those removed and set aside for later
+result.equis.field.archive <- result.equis.field %>% 
+  filter(!(chemical_name %in% c("Turbidity", "Coliform", "Fecal Coliform")))
+
+# Looking into unique lab (non-FS) records:
+# > unique(result.equis.lab$lab_name_code)
+#  [1] "COLUMBIA"    "GHM"         ""            "VERONA"      "CONVERSE"    "BENDER"      "WESTCHESTER" "H2M"         "MICROBAC"    "AP"         
+# [11] "ENDYNE"      "NYSDEC"      "DARRIN"      "CASROCH"     "MOHAWK"      "NYSDOH"      "ECOTEST"     "ALCHEMY"     "CERT"        "LOZIER_NY"  
+# [21] "ERIE CTY"    "BUCK"        "FGS"         "ALSRNY"
+# > sort(unique(result.equis.lab$chemical_name))
+#  [1] "1,2-Dichloroethane-D4"                        "Alkalinity, Total (As CaCO3)"                 "Aluminum"                                    
+#  [4] "Arsenic"                                      "Bromodichloromethane"                         "Cadmium"                                     
+#  [7] "Calcium"                                      "Chloride (As Cl)"                             "Chlorodibromomethane"                        
+# [10] "Chloroform"                                   "Chloromethane"                                "Chlorophyll a"                               
+# [13] "Coliform"                                     "Conductivity"                                 "Copper"                                      
+# [16] "Dibromochloromethane"                         "Dissolved Organic Carbon"                     "Dissolved Oxygen"                            
+# [19] "Fecal Coliform"                               "Fluoride"                                     "Hardness (As CaCO3)"                         
+# [22] "Iron"                                         "Lead"                                         "Magnesium"                                   
+# [25] "Manganese"                                    "Mercury"                                      "Methylene Chloride"                          
+# [28] "Nickel"                                       "Nitrogen"                                     "Nitrogen, Ammonia (As N)"                    
+# [31] "Nitrogen, Kjeldahl, Total"                    "Nitrogen, Nitrate-Nitrite"                    "Nitrogen, Nitrate (As N)"                    
+# [34] "Nitrogen, Nitrite"                            "Nitrogen, Nitrite + Nitrate"                  "p-Bromofluorobenzene"                        
+# [37] "pH"                                           "pH (Water)"                                   "Phenolics, Total Recoverable"                
+# [40] "Phosphate Ion"                                "Phosphorus"                                   "Phosphorus, Dissolved Orthophosphate (As P)" 
+# [43] "Potassium"                                    "Silver"                                       "Sodium"                                      
+# [46] "Specific Conductance"                         "Sulfate (As SO4)"                             "Temperature"                                 
+# [49] "Tetrachloroethylene (PCE)"                    "Toluene-D8"                                   "Total Carbon"                                
+# [52] "Total Dissolved Solids (Residue, Filterable)" "Total Organic Carbon"                         "Total Solids"                                
+# [55] "Total Suspended Solids"                       "Total Volatile Solids"                        "Trichloroethylene (TCE)"                     
+# [58] "Turbidity"                                    "Vinyl Chloride"                               "Zinc" 
+
+result.equis.lab.archive <- result.equis.lab %>% 
+  filter(lab_name_code %in% "NYSDEC" |
+           chemical_name %in% "Dissolved Oxygen")
+
+result.equis.lab.keep <- result.equis.lab %>% 
+  filter(!(lab_name_code %in% "NYSDEC")) %>% 
+  filter(!(chemical_name %in% "Dissolved Oxygen"))
+  
+
+result.equis.keep <- bind_rows(result.equis.field.keep, result.equis.lab.keep)
+result.equis.archive <- bind_rows(result.equis.field.archive, result.equis.lab.archive)
+
+rm(result.equis.field.keep, result.equis.lab.keep, result.equis.field.archive, result.equis.lab.archive)
+
+# result.equis.lab.keep_filt <- result.equis.lab.keep %>% 
+#   filter(chemical_name %in% "Temperature")
+# 
+# result.equis.lab.DO.unique <- lapply(result.equis.lab.DO, unique)
+
+
+# Pull matching records from SAMPLE table for each, and set aside sample records with no matches.
+
+sample.equis.keep <- sample.equis %>% 
+  filter(sys_sample_code %in% result.equis.keep$sys_sample_code)
+
+sample.equis.archive <- sample.equis %>% 
+  filter(sys_sample_code %in% result.equis.archive$sys_sample_code)
+
+# SAMPLE records for which no RESULT records match
+sample.equis.orphan <- sample.equis %>% 
+  filter(!(sys_sample_code %in% result.equis.archive$sys_sample_code) & 
+           !(sys_sample_code %in% result.equis.keep$sys_sample_code))
+
+# Export data identified as field data and orphaned
+# write_csv(result.equis.archive, file.path(datamod.dir, "to_be_cleaned", "field_equis", "equis_chem_fielddata_RESULT_20200122.csv"))
+# write_csv(sample.equis.archive, file.path(datamod.dir, "to_be_cleaned", "field_equis", "equis_chem_fielddata_SAMPLE_20200122.csv"))
+# write_csv(sample.equis.orphan, file.path(tobecleaned.dir, "equis_chem_SAMPLE_noMatchingResults_omittedFromDB_20200122.csv"))
+
+rm(sample.equis.archive, result.equis.archive, sample.equis.orphan)
+rm(result.equis.lab, result.equis.field)
+rm(sample.equis, result.equis)
+
+# Test join:
+# equis.join <- left_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
+# # See if there are records in each table that don't have matches in the other
+# sample.equis.nomatch <- anti_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
+# result.equis.nomatch <- anti_join(result.equis.keep, sample.equis.keep, by = "sys_sample_code")
+
+```
+
+```{r Clean up 2016 WG/Mercury join issue}
+# Investigate WG issues
+sample.2016.WG <- sample.2016 %>% 
+  filter(sample_matrix_code %in% "WG")
+result.2016.WG <- result.2016 %>% 
+  filter(lab_matrix_code %in% "WG")
+
+# Check if WG SSCs are duplicated in sample table
+sample.2016.WG.SSC <- sample.2016.WG %>% 
+  pull(sys_sample_code)
+sample.2016.dupcheck <- sample.2016 %>% 
+  filter(sys_sample_code %in% sample.2016.WG.SSC)
+# Answer: YES.
+
+# WGs in sample table to not have SDGs, while WGs in results table do... Problem with joining in DB?
+
+# Test join
+join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
+# Result: extra recs created (as expected).
+join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+
+sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: 120 WG records did not join. Must populate missing SDGs.
+
+# Join SDGs to WG samples records from result file
+result.2016.WG <- result.2016 %>% 
+  filter(lab_matrix_code %in% "WG") %>% 
+  select(sys_sample_code, lab_matrix_code, sample_delivery_group) %>% 
+  rename(sample_matrix_code = lab_matrix_code)
+
+sample.2016 <- sample.2016 %>% 
+  left_join(result.2016.WG, by = c("sys_sample_code", "sample_matrix_code")) %>% 
+  mutate(sample_delivery_group.x = ifelse(sample_matrix_code %in% "WG", sample_delivery_group.y, sample_delivery_group.x)) %>% 
+  rename(sample_delivery_group = sample_delivery_group.x) %>% 
+  select(-sample_delivery_group.y)
+
+# Test join again
+join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
+# Result: extra recs created (as expected)
+join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
+
+# STILL 32 Hg LAB QC records not joined. To be removed. 
+sample.2016 <- sample.2016 %>% 
+  anti_join(sample.2016.nomatch)
+
+result.2016 <- result.2016 %>% 
+  anti_join(result.2016.nomatch)
+
+# Final join test
+join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
+# Result: extra recs created (as expected).
+join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: Join successful :)
+
+```
+
+## Sample type fields
+
+```{r 2016}
+
+# Review unique entries
+sample.2016.unique <- lapply(sample.2016, unique)
+# > sample.2016.unique[["sample_type_code"]]
+#  [1] "N"   "FB"  "EB"  "LB"  "BS"  "BD"  "LR"  "MS"  "SD"  "MSD"
+sample.2017.unique <- lapply(sample.2017, unique)
+# > sample.2017.unique[["dec_sample_type"]]
+# [1] "N"            "N_DUPPARENT"  "DUP"          "EB"           "LAB_INTERNAL"
+# [6] "FB"
+sample.2018.2019.unique <- lapply(sample.2018.2019, unique)
+
+
+
+
+sample.2016 <- sample.2016 %>% 
+          # replace WG sample_matrix_codes with WS (a handful of Hg samples had this).
+  
+  
+  
+  mutate(sample_matrix_code = str_replace(sample_matrix_code, "WG", "WS"),
+         # Create dec sample type field and modify as needed.
+         dec_sample_type_cde = sample_type_code,
+         dec_sample_type_cde = ifelse(sample_source == "lab", "LAB_INTERNAL", dec_sample_type_cde),
+         # Replace EB and FB in sample_type_code with N. This is to be lab-only sample types to match suit with new data.
+         sample_type_code = ifelse(sample_type_code %in% c("FB", "EB"), "N", sample_type_code)
+         ) %>% 
+  rename(lab_sample_type_cde = sample_type_code) %>% 
+  select(site_id, dec_sample_type_cde, everything())
+
+sample.2016_edit.unique <- lapply(sample.2016_edit, unique)
+# > sample.2016_edit.unique[["dec_sample_type_cde"]]
+# [1] "N"            "FB"           "EB"           "LAB_INTERNAL"
+# Confirmed no DUPs collected in 2016. One sample noted as "QC" in sys_sample_code but just Hg present for parent.
+
+```
+
+
+```{r EQuIS}
+sample.equis.unique <- lapply(sample.equis, unique)
+
+sample.equis_edit <- sample.equis %>% 
+  
+  
+# When overwriting "FIELD MSR/OBS" records in sample_type_code, note this in CHS_COMMENT field.
+  
+
+```
+
+
+## Flag fields
+
+```{r EQuIS}
+
+# Look into lab_qualifiers, interpreted_qualifiers, and validator_qualifiers
+# Populate validator_qualifier with historic data flag? (already made one?)
+
+# Remove interpreted_qualifiers field. Make sure not losing anything.
+
+```
+
+```{r 2016 and 2017}
+
+# Populate validator_qualifier with historic data flag? (already made one?)
+
+# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
+
+```
+
+
+
+# Applying pcodes
+```{r equis}
+
+# Make sure to apply "source: unknown" pcodes to uncertain records (temp, spcond, pH, "pH, (Water)"...? ; lab_name_codes are blank)
+
+# 31,667 record that could not join pcodes b/c result_unit blank??? Use MDL unit?
+
+```
+
+# Joining datasets
+
 ```{r}
-# Looking at flag fields
+# Check for any non-matching fields
+setdiff(names(sample.2016), names(sample.2017))
+setdiff(names(sample.2017), names(sample.2016))
+
+```
+
+
+
+
+
+
+
+
+
+# Flag cleaning
+
+```{r Compare EQuIS flag fields}
 result.equis.test <- result.equis %>% 
   mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
   select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) 
@@ -248,7 +507,15 @@ result.equis.test <- result.equis %>%
 
 
 
+
+
+# LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT w NO RESULTS) IN JOIN ABOVE ###
+
+
+
 ### Old code chunks below ###
+Use bits and pieces of these blocks for final data cleaning above.
+
 
 
 Join with sites table to add modern site IDs
@@ -293,7 +560,7 @@ Join sample and result tables and check for issues
 ```{r}
 # SDG not populated for all records. Must use only sys_sample_code.
 
-equis.join <- left_join(sample.equis.sites, result.equis, by = "sys_sample_code")
+equis.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
 # 110 extra records created
 
 # See if there are records in each table that don't have matches in the other
