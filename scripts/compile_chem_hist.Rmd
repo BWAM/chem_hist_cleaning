@@ -235,9 +235,156 @@ chem.2001to2019.cl.charlie.year <- chem.2001to2019.cl.charlie %>%
 ```
 
 
-# Required edits prior to joining datasets
+# 2017 cleaning
 
-```{r Remove equis field data}
+```{r}
+
+# Test join 
+join.2017 <- left_join(sample.2017, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2017.nomatch <- anti_join(sample.2017, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
+result.2017.nomatch <- anti_join(result.2017, sample.2017, by = c("sys_sample_code", "sample_delivery_group"))
+
+# Same WG issue present as with 2016! But fewer.
+
+
+
+
+
+
+
+
+
+
+sample.2018.2019.unique <- lapply(sample.2018.2019, unique)
+
+sample.2017.unique <- lapply(sample.2017, unique)
+result.2017.unique <- lapply(result.2017, unique)
+
+
+# Fix WG matrix codes (rerun pre-qaqc?). Did not get sites assigned!
+# Fix 
+
+# Flags
+
+# Populate validator_qualifier with historic data flag? (already made one?)
+
+# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
+
+```
+
+
+# 2016 cleaning
+
+```{r Clean up 2016 WG/Mercury join issue}
+# Investigate WG issues
+sample.2016.WG <- sample.2016 %>% 
+  filter(sample_matrix_code %in% "WG")
+result.2016.WG <- result.2016 %>% 
+  filter(lab_matrix_code %in% "WG")
+
+# Check if WG SSCs are duplicated in sample table
+sample.2016.WG.SSC <- sample.2016.WG %>% 
+  pull(sys_sample_code)
+sample.2016.dupcheck <- sample.2016 %>% 
+  filter(sys_sample_code %in% sample.2016.WG.SSC)
+# Answer: YES (88 unique, 147 produced).
+
+# WGs in sample table do not have SDGs, while WGs in results table do... Problem with joining in DB?
+
+# Test join
+join.2016 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
+# Answer: Yes, problem. 120 WG records did not join. Must populate missing SDGs.
+
+# Join SDGs to WG samples records from result file by taking just WG recs from RESULT and joining SDGs to those in SAMPLE
+result.2016.WG <- result.2016 %>% 
+  filter(lab_matrix_code %in% "WG") %>% 
+  select(sys_sample_code, lab_matrix_code, sample_delivery_group) %>% 
+  rename(sample_matrix_code = lab_matrix_code)
+sample.2016.fix <- sample.2016 %>% 
+  left_join(result.2016.WG, by = c("sys_sample_code", "sample_matrix_code")) %>% 
+  mutate(sample_delivery_group.x = ifelse(sample_matrix_code %in% "WG", sample_delivery_group.y, sample_delivery_group.x)) %>% 
+  rename(sample_delivery_group = sample_delivery_group.x) %>% 
+  select(-sample_delivery_group.y)
+
+# Test join again
+join.2016 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016.fix, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016, sample.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+
+# STILL 32 Hg LAB QC records not joined. Removing them. 
+sample.2016.fix2 <- sample.2016.fix %>%
+  anti_join(sample.2016.nomatch)
+result.2016.fix <- result.2016 %>% 
+  anti_join(result.2016.nomatch)
+
+
+# Final join test
+join.2016 <- left_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: Join successful :)
+
+# Overwrite master tables and clean up dataframes
+sample.2016 <- sample.2016.fix2
+result.2016 <- result.2016.fix
+
+rm(sample.2016.WG, result.2016.WG, sample.2016.WG.SSC, sample.2016.dupcheck, join.2016, sample.2016.nomatch, result.2016.nomatch, sample.2016.fix, sample.2016.fix2, result.2016.fix)
+```
+
+```{r Sample type and matrix code fields}
+
+# Review unique entries
+sample.2016.unique <- lapply(sample.2016, unique)
+# > sample.2016.unique[["sample_type_code"]]
+#  [1] "N"   "FB"  "EB"  "LB"  "BS"  "BD"  "LR"  "MS"  "SD"  "MSD"
+result.2016.unique <- lapply(result.2016, unique)
+
+sample.2016.fix <- sample.2016 %>% 
+          # replace WG sample_matrix_codes with WS (a handful of Hg samples had this).
+  mutate(sample_matrix_code = str_replace(sample_matrix_code, "WG", "WS"),
+         # Create dec sample type field and modify as needed.
+         dec_sample_type_cde = sample_type_code,
+         dec_sample_type_cde = ifelse(sample_source == "lab", "LAB_INTERNAL", dec_sample_type_cde),
+         # Replace EB and FB in sample_type_code with N. This is to be lab-only sample types to match suit with new data.
+         sample_type_code = ifelse(sample_type_code %in% c("FB", "EB"), "N", sample_type_code)
+         ) %>% 
+  rename(lab_sample_type_cde = sample_type_code) %>% 
+  select(site_id, dec_sample_type_cde, everything())
+
+sample.2016.fix.unique <- lapply(sample.2016.fix, unique)
+# > sample.2016_edit.unique[["dec_sample_type_cde"]]
+# [1] "N"            "FB"           "EB"           "LAB_INTERNAL"
+# Confirmed no DUPs collected in 2016. One sample noted as "QC" in sys_sample_code but just Hg present for parent.
+
+result.2016.fix <- result.2016 %>% 
+  mutate(lab_matrix_code = str_replace(lab_matrix_code, "WG", "WS"))
+
+# Rerun unique val lists
+result.2016.unique <- lapply(result.2016.fix, unique)
+sample.2016.unique <- lapply(sample.2016.fix, unique)
+
+# Overwrite master DFs and clean up.
+sample.2016 <- sample.2016.fix
+result.2016 <- result.2016.fix
+ 
+rm(sample.2016.fix, result.2016.fix, sample.2016.fix.unique)
+```
+
+```{r Flags}
+
+# Populate validator_qualifier with historic data flag? (already made one?)
+
+# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
+
+```
+
+
+
+# EQuIS cleaning 
+
+```{r Remove field data and archive}
 # Split result table into -FS and non-FS data to start
 result.equis.lab <- result.equis %>% 
   filter(!grepl("*FS", sys_sample_code))
@@ -322,123 +469,30 @@ sample.equis.orphan <- sample.equis %>%
 # write_csv(sample.equis.archive, file.path(datamod.dir, "to_be_cleaned", "field_equis", "equis_chem_fielddata_SAMPLE_20200122.csv"))
 # write_csv(sample.equis.orphan, file.path(tobecleaned.dir, "equis_chem_SAMPLE_noMatchingResults_omittedFromDB_20200122.csv"))
 
-rm(sample.equis.archive, result.equis.archive, sample.equis.orphan)
-rm(result.equis.lab, result.equis.field)
-rm(sample.equis, result.equis)
+# Clean overwrite masters.
 
-# Test join:
-# equis.join <- left_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
+sample.equis <- sample.equis.keep
+result.equis <- result.equis.keep
+
+# Validate EQuIS join:
+equis.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
 # # See if there are records in each table that don't have matches in the other
-# sample.equis.nomatch <- anti_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
-# result.equis.nomatch <- anti_join(result.equis.keep, sample.equis.keep, by = "sys_sample_code")
+sample.equis.nomatch <- anti_join(sample.equis, result.equis, by = "sys_sample_code")
+result.equis.nomatch <- anti_join(result.equis, sample.equis, by = "sys_sample_code")
+# Result: all match!
 
+# Clean up DFs 
+rm(result.equis.lab, result.equis.field)
+rm(sample.equis.keep, result.equis.keep, sample.equis.archive, result.equis.archive, sample.equis.orphan)
+rm(equis.join, sample.equis.nomatch, result.equis.nomatch)
 ```
 
-```{r Clean up 2016 WG/Mercury join issue}
-# Investigate WG issues
-sample.2016.WG <- sample.2016 %>% 
-  filter(sample_matrix_code %in% "WG")
-result.2016.WG <- result.2016 %>% 
-  filter(lab_matrix_code %in% "WG")
-
-# Check if WG SSCs are duplicated in sample table
-sample.2016.WG.SSC <- sample.2016.WG %>% 
-  pull(sys_sample_code)
-sample.2016.dupcheck <- sample.2016 %>% 
-  filter(sys_sample_code %in% sample.2016.WG.SSC)
-# Answer: YES.
-
-# WGs in sample table to not have SDGs, while WGs in results table do... Problem with joining in DB?
-
-# Test join
-join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
-# Result: extra recs created (as expected).
-join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-
-sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
-# Result: 120 WG records did not join. Must populate missing SDGs.
-
-# Join SDGs to WG samples records from result file
-result.2016.WG <- result.2016 %>% 
-  filter(lab_matrix_code %in% "WG") %>% 
-  select(sys_sample_code, lab_matrix_code, sample_delivery_group) %>% 
-  rename(sample_matrix_code = lab_matrix_code)
-
-sample.2016 <- sample.2016 %>% 
-  left_join(result.2016.WG, by = c("sys_sample_code", "sample_matrix_code")) %>% 
-  mutate(sample_delivery_group.x = ifelse(sample_matrix_code %in% "WG", sample_delivery_group.y, sample_delivery_group.x)) %>% 
-  rename(sample_delivery_group = sample_delivery_group.x) %>% 
-  select(-sample_delivery_group.y)
-
-# Test join again
-join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
-# Result: extra recs created (as expected)
-join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
-
-# STILL 32 Hg LAB QC records not joined. To be removed. 
-sample.2016 <- sample.2016 %>% 
-  anti_join(sample.2016.nomatch)
-
-result.2016 <- result.2016 %>% 
-  anti_join(result.2016.nomatch)
-
-# Final join test
-join.2016 <- left_join(sample.2016, result.2016, by = "sys_sample_code")
-# Result: extra recs created (as expected).
-join.2016.2 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-sample.2016.nomatch <- anti_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
-result.2016.nomatch <- anti_join(result.2016, sample.2016, by = c("sys_sample_code", "sample_delivery_group"))
-# Result: Join successful :)
-
-```
-
-## Sample type fields
-
-```{r 2016}
-
-# Review unique entries
-sample.2016.unique <- lapply(sample.2016, unique)
-# > sample.2016.unique[["sample_type_code"]]
-#  [1] "N"   "FB"  "EB"  "LB"  "BS"  "BD"  "LR"  "MS"  "SD"  "MSD"
-sample.2017.unique <- lapply(sample.2017, unique)
-# > sample.2017.unique[["dec_sample_type"]]
-# [1] "N"            "N_DUPPARENT"  "DUP"          "EB"           "LAB_INTERNAL"
-# [6] "FB"
-sample.2018.2019.unique <- lapply(sample.2018.2019, unique)
-
-
-
-
-sample.2016 <- sample.2016 %>% 
-          # replace WG sample_matrix_codes with WS (a handful of Hg samples had this).
-  
-  
-  
-  mutate(sample_matrix_code = str_replace(sample_matrix_code, "WG", "WS"),
-         # Create dec sample type field and modify as needed.
-         dec_sample_type_cde = sample_type_code,
-         dec_sample_type_cde = ifelse(sample_source == "lab", "LAB_INTERNAL", dec_sample_type_cde),
-         # Replace EB and FB in sample_type_code with N. This is to be lab-only sample types to match suit with new data.
-         sample_type_code = ifelse(sample_type_code %in% c("FB", "EB"), "N", sample_type_code)
-         ) %>% 
-  rename(lab_sample_type_cde = sample_type_code) %>% 
-  select(site_id, dec_sample_type_cde, everything())
-
-sample.2016_edit.unique <- lapply(sample.2016_edit, unique)
-# > sample.2016_edit.unique[["dec_sample_type_cde"]]
-# [1] "N"            "FB"           "EB"           "LAB_INTERNAL"
-# Confirmed no DUPs collected in 2016. One sample noted as "QC" in sys_sample_code but just Hg present for parent.
-
-```
-
-
-```{r EQuIS}
+```{r Sample type, matrix code, and misc cleaning}
 sample.equis.unique <- lapply(sample.equis, unique)
+result.equis.unique <- lapply(result.equis, unique)
 
-sample.equis_edit <- sample.equis %>% 
+sample.equis.fix <- sample.equis %>% 
+  mutate()
   
   
 # When overwriting "FIELD MSR/OBS" records in sample_type_code, note this in CHS_COMMENT field.
@@ -446,38 +500,34 @@ sample.equis_edit <- sample.equis %>%
 
 ```
 
-
-## Flag fields
-
-```{r EQuIS}
+```{r Flag fields}
 
 # Look into lab_qualifiers, interpreted_qualifiers, and validator_qualifiers
-# Populate validator_qualifier with historic data flag? (already made one?)
+# Review ITS flag tables for any changes (??)
+# Populate validator_qualifier with historic data flag? (already made one?). May be some already present.
 
 # Remove interpreted_qualifiers field. Make sure not losing anything.
 
-```
-
-```{r 2016 and 2017}
-
-# Populate validator_qualifier with historic data flag? (already made one?)
-
-# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
-
-```
 
 
 
-# Applying pcodes
-```{r equis}
+# Previous cleaning code:
 
-# Make sure to apply "source: unknown" pcodes to uncertain records (temp, spcond, pH, "pH, (Water)"...? ; lab_name_codes are blank)
-
-# 31,667 record that could not join pcodes b/c result_unit blank??? Use MDL unit?
+# Compare EQuIS flag fields
+result.equis.test <- result.equis %>% 
+  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
+  select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) 
+  # distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
 
 ```
 
-# Joining datasets
+
+
+
+
+
+
+# Join all datasets and review for consistency
 
 ```{r}
 # Check for any non-matching fields
@@ -490,17 +540,13 @@ setdiff(names(sample.2017), names(sample.2016))
 
 
 
+# Apply pcodes (try after join) and review
+```{r equis}
 
+# Make sure to apply "source: unknown" pcodes to uncertain records (temp, spcond, pH, "pH, (Water)"...? ; lab_name_codes are blank)
 
+# 31,667 record that could not join pcodes b/c result_unit blank??? Use MDL unit?
 
-
-# Flag cleaning
-
-```{r Compare EQuIS flag fields}
-result.equis.test <- result.equis %>% 
-  mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
-  select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) 
-  # distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
 ```
 
 
@@ -509,7 +555,8 @@ result.equis.test <- result.equis %>%
 
 
 
-# LOOK INTO MISSING RESULTS DATA (SAMPLE ROWS PRESENT w NO RESULTS) IN JOIN ABOVE ###
+
+
 
 
 
