@@ -55,10 +55,10 @@ sample.2017 <- read.csv(file.path(tobecleaned.dir, "2017_chem_preqaqc_SAMPLE_com
   rename_all(tolower) %>% 
   mutate(sample_date = parse_date_time(sample_date, c("%m/%d/%Y %H:%M:%S", "%m/%d/%y %H:%M", "%Y/%m/%d %H:%M:%S")))
 
-result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201120_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
+result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "prev_versions", "20201120_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>%
   rename_all(tolower) %>% 
   setNames(., sub("chr_", "", names(.))) 
-sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>%
+sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS",  "prev_versions", "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>%
   rename_all(tolower) %>% 
   setNames(., sub("chs_", "", names(.))) %>% 
   select(-event_smas_sample_date) %>% 
@@ -67,7 +67,7 @@ sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "2020
   mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M:%S"))
 
 sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
-# sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
+sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
 
 ```
 
@@ -90,17 +90,13 @@ sample.equis <- sample.equis %>%
   # Add site ID for dup missing sys_loc_code
   mutate(site_id = ifelse(sys_sample_code == "OTER-10.8 DUP", "03-OTER-10.8", site_id))
 
-# To-do later: determine/add site IDs for remaining QC samples
-# sample.equis.na <- sample.equis %>%
-#   filter(is.na(site_id))
-
 sample.2016 <- sample.2016 %>% 
   left_join(sites.join.sub, by = "old_ribs_id") %>% 
   select(site_id, everything(), -old_ribs_id)
 # sample.2016.na <- sample.2016 %>%
 #   filter(is.na(site_id))
 
-rm(sites.join, sites.join.sub)
+rm(sites.join)
 ```
 
 
@@ -235,40 +231,162 @@ chem.2001to2019.cl.charlie.year <- chem.2001to2019.cl.charlie %>%
 ```
 
 
+# Load 2018-2019 data as a model
+```{r}
+sample.2018.2019.unique <- lapply(sample.2018.2019, unique)
+result.2018.2019.unique <- lapply(result.2018.2019, unique)
+
+```
+
+
 # 2017 cleaning
 
-```{r}
+```{r eval=FALSE, Review unique values and test join}
+# Review unique values
+sample.2017.unique <- lapply(sample.2017, unique)
+result.2017.unique <- lapply(result.2017, unique)
 
 # Test join 
 join.2017 <- left_join(sample.2017, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
 sample.2017.nomatch <- anti_join(sample.2017, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
 result.2017.nomatch <- anti_join(result.2017, sample.2017, by = c("sys_sample_code", "sample_delivery_group"))
 
-# Same WG issue present as with 2016! But fewer.
+```
 
 
+```{r Fix WG issues: populate missing SDGs and site IDs}
+
+# Same WG issue present as with 2016 (missing SDGs, can't join)! But fewer.
+
+# Join SDGs to WG samples records from result file by taking just WG recs from RESULT and joining SDGs to those in SAMPLE
+result.2017.WG <- result.2017 %>% 
+  filter(lab_matrix_code %in% "WG") %>% 
+  select(sys_sample_code, lab_matrix_code, sample_delivery_group) %>% 
+  rename(sample_matrix_code = lab_matrix_code)
+sample.2017.fix <- sample.2017 %>% 
+  left_join(result.2017.WG, by = c("sys_sample_code", "sample_matrix_code")) %>% 
+  mutate(sample_delivery_group.x = ifelse(sample_matrix_code %in% "WG", sample_delivery_group.y, sample_delivery_group.x)) %>% 
+  rename(sample_delivery_group = sample_delivery_group.x) %>% 
+  select(-sample_delivery_group.y)
+
+# Test join again
+join.2017.fix <- left_join(sample.2017.fix, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2017.nomatch <- anti_join(sample.2017.fix, result.2017, by = c("sys_sample_code", "sample_delivery_group"))
+result.2017.nomatch <- anti_join(result.2017, sample.2017.fix, by = c("sys_sample_code", "sample_delivery_group"))
+
+# STILL 89 Hg LAB QC records not joined. Removing them. 
+sample.2017.fix2 <- sample.2017.fix %>%
+  anti_join(sample.2017.nomatch)
+result.2017.fix <- result.2017 %>% 
+  anti_join(result.2017.nomatch)
+
+# Test join again
+join.2017.fix2 <- left_join(sample.2017.fix2, result.2017.fix, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2017.nomatch <- anti_join(sample.2017.fix2, result.2017.fix, by = c("sys_sample_code", "sample_delivery_group"))
+result.2017.nomatch <- anti_join(result.2017.fix, sample.2017.fix2, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: All okay!
+
+# Populate site IDs for those WGs that didn't get them.
+sample.2017.fix2 <- sample.2017.fix2 %>% 
+  # Pull site ID from sample_name
+  mutate(SITE_ID_2 = ifelse(sample_matrix_code %in% "WG",
+                            substr(sample_name, 1, as.numeric(gregexpr(pattern ='\\.',sample_name)) + 1), NA)) %>% 
+  select(site_id, SITE_ID_2, everything()) %>% 
+  # Add missing dash in third position
+  mutate(SITE_ID_2 = gsub('^(.{2})(.*)$', '\\1-\\2', SITE_ID_2))
+
+# Cross-check against sites table
+site.errors <- sample.2017.fix2 %>%
+  filter(!is.na(SITE_ID_2)) %>% 
+  rename(SITE_HISTORY_ID = SITE_ID_2) %>% 
+  anti_join(sites.master, by = "SITE_HISTORY_ID")
+
+# Fix one bad site ID and combine new & old site ID fields. Change WGs to WSs.
+sample.2017.fix3 <- sample.2017.fix2 %>% 
+  mutate(SITE_ID_2 = str_replace_all(SITE_ID_2, "13-DELA-1.3", "14-DELA-1.3"),
+         site_id_corr_ind = ifelse(SITE_ID_2 %in% "14-DELA-1.3", "Y", site_id_corr_ind),
+         site_id = ifelse(is.na(site_id), SITE_ID_2, site_id),
+         site_id_corr_ind = ifelse(is.na(site_id_corr_ind), "N", site_id_corr_ind),
+         sample_matrix_code = str_replace(sample_matrix_code, "WG", "WS"),
+         # Remaining missing site IDs are QC samples with no site id. Populate with QA_QC
+         site_id = ifelse(is.na(site_id), "QA_QC", site_id)
+  ) %>% 
+  select(-SITE_ID_2)
+  
+result.2017.fix2 <- result.2017.fix %>% 
+  mutate(lab_matrix_code = str_replace(lab_matrix_code, "WG", "WS"))
+
+# Overwrite master DFs, and clean up DFs
+
+sample.2017.clean <- sample.2017.fix3
+result.2017.clean <- result.2017.fix2
+
+rm(sample.2017.fix, sample.2017.fix2, sample.2017.fix3, result.2017.fix, result.2017.fix2, result.2017.nomatch, sample.2017.nomatch, join.2017, join.2017.fix, join.2017.fix2, result.2017.WG, site.errors)
+
+```
 
 
+```{r Flags}
+
+# Remove interpreted_qualifiers field. Confirmed equal.
+# > identical(result.2017.clean$lab_qualifiers, result.2017.clean$interpreted_qualifiers)
+# [1] TRUE
+
+# Mark all as not validated.
+result.2017.clean2 <- result.2017.clean %>% 
+  select(-interpreted_qualifiers) %>% 
+  mutate(validated_yn = "N",
+         validator_qualifiers = "0")
+
+# Populate validator_qualifier with historic data flag?
+
+# Overwrite master clean DF
+result.2017.clean <- result.2017.clean2
+
+rm(result.2017.clean2)
+
+```
+
+```{r Additional cleaning - lower priority}
+
+# Make site IDs for EBs with no sites "MISSING"
+
+```
+
+```{r pre-join formatting}
+
+# Format dates 
+
+#  (do after trying join)
+
+# sample.2017.clean2 <- sample.2017.clean %>%
+#   # mutate(sample_receipt_date = parse_date_time(sample_date, c("%m/%d/%Y", "%m/%d/%y %H:%M", "%Y/%m/%d %H:%M:%S")))
+#   mutate(sample_receipt_date = as.Date(sample_receipt_date, format = "%m/%d/%Y"))
+# 
+# result.2017.clean2 <- result.2017.clean %>% 
+#   mutate(analysis_date = as.POSIXct(analysis_date, format = "%m/%d/%Y %H:%M:%S"),
+#          prep_date = as.POSIXct(prep_date, format = "%m/%d/%Y %H:%M:%S")) 
 
 
+```
 
+```{r Final checks}
+# Check that all sample records are distinct (SSC+SDG)
+sample.2017.dist <- sample.2017.clean %>% 
+  distinct(sys_sample_code, sample_delivery_group)
+# Result: PASS
 
+# Verify join 
+join.2017 <- left_join(sample.2017.clean, result.2017.clean, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2017.nomatch <- anti_join(sample.2017.clean, result.2017.clean, by = c("sys_sample_code", "sample_delivery_group"))
+result.2017.nomatch <- anti_join(result.2017.clean, sample.2017.clean, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: PASS
 
+rm(sample.2017.dist, join.2017, sample.2017.nomatch, result.2017.nomatch)
 
-sample.2018.2019.unique <- lapply(sample.2018.2019, unique)
-
-sample.2017.unique <- lapply(sample.2017, unique)
-result.2017.unique <- lapply(result.2017, unique)
-
-
-# Fix WG matrix codes (rerun pre-qaqc?). Did not get sites assigned!
-# Fix 
-
-# Flags
-
-# Populate validator_qualifier with historic data flag? (already made one?)
-
-# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
+# Rerun unique val lists
+sample.2017.unique <- lapply(sample.2017.clean, unique)
+result.2017.unique <- lapply(result.2017.clean, unique)
 
 ```
 
@@ -277,16 +395,16 @@ result.2017.unique <- lapply(result.2017, unique)
 
 ```{r Clean up 2016 WG/Mercury join issue}
 # Investigate WG issues
-sample.2016.WG <- sample.2016 %>% 
-  filter(sample_matrix_code %in% "WG")
-result.2016.WG <- result.2016 %>% 
-  filter(lab_matrix_code %in% "WG")
+# sample.2016.WG <- sample.2016 %>% 
+#   filter(sample_matrix_code %in% "WG")
+# result.2016.WG <- result.2016 %>% 
+#   filter(lab_matrix_code %in% "WG")
 
 # Check if WG SSCs are duplicated in sample table
-sample.2016.WG.SSC <- sample.2016.WG %>% 
-  pull(sys_sample_code)
-sample.2016.dupcheck <- sample.2016 %>% 
-  filter(sys_sample_code %in% sample.2016.WG.SSC)
+# sample.2016.WG.SSC <- sample.2016.WG %>% 
+#   pull(sys_sample_code)
+# sample.2016.dupcheck <- sample.2016 %>% 
+#   filter(sys_sample_code %in% sample.2016.WG.SSC)
 # Answer: YES (88 unique, 147 produced).
 
 # WGs in sample table do not have SDGs, while WGs in results table do... Problem with joining in DB?
@@ -309,7 +427,7 @@ sample.2016.fix <- sample.2016 %>%
   select(-sample_delivery_group.y)
 
 # Test join again
-join.2016 <- left_join(sample.2016, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
+join.2016 <- left_join(sample.2016.fix, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
 sample.2016.nomatch <- anti_join(sample.2016.fix, result.2016, by = c("sys_sample_code", "sample_delivery_group"))
 result.2016.nomatch <- anti_join(result.2016, sample.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
 
@@ -321,14 +439,14 @@ result.2016.fix <- result.2016 %>%
 
 
 # Final join test
-join.2016 <- left_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
-sample.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
-result.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+# join.2016 <- left_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+# sample.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
+# result.2016.nomatch <- anti_join(sample.2016.fix2, result.2016.fix, by = c("sys_sample_code", "sample_delivery_group"))
 # Result: Join successful :)
 
 # Overwrite master tables and clean up dataframes
-sample.2016 <- sample.2016.fix2
-result.2016 <- result.2016.fix
+sample.2016.clean <- sample.2016.fix2
+result.2016.clean <- result.2016.fix
 
 rm(sample.2016.WG, result.2016.WG, sample.2016.WG.SSC, sample.2016.dupcheck, join.2016, sample.2016.nomatch, result.2016.nomatch, sample.2016.fix, sample.2016.fix2, result.2016.fix)
 ```
@@ -336,49 +454,122 @@ rm(sample.2016.WG, result.2016.WG, sample.2016.WG.SSC, sample.2016.dupcheck, joi
 ```{r Sample type and matrix code fields}
 
 # Review unique entries
-sample.2016.unique <- lapply(sample.2016, unique)
-# > sample.2016.unique[["sample_type_code"]]
+sample.2016.unique <- lapply(sample.2016.clean, unique)
+# > sample.2016.clean.unique[["sample_type_code"]]
 #  [1] "N"   "FB"  "EB"  "LB"  "BS"  "BD"  "LR"  "MS"  "SD"  "MSD"
-result.2016.unique <- lapply(result.2016, unique)
+result.2016.unique <- lapply(result.2016.clean, unique)
 
-sample.2016.fix <- sample.2016 %>% 
+sample.2016.fix <- sample.2016.clean %>% 
           # replace WG sample_matrix_codes with WS (a handful of Hg samples had this).
   mutate(sample_matrix_code = str_replace(sample_matrix_code, "WG", "WS"),
          # Create dec sample type field and modify as needed.
          dec_sample_type_cde = sample_type_code,
-         dec_sample_type_cde = ifelse(sample_source == "lab", "LAB_INTERNAL", dec_sample_type_cde),
+         dec_sample_type_cde = ifelse(sample_matrix_code %in% "WQ", "LAB_INTERNAL", dec_sample_type_cde),
+         # Replace lab codes with "N" in dec_sample_type (now referenced in lab_sample_type_code)
+         dec_sample_type_cde = ifelse(dec_sample_type_cde %in% c("MS", "LR", "SD"), "N", dec_sample_type_cde),
+         site_id = ifelse(sample_matrix_code == "WQ", "LAB_INTERNAL", site_id),
          # Replace EB and FB in sample_type_code with N. This is to be lab-only sample types to match suit with new data.
-         sample_type_code = ifelse(sample_type_code %in% c("FB", "EB"), "N", sample_type_code)
+         lab_sample_type_cde = ifelse(sample_type_code %in% c("FB", "EB"), "N", sample_type_code),
+         # Remaining missing site IDs are QC samples with no site id. Populate with QA_QC
+         site_id = ifelse(is.na(site_id), "QA_QC", site_id)
          ) %>% 
-  rename(lab_sample_type_cde = sample_type_code) %>% 
-  select(site_id, dec_sample_type_cde, everything())
+  select(site_id, dec_sample_type_cde, lab_sample_type_cde, everything(), -sample_type_code)
 
-sample.2016.fix.unique <- lapply(sample.2016.fix, unique)
-# > sample.2016_edit.unique[["dec_sample_type_cde"]]
-# [1] "N"            "FB"           "EB"           "LAB_INTERNAL"
-# Confirmed no DUPs collected in 2016. One sample noted as "QC" in sys_sample_code but just Hg present for parent.
-
-result.2016.fix <- result.2016 %>% 
+result.2016.fix <- result.2016.clean %>% 
   mutate(lab_matrix_code = str_replace(lab_matrix_code, "WG", "WS"))
 
-# Rerun unique val lists
-result.2016.unique <- lapply(result.2016.fix, unique)
-sample.2016.unique <- lapply(sample.2016.fix, unique)
-
 # Overwrite master DFs and clean up.
-sample.2016 <- sample.2016.fix
-result.2016 <- result.2016.fix
+sample.2016.clean <- sample.2016.fix
+result.2016.clean <- result.2016.fix
  
-rm(sample.2016.fix, result.2016.fix, sample.2016.fix.unique)
+rm(sample.2016.fix, result.2016.fix)
 ```
 
 ```{r Flags}
 
+# Remove interpreted_qualifiers field. Confirmed identical to lab_qualifiers
+# > identical(result.2016.unique[["interpreted_qualifiers"]], result.2016.unique[["lab_qualifiers"]])
+# [1] TRUE
+
+# Mark all as not validated.
+result.2016.clean2 <- result.2016.clean %>% 
+  select(-interpreted_qualifiers) %>% 
+  mutate(validated_yn = "N",
+         validator_qualifiers = "0")
+
 # Populate validator_qualifier with historic data flag? (already made one?)
 
-# Remove interpreted_qualifiers field (both 2016 and 2017). Make sure not losing anything.
+# Overwrite master clean DF
+result.2016.clean <- result.2016.clean2
+
+rm(result.2016.clean2)
 
 ```
+
+```{r Additional cleaning - lower priority}
+
+# Make site IDs for EBs with no sites "MISSING"
+
+```
+
+
+```{r Final checks}
+# Check that all sample records are distinct (SSC+SDG)
+sample.2016.dist <- sample.2016.clean %>% 
+  distinct(sys_sample_code, sample_delivery_group)
+# Result: PASS
+
+# Verify join 
+join.2016 <- left_join(sample.2016.clean, result.2016.clean, by = c("sys_sample_code", "sample_delivery_group"))
+sample.2016.nomatch <- anti_join(sample.2016.clean, result.2016.clean, by = c("sys_sample_code", "sample_delivery_group"))
+result.2016.nomatch <- anti_join(result.2016.clean, sample.2016.clean, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: PASS
+
+rm(sample.2016.dist, join.2016, sample.2016.nomatch, result.2016.nomatch)
+
+# Rerun unique val lists
+sample.2016.unique <- lapply(sample.2016.clean, unique)
+result.2016.unique <- lapply(result.2016.clean, unique)
+
+```
+
+
+# Bind 2016 and 2017
+```{r}
+
+# SAMPLE
+# Return mismatched names
+setdiff(names(sample.2016.clean), names(sample.2017.clean))
+# [1] "dec_sample_type_cde" "lab_sample_type_cde"
+setdiff(names(sample.2017.clean), names(sample.2016.clean))
+# [1] "site_id_corr_ind" "dec_sample_type"  "sample_type_code"
+
+# Rename as needed
+sample.2017.clean.rn <- sample.2017.clean %>% 
+  rename(dec_sample_type_cde = dec_sample_type,
+         lab_sample_type_cde = sample_type_code)
+
+samp.16.17 <- bind_rows(sample.2016.clean, sample.2017.clean.rn)
+
+
+# RESULT
+res.16.17 <- bind_rows(result.2016.clean, result.2017.clean)
+
+# Verify join 
+join.16.17 <- left_join(samp.16.17, res.16.17, by = c("sys_sample_code", "sample_delivery_group"))
+samp.16.17.nomatch <- anti_join(samp.16.17, res.16.17, by = c("sys_sample_code", "sample_delivery_group"))
+res.16.17.nomatch <- anti_join(res.16.17, samp.16.17, by = c("sys_sample_code", "sample_delivery_group"))
+# Result: PASS
+
+rm(sample.2017.clean, join.16.17, samp.16.17.nomatch, res.16.17.nomatch)
+
+# Generate unique vals list
+samp.16.17.un <- lapply(samp.16.17, unique)
+res.16.17.un <- lapply(res.16.17, unique)
+
+
+```
+
 
 
 
@@ -469,34 +660,94 @@ sample.equis.orphan <- sample.equis %>%
 # write_csv(sample.equis.archive, file.path(datamod.dir, "to_be_cleaned", "field_equis", "equis_chem_fielddata_SAMPLE_20200122.csv"))
 # write_csv(sample.equis.orphan, file.path(tobecleaned.dir, "equis_chem_SAMPLE_noMatchingResults_omittedFromDB_20200122.csv"))
 
-# Clean overwrite masters.
-
-sample.equis <- sample.equis.keep
-result.equis <- result.equis.keep
-
 # Validate EQuIS join:
-equis.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
+equis.join <- left_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
 # # See if there are records in each table that don't have matches in the other
-sample.equis.nomatch <- anti_join(sample.equis, result.equis, by = "sys_sample_code")
-result.equis.nomatch <- anti_join(result.equis, sample.equis, by = "sys_sample_code")
+sample.equis.nomatch <- anti_join(sample.equis.keep, result.equis.keep, by = "sys_sample_code")
+result.equis.nomatch <- anti_join(result.equis.keep, sample.equis.keep, by = "sys_sample_code")
 # Result: all match!
+
 
 # Clean up DFs 
 rm(result.equis.lab, result.equis.field)
-rm(sample.equis.keep, result.equis.keep, sample.equis.archive, result.equis.archive, sample.equis.orphan)
+rm(sample.equis.archive, result.equis.archive, sample.equis.orphan)
 rm(equis.join, sample.equis.nomatch, result.equis.nomatch)
+
+### NOTE FROM BELOW: 2008 data for crossover params (PH, PHWATER, COND, SC, TEMP) looks suspcicious and should be investigated when all data is together. Move ahead with current designations in data.
+
 ```
 
-```{r Sample type, matrix code, and misc cleaning}
-sample.equis.unique <- lapply(sample.equis, unique)
-result.equis.unique <- lapply(result.equis, unique)
+```{r sample_type and sample_source cleaning}
+sample.equis.unique <- lapply(sample.equis.keep, unique)
+result.equis.unique <- lapply(result.equis.keep, unique)
 
-sample.equis.fix <- sample.equis %>% 
-  mutate()
-  
-  
-# When overwriting "FIELD MSR/OBS" records in sample_type_code, note this in CHS_COMMENT field.
-  
+# Conform name of result DF alongside sample DF.
+result.equis.clean <- result.equis.keep
+rm(result.equis.keep)
+
+# Create dec sample type field and modify as needed.
+sample.equis.clean <- sample.equis.keep %>% 
+  mutate(dec_sample_type_cde = sample_type_code,
+         # Populate for internal lab samples and fill site_id as such.
+         dec_sample_type_cde = ifelse(sample_matrix_code == "WQ", "LAB_INTERNAL", dec_sample_type_cde),
+         site_id = ifelse(sample_matrix_code == "WQ", "LAB_INTERNAL", site_id),
+         # Populate comment field for records marked as "FIELD MSR/OBS" in data but are suspected lab results. Before replacing with "N".
+         comments = ifelse(sample_type_code == "FIELD MSR/OBS", "Noted as FIELD MSR/OBS in EQuIS but suspected lab result", comments),
+         # Create lab_sample_type_code field with field samples replaced with "N". This is to be lab-only sample types to match suit with new data.
+         lab_sample_type_code = ifelse(sample_type_code %in% c("FB", "EB", "FIELD MSR/OBS", "FD"), "N", sample_type_code),
+         # Replace lab codes and FIELD MSR/OBS with "N" in dec_sample_type.
+         dec_sample_type_cde = ifelse(dec_sample_type_cde %in% c("FIELD MSR/OBS", "MS", "DUP", "MSD", "MB", "LCS", "LCSD", "LR", "SD"), "N", dec_sample_type_cde),
+         # Populate missing sample_source records
+         sample_source = ifelse(sample_source == "" & lab_sample_type_code %in% "N", "FIELD", sample_source),
+         sample_source = ifelse(sample_source == "" & !(lab_sample_type_code %in% "N"), "LAB", sample_source),
+         # Change single DUP marked as FD to DUP
+         dec_sample_type_cde = ifelse(dec_sample_type_cde %in% "FD", "DUP", dec_sample_type_cde),
+         # Fill those remaining with missing site IDs as LAB_INTERNAL or QA_QC as needed
+         site_id = ifelse(is.na(site_id) & lab_sample_type_code %in% c("LCS", "LCSD", "MB"), "LAB_INTERNAL", site_id)
+         # site_id = ifelse(is.na(site_id) & lab_sample_type_code %in% c("MS", "MSD", "DUP", "LR", "SD"), "QA_QC", site_id)
+         
+  ) %>% 
+  select(site_id, dec_sample_type_cde, lab_sample_type_code, everything(), -sample_type_code)
+
+# Populate site IDs for those missing them (sys_loc_code was blank). All are QC samples... 
+sample.equis.clean2 <- sample.equis.clean %>% 
+  mutate(old_ribs_id = ifelse(is.na(site_id) & grepl("_", sys_sample_code), substr(sys_sample_code, 1, 8), ""),
+         old_ribs_id = ifelse(sys_sample_code %in% "FB_07292015_WS", "07292015", old_ribs_id)) %>% 
+  left_join(sites.join.sub, by = "old_ribs_id") %>% 
+  mutate(site_id.x = ifelse(is.na(site_id.x), site_id.y, site_id.x)) %>% 
+  rename(site_id = site_id.x) %>% 
+  # Fill remaining missing with QA_QC
+  mutate(site_id = ifelse(is.na(site_id), "QA_QC", site_id)) 
+
+# Revert name back to master
+sample.equis.clean <- sample.equis.clean2
+
+sample.equis.unique <- lapply(sample.equis.clean2, unique)
+
+# Testing various conditions for consistency
+# 
+# test <- sample.equis.clean %>%
+#   # filter(grepl("LAB_TEST", sample_source))
+#   filter(
+#     is.na(site_id)
+#     # dec_sample_type_cde %in% "N",
+#     # sample_source %in% "LAB",
+#     # lab_sample_type_code %in% "N",
+#     # sample_matrix_code %in% "WQ"
+#          )
+# test.un <- lapply(test, unique)
+
+# test2 <- sample.2018.2019 %>%
+#   filter(
+#     dec_sample_type_cde %in% "LAB_INTERNAL"
+#     # sample_source %in% "Lab",
+#     # lab_sample_type_cde %in% "MS"
+#     # sample_matrix_cde %in% "WQ"
+#          )
+# test2.un <- lapply(test2, unique)
+
+
+rm(sample.equis.keep, sample.equis.clean2)
 
 ```
 
@@ -506,18 +757,44 @@ sample.equis.fix <- sample.equis %>%
 # Review ITS flag tables for any changes (??)
 # Populate validator_qualifier with historic data flag? (already made one?). May be some already present.
 
-# Remove interpreted_qualifiers field. Make sure not losing anything.
 
-
-
-
-# Previous cleaning code:
+# lab_qualifiers
+# , R, UN*, N, N*, U, J, *J, *, EJ, E, UE, UN, U*, B, NE, UNE, NJ, NEJ, *E, *EJ, X, N*J, U,*, H
+# interpreted_qualifiers
+# , KK, LL, U, B, L, E, J, *, C, R, Q, NJ, N, *J, EJ, UN*, N*, NE, NEJ, UE, UN, U*, H, UNE, *E, *EJ, X, N*J
+# validator_qualifiers
+# , R, J, H, L
 
 # Compare EQuIS flag fields
-result.equis.test <- result.equis %>% 
+result.equis.flagdiff <- result.equis.clean %>% 
   mutate(flagdiff = ifelse(lab_qualifiers != interpreted_qualifiers, 1, 0)) %>% 
-  select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) 
-  # distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
+  select(lab_qualifiers, interpreted_qualifiers, flagdiff, validator_qualifiers, everything()) %>% 
+  distinct(lab_qualifiers, interpreted_qualifiers, .keep_all = TRUE)
+
+result.equis.clean2 <- result.equis.clean %>% 
+# Replace lab_qualifiers with interpreted_qualifiers. Some different but the latter is a summarized version and most useful.
+  mutate(lab_qualifiers = interpreted_qualifiers,
+         # CHANGE DOUBLE LETTER FLAGS TO SINGLE as in CHEM_QUALIFIER_LAB table
+         lab_qualifiers = ifelse(lab_qualifiers %in% "KK", "F", lab_qualifiers),
+         lab_qualifiers = ifelse(lab_qualifiers %in% "LL", "G", lab_qualifiers)) %>% 
+# Drop existing validator_qual. Only 1 present of H, R, and L each, and these are not useful. ~300 J present in just 2014, which is fishy.
+### REMOVE CHR_VALIDATOR_QUAL_HIST from DD ###  
+  select(-c(interpreted_qualifiers, validator_qualifiers))
+
+
+result.equis.clean <- result.equis.clean2
+rm(result.equis.clean2, result.equis.flagdiff)
+
+# Rerun uniques
+result.equis.unique <- lapply(result.equis.clean, unique)
+
+
+```
+
+
+```{r Various column formatting}
+
+# Dates
 
 ```
 
@@ -525,308 +802,546 @@ result.equis.test <- result.equis %>%
 
 
 
-
-
-# Join all datasets and review for consistency
+# Join 16.17 and equis
 
 ```{r}
-# Check for any non-matching fields
-setdiff(names(sample.2016), names(sample.2017))
-setdiff(names(sample.2017), names(sample.2016))
+## First synchronize field names
 
+# SAMPLE
+# Check for any non-matching fields
+# setdiff(names(samp.16.17), names(sample.equis.clean))
+# [1] "lab_sample_type_cde"   "sample_delivery_group" "sys_loc_code"          "sampling_technique"    "comment"              
+# [6] "site_id_corr_ind"    
+# setdiff(names(sample.equis.clean), names(samp.16.17))
+# [1] "lab_sample_type_code" "old_ribs_id"          "sample_del_grp_equis" "sample_method"        "comments"             "facility_name"   
+
+# Change field names as needed
+sample.equis.final <- sample.equis.clean %>% 
+  rename(sampling_technique = sample_method,
+         comment = comments,
+         sys_loc_code = old_ribs_id,
+         lab_sample_type_cde = lab_sample_type_code) %>% 
+  select(-facility_name) # Removed ;artifact of EQuIS database.
+
+# Check diff again 
+# setdiff(names(samp.16.17), names(sample.equis.final))
+# [1] "sample_delivery_group" "site_id_corr_ind" 
+# setdiff(names(sample.equis.final), names(samp.16.17))
+# [1] "sample_del_grp_equis"
+
+# OK! (these remain)
+
+#RESULT
+# Check for any non-matching fields
+# setdiff(names(res.16.17), names(result.equis.clean))
+# [1] "comment"               "validator_qualifiers"  "sample_delivery_group"
+# setdiff(names(result.equis.clean), names(res.16.17))
+# [1] "test_comment"         "result_text"          "sample_del_grp_equis" "results_historic_id"  "facility_name"  
+
+result.equis.final <- result.equis.clean %>% 
+  select(-c(result_text, facility_name, results_historic_id, test_comment, column_number))
+
+res.16.17.final <- res.16.17 %>% 
+  select(-c(column_number))
+
+## Format fields to match
+samp.16.17.final <- samp.16.17 %>% 
+  mutate(chain_of_custody = as.character(chain_of_custody))
+
+## Join 16.17 with equis
+all.samp <- bind_rows(samp.16.17.final, sample.equis.final)
+all.res <- bind_rows(res.16.17.final, result.equis.final)
+
+# Run uniques
+all.samp.unique <- lapply(all.samp, unique)
+all.res.unique <- lapply(all.res, unique)
+
+
+# Validate join:
+all.join <- left_join(all.samp, all.res, by = c("sys_sample_code", "sample_delivery_group"))
+## Result: PASS
+# See if there are records in each table that don't have matches in the other
+samp.all.nomatch <- anti_join(all.samp, all.res, by = "sys_sample_code")
+res.all.nomatch <- anti_join(all.res, all.samp, by = "sys_sample_code")
+## Result: all match!
+
+rm(all.join, samp.all.nomatch, res.all.nomatch)
 ```
 
+
+```{r Post-join cleaning}
+
+# Change all site_id_corr_ind for LAB_INTERNAL samples to NA? (check DD if Null)... Are NAs allowed aside from not null? Check previous submissions.
+
+# Conform sample_source caps formatting to 2018/2019
+
+all.samp.clean <- all.samp %>% 
+  # Standardize character case in sample_source field
+  mutate(sample_source = ifelse(grepl("[Ff][Ii][Ee][Ll][Dd]", sample_source), "Field", sample_source),
+         sample_source = ifelse(grepl("[Ll][Aa][Bb]", sample_source), "Lab", sample_source)) 
+
+
+
+
+# Rerun uniques
+all.samp.unique <- lapply(all.samp.clean, unique)
+all.res.unique <- lapply(all.res, unique)
+
+# test <- all.samp.clean %>% 
+#   filter(
+#     is.na(site_id)
+#     # dec_sample_type_cde %in% "N",
+#          # sample_source %in% "Field"
+#     )
+# test.unique <- lapply(test, unique)
+# 
+# test2 <- sample.2018.2019 %>% 
+#   filter(
+#     dec_sample_type_cde %in% "N",
+#          sample_source %in% "Field"
+#     )
+# test2.unique <- lapply(test2, unique)
+
+
+# Join for use below:
+all.join <- left_join(all.samp.clean, all.res, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  mutate(sample_date = as.character(sample_date))
+
+
+
+```
 
 
 
 
 # Apply pcodes (try after join) and review
-```{r equis}
 
-# Make sure to apply "source: unknown" pcodes to uncertain records (temp, spcond, pH, "pH, (Water)"...? ; lab_name_codes are blank)
+```{r Join pcodes}
 
-# 31,667 record that could not join pcodes b/c result_unit blank??? Use MDL unit?
+pcode.join <- read_csv(file.path(datamod.dir, "to_be_cleaned", "chem_parameters", "dec_pcode_join_2020-08-24.csv")) %>%
+  # Remove in-situ entries and duplicate turbidity pcode (for undetermined data)
+  filter(!(RESULT_TYPE %in% "in-situ"),
+         !(DEC_pcode_FINAL %in% "161")) 
+
+# pcode.join.dist <- pcode.join %>% 
+#   select(chemical_name, fraction, result_unit) %>% 
+#   mutate(test = paste0(chemical_name, fraction, sep = "_")) %>% 
+#   select(test) %>% 
+#   group_by(test) %>% 
+#   filter(n()>1)
+
+# Pre-join fixes:
+
+#Change single "dissolved" mercury to T fraction
+### As per Jason Fagel, 2/1/21
+all.res.fix <- all.res  %>%
+  mutate(chemical_name = tolower(chemical_name),
+         result_unit = tolower(result_unit),
+         result_unit = ifelse(result_unit == "", detection_limit_unit, result_unit),
+         fraction = ifelse(fraction %in% "D" & chemical_name %in% "mercury", "T", fraction)
+         # fraction = ifelse(is.na(fraction), "BLANK", fraction)
+         )
+
+all.res.fix.unique <- lapply(all.res.fix, unique)
+
+# all.res.fix.dist <- all.res.fix %>% 
+#   distinct(chemical_name, fraction, result_unit)
+
+# Join pcodes to all data
+all.res.pcode <- all.res.fix %>% 
+  left_join(pcode.join, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  mutate(
+    # fraction = ifelse(fraction %in% "T", "TOTAL", fraction),
+    # fraction = ifelse(fraction %in% "D", "DISSOLVED", fraction)
+  ) %>% 
+  select(DEC_pcode_FINAL, chemical_name, everything())
+### MANY EXTRA RECORDS CREATED!
+
+# Look at uniques 
+all.res.pcode.unique <- lapply(all.res.pcode, unique)
+
+# all.res.pcode.na <- all.res.pcode %>% 
+#   filter(is.na(fraction))
+# all.res.pcode.na.unique <- lapply(all.res.pcode.na, unique)
+
+# Review records that didn't get pcodes assigned
+all.res.pfail <- all.res.pcode %>% 
+  filter(is.na(DEC_pcode_FINAL),
+         # lab_matrix_code %in% "WS"
+         ) %>% 
+  mutate(analysis_date = as.POSIXct(analysis_date, format = "%m/%d/%Y %H:%M:%S"),
+    year = format(as.Date(analysis_date, format="%d/%m/%Y"),"%Y"))
+# Look at unique vals
+all.res.pfail.unique <- lapply(all.res.pfail, unique)
+# All above are missing matrix codes and units as well. Also are field/WS samples with no result val (mostly nondetects)
+  # detecion limit units exist for all. Replaced in all.res.fix
+
+
+
+
+# all.res.unitcheck <- all.res %>% 
+#   filter(result_unit == "") %>%
+#   mutate(unitcheck = ifelse(result_unit == detection_limit_unit, 0, 1)) %>% 
+#   select(unitcheck, result_unit, detection_limit_unit, everything()) %>% 
+#   filter(unitcheck == "1") 
+  # identical(all.res$result_unit, all.res$detection_limit_unit)
+
+# all.join.pfail <- all.samp %>% 
+#   inner_join(all.res.pfail, by = "sys_sample_code")
+# # Look at unique vals
+# all.join.pfail.unique <- lapply(all.join.pfail, unique)
+
+
+# Look into unique records that didn't get pcodes
+# Single mercury "D" fraction
+
+# all.join.pfail.sub <- all.join %>% 
+#   filter(sys_sample_code %in% "10010001E-09142009-WS",
+#          # sample_date %in% "2009-06-30 11:00:00"
+#          ) %>% 
+#   select(chemical_name, fraction, everything())
+# Confirmed on D record exists, no T. Record to be changed to T.
+
+
+
+
+# Review pcode assignments for data marked as field measurements.
+all.pcode.unk <- left_join(all.samp.clean, all.res.pcode, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  filter(
+    # comment.x %in% "Noted as FIELD MSR/OBS in EQuIS but suspected lab result",
+    RESULT_TYPE %in% "undetermined"
+    # chemical_name %in% "conductivity",
+    # !(lab_name_code %in% "")
+    ) %>% 
+  select(DEC_pcode_FINAL, RESULT_TYPE, chemical_name, lab_name_code, result_unit, everything())
+  
+# > unique(all.pcode.unk$chemical_name)
+# [1] "specific conductance"               "ph"                                 "conductivity at 25 degrees celsius" "temperature"                
+# [5] "ph (water)"                         "conductivity"  
+
+# Reassigned "source underermined" pcodes that lab name codes to the appropriate "lab source" pcode
+all.res.pcode.fix <- all.res.pcode %>% 
+  mutate(DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "ph", "110", DEC_pcode_FINAL),
+         DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "ph (water)", "110", DEC_pcode_FINAL),
+         DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "specific conductance", "136", DEC_pcode_FINAL),
+         DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "conductivity", "044", DEC_pcode_FINAL),
+         DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "conductivity at 25 degrees celsius", "136", DEC_pcode_FINAL),
+         DEC_pcode_FINAL = ifelse(!(lab_name_code %in% "") & chemical_name %in% "temperature", "143", DEC_pcode_FINAL)
+         ) 
+  # select(-RESULT_TYPE)
+
+  # rejoin result type to verify reduction in "undetermined source" pcodes
+# pcode.final.src <- pcode.final %>% 
+#   select(DEC_pcode_FINAL, CHEM_PARAMETER_SOURCE) %>% 
+#   inner_join(all.res.pcode.fix, by = "DEC_pcode_FINAL") %>% 
+#   select(lab_name_code, everything())
+# 
+# FOr checking counts of RESULT_TYPE agianst above
+# all.res.pcode2 <- all.res.pcode %>% 
+#   select(RESULT_TYPE, everything())
+# Result: reduced "undetermined" from ~18k to ~3k!
+
+# rm(pcode.final.src, all.res.pcode2)
+
+# Make sure to apply "source: unknown" pcodes to uncertain records (temp, spcond, pH, "pH, (Water)"...? ; lab_name_codes are blank and/or marked as field measurement? (see comment field))
 
 ```
 
+```{r Attach final pcode fields for validation and export}
 
+pcode.final <- read_csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201013_S_CHEM_PARAMETER.csv")) %>% 
+  rename(DEC_pcode_FINAL = CHEM_PARAMETER_PCODE)
 
-
-
-
-
-
-
-
-
-
-### Old code chunks below ###
-Use bits and pieces of these blocks for final data cleaning above.
-
-
-
-Join with sites table to add modern site IDs
-```{r}
-
-# Load in RIBS crosswalk table. Must use this and not sites table due to duplicate RIBS IDs assigned to singe SBU ids (not reflected in sites table; crosswalk retains duplicates)
-ribs.crosswalk <- readxl::read_excel(file.path(root.dir, "ribsid_join/RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx")) %>% 
-  rename(sys_loc_code = ADJUST_RIBS_ID) %>% 
-  select(sys_loc_code, SBU_ID)
-
-equis.sample.siteids <- left_join(equis.sample, ribs.crosswalk, by = "sys_loc_code") %>% 
-  select(SBU_ID, everything())
-
-equis.sample.siteids.nomatch <- equis.sample.siteids %>% 
-  filter(is.na(SBU_ID)) %>% 
-  mutate(year = format(as.Date(sample_date, format="%m/%d/%Y"),"%Y")) %>% 
-  select(year, everything())
-
-missing.ribsids <- unique(equis.sample.siteids.nomatch$sys_loc_code) 
-
-# Import EQuIS locations table to see if these un-crosswalked sites are present 
-equis.location <- read_csv(file.path(root.dir, "data/equis_location_history.csv")) %>% 
-  rename(LATITUDE = LONGITUDE,
-         LONGITUDE = LATITUDE)
-
-equis.location.missingribsids <- equis.location %>% 
-  filter(SYS_LOC_CODE %in% missing.ribsids,
-         SYS_LOC_CODE != "QA_QC") %>% 
-  select(SYS_LOC_CODE, LATITUDE, LONGITUDE, SURF_ELEV, ELEV_UNIT, LOC_NAME, LOC_DESC, LOC_COUNTY_CODE, DEC_REGION, LOC_MAJOR_BASIN, 
-         NYS_DRAINAGE_BASIN_CODE, STREAM_MILE) %>% 
-  mutate(lat_long = paste0(LATITUDE, "_", LONGITUDE))
-
-# missing.diff <- anti_join(equis.location.missingribsids, equis.location.missingribsids2)
-
-# write_csv(equis.location.missingribsids, file.path(root.dir, "ribsid_join/equis.location.missingribsids.csv"))
-
-
-```
-
-
-Join sample and result tables and check for issues
-```{r}
-# SDG not populated for all records. Must use only sys_sample_code.
-
-equis.join <- left_join(sample.equis, result.equis, by = "sys_sample_code")
-# 110 extra records created
-
-# See if there are records in each table that don't have matches in the other
-sample.equis.nomatch <- anti_join(sample.equis, result.equis, by = "sys_sample_code")
-result.equis.nomatch <- anti_join(result.equis, sample.equis, by = "sys_sample_code")
-
-# Export data in-progress for subsetting for finger lakes basin percentiles for Brian's presentation; 6/12/2020
-equis.join.bas7.simple <- equis.join %>% 
-  filter(grepl("*07-", SBU_ID)) %>% 
-  filter(sample_type_code %in% "N") %>% 
-  filter(chemical_name %in% c("Phosphorus", "Nitrogen, Nitrate (As N)", "Turbidity", "Nitrogen")) %>% 
-  select(sys_sample_code, SBU_ID, sample_date, chemical_name, fraction, result_numeric, result_unit, interpreted_qualifiers, method_detection_limit, detection_limit_unit)
-
-write_csv(equis.join.bas7.simple, "equis.basin7.N-P-turb.simple.csv")
-
-```
-
-Investigate flag field values and change as needed
-```{r}
-# Make table of unique flags and test methods of removing special characters
-labflags <- equis.result %>% 
-  select(lab_qualifiers, interpreted_qualifiers) %>% 
+# Format for visual review of distinct entries
+all.res.pcode.check <- all.res.pcode.fix %>% 
+  left_join(pcode.final, by = "DEC_pcode_FINAL") %>%
+  select(RESULT_TYPE, CHEM_PARAMETER_SOURCE, DEC_pcode_FINAL, fraction, CHEM_PARAMETER_FRACTION, result_unit, CHEM_PARAMETER_UNIT_NOSP, chemical_name, CHEM_PARAMETER_NAME) %>% 
+  # distinct(DEC_pcode_FINAL, fraction, result_unit, chemical_name, RESULT_TYPE)
   distinct()
-
-### CHANGE DOUBLE LETTER FLAGS TO SINGLE ##
-#casewhen... "KK" to "F" and "LL" to "G"
-# As in CHEM_QUALIFIER_LAB table
-
-```
-
-
-Remove field YSI data from equis data, and lab data from field table, and set aside for binding later
-```{r}
-# First subset out by results table (where there's more info to deduce field vs lab data) then %in% match to subset samples table
-
-equis.result.field <- equis.result %>% 
-  filter(grepl("*FS", sys_sample_code))
-equis.result.lab <- equis.result %>% 
-  filter(!grepl("*FS", sys_sample_code))
-
-# Looking at unique parameters in field and lab subsets
-
-# > unique(equis.result.field$cas_rn)
-# [1] TURB        TEMP        SC          DISS_OXYGEN PH          PHWATER     COLIF       FECCOLIFORM
-
-# > unique(equis.result.lab$cas_rn)
-#  [1] TVS         TSO         TDS         PH          HARD        SC          FECCOLIFORM COLIF       TSS         TEMP        DISS_OXYGEN TOC        
-# [13] 14265-44-2  7723-14-0   14797-65-0  NO3NO2N     14797-55-8  KN          7664-41-7   ALK         16887-00-6  14808-79-8  16984-48-8  7439-97-6  
-# [25] 7439-92-1   7440-02-0   7440-43-9   7440-50-8   7429-90-5   7439-89-6   7439-95-4   7439-96-5   7440-09-7   7440-23-5   7440-66-6   7440-70-2  
-# [37] TURB        75-27-4     79-01-6     TOTPHEN     124-48-1    127-18-4    67-66-3     74-87-3     75-01-4     75-09-2     7440-22-4   7440-38-2  
-# [49] 7727-37-9   PHWATER     121-48-1    DOC         17060-07-0  2037-26-5   460-00-4    PDORTHO     7440-44-0   COND        ARC-NO3NO2N 479-61-8 
-
-
-### Cleaning up field data
-
-# Subset fecal data from field for binding to lab later
-equis.result.lab.fecal <- equis.result.field %>% 
-  filter(grepl("COLIF|FECCOLIFORM", cas_rn))
-# Remove fecal data from field
-equis.result.field <- equis.result.field %>% 
-  filter(!grepl("COLIF|FECCOLIFORM", cas_rn))
-
-# Subset turbidity data from field for binding to lab later
-equis.result.lab.turb <- equis.result.field %>% 
-  filter(grepl("TURB", cas_rn))
-# Remove turbidity data from field
-equis.result.field <- equis.result.field %>% 
-  filter(!grepl("TURB", cas_rn))
-
-# Subset SC data to invesigate and confirm if field-derive or lab-derived
-equis.result.field.SC <- equis.result.field %>% 
-  filter(grepl("SC", cas_rn))
-rm(equis.result.field.SC)
-  #conclusion: no indiciation that any records are lab data.
-
-# Subset PH data to invesigate and confirm if field-derive or lab-derived
-equis.result.field.PH <- equis.result.field %>% 
-  filter(grepl("PH|PHWATER", cas_rn))
-rm(equis.result.field.PH)
-  #conclusion: no indiciation that any records are lab data.
-
-# Subset temp data to invesigate and confirm if field-derive or lab-derived
-equis.result.field.temp <- equis.result.field %>% 
-  filter(grepl("TEMP", cas_rn))
-rm(equis.result.field.temp)
-  #conclusion: no indiciation that any records are lab data.
-
-
-### Cleaning up lab data
-
-# Subset DO data from lab for binding to field later
-equis.result.field.DO <- equis.result.lab %>% 
-  filter(grepl("DISS_OXYGEN", cas_rn))
-# Remove DO data from lab
-equis.result.lab <- equis.result.lab %>% 
-  filter(!grepl("DISS_OXYGEN", cas_rn))
-
-# Subset SC data to invesigate and confirm if field-derive or lab-derived
-equis.result.lab.SC <- equis.result.lab %>% 
-  filter(grepl("SC", cas_rn))
-rm(equis.result.lab.SC)
-  #conclusion: no indiciation that any records are field data.
-
-# Subset COND data to invesigate and confirm if field-derive or lab-derived
-equis.result.lab.COND <- equis.result.lab %>% 
-  filter(grepl("COND", cas_rn))
-rm(equis.result.lab.COND)
-  #conclusion: All confirmed lab data.
-
-# Subset PH data to invesigate and confirm if field-derived or lab-derived
-equis.result.lab.PH <- equis.result.lab %>% 
-  filter(grepl("PH|PHWATER", cas_rn))
-rm(equis.result.lab.PH)
-  #conclusion: no indiciation that any records are field data.
-
-# Subset TEMP data to invesigate and confirm if field-derive or lab-derived
-equis.result.lab.TEMP <- equis.result.lab %>% 
-  filter(grepl("TEMP", cas_rn))
-rm(equis.result.lab.TEMP)
-  #conclusion: no indiciation that any records are field data.
-
-
-### Overall conclusion: 2008 data for crossover params (PH, PHWATER, COND, SC, TEMP) looks suspcicious and should be investigated when all data is together. Move ahead with current designations in data.
-
-```
-
-Bind orphaned field and lab data to their respective tables and create their repsective sample tables
-```{r}
-
-equis.result.field <- bind_rows(equis.result.field, equis.result.field.DO)
-
-equis.result.lab <- bind_rows(equis.result.lab, equis.result.lab.fecal, equis.result.lab.turb)
-
-rm(equis.result.field.DO, equis.result.lab.fecal, equis.result.lab.turb)
-
-# Create lab and field sample tables from existing results
- equis.sample.field <- equis.sample[equis.sample$sys_sample_code %in% equis.result.field$sys_sample_code, ]
-#   check to make sure length is same as unique sys_sample_codes
-#     > length(unique(equis.result.field$sys_sample_code))
-#     [1] 5564
- 
- equis.sample.lab <- equis.sample[equis.sample$sys_sample_code %in% equis.result.lab$sys_sample_code, ]
-#   check to make sure length is same as unique sys_sample_codes
-#     > length(unique(equis.result.lab$sys_sample_code))
-#     [1] 15195
- 
-# Export field data for appending to appropirate field table
- 
-```
-
-Investigate field name matches between equis and 2016 data
-### SORT OUT 2016 DUPLICATE SAMPLE NAME ISSUES BEFORE PROCESSING BELOW DATA ###
-### See fixing_2016_chem.Rmd ###
-```{r}
-# Get column names and see which match
-names_equis.result <- names(equis.result)
-names_result.2016 <- names(result.2016)
-
-result.unmatch_cols.eq <- names_equis.result[!names_equis.result %in% names_result.2016]
-# Output: > result.unmatch_cols.eq
-# [1] "test_comment"        "result_text"         "result_numeric"      "results_historic_id" "facility_name"  
-
-# "test_comment" can be ignored (all NAs)
-# "result_text" can be ignored (identical to result_numeric) 
-# "results_historic_id" and "facility_name" can be ignored, as these are equis fields.
-
-result.unmatch_cols.2016 <- names_result.2016[!names_result.2016 %in% names_equis.result]
-# Output: > result.unmatch_cols.2016
-# [1] "comment"      "result_value" 
-# "comment" can be ignored (all NAs)
-# "result_value" will become "result_numeric"
-
-
-names_equis.sample <- names(equis.sample)
-names_sample.2016 <- names(sample.2016)
-
-sample.unmatch_cols.eq <- names_equis.sample[!names_equis.sample %in% names_sample.2016]
-# Output: > sample.unmatch_cols.eq
-# [1] "sample_method" "comments"      "facility_name"
-# "sample_method" 
-
-sample.unmatch_cols.2016 <- names_sample.2016[!names_sample.2016 %in% names_equis.sample]
-# > sample.unmatch_cols.2016
-# [1] "sampling_technique" "comment"            "siteid"
-# "sampling_technique" is blank and will be populated with "SOP201" and append to equis "sample_method""
-# "comment" is blank
-# "siteid" will be bound with sys_loc_code
-
-```
-
-Populate fields as needed and rename to match 2016 and equis data
-```{r}
-
-result.2016 <- result.2016 %>% 
-  rename(result_numeric = result_value) %>% 
-  select(-comment)
-
-
-sample.2016$sampling_technique <- "SOP201" 
-
-sample.2016 <- sample.2016 %>% 
-  select(-c(comment, sys_loc_code)) %>% 
-  rename(sampling_method = sampling_technique) %>%
-  rename(sys_loc_code = siteid)
   
-  
-  # as.character(sample.2016$sampling_technique)
+# Remove unneeded field and name as final table
+all.res.clean <- all.res.pcode.fix %>% 
+  select(-RESULT_TYPE)
+
+```
+
+# Final formatting and joining
+```{r Rename fields and misc formatting}
+
+# generate uniques
+all.samp.clean.unique <- lapply(all.samp.clean, unique)
+all.res.clean.unique <- lapply(all.res.clean, unique)
+
+
+
+# Review 2018/2019 processing script for possible additional cleaning.
+
+
+sample.final <- all.samp.clean %>%
+  rename_all(toupper) %>%
+  rename(
+    EVENT_SMAS_HISTORY_ID = SITE_ID,
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    SAMPLE_MATRIX_CDE = SAMPLE_MATRIX_CODE,
+    PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
+    SYS_LOC_CDE = SYS_LOC_CODE,
+    SAMPLE_DATETIME = SAMPLE_DATE,
+    SITE_ID_CORR_YN = SITE_ID_CORR_IND
+  ) %>%
+  mutate(SAMPLE_DATETIME.posixct = as.POSIXct(SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S"),
+         EVENT_SMAS_SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
+  rename_all(function(x)
+    paste0("CHS_", x))
+
+result.final <- all.res.clean %>%
+  rename_all(toupper) %>%
+  mutate(QLFR_SRC = "AE",
+         VALIDATOR_QUAL = "0") %>% 
+  rename(
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
+    LAB_MATRIX_CDE = LAB_MATRIX_CODE,
+    LAB_NAME_CDE = LAB_NAME_CODE,
+    SUBSAMPLE_AMT = SUBSAMPLE_AMOUNT,
+    SUBSAMPLE_AMT_UNIT = SUBSAMPLE_AMOUNT_UNIT,
+    RESULT_TYPE_CDE = RESULT_TYPE_CODE,
+    # REPORTABLE_RESULT_IND = REPORTABLE_RESULT,
+    LAB_QUAL = LAB_QUALIFIERS,
+    # VALIDATOR_QUAL_HIST = VALIDATOR_QUALIFIERS,
+    # INTERPRETED_QUAL = INTERPRETED_QUALIFIERS,
+    LAB_VALIDATION_LEVEL = VALIDATION_LEVEL,
+    METHOD_DETECT_LIMIT = METHOD_DETECTION_LIMIT,
+    REPORTING_DETECT_LIMIT = REPORTING_DETECTION_LIMIT,
+    QC_ORIG_CONC = QC_ORIGINAL_CONC,
+    QC_DUP_ORIG_CONC = QC_DUP_ORIGINAL_CONC,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP
+    # VALIDATION_DATE = QAQC_DATE
+  ) %>%
+  # mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(VALIDATION_DATE = as.Date(VALIDATION_DATE, format = "%m/%d/%Y"),
+  #        VALIDATION_DATE = format((VALIDATION_DATE), "%m/%d/%Y")) %>% 
+  # mutate(FRACTION = case_when(
+  #   FRACTION == "T" ~ "TOTAL",
+  #   FRACTION == "D" ~ "DISSOLVED",
+  #   TRUE ~ FRACTION)) %>% 
+  rename_all(function(x)
+    paste0("CHR_", x)) %>% 
+  rename(CHR_PCODE = CHR_DEC_PCODE_FINAL)
+
+
 
 ```
 
 
-Rename appropriate columns and bind data
-```{r}
+
+```{r Select final headers as in data model}
+
+
+
+sample.final.ITS <- sample.final %>% 
+  select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR_YN, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+         CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
+         CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DEL_GRP_EQUIS, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, 
+         CHS_SYS_LOC_CDE, CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
+
+
+result.final.ITS <- result.final %>% 
+  select(CHR_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_SAMPLE_DEL_GRP_EQUIS, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, 
+         CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, 
+         CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, 
+         CHR_RESULT_VALUE, CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL,
+         CHR_VALIDATED_YN, CHR_METHOD_DETECT_LIMIT, CHR_REPORTING_DETECT_LIMIT, CHR_QUANTITATION_LIMIT,
+         CHR_DETECTION_LIMIT_UNIT, CHR_LAB_VALIDATION_LEVEL, CHR_VALIDATOR_QUAL,
+         CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC,
+         CHR_QC_DUP_SPIKE_ADDED, CHR_QC_DUP_SPIKE_MEASURED, CHR_QC_DUP_SPIKE_RECOVERY, CHR_QC_RPD, CHR_QC_SPIKE_LCL, CHR_QC_SPIKE_UCL,
+         CHR_QC_RPD_CL, CHR_QC_SPIKE_STATUS, CHR_QC_DUP_SPIKE_STATUS, CHR_QC_RPD_STATUS)
+
 
 ```
 
 
-Rename fields to match new database field names (USE NEW UNIFIED DATA MODEL FIELDS)
-```{r}
+```{r join with 2018/2019 data}
+
+# Reload data with ITS field names
+sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "prev_versions",  "20201023_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>% 
+  # HAD TO IMPORT AS UTC TZ BECUASE OTHER DATA FRAME SOMEHOW HAS UTC. CONVERSION WAS HAPPENING DURING BIND BELOW!
+  mutate(CHS_SAMPLE_DATETIME = as.POSIXct(CHS_SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S", tz = "UTC"))
+
+result.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "prev_versions",  "20201120_S_CHEM_HISTORY_RESULT.csv"), 
+                             stringsAsFactors = FALSE,
+                             colClasses = c(CHR_PCODE="character")) 
+
+
+#SAMPLE:
+
+# Compare field names
+# > setdiff(names(sample.final.ITS), names(sample.2018.2019))
+# [1] "CHS_SAMPLE_DEL_GRP_EQUIS"
+# > setdiff(names(sample.2018.2019), names(sample.final.ITS))
+# character(0)
+
+# Bind old and new
+complete.bind.sample <- bind_rows(sample.final.ITS, sample.2018.2019)
+
+
+#RESULT:
+
+# Compare field names
+# > setdiff(names(result.final.ITS), names(result.2018.2019))
+# [1] "CHR_SAMPLE_DEL_GRP_EQUIS" "CHR_REPORTABLE_RESULT"    "CHR_VALIDATOR_QUAL_HIST"  "CHR_LAB_VALIDATION_LEVEL"
+# > setdiff(names(result.2018.2019), names(result.final.ITS))
+# [1] "CHR_FRACTION"              "CHR_CHEMICAL_NAME"         "CHR_RESULT_UNIT"           "CHR_REPORTABLE_RESULT_IND"
+# [5] "CHR_VALIDATION_DATE"       "CHR_VALIDATOR_QUAL"        "CHR_VALIDATOR_QUAL_EXPLN" 
+
+# Update 2018-2019 fields 
+result.2018.2019.new <- result.2018.2019 %>% 
+  select(-c(CHR_FRACTION, CHR_CHEMICAL_NAME, CHR_RESULT_UNIT)) %>% 
+  rename(CHR_REPORTABLE_RESULT = CHR_REPORTABLE_RESULT_IND)
+
+# Bind old and new
+complete.bind.result <- bind_rows(result.final.ITS, result.2018.2019.new)
+
+
+
+# Reorder fields
+complete.sample <- complete.bind.sample %>% 
+  select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR_YN, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DEL_GRP_EQUIS, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE, CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
+
+
+complete.result <- complete.bind.result %>% 
+  select(CHR_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_SAMPLE_DEL_GRP_EQUIS, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_RESULT_VALUE, CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_VALIDATED_YN, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, CHR_VALIDATOR_QUAL_EXPLN, CHR_METHOD_DETECT_LIMIT, CHR_REPORTING_DETECT_LIMIT, CHR_QUANTITATION_LIMIT, CHR_DETECTION_LIMIT_UNIT, CHR_LAB_VALIDATION_LEVEL, CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC, CHR_QC_DUP_SPIKE_ADDED, CHR_QC_DUP_SPIKE_MEASURED, CHR_QC_DUP_SPIKE_RECOVERY, CHR_QC_RPD, CHR_QC_SPIKE_LCL, CHR_QC_SPIKE_UCL, CHR_QC_RPD_CL, CHR_QC_SPIKE_STATUS, CHR_QC_DUP_SPIKE_STATUS, CHR_QC_RPD_STATUS)
+
+```
+
+```{r Review and final cleaning}
+
+# SAMPLE:
+
+# Final edits
+complete.sample.final <- complete.sample %>% 
+  mutate(CHS_EVENT_SMAS_HISTORY_ID = ifelse(CHS_EVENT_SMAS_HISTORY_ID %in% "04-SAMO-1.7", "05-SAMO-1.7", CHS_EVENT_SMAS_HISTORY_ID),
+         CHS_EVENT_SMAS_HISTORY_ID = ifelse(CHS_EVENT_SMAS_HISTORY_ID %in% c("TRIP_BLANK", "QA_QC", "LAB_INTERNAL"), 
+                                            "00-QAQC-0.0", CHS_EVENT_SMAS_HISTORY_ID),
+         CHS_EVENT_SMAS_SAMPLE_DATE = as.Date(CHS_EVENT_SMAS_SAMPLE_DATE, format = "%m/%d/%Y"),
+         CHS_EVENT_SMAS_SAMPLE_DATE = format((CHS_EVENT_SMAS_SAMPLE_DATE), "%m/%d/%Y"),
+         CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"),
+         CHS_SAMPLE_RECEIPT_DATE = format((CHS_SAMPLE_RECEIPT_DATE), "%m/%d/%Y"),
+         CHS_SAMPLE_DATETIME = format((CHS_SAMPLE_DATETIME), "%m/%d/%Y %H:%M:%S"),
+         CHS_SAMPLING_COMPANY_CODE = "NYSDEC"
+         )  
+
+# Review unique values
+complete.sample.unique <- lapply(complete.sample.final, unique)
+
+# RESULT:
+
+complete.result.final <- complete.result %>% 
+  mutate(CHR_ANALYSIS_DATE = as.POSIXct(CHR_ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S"),
+         CHR_ANALYSIS_DATE = format((CHR_ANALYSIS_DATE), "%m/%d/%Y %H:%M:%S"),
+         CHR_TEST_TYPE = tolower(CHR_TEST_TYPE),
+         CHR_REPORTABLE_RESULT = ifelse(CHR_REPORTABLE_RESULT %in% c("Y", "YES"), "Yes", CHR_REPORTABLE_RESULT),
+         CHR_REPORTABLE_RESULT = ifelse(CHR_REPORTABLE_RESULT %in% c("N", "NO"), "No", CHR_REPORTABLE_RESULT),
+         CHR_LAB_QUAL = str_replace(CHR_LAB_QUAL, ",", ""),
+         CHR_LAB_QUAL = ifelse(CHR_LAB_QUAL %in% "", "0", CHR_LAB_QUAL)
+
+)
+
+complete.result.unique <- lapply(complete.result.final, unique)
+
+test <- complete.result.final %>%
+  filter(CHR_LAB_QUAL == "") %>% 
+  mutate(
+    CHR_ANALYSIS_DATE = as.POSIXct(CHR_ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S"),
+         year = format((CHR_ANALYSIS_DATE), "%Y"))
+# test2 <- result.equis %>% 
+#   filter(lab_matrix_code == "") %>% 
+#   mutate(analysis_date = as.POSIXct(analysis_date, format = "%m/%d/%Y %H:%M:%S"),
+#          year = format((analysis_date), "%Y"))
+
+
+# Final join test
+temp.samp <- complete.sample.final %>% 
+  rename(sys_sample_code = CHS_SYS_SAMPLE_CDE,
+         sample_delivery_group = CHS_SAMPLE_DEL_GRP)
+temp.res <- complete.result.final %>% 
+  rename(sys_sample_code = CHR_SYS_SAMPLE_CDE,
+         sample_delivery_group = CHR_SAMPLE_DEL_GRP)
+
+complete.join <- left_join(temp.samp, temp.res, by = c("sys_sample_code", "sample_delivery_group"))
+## Result: PASS
+# See if there are records in each table that don't have matches in the other
+samp.all.nomatch <- anti_join(temp.samp, temp.res, by = "sys_sample_code")
+res.all.nomatch <- anti_join(temp.res, temp.samp, by = "sys_sample_code")
+## Result: all match!
+
+
+# Check site IDs against newest sites table
+site.check <- complete.sample.final %>%
+  # filter(!is.na(SITE_ID_2)) %>% 
+  rename(SITE_HISTORY_ID = CHS_EVENT_SMAS_HISTORY_ID) %>% 
+  anti_join(sites.master, by = "SITE_HISTORY_ID") %>% 
+  distinct(SITE_HISTORY_ID)
+
+
+```
+
+```{r Generate records for EVENT table}
+
+#### Create new site ID "00-QAQC-0.0" for QC samples
+
+# Pull in existing event table, see what matches, generate new recs.
+event <- readxl::read_xlsx(file.path(cleaned.dir, "Final_Event_ID_ITS", "20201030_S_EVENT_SMAS.xlsx")) %>% 
+  mutate(EVENT_SMAS_SAMPLE_DATE = as.Date(EVENT_SMAS_SAMPLE_DATE, format = "%m/%d/%Y"))
+
+# Pull distict chem records on site ID and date
+event.distinct <- event %>% 
+  distinct(EVENT_SMAS_HISTORY_ID, EVENT_SMAS_SAMPLE_DATE)
+  # duplicated() %>% 
+  # as.data.frame() %>% 
+  # filter(. == "TRUE")
+
+# Return duplicates by site ID and date
+event.dup <- event %>%
+  group_by(EVENT_SMAS_HISTORY_ID, EVENT_SMAS_SAMPLE_DATE) %>% 
+  filter(n()>1)
+
+# Return duplicates by site ID, date, and project
+event.dup.proj <- event %>%
+  group_by(EVENT_SMAS_HISTORY_ID, EVENT_SMAS_SAMPLE_DATE, PROJECT_NAME_VALID) %>% 
+  filter(n()>1)
+
+# Chem - Pull unique event ID fields from final sample
+event.distict.chem <- complete.sample.final %>% 
+  select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE) %>% 
+  distinct() %>% 
+  mutate(CHS_EVENT_SMAS_SAMPLE_DATE = as.Date(CHS_EVENT_SMAS_SAMPLE_DATE, format = "%m/%d/%Y"))
+
+# Return unique chem records against event.distinct to be appended
+event.distict.chem.append <- event.distict.chem %>% 
+  rename(EVENT_SMAS_HISTORY_ID = CHS_EVENT_SMAS_HISTORY_ID,
+         EVENT_SMAS_SAMPLE_DATE = CHS_EVENT_SMAS_SAMPLE_DATE) %>% 
+  anti_join(event.distinct) %>% 
+  # Look at ones aside from QAQC
+  # filter(!(EVENT_SMAS_HISTORY_ID %in% "00-QAQC-0.0")) %>%
+  mutate(PROJECT_NAME_VALID = "UD",
+         EVENT_SMAS_SAMPLE_DATE = format((EVENT_SMAS_SAMPLE_DATE), "%m/%d/%Y")
+  )
+
+
+
+# Also double-check that EVENT table has records for all 2018-2019 submitted chem data (??)
+
+
+```
+
+
+```{r Export tables}
+write.table(complete.sample.final, file = file.path(cleaned.dir, "Final_Chemistry_ITS", "20210129_S_CHEM_HISTORY_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
+write.table(complete.result.final, file = file.path(cleaned.dir, "Final_Chemistry_ITS", "20210129_S_CHEM_HISTORY_RESULT.csv"),sep=",", row.names = FALSE, na = "")
+
+write.table(event.distict.chem.append, file = file.path(cleaned.dir, "Final_Event_ID_ITS", "20201030_S_EVENT_SMAS-CHEM_APPEND.csv"),sep=",", row.names = FALSE)
 
 ```
 
