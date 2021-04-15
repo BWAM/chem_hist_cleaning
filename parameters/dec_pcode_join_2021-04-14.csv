@@ -1,0 +1,440 @@
+RESULT_TYPE,chemical_name,fraction,result_unit,DEC_pcode_FINAL
+lab,"1,2-dichloroethane-d4",T,%,1
+lab,"1,2-dichloroethane-d4",T,ug/l,2
+lab,1-bromo-4-fluorobenzene bromofluorobenzene),T,percent,3
+lab,"2,3-dibromopropionic acid",T,percent,4
+lab,"acidity, hydrogen ion (h+)",NA,na,5
+lab,"alkalinity, total (as caco3)",NA,mg/l,6
+lab,"alkalinity, total (as caco3)",T,mg/l,6
+lab,aluminum,D,ug/l,7
+lab,aluminum,T,ug/l,8
+lab,ammonia,T,mg/l,98
+lab,anatoxin-a,NA,ug/l,9
+lab,apparent color,T,color units,10
+lab,arsenic,D,ug/l,11
+lab,arsenic,T,ug/l,12
+lab,benzene,T,mg/l,13
+lab,bmaa (beta-methyl-amino-(l)-alanine),NA,ug/l,14
+lab,boron,T,ug/l,15
+lab,bromodichloromethane,T,ug/l,16
+lab,bromoform,T,ug/l,17
+lab,cadmium,D,ug/l,18
+lab,cadmium,T,ug/l,19
+lab,calcium,T,mg/l,20
+lab,calcium,T,ug/l,21
+lab,"carbon, dissolved organic (doc)",D,mg/l,22
+lab,"carbon, dissolved organic (doc)",T,mg/l,22
+lab,chloride,T,mg/l,27
+lab,chloride (as cl),T,mg/l,27
+lab,chlorodibromomethane,T,ug/l,28
+lab,chloroform,T,ug/l,29
+lab,chloromethane,T,ug/l,30
+lab,chlorophyll a,T,ug/l,31
+in-situ,chlorophyll a (probe),NA,rfu,32
+in-situ,chlorophyll a (probe),NA,ug/l,33
+lab,"chlorophyll a (probe) concentration, total",NA,ug/l,39
+lab,"chlorophyll a (probe) concentration, chlorophyte (green algae)",NA,ug/l,34
+lab,"chlorophyll a (probe) concentration, chrysophyta (brown algae)",NA,ug/l,35
+lab,"chlorophyll a (probe) concentration, cryptophyta (cryptophytes)",NA,ug/l,36
+lab,"chlorophyll a (probe) concentration, cyanobacteria (bluegreen)",NA,ug/l,37
+lab,"chlorophyll a (probe) concentration, dinophyta (diatoms)",NA,ug/l,38
+lab,coliform,NA,cfu/100ml,40
+lab,coliform,T,cfu/100ml,40
+lab,"color, unknown",T,color units,42
+undetermined,conductivity,T,ugs/cm,48
+undetermined,conductivity,T,umhos/cm,45
+undetermined,conductivity at 25 degrees celsius,T,deg c,137
+undetermined,conductivity at 25 degrees celsius,T,umhos/cm,137
+lab,copper,D,ug/l,49
+lab,copper,T,ug/l,50
+lab,cylindrospermopsin,NA,ug/l,51
+in-situ,depth,NA,m,52
+in-situ,"depth, bottom",NA,m,53
+in-situ,"depth, secchi disk depth",NA,m,54
+lab,dibromoacetic acid,T,ug/l,55
+lab,dibromochloromethane,T,ug/l,56
+lab,dibromodifluoromethane,T,%,57
+lab,dibromofluoromethane,T,percent,58
+lab,dichloroacetic acid,T,ug/l,59
+lab,dihydro-atx-a,NA,ug/l,60
+lab,dissolved organic carbon,D,mg/l,22
+lab,dissolved organic carbon,T,mg/l,22
+in-situ,dissolved oxygen,D,mg/l,61
+in-situ,dissolved oxygen,NA,mg/l,61
+in-situ,dissolved oxygen,T,mg/l,61
+in-situ,dissolved oxygen (do),NA,mg/l,61
+in-situ,dissolved oxygen saturation,NA,%,62
+lab,dominant algal species,NA,na,63
+lab,ethylbenzene,T,mg/l,64
+lab,fecal coliform,NA,cfu/100ml,41
+lab,fecal coliform,T,cfu/100ml,41
+lab,fluoride,T,mg/l,65
+lab,"fluoride, undistilled",T,mg/l,65
+lab,hardness (as caco3),T,mg/l,66
+lab,iron,T,ug/l,67
+lab,lead,D,ug/l,68
+lab,lead,T,ug/l,69
+lab,magnesium,T,mg/l,70
+lab,magnesium,T,ug/l,71
+lab,manganese,T,ug/l,72
+lab,mercury,T,ng/l,73
+lab,mercury,T,ppt,74
+lab,mercury,T,ug/l,75
+lab,methylene chloride,T,ug/l,76
+lab,microcystin,NA,ug/l,77
+lab,microcystin ar,NA,ug/l,78
+lab,microcystin dlr,NA,ug/l,79
+lab,microcystin drr,NA,ug/l,80
+lab,microcystin fr,NA,ug/l,81
+lab,microcystin hyr,NA,ug/l,82
+lab,microcystin la,NA,ug/l,83
+lab,microcystin lr,NA,ug/l,84
+lab,microcystin lw,NA,ug/l,85
+lab,microcystin ly,NA,ug/l,86
+lab,microcystin mlr,NA,ug/l,87
+lab,microcystin mrr,NA,ug/l,88
+lab,microcystin rr,NA,ug/l,89
+lab,microcystin unknown,NA,ug/l,90
+lab,microcystin wr,NA,ug/l,91
+lab,microcystin yr,NA,ug/l,92
+lab,monobromoacetic acid,T,ug/l,93
+lab,monochloroacetic acid,T,ug/l,94
+lab,"m-xylene (1,3-dimethylbenzene)",T,mg/l,95
+lab,nickel,D,ug/l,96
+lab,nickel,T,ug/l,97
+lab,nitrate+nitrite as nitrogen,T,mg/l,101
+lab,nitrite,T,mg/l,102
+lab,nitrogen,T,mg/l,103
+lab,"nitrogen, ammonia (as n)",T,mg/l,98
+lab,"nitrogen, kjeldahl, total",NA,mg/l,99
+lab,"nitrogen, kjeldahl, total",T,mg/l,99
+lab,"nitrogen, nitrate (as n)",NA,mg/l,100
+lab,"nitrogen, nitrate (as n)",T,mg/l,100
+lab,"nitrogen, nitrate-nitrite",NA,mg/l,101
+lab,"nitrogen, nitrate-nitrite",T,mg/l,101
+lab,"nitrogen, nitrite",NA,mg/l,102
+lab,"nitrogen, nitrite",T,mg/l,102
+lab,"nitrogen, nitrite + nitrate",T,mg/l,101
+lab,"nitrogen, total",T,mg/l,103
+lab,"nitrogen, total dissolved",D,mg/l,104
+lab,orthophosphate,D,mg/l,119
+lab,"orthophosphate as phosphorus, dissolved",D,mg/l,119
+lab,"orthophosphate as phosphorus, dissolved",T,mg/l,119
+in-situ,oxidation reduction potential (orp),NA,mv,105
+lab,"o-xylene (1,2-dimethylbenzene)",T,mg/l,106
+lab,p-bromofluorobenzene,T,%,107
+lab,p-bromofluorobenzene,T,percent,107
+lab,p-bromofluorobenzene,T,ug/l,108
+undetermined,ph,NA,ph units,111
+in-situ,ph,NA,ph units,109
+undetermined,ph,T,ph units,111
+undetermined,ph (water),T,ph units,111
+lab,ph for color analysis,NA,ph units,112
+lab,ph for color analysis,T,ph units,112
+lab,"phenolics, total recoverable",NA,mg/l,113
+lab,"phenolics, total recoverable",T,mg/l,113
+lab,phosphate ion,D,mg/l,119
+lab,phosphate ion,NA,mg/l,119
+lab,phosphate ion,T,mg/l,119
+lab,phosphorus,D,mg/l,118
+lab,phosphorus,NA,mg/l,117
+lab,phosphorus,T,mg/l,120
+lab,"phosphorus, dissolved orthophosphate (as p)",D,mg/l,119
+lab,"phosphorus, dissolved (as p)",D,mg/l,119
+lab,"phosphorus, dissolved orthophosphate (as p)",T,mg/l,119
+lab,"phosphorus, total (as p)",T,mg/l,121
+in-situ,phycocyanin,NA,ug/l,124
+in-situ,phycocyanin (probe),NA,rfu,125
+in-situ,phycocyanin (probe),NA,ug/l,126
+lab,potassium,T,mg/l,127
+lab,potassium,T,ug/l,128
+lab,"p-xylene (1,4-dimethylbenzene)",T,mg/l,129
+lab,silica,T,mg/l,130
+lab,silver,D,ug/l,131
+lab,silver,T,ug/l,132
+lab,sodium,T,mg/l,133
+lab,sodium,T,ug/l,134
+lab,soluble reactive phosphorus (srp),NA,mg/l,119
+in-situ,specific conductance,NA,us/cm,138
+undetermined,specific conductance,D,umhos/cm,137
+undetermined,specific conductance,NA,umhos/cm,137
+undetermined,specific conductance,T,umhos/cm,137
+lab,sulfate (as so4),T,mg/l,141
+undetermined,temperature,NA,deg c,144
+undetermined,temperature,T,deg c,144
+lab,temperature of ph analysis,T,deg c,145
+in-situ,"temperature, air",NA,deg c,146
+in-situ,"temperature, water",NA,deg c,142
+lab,tetrachloroethylene (pce),T,ug/l,148
+lab,toluene-d8,T,%,149
+lab,toluene-d8,T,percent,149
+lab,toluene-d8,T,ug/l,150
+lab,total carbon,D,mg/l,24
+lab,total carbon,T,mg/l,23
+lab,total dissolved solids,NA,mg/l,151
+lab,"total dissolved solids (residue, filterable)",D,mg/l,151
+lab,"total dissolved solids (residue, filterable)",NA,mg/l,151
+lab,"total dissolved solids (residue, filterable)",T,mg/l,151
+lab,total hardness,T,mg/l,66
+lab,total organic carbon,D,mg/l,26
+lab,total organic carbon,T,mg/l,25
+lab,"total phosphorus, mixed forms",NA,mg/l,123
+lab,"total phosphorus, mixed forms",T,mg/l,122
+lab,total solids,NA,mg/l,152
+lab,total solids,T,mg/l,152
+lab,total suspended solids,NA,mg/l,153
+lab,total suspended solids,T,mg/l,153
+lab,total volatile solids,NA,mg/l,154
+lab,total volatile solids,T,mg/l,154
+lab,trichloroacetic acid,T,ug/l,155
+lab,trichloroethylene (tce),T,ug/l,156
+lab,true color,T,color units,157
+in-situ,turbidity,NA,fnu,158
+lab,turbidity,NA,ntu,162
+lab,turbidity,T,ntu,162
+undetermined,turbidity,T,ntu,161
+lab,uv 254,T,1/cm,163
+lab,vinyl chloride,T,ug/l,164
+lab,zinc,D,ug/l,165
+lab,zinc,T,ug/l,166
+in-situ,salinity,NA,ppt,170
+lab,clay,T,percent,171
+lab,silt,T,percent,172
+lab,total solids,T,percent,173
+lab,sieve-u.s. std. no. 200 (0.075mm),T,percent,174
+lab,sieve-u.s. std. no. 140 (0.106mm),T,percent,175
+lab,sieve-u.s. std. no. 60 (0.25mm),T,percent,176
+lab,sieve-u.s. std. no. 40 (0.425mm),T,percent,177
+lab,sieve-u.s. std. no. 20 (0.85mm),T,percent,178
+lab,sieve-u.s. std. no. 10 (2mm),T,percent,179
+lab,sieve-u.s. std. no. 4 (4.75mm),T,percent,180
+lab,"polychlorinated biphenyls (pcbs), total,  (total iupacs)",T,pg/l,181
+lab,13c12 pcb 156/157,T,percent,182
+lab,"c13, decachlorobiphenyl- (iupac 209l)",T,percent,183
+lab,"chlorobiphenyl, 3- (iupac 2)",T,pg/l,184
+lab,"chlorobiphenyl, 4- (iupac 3)",T,percent,185
+lab,"chlorobiphenyl, 4- (iupac 3)",T,pg/l,186
+lab,"chlorobiphenyl-c13, 2- (iupac 1l)",T,percent,187
+lab,"chlorobiphenyl-c13, 4- (iupac 3l)",T,percent,188
+lab,decachlorobiphenyl (pcb 209),T,percent,189
+lab,decachlorobiphenyl (pcb 209),T,pg/l,190
+lab,dichlorobiphenyl,T,pg/l,191
+lab,"dichlorobiphenyl, 2,2'- (iupac 4)",T,percent,192
+lab,"dichlorobiphenyl, 2,2'- (iupac 4)",T,pg/l,193
+lab,"dichlorobiphenyl, 2,3- (iupac 5)",T,pg/l,194
+lab,"dichlorobiphenyl, 2,3'- (iupac 6)",T,pg/l,195
+lab,"dichlorobiphenyl, 2,4- (iupac 7)",T,pg/l,196
+lab,"dichlorobiphenyl, 2,4'- (iupac 8)",T,pg/l,197
+lab,"dichlorobiphenyl, 2,5- (iupac 9)",T,pg/l,198
+lab,"dichlorobiphenyl, 2,6- (iupac 10)",T,pg/l,199
+lab,"dichlorobiphenyl, 3,3'- (iupac 11)",T,pg/l,200
+lab,"dichlorobiphenyl, 3,5- (iupac 14)",T,pg/l,201
+lab,"dichlorobiphenyl, 4,4'- (iupac 15)",T,percent,202
+lab,"dichlorobiphenyl, 4,4'- (iupac 15)",T,pg/l,203
+lab,"dichlorobiphenyl-c13, 2,2'- (iupac 4l)",T,percent,204
+lab,"dichlorobiphenyl-c13, 4,4'- (iupac 15l)",T,percent,205
+lab,"heptachlorobiphenyl, 2,2',3,3',4,4',5- (iupac 170)",T,pg/l,206
+lab,"heptachlorobiphenyl, 2,2',3,3',4,5,5'- (iupac 172)",T,pg/l,207
+lab,"heptachlorobiphenyl, 2,2',3,3',4,5,6'- (iupac 174)",T,pg/l,208
+lab,"heptachlorobiphenyl, 2,2',3,3',4,5',6- (iupac 175)",T,pg/l,209
+lab,"heptachlorobiphenyl, 2,2',3,3',4',5,6- (iupac 177)",T,pg/l,210
+lab,"heptachlorobiphenyl, 2,2',3,3',4,6,6'- (iupac 176)",T,pg/l,211
+lab,"heptachlorobiphenyl, 2,2',3,3',5,5',6- (iupac 178)",T,pg/l,212
+lab,"heptachlorobiphenyl, 2,2',3,3',5,6,6'- (iupac 179)",T,pg/l,213
+lab,"heptachlorobiphenyl, 2,2',3,4,4',5,6- (iupac 181)",T,pg/l,214
+lab,"heptachlorobiphenyl, 2,2',3,4,4',5,6'- (iupac 182)",T,pg/l,215
+lab,"heptachlorobiphenyl, 2,2',3,4,4',5',6- (iupac 183)",T,pg/l,216
+lab,"heptachlorobiphenyl, 2,2',3,4,4',6,6'- (iupac 184)",T,pg/l,217
+lab,"heptachlorobiphenyl, 2,2',3,4,5,5',6- (iupac 185)",T,pg/l,218
+lab,"heptachlorobiphenyl, 2,2',3,4',5,5',6- (iupac 187)",T,pg/l,219
+lab,"heptachlorobiphenyl, 2,2',3,4,5,6,6'- (iupac 186)",T,pg/l,220
+lab,"heptachlorobiphenyl, 2,2',3,4',5,6,6'- (iupac 188)",T,percent,221
+lab,"heptachlorobiphenyl, 2,2',3,4',5,6,6'- (iupac 188)",T,pg/l,222
+lab,"heptachlorobiphenyl, 2,3,3',4,4',5,5'- (iupac 189)",T,percent,223
+lab,"heptachlorobiphenyl, 2,3,3',4,4',5,5'- (iupac 189)",T,pg/l,224
+lab,"heptachlorobiphenyl, 2,3,3',4,4',5,6- (iupac 190)",T,pg/l,225
+lab,"heptachlorobiphenyl, 2,3,3',4,4',5',6- (iupac 191)",T,pg/l,226
+lab,"heptachlorobiphenyl, 2,3,3',4,5,5',6- (iupac 192)",T,pg/l,227
+lab,"heptachlorobiphenyl-c13, 2,2',3,3',5,5',6- (iupac 178l)",T,percent,228
+lab,"heptachlorobiphenyl-c13, 2,2',3,4',5,6,6'- (iupac 188l)",T,percent,229
+lab,"heptachlorobiphenyl-c13, 2,3,3',4,4',5,5'- (iupac 189l)",T,percent,230
+lab,"hexachlorobiphenyl, 2,2',3,3',4,5'- (iupac 130)",T,pg/l,231
+lab,"hexachlorobiphenyl, 2,2',3,3',4,6- (iupac 131)",T,pg/l,232
+lab,"hexachlorobiphenyl, 2,2',3,3',4,6'- (iupac 132)",T,pg/l,233
+lab,"hexachlorobiphenyl, 2,2',3,3',5,5'- (iupac 133)",T,pg/l,234
+lab,"hexachlorobiphenyl, 2,2',3,3',6,6'- (iupac 136)",T,pg/l,235
+lab,"hexachlorobiphenyl, 2,2',3,4,5,5'- (iupac 141)",T,pg/l,236
+lab,"hexachlorobiphenyl, 2,2',3,4',5,5'- (iupac 146)",T,pg/l,237
+lab,"hexachlorobiphenyl, 2,2',3,4,5,6- (iupac 142)",T,pg/l,238
+lab,"hexachlorobiphenyl, 2,2',3,4,5',6- (iupac 144)",T,pg/l,239
+lab,"hexachlorobiphenyl, 2,2',3,4',5,6'- (iupac 148)",T,pg/l,240
+lab,"hexachlorobiphenyl, 2,2',3,4,6,6'- (iupac 145)",T,pg/l,241
+lab,"hexachlorobiphenyl, 2,2',3,4',6,6'- (iupac 150)",T,pg/l,242
+lab,"hexachlorobiphenyl, 2,2',3,5,6,6'- (iupac 152)",T,pg/l,243
+lab,"hexachlorobiphenyl, 2,2',4,4',5,6'- (iupac 154)",T,pg/l,244
+lab,"hexachlorobiphenyl, 2,2',4,4',6,6'- (iupac 155)",T,percent,245
+lab,"hexachlorobiphenyl, 2,2',4,4',6,6'- (iupac 155)",T,pg/l,246
+lab,"hexachlorobiphenyl, 2,3,3',4,4',6- (iupac 158)",T,pg/l,247
+lab,"hexachlorobiphenyl, 2,3,3',4,5,5'- (iupac 159)",T,pg/l,248
+lab,"hexachlorobiphenyl, 2,3,3',4',5,5'- (iupac 162)",T,pg/l,249
+lab,"hexachlorobiphenyl, 2,3,3',4,5,6- (iupac 160)",T,pg/l,250
+lab,"hexachlorobiphenyl, 2,3,3',4,5',6- (iupac 161)",T,pg/l,251
+lab,"hexachlorobiphenyl, 2,3,3',5,5',6- (iupac 165)",T,pg/l,252
+lab,"hexachlorobiphenyl, 2,3',4,4',5,5'- (iupac 167)",T,percent,253
+lab,"hexachlorobiphenyl, 2,3',4,4',5,5'- (iupac 167)",T,pg/l,254
+lab,"hexachlorobiphenyl, 3,3',4,4',5,5'- (iupac 169)",T,percent,255
+lab,"hexachlorobiphenyl, 3,3',4,4',5,5'- (iupac 169)",T,pg/l,256
+lab,"hexachlorobiphenyl-c13, 2,2',4,4',6,6'- (iupac 155l)",T,percent,257
+lab,"hexachlorobiphenyl-c13, 2,3',4,4',5,5'- (iupac 167l)",T,percent,258
+lab,"hexachlorobiphenyl-c13, 3,3',4,4',5,5'- (iupac 169l)",T,percent,259
+lab,lower bound pcb teq (who 2005),T,pg/l,260
+lab,mid point pcb teq (who 2005),T,pg/l,261
+lab,monochlorobiphenyl,T,pg/l,262
+lab,"monochlorobiphenyl, 2- (iupac 1)",T,percent,263
+lab,"monochlorobiphenyl, 2- (iupac 1)",T,pg/l,264
+lab,nonachlorobiphenyl,T,pg/l,265
+lab,"nonachlorobiphenyl, 2,2',3,3',4,4',5,5',6- (iupac 206)",T,percent,266
+lab,"nonachlorobiphenyl, 2,2',3,3',4,4',5,5',6- (iupac 206)",T,pg/l,267
+lab,"nonachlorobiphenyl, 2,2',3,3',4,4',5,6,6'- (iupac 207)",T,pg/l,268
+lab,"nonachlorobiphenyl, 2,2',3,3',4,5,5',6,6'- (iupac 208)",T,percent,269
+lab,"nonachlorobiphenyl, 2,2',3,3',4,5,5',6,6'- (iupac 208)",T,pg/l,270
+lab,"nonachlorobiphenyl-c13, 2,2',3,3',4,4',5,5',6- (iupac 206l)",T,percent,271
+lab,"nonachlorobiphenyl-c13, 2,2',3,3',4,5,5',6,6'- (iupac 208l)",T,percent,272
+lab,octachlorobiphenyl,T,pg/l,273
+lab,"octachlorobiphenyl, 2,2',3,3',4,4',5,5'- (iupac 194)",T,pg/l,274
+lab,"octachlorobiphenyl, 2,2',3,3',4,4',5,6- (iupac 195)",T,pg/l,275
+lab,"octachlorobiphenyl, 2,2',3,3',4,4',5,6'- (iupac 196)",T,pg/l,276
+lab,"octachlorobiphenyl, 2,2',3,3',4,4',6,6'- (iupac 197)",T,pg/l,277
+lab,"octachlorobiphenyl, 2,2',3,3',4,5,6,6'- (iupac 200)",T,pg/l,278
+lab,"octachlorobiphenyl, 2,2',3,3',4,5',6,6'- (iupac 201)",T,pg/l,279
+lab,"octachlorobiphenyl, 2,2',3,3',5,5',6,6'- (iupac 202)",T,percent,280
+lab,"octachlorobiphenyl, 2,2',3,3',5,5',6,6'- (iupac 202)",T,pg/l,281
+lab,"octachlorobiphenyl, 2,2',3,4,4',5,5',6- (iupac 203)",T,pg/l,282
+lab,"octachlorobiphenyl, 2,2',3,4,4',5,6,6'- (iupac 204)",T,pg/l,283
+lab,"octachlorobiphenyl, 2,3,3',4,4',5,5',6- (iupac 205)",T,percent,284
+lab,"octachlorobiphenyl, 2,3,3',4,4',5,5',6- (iupac 205)",T,pg/l,285
+lab,"octachlorobiphenyl-c13, 2,2',3,3',5,5',6,6'- (iupac 202l)",T,percent,286
+lab,"octachlorobiphenyl-c13, 2,3,3',4,4',5,5',6- (iupac 205l)",T,percent,287
+lab,pcb 100/93/102/98,T,pg/l,288
+lab,pcb 108/124,T,pg/l,289
+lab,pcb 109/119/86/97/125/87,T,pg/l,290
+lab,pcb 113/90/101,T,pg/l,291
+lab,pcb 117/116/85/110/115,T,pg/l,292
+lab,pcb 128/166,T,pg/l,293
+lab,pcb 13/12,T,pg/l,294
+lab,pcb 134/143,T,pg/l,295
+lab,pcb 137/164,T,pg/l,296
+lab,pcb 138/163/129,T,pg/l,297
+lab,pcb 139/140,T,pg/l,298
+lab,pcb 147/149,T,pg/l,299
+lab,pcb 151/135,T,pg/l,300
+lab,pcb 156/157,T,percent,301
+lab,pcb 156/157,T,pg/l,302
+lab,pcb 168/153,T,pg/l,303
+lab,pcb 171/173,T,pg/l,304
+lab,pcb 180/193,T,pg/l,305
+lab,pcb 198/199,T,pg/l,306
+lab,pcb 21/33,T,pg/l,307
+lab,pcb 28/20,T,pg/l,308
+lab,pcb 29/26,T,pg/l,309
+lab,pcb 30/18,T,pg/l,310
+lab,pcb 41/71/40,T,pg/l,311
+lab,pcb 44/47/65,T,pg/l,312
+lab,pcb 45/51,T,pg/l,313
+lab,pcb 50/53,T,pg/l,314
+lab,pcb 59/62/75,T,pg/l,315
+lab,pcb 61/70/74/76,T,pg/l,316
+lab,pcb 69/49,T,pg/l,317
+lab,pcb 83/99,T,pg/l,318
+lab,pcb 88/91,T,pg/l,319
+lab,"pentachlorobiphenyl, 2,2',3,3',4- (iupac 82)",T,pg/l,320
+lab,"pentachlorobiphenyl, 2,2',3,3',6- (iupac 84)",T,pg/l,321
+lab,"pentachlorobiphenyl, 2,2',3,4,6'- (iupac 89)",T,pg/l,322
+lab,"pentachlorobiphenyl, 2,2',3,5,5'- (iupac 92)",T,pg/l,323
+lab,"pentachlorobiphenyl, 2,2',3,5,6'- (iupac 94)",T,pg/l,324
+lab,"pentachlorobiphenyl, 2,2',3,5',6- (iupac 95)",T,pg/l,325
+lab,"pentachlorobiphenyl, 2,2',3,6,6'- (iupac 96)",T,pg/l,326
+lab,"pentachlorobiphenyl, 2,2',4,5',6- (iupac 103)",T,pg/l,327
+lab,"pentachlorobiphenyl, 2,2',4,6,6'- (iupac 104)",T,percent,328
+lab,"pentachlorobiphenyl, 2,2',4,6,6'- (iupac 104)",T,pg/l,329
+lab,"pentachlorobiphenyl, 2,3,3',4,4'- (iupac 105)",T,percent,330
+lab,"pentachlorobiphenyl, 2,3,3',4,4'- (iupac 105)",T,pg/l,331
+lab,"pentachlorobiphenyl, 2,3,3',4,5- (iupac 106)",T,pg/l,332
+lab,"pentachlorobiphenyl, 2,3,3',4',5- (iupac 107)",T,pg/l,333
+lab,"pentachlorobiphenyl, 2',3,3',4,5- (iupac 122)",T,pg/l,334
+lab,"pentachlorobiphenyl, 2,3,3',5,5'- (iupac 111)",T,pg/l,335
+lab,"pentachlorobiphenyl, 2,3,3',5,6- (iupac 112)",T,pg/l,336
+lab,"pentachlorobiphenyl, 2,3,4,4',5- (iupac 114)",T,percent,337
+lab,"pentachlorobiphenyl, 2,3,4,4',5- (iupac 114)",T,pg/l,338
+lab,"pentachlorobiphenyl, 2,3',4,4',5- (iupac 118)",T,percent,339
+lab,"pentachlorobiphenyl, 2,3',4,4',5- (iupac 118)",T,pg/l,340
+lab,"pentachlorobiphenyl, 2',3,4,4',5- (iupac 123)",T,percent,341
+lab,"pentachlorobiphenyl, 2',3,4,4',5- (iupac 123)",T,pg/l,342
+lab,"pentachlorobiphenyl, 2,3',4,5,5'- (iupac 120)",T,pg/l,343
+lab,"pentachlorobiphenyl, 2,3',4,5',6- (iupac 121)",T,pg/l,344
+lab,"pentachlorobiphenyl, 3,3',4,4',5- (iupac 126)",T,percent,345
+lab,"pentachlorobiphenyl, 3,3',4,4',5- (iupac 126)",T,pg/l,346
+lab,"pentachlorobiphenyl, 3,3',4,5,5'- (iupac 127)",T,pg/l,347
+lab,"pentachlorobiphenyl-c13, 2,2',4,6,6'- (iupac 104l)",T,percent,348
+lab,"pentachlorobiphenyl-c13, 2,3,3',4,4'- (iupac 105l)",T,percent,349
+lab,"pentachlorobiphenyl-c13, 2,3,3',5,5'- (iupac 111l)",T,percent,350
+lab,"pentachlorobiphenyl-c13, 2,3,4,4',5- (iupac 114l)",T,percent,351
+lab,"pentachlorobiphenyl-c13, 2,3',4,4',5- (iupac 118l)",T,percent,352
+lab,"pentachlorobiphenyl-c13, 2',3,4,4',5- (iupac 123l)",T,percent,353
+lab,"pentachlorobiphenyl-c13, 3,3',4,4',5- (iupac 126l)",T,percent,354
+lab,tetrachlorobiphenyl,T,pg/l,355
+lab,"tetrachlorobiphenyl, 2,2',3,4'- (iupac 42)",T,pg/l,356
+lab,"tetrachlorobiphenyl, 2,2',3,5- (iupac 43)",T,pg/l,357
+lab,"tetrachlorobiphenyl, 2,2',3,6'- (iupac 46)",T,pg/l,358
+lab,"tetrachlorobiphenyl, 2,2',4,5- (iupac 48)",T,pg/l,359
+lab,"tetrachlorobiphenyl, 2,2',5,5'- (iupac 52)",T,pg/l,360
+lab,"tetrachlorobiphenyl, 2,2',6,6'- (iupac 54)",T,percent,361
+lab,"tetrachlorobiphenyl, 2,2',6,6'- (iupac 54)",T,pg/l,362
+lab,"tetrachlorobiphenyl, 2,3,3',4- (iupac 55)",T,pg/l,363
+lab,"tetrachlorobiphenyl, 2,3,3',4'- (iupac 56)",T,pg/l,364
+lab,"tetrachlorobiphenyl, 2,3,3',5- (iupac 57)",T,pg/l,365
+lab,"tetrachlorobiphenyl, 2,3,3',5'- (iupac 58)",T,pg/l,366
+lab,"tetrachlorobiphenyl, 2,3,4,4'- (iupac 60)",T,pg/l,367
+lab,"tetrachlorobiphenyl, 2,3',4,4'- (iupac 66)",T,pg/l,368
+lab,"tetrachlorobiphenyl, 2,3,4',5- (iupac 63)",T,pg/l,369
+lab,"tetrachlorobiphenyl, 2,3',4,5- (iupac 67)",T,pg/l,370
+lab,"tetrachlorobiphenyl, 2,3',4,5'- (iupac 68)",T,pg/l,371
+lab,"tetrachlorobiphenyl, 2,3,4',6- (iupac 64)",T,pg/l,372
+lab,"tetrachlorobiphenyl, 2,3',5,5'- (iupac 72)",T,pg/l,373
+lab,"tetrachlorobiphenyl, 2,3',5',6- (iupac 73)",T,pg/l,374
+lab,"tetrachlorobiphenyl, 3,3',4,4'- (iupac 77)",T,percent,375
+lab,"tetrachlorobiphenyl, 3,3',4,4'- (iupac 77)",T,pg/l,376
+lab,"tetrachlorobiphenyl, 3,3',4,5- (iupac 78)",T,pg/l,377
+lab,"tetrachlorobiphenyl, 3,3',4,5'- (iupac 79)",T,pg/l,378
+lab,"tetrachlorobiphenyl, 3,3',5,5'- (iupac 80)",T,pg/l,379
+lab,"tetrachlorobiphenyl, 3,4,4',5- (iupac 81)",T,percent,380
+lab,"tetrachlorobiphenyl, 3,4,4',5- (iupac 81)",T,pg/l,381
+lab,"tetrachlorobiphenyl-c13, 2,2',6,6'- (iupac 54l)",T,percent,382
+lab,"tetrachlorobiphenyl-c13, 3,3',4,4'- (iupac 77l)",T,percent,383
+lab,"tetrachlorobiphenyl-c13, 3,4,4',5- (iupac 81l)",T,percent,384
+lab,total heptachlorobiphenyls,T,pg/l,385
+lab,total hexachlorobiphenyls,T,pg/l,386
+lab,total pentachlorobiphenyls,T,pg/l,387
+lab,trichlorobiphenyl,T,pg/l,388
+lab,"trichlorobiphenyl, 2,2',3- (iupac 16)",T,pg/l,389
+lab,"trichlorobiphenyl, 2,2',4- (iupac 17)",T,pg/l,390
+lab,"trichlorobiphenyl, 2,2',6- (iupac 19)",T,percent,391
+lab,"trichlorobiphenyl, 2,2',6- (iupac 19)",T,pg/l,392
+lab,"trichlorobiphenyl, 2,3,4'- (iupac 22)",T,pg/l,393
+lab,"trichlorobiphenyl, 2,3',4- (iupac 25)",T,pg/l,394
+lab,"trichlorobiphenyl, 2,3,5- (iupac 23)",T,pg/l,395
+lab,"trichlorobiphenyl, 2',3,5- (iupac 34)",T,pg/l,396
+lab,"trichlorobiphenyl, 2,3,6- (iupac 24)",T,pg/l,397
+lab,"trichlorobiphenyl, 2,3',6- (iupac 27)",T,pg/l,398
+lab,"trichlorobiphenyl, 2,4',5- (iupac 31)",T,pg/l,399
+lab,"trichlorobiphenyl, 2,4',6- (iupac 32)",T,pg/l,400
+lab,"trichlorobiphenyl, 3,3',4- (iupac 35)",T,pg/l,401
+lab,"trichlorobiphenyl, 3,3',5- (iupac 36)",T,pg/l,402
+lab,"trichlorobiphenyl, 3,4,4'- (iupac 37)",T,percent,403
+lab,"trichlorobiphenyl, 3,4,4'- (iupac 37)",T,pg/l,404
+lab,"trichlorobiphenyl, 3,4,5- (iupac 38)",T,pg/l,405
+lab,"trichlorobiphenyl, 3,4',5- (iupac 39)",T,pg/l,406
+lab,"trichlorobiphenyl-c13, 2,2',6- (iupac 19l)",T,percent,407
+lab,"trichlorobiphenyl-c13, 2,4,4'- (iupac 28l)",T,percent,408
+lab,"trichlorobiphenyl-c13, 3,4,4'- (iupac 37l)",T,percent,409
+lab,upper bound pcb teq (who 2005),T,pg/l,410

@@ -1,0 +1,544 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","ALKALINITY, TOTAL (AS CaCO3)",2020-06-23 09:30:00,"ALK","T",202,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Aluminum",2020-06-23 09:30:00,"7429-90-5","T",176,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Arsenic",2020-06-23 09:30:00,"7440-38-2","T",0.89,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Cadmium",2020-06-23 09:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Calcium",2020-06-23 09:30:00,"7440-70-2","T",137000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Carbon, Dissolved Organic (DOC)",2020-06-23 09:30:00,"DOC","D",2.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","CHLORIDE (AS CL)",2020-06-23 09:30:00,"16887-00-6","T",86.1,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Chlorophyll A",2020-06-23 09:30:00,"479-61-8","T",8.55,"ug/l",NA,"ug/l",0.4,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Copper",2020-06-23 09:30:00,"7440-50-8","T",1.9,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","HARDNESS (AS CACO3)",2020-06-23 09:30:00,"HARD","T",452,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Iron",2020-06-23 09:30:00,"7439-89-6","T",405,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Lead",2020-06-23 09:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Magnesium",2020-06-23 09:30:00,"7439-95-4","T",26900,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Nickel",2020-06-23 09:30:00,"7440-02-0","T",2.3,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Nitrate+Nitrite as Nitrogen",2020-06-23 09:30:00,"NO3NO2N","T",1.13,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Nitrogen",2020-06-23 09:30:00,"7727-37-9","T",1.57,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Nitrogen, ammonia (As N)",2020-06-23 09:30:00,"7664-41-7","T",0.041,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","NITROGEN, KJELDAHL, TOTAL",2020-06-23 09:30:00,"KN","T",0.44,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","NITROGEN, NITRATE (AS N)",2020-06-23 09:30:00,"14797-55-8","T",1.11,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","NITROGEN, NITRITE",2020-06-23 09:30:00,"14797-65-0","T",0.014,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 09:30:00,"PDORTHO","D",0.0181,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","PHOSPHORUS, TOTAL (AS P)",2020-06-23 09:30:00,"7723-14-0","T",0.0498,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Silver",2020-06-23 09:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","TOTAL ORGANIC CARBON",2020-06-23 09:30:00,"TOC","T",2.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Total Suspended Solids",2020-06-23 09:30:00,"TSS","T",13.7,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","TURBIDITY",2020-06-23 09:30:00,"TURB","T",5.5,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-W","R2005383","Zinc",2020-06-23 09:30:00,"7440-66-6","T",4.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-06232020-WRE","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 09:30:00,"PDORTHO","D",0.018,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","ALKALINITY, TOTAL (AS CaCO3)",2020-07-22 00:00:00,"ALK","T",190,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Aluminum",2020-07-22 00:00:00,"7429-90-5","T",209,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Arsenic",2020-07-22 00:00:00,"7440-38-2","T",1,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Cadmium",2020-07-22 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Calcium",2020-07-22 00:00:00,"7440-70-2","T",111000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Carbon, Dissolved Organic (DOC)",2020-07-22 00:00:00,"DOC","D",5.4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","CHLORIDE (AS CL)",2020-07-22 00:00:00,"16887-00-6","T",70.7,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Chlorophyll A",2020-07-22 00:00:00,"479-61-8","T",5.25,"ug/l",NA,"ug/l",0.32,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Copper",2020-07-22 00:00:00,"7440-50-8","T",2.6,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","HARDNESS (AS CACO3)",2020-07-22 00:00:00,"HARD","T",366,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Iron",2020-07-22 00:00:00,"7439-89-6","T",607,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Lead",2020-07-22 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Magnesium",2020-07-22 00:00:00,"7439-95-4","T",21300,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Nickel",2020-07-22 00:00:00,"7440-02-0","T",1.8,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Nitrate+Nitrite as Nitrogen",2020-07-22 00:00:00,"NO3NO2N","T",0.897,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Nitrogen",2020-07-22 00:00:00,"7727-37-9","T",1.41,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Nitrogen, ammonia (As N)",2020-07-22 00:00:00,"7664-41-7","T",0.05,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","NITROGEN, KJELDAHL, TOTAL",2020-07-22 00:00:00,"KN","T",0.51,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","NITROGEN, NITRATE (AS N)",2020-07-22 00:00:00,"14797-55-8","T",0.886,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","NITROGEN, NITRITE",2020-07-22 00:00:00,"14797-65-0","T",0.012,"mg/l",0.007,"mg/l",0.01,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Orthophosphate as Phosphorus, Dissolved",2020-07-22 00:00:00,"PDORTHO","D",0.0243,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","PHOSPHORUS, TOTAL (AS P)",2020-07-22 00:00:00,"7723-14-0","T",0.0608,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Silver",2020-07-22 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","TOTAL ORGANIC CARBON",2020-07-22 00:00:00,"TOC","T",4.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Total Suspended Solids",2020-07-22 00:00:00,"TSS","T",17.3,"mg/l",NA,"mg/l",1.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","TURBIDITY",2020-07-22 00:00:00,"TURB","T",14.8,"ntu",0.06,"ntu",1,"","R","estimated value due to Equipment Blank error ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-07222020-W","R2006514","Zinc",2020-07-22 00:00:00,"7440-66-6","T",6.2,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","ALKALINITY, TOTAL (AS CaCO3)",2020-08-19 08:00:00,"ALK","T",188,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Aluminum",2020-08-19 08:00:00,"7429-90-5","T",84,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Arsenic",2020-08-19 08:00:00,"7440-38-2","T",0.89,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Cadmium",2020-08-19 08:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Calcium",2020-08-19 08:00:00,"7440-70-2","T",133000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Carbon, Dissolved Organic (DOC)",2020-08-19 08:00:00,"DOC","D",3.1,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","CHLORIDE (AS CL)",2020-08-19 08:00:00,"16887-00-6","T",97.4,"mg/l",0.9,"mg/l",4,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Chlorophyll A",2020-08-19 08:00:00,"479-61-8","T",2.92,"ug/l",NA,"ug/l",0.17,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Copper",2020-08-19 08:00:00,"7440-50-8","T",1.2,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","HARDNESS (AS CACO3)",2020-08-19 08:00:00,"HARD","T",439,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Iron",2020-08-19 08:00:00,"7439-89-6","T",229,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Lead",2020-08-19 08:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Magnesium",2020-08-19 08:00:00,"7439-95-4","T",26200,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Nickel",2020-08-19 08:00:00,"7440-02-0","T",2.7,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Nitrate+Nitrite as Nitrogen",2020-08-19 08:00:00,"NO3NO2N","T",1.07,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Nitrogen",2020-08-19 08:00:00,"7727-37-9","T",1.51,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Nitrogen, ammonia (As N)",2020-08-19 08:00:00,"7664-41-7","T",0.027,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","NITROGEN, KJELDAHL, TOTAL",2020-08-19 08:00:00,"KN","T",0.44,"mg/l",0.1,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","NITROGEN, NITRATE (AS N)",2020-08-19 08:00:00,"14797-55-8","T",1.06,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","NITROGEN, NITRITE",2020-08-19 08:00:00,"14797-65-0","T",0.01,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Orthophosphate as Phosphorus, Dissolved",2020-08-19 08:00:00,"PDORTHO","D",0.0202,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","PHOSPHORUS, TOTAL (AS P)",2020-08-19 08:00:00,"7723-14-0","T",0.0461,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Silver",2020-08-19 08:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","TOTAL ORGANIC CARBON",2020-08-19 08:00:00,"TOC","T",2.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Total Suspended Solids",2020-08-19 08:00:00,"TSS","T",6.4,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","TURBIDITY",2020-08-19 08:00:00,"TURB","T",6.9,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-08192020-W","R2007577","Zinc",2020-08-19 08:00:00,"7440-66-6","T",5.5,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","ALKALINITY, TOTAL (AS CaCO3)",2020-09-30 11:15:00,"ALK","T",190,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Aluminum",2020-09-30 11:15:00,"7429-90-5","T",58.4,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Arsenic",2020-09-30 11:15:00,"7440-38-2","T",0.97,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Cadmium",2020-09-30 11:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Calcium",2020-09-30 11:15:00,"7440-70-2","T",155000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Carbon, Dissolved Organic (DOC)",2020-09-30 11:15:00,"DOC","D",2.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","CHLORIDE (AS CL)",2020-09-30 11:15:00,"16887-00-6","T",105,"mg/l",0.9,"mg/l",4,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Chlorophyll A",2020-09-30 11:15:00,"479-61-8","T",4.08,"ug/l",NA,"ug/l",0.15,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Copper",2020-09-30 11:15:00,"7440-50-8","T",2.2,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","HARDNESS (AS CACO3)",2020-09-30 11:15:00,"HARD","T",511,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Iron",2020-09-30 11:15:00,"7439-89-6","T",198,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Lead",2020-09-30 11:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Magnesium",2020-09-30 11:15:00,"7439-95-4","T",30000,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Nickel",2020-09-30 11:15:00,"7440-02-0","T",1.8,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Nitrate+Nitrite as Nitrogen",2020-09-30 11:15:00,"NO3NO2N","T",1.12,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Nitrogen",2020-09-30 11:15:00,"7727-37-9","T",1.54,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Nitrogen, ammonia (As N)",2020-09-30 11:15:00,"7664-41-7","T",0.029,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","NITROGEN, KJELDAHL, TOTAL",2020-09-30 11:15:00,"KN","T",0.42,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","NITROGEN, NITRATE (AS N)",2020-09-30 11:15:00,"14797-55-8","T",1.1,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","NITROGEN, NITRITE",2020-09-30 11:15:00,"14797-65-0","T",0.021,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Orthophosphate as Phosphorus, Dissolved",2020-09-30 11:15:00,"PDORTHO","D",0.0187,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","PHOSPHORUS, TOTAL (AS P)",2020-09-30 11:15:00,"7723-14-0","T",0.0408,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Silver",2020-09-30 11:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","TOTAL ORGANIC CARBON",2020-09-30 11:15:00,"TOC","T",2.4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Total Suspended Solids",2020-09-30 11:15:00,"TSS","T",4.6,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","TURBIDITY",2020-09-30 11:15:00,"TURB","T",6,"ntu",0.06,"ntu",1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-CHIT-3.4","N","07-CHIT-3.4-09302020-W","R2009137","Zinc",2020-09-30 11:15:00,"7440-66-6","T",6.9,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","ALKALINITY, TOTAL (AS CaCO3)",2020-06-23 11:30:00,"ALK","T",70.8,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Aluminum",2020-06-23 11:30:00,"7429-90-5","T",46.3,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Arsenic",2020-06-23 11:30:00,"7440-38-2","T",0.79,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Cadmium",2020-06-23 11:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Calcium",2020-06-23 11:30:00,"7440-70-2","T",20300,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Carbon, Dissolved Organic (DOC)",2020-06-23 11:30:00,"DOC","D",2.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","CHLORIDE (AS CL)",2020-06-23 11:30:00,"16887-00-6","T",9.8,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Chlorophyll A",2020-06-23 11:30:00,"479-61-8","T",9.75,"ug/l",NA,"ug/l",0.4,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Copper",2020-06-23 11:30:00,"7440-50-8","T",0.85,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","HARDNESS (AS CACO3)",2020-06-23 11:30:00,"HARD","T",77.8,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Iron",2020-06-23 11:30:00,"7439-89-6","T",181,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Lead",2020-06-23 11:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Magnesium",2020-06-23 11:30:00,"7439-95-4","T",6620,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Nickel",2020-06-23 11:30:00,"7440-02-0","T",0.47,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Nitrate+Nitrite as Nitrogen",2020-06-23 11:30:00,"NO3NO2N","T",0.237,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Nitrogen",2020-06-23 11:30:00,"7727-37-9","T",0.49,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Nitrogen, ammonia (As N)",2020-06-23 11:30:00,"7664-41-7","T",0.011,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","NITROGEN, KJELDAHL, TOTAL",2020-06-23 11:30:00,"KN","T",0.26,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","NITROGEN, NITRATE (AS N)",2020-06-23 11:30:00,"14797-55-8","T",0.237,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","NITROGEN, NITRITE",2020-06-23 11:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 11:30:00,"PDORTHO","D",0.0056,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","PHOSPHORUS, TOTAL (AS P)",2020-06-23 11:30:00,"7723-14-0","T",0.0177,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Silver",2020-06-23 11:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","TOTAL ORGANIC CARBON",2020-06-23 11:30:00,"TOC","T",2.7,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Total Suspended Solids",2020-06-23 11:30:00,"TSS","T",2.1,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","TURBIDITY",2020-06-23 11:30:00,"TURB","T",1.9,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-W","R2005383","Zinc",2020-06-23 11:30:00,"7440-66-6","T",3.9,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-06232020-WRE","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 11:30:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","ALKALINITY, TOTAL (AS CaCO3)",2020-07-22 00:00:00,"ALK","T",58,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Aluminum",2020-07-22 00:00:00,"7429-90-5","T",69.5,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Arsenic",2020-07-22 00:00:00,"7440-38-2","T",0.7,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Cadmium",2020-07-22 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Calcium",2020-07-22 00:00:00,"7440-70-2","T",17000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Carbon, Dissolved Organic (DOC)",2020-07-22 00:00:00,"DOC","D",4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","CHLORIDE (AS CL)",2020-07-22 00:00:00,"16887-00-6","T",7.3,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Chlorophyll A",2020-07-22 00:00:00,"479-61-8","T",1.34,"ug/l",NA,"ug/l",0.041,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Copper",2020-07-22 00:00:00,"7440-50-8","T",1,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","HARDNESS (AS CACO3)",2020-07-22 00:00:00,"HARD","T",64.6,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Iron",2020-07-22 00:00:00,"7439-89-6","T",204,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Lead",2020-07-22 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Magnesium",2020-07-22 00:00:00,"7439-95-4","T",5390,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Nickel",2020-07-22 00:00:00,"7440-02-0","T",0.39,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Nitrate+Nitrite as Nitrogen",2020-07-22 00:00:00,"NO3NO2N","T",0.119,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Nitrogen",2020-07-22 00:00:00,"7727-37-9","T",0.51,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Nitrogen, ammonia (As N)",2020-07-22 00:00:00,"7664-41-7","T",0.027,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","NITROGEN, KJELDAHL, TOTAL",2020-07-22 00:00:00,"KN","T",0.39,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","NITROGEN, NITRATE (AS N)",2020-07-22 00:00:00,"14797-55-8","T",0.119,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","NITROGEN, NITRITE",2020-07-22 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Orthophosphate as Phosphorus, Dissolved",2020-07-22 00:00:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","PHOSPHORUS, TOTAL (AS P)",2020-07-22 00:00:00,"7723-14-0","T",0.0119,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Silver",2020-07-22 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","TOTAL ORGANIC CARBON",2020-07-22 00:00:00,"TOC","T",3.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Total Suspended Solids",2020-07-22 00:00:00,"TSS","T",3.1,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","TURBIDITY",2020-07-22 00:00:00,"TURB","T",4.4,"ntu",0.06,"ntu",1,"","R","Equipment Blank error ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-07222020-W","R2006514","Zinc",2020-07-22 00:00:00,"7440-66-6","T",4.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","ALKALINITY, TOTAL (AS CaCO3)",2020-08-19 09:40:00,"ALK","T",69.6,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Aluminum",2020-08-19 09:40:00,"7429-90-5","T",49.3,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Arsenic",2020-08-19 09:40:00,"7440-38-2","T",0.7,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Cadmium",2020-08-19 09:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Calcium",2020-08-19 09:40:00,"7440-70-2","T",19800,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Carbon, Dissolved Organic (DOC)",2020-08-19 09:40:00,"DOC","D",2.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","CHLORIDE (AS CL)",2020-08-19 09:40:00,"16887-00-6","T",9.5,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Chlorophyll A",2020-08-19 09:40:00,"479-61-8","T",2.83,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Copper",2020-08-19 09:40:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","HARDNESS (AS CACO3)",2020-08-19 09:40:00,"HARD","T",76.3,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Iron",2020-08-19 09:40:00,"7439-89-6","T",192,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Lead",2020-08-19 09:40:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Magnesium",2020-08-19 09:40:00,"7439-95-4","T",6550,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Nickel",2020-08-19 09:40:00,"7440-02-0","T",0.88,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Nitrate+Nitrite as Nitrogen",2020-08-19 09:40:00,"NO3NO2N","T",0.144,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Nitrogen",2020-08-19 09:40:00,"7727-37-9","T",0.49,"mg/l",NA,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Nitrogen, ammonia (As N)",2020-08-19 09:40:00,"7664-41-7","T",0.013,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","NITROGEN, KJELDAHL, TOTAL",2020-08-19 09:40:00,"KN","T",0.34,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","NITROGEN, NITRATE (AS N)",2020-08-19 09:40:00,"14797-55-8","T",0.144,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","NITROGEN, NITRITE",2020-08-19 09:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Orthophosphate as Phosphorus, Dissolved",2020-08-19 09:40:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","PHOSPHORUS, TOTAL (AS P)",2020-08-19 09:40:00,"7723-14-0","T",0.02,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Silver",2020-08-19 09:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","TOTAL ORGANIC CARBON",2020-08-19 09:40:00,"TOC","T",2.7,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Total Suspended Solids",2020-08-19 09:40:00,"TSS","T",3.1,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","TURBIDITY",2020-08-19 09:40:00,"TURB","T",3.2,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-08192020-W","R2007577","Zinc",2020-08-19 09:40:00,"7440-66-6","T",4.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","ALKALINITY, TOTAL (AS CaCO3)",2020-09-30 12:45:00,"ALK","T",80.8,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Aluminum",2020-09-30 12:45:00,"7429-90-5","T",32.2,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Arsenic",2020-09-30 12:45:00,"7440-38-2","T",0.76,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Cadmium",2020-09-30 12:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Calcium",2020-09-30 12:45:00,"7440-70-2","T",21400,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Carbon, Dissolved Organic (DOC)",2020-09-30 12:45:00,"DOC","D",2.3,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","CHLORIDE (AS CL)",2020-09-30 12:45:00,"16887-00-6","T",10.7,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Chlorophyll A",2020-09-30 12:45:00,"479-61-8","T",1.28,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Copper",2020-09-30 12:45:00,"7440-50-8","T",0.94,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","HARDNESS (AS CACO3)",2020-09-30 12:45:00,"HARD","T",83.5,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Iron",2020-09-30 12:45:00,"7439-89-6","T",229,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Lead",2020-09-30 12:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Magnesium",2020-09-30 12:45:00,"7439-95-4","T",7300,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Nickel",2020-09-30 12:45:00,"7440-02-0","T",0.54,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Nitrate+Nitrite as Nitrogen",2020-09-30 12:45:00,"NO3NO2N","T",0.124,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Nitrogen",2020-09-30 12:45:00,"7727-37-9","T",0.32,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Nitrogen, ammonia (As N)",2020-09-30 12:45:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","NITROGEN, KJELDAHL, TOTAL",2020-09-30 12:45:00,"KN","T",0.2,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","NITROGEN, NITRATE (AS N)",2020-09-30 12:45:00,"14797-55-8","T",0.124,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","NITROGEN, NITRITE",2020-09-30 12:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Orthophosphate as Phosphorus, Dissolved",2020-09-30 12:45:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","PHOSPHORUS, TOTAL (AS P)",2020-09-30 12:45:00,"7723-14-0","T",0.0146,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Silver",2020-09-30 12:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","TOTAL ORGANIC CARBON",2020-09-30 12:45:00,"TOC","T",2,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Total Suspended Solids",2020-09-30 12:45:00,"TSS","T",1.4,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","TURBIDITY",2020-09-30 12:45:00,"TURB","T",2.5,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-FSHO-2.3","N","07-FSHO-2.3-09302020-W","R2009137","Zinc",2020-09-30 12:45:00,"7440-66-6","T",5.8,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","ALKALINITY, TOTAL (AS CaCO3)",2020-06-23 10:30:00,"ALK","T",208,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Aluminum",2020-06-23 10:30:00,"7429-90-5","T",50.3,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Arsenic",2020-06-23 10:30:00,"7440-38-2","T",2,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Cadmium",2020-06-23 10:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Calcium",2020-06-23 10:30:00,"7440-70-2","T",121000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Carbon, Dissolved Organic (DOC)",2020-06-23 10:30:00,"DOC","D",3.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","CHLORIDE (AS CL)",2020-06-23 10:30:00,"16887-00-6","T",52.4,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Chlorophyll A",2020-06-23 10:30:00,"479-61-8","T",7.21,"ug/l",NA,"ug/l",0.38,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Copper",2020-06-23 10:30:00,"7440-50-8","T",2.1,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","HARDNESS (AS CACO3)",2020-06-23 10:30:00,"HARD","T",435,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Iron",2020-06-23 10:30:00,"7439-89-6","T",148,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Lead",2020-06-23 10:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Magnesium",2020-06-23 10:30:00,"7439-95-4","T",32200,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Nickel",2020-06-23 10:30:00,"7440-02-0","T",2.4,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Nitrate+Nitrite as Nitrogen",2020-06-23 10:30:00,"NO3NO2N","T",0.745,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Nitrogen",2020-06-23 10:30:00,"7727-37-9","T",1.35,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Nitrogen, ammonia (As N)",2020-06-23 10:30:00,"7664-41-7","T",0.068,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","NITROGEN, KJELDAHL, TOTAL",2020-06-23 10:30:00,"KN","T",0.6,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","NITROGEN, NITRATE (AS N)",2020-06-23 10:30:00,"14797-55-8","T",0.694,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","NITROGEN, NITRITE",2020-06-23 10:30:00,"14797-65-0","T",0.052,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 10:30:00,"PDORTHO","D",0.157,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","PHOSPHORUS, TOTAL (AS P)",2020-06-23 10:30:00,"7723-14-0","T",0.194,"mg/l",0.036,"mg/l",0.05,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Silver",2020-06-23 10:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","TOTAL ORGANIC CARBON",2020-06-23 10:30:00,"TOC","T",4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Total Suspended Solids",2020-06-23 10:30:00,"TSS","T",4.4,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","TURBIDITY",2020-06-23 10:30:00,"TURB","T",1.7,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-W","R2005383","Zinc",2020-06-23 10:30:00,"7440-66-6","T",11,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-06232020-WRE","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 10:30:00,"PDORTHO","D",0.158,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","ALKALINITY, TOTAL (AS CaCO3)",2020-07-22 00:00:00,"ALK","T",210,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Aluminum",2020-07-22 00:00:00,"7429-90-5","T",106,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Arsenic",2020-07-22 00:00:00,"7440-38-2","T",1.1,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Cadmium",2020-07-22 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Calcium",2020-07-22 00:00:00,"7440-70-2","T",104000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Carbon, Dissolved Organic (DOC)",2020-07-22 00:00:00,"DOC","D",4.5,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","CHLORIDE (AS CL)",2020-07-22 00:00:00,"16887-00-6","T",47.9,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Chlorophyll A",2020-07-22 00:00:00,"479-61-8","T",2.9,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Copper",2020-07-22 00:00:00,"7440-50-8","T",2.7,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","HARDNESS (AS CACO3)",2020-07-22 00:00:00,"HARD","T",365,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Iron",2020-07-22 00:00:00,"7439-89-6","T",218,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Lead",2020-07-22 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Magnesium",2020-07-22 00:00:00,"7439-95-4","T",25500,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Nickel",2020-07-22 00:00:00,"7440-02-0","T",1.9,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Nitrate+Nitrite as Nitrogen",2020-07-22 00:00:00,"NO3NO2N","T",0.987,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Nitrogen",2020-07-22 00:00:00,"7727-37-9","T",1.53,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Nitrogen, ammonia (As N)",2020-07-22 00:00:00,"7664-41-7","T",0.028,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","NITROGEN, KJELDAHL, TOTAL",2020-07-22 00:00:00,"KN","T",0.54,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","NITROGEN, NITRATE (AS N)",2020-07-22 00:00:00,"14797-55-8","T",0.97,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","NITROGEN, NITRITE",2020-07-22 00:00:00,"14797-65-0","T",0.016,"mg/l",0.007,"mg/l",0.01,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Orthophosphate as Phosphorus, Dissolved",2020-07-22 00:00:00,"PDORTHO","D",0.0748,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","PHOSPHORUS, TOTAL (AS P)",2020-07-22 00:00:00,"7723-14-0","T",0.0919,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Silver",2020-07-22 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","TOTAL ORGANIC CARBON",2020-07-22 00:00:00,"TOC","T",4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Total Suspended Solids",2020-07-22 00:00:00,"TSS","T",8.1,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","TURBIDITY",2020-07-22 00:00:00,"TURB","T",7,"ntu",0.06,"ntu",1,"","R","low confidence in value due to Equipment Blank error ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-07222020-W","R2006514","Zinc",2020-07-22 00:00:00,"7440-66-6","T",7.1,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","ALKALINITY, TOTAL (AS CaCO3)",2020-08-19 09:00:00,"ALK","T",198,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Aluminum",2020-08-19 09:00:00,"7429-90-5","T",87.2,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Arsenic",2020-08-19 09:00:00,"7440-38-2","T",1.5,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Cadmium",2020-08-19 09:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Calcium",2020-08-19 09:00:00,"7440-70-2","T",111000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Carbon, Dissolved Organic (DOC)",2020-08-19 09:00:00,"DOC","D",4.1,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","CHLORIDE (AS CL)",2020-08-19 09:00:00,"16887-00-6","T",52.9,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Chlorophyll A",2020-08-19 09:00:00,"479-61-8","T",4.65,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Copper",2020-08-19 09:00:00,"7440-50-8","T",2.8,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","HARDNESS (AS CACO3)",2020-08-19 09:00:00,"HARD","T",399,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Iron",2020-08-19 09:00:00,"7439-89-6","T",177,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Lead",2020-08-19 09:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Magnesium",2020-08-19 09:00:00,"7439-95-4","T",29700,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Nickel",2020-08-19 09:00:00,"7440-02-0","T",2.7,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Nitrate+Nitrite as Nitrogen",2020-08-19 09:00:00,"NO3NO2N","T",1.03,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Nitrogen",2020-08-19 09:00:00,"7727-37-9","T",1.61,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Nitrogen, ammonia (As N)",2020-08-19 09:00:00,"7664-41-7","T",0.031,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","NITROGEN, KJELDAHL, TOTAL",2020-08-19 09:00:00,"KN","T",0.58,"mg/l",0.1,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","NITROGEN, NITRATE (AS N)",2020-08-19 09:00:00,"14797-55-8","T",1,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","NITROGEN, NITRITE",2020-08-19 09:00:00,"14797-65-0","T",0.027,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Orthophosphate as Phosphorus, Dissolved",2020-08-19 09:00:00,"PDORTHO","D",0.113,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","PHOSPHORUS, TOTAL (AS P)",2020-08-19 09:00:00,"7723-14-0","T",0.161,"mg/l",0.018,"mg/l",0.025,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Silver",2020-08-19 09:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","TOTAL ORGANIC CARBON",2020-08-19 09:00:00,"TOC","T",4.1,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Total Suspended Solids",2020-08-19 09:00:00,"TSS","T",7.7,"mg/l",NA,"mg/l",1.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","TURBIDITY",2020-08-19 09:00:00,"TURB","T",9.7,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-08192020-W","R2007577","Zinc",2020-08-19 09:00:00,"7440-66-6","T",10.3,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","ALKALINITY, TOTAL (AS CaCO3)",2020-09-30 12:00:00,"ALK","T",202,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Aluminum",2020-09-30 12:00:00,"7429-90-5","T",42.6,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Arsenic",2020-09-30 12:00:00,"7440-38-2","T",1.5,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Cadmium",2020-09-30 12:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Calcium",2020-09-30 12:00:00,"7440-70-2","T",117000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Carbon, Dissolved Organic (DOC)",2020-09-30 12:00:00,"DOC","D",5,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","CHLORIDE (AS CL)",2020-09-30 12:00:00,"16887-00-6","T",63.9,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Chlorophyll A",2020-09-30 12:00:00,"479-61-8","T",5.78,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Copper",2020-09-30 12:00:00,"7440-50-8","T",3.2,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","HARDNESS (AS CACO3)",2020-09-30 12:00:00,"HARD","T",414,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Iron",2020-09-30 12:00:00,"7439-89-6","T",242,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Lead",2020-09-30 12:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Magnesium",2020-09-30 12:00:00,"7439-95-4","T",30000,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Nickel",2020-09-30 12:00:00,"7440-02-0","T",2.8,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Nitrate+Nitrite as Nitrogen",2020-09-30 12:00:00,"NO3NO2N","T",0.344,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Nitrogen",2020-09-30 12:00:00,"7727-37-9","T",1.8,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Nitrogen, ammonia (As N)",2020-09-30 12:00:00,"7664-41-7","T",0.547,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","NITROGEN, KJELDAHL, TOTAL",2020-09-30 12:00:00,"KN","T",1.46,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","NITROGEN, NITRATE (AS N)",2020-09-30 12:00:00,"14797-55-8","T",0.282,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","NITROGEN, NITRITE",2020-09-30 12:00:00,"14797-65-0","T",0.062,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Orthophosphate as Phosphorus, Dissolved",2020-09-30 12:00:00,"PDORTHO","D",0.515,"mg/l",0.025,"mg/l",0.025,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","PHOSPHORUS, TOTAL (AS P)",2020-09-30 12:00:00,"7723-14-0","T",0.621,"mg/l",0.036,"mg/l",0.05,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Silver",2020-09-30 12:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","TOTAL ORGANIC CARBON",2020-09-30 12:00:00,"TOC","T",5.6,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Total Suspended Solids",2020-09-30 12:00:00,"TSS","T",4,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","TURBIDITY",2020-09-30 12:00:00,"TURB","T",5.3,"ntu",0.06,"ntu",1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-ONEI-2.2","N","07-ONEI-2.2-09302020-W","R2009137","Zinc",2020-09-30 12:00:00,"7440-66-6","T",8.7,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","ALKALINITY, TOTAL (AS CaCO3)",2020-06-23 12:30:00,"ALK","T",54,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Aluminum",2020-06-23 12:30:00,"7429-90-5","T",35.8,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Arsenic",2020-06-23 12:30:00,"7440-38-2","T",0.68,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Cadmium",2020-06-23 12:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Calcium",2020-06-23 12:30:00,"7440-70-2","T",16200,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Carbon, Dissolved Organic (DOC)",2020-06-23 12:30:00,"DOC","D",6.5,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","CHLORIDE (AS CL)",2020-06-23 12:30:00,"16887-00-6","T",12.1,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Chlorophyll A",2020-06-23 12:30:00,"479-61-8","T",0.94,"ug/l",NA,"ug/l",0.15,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Copper",2020-06-23 12:30:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","HARDNESS (AS CACO3)",2020-06-23 12:30:00,"HARD","T",61.2,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Iron",2020-06-23 12:30:00,"7439-89-6","T",312,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Lead",2020-06-23 12:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Magnesium",2020-06-23 12:30:00,"7439-95-4","T",5060,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Nickel",2020-06-23 12:30:00,"7440-02-0","T",0.38,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Nitrate+Nitrite as Nitrogen",2020-06-23 12:30:00,"NO3NO2N","T",0.153,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Nitrogen",2020-06-23 12:30:00,"7727-37-9","T",0.58,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Nitrogen, ammonia (As N)",2020-06-23 12:30:00,"7664-41-7","T",0.023,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","NITROGEN, KJELDAHL, TOTAL",2020-06-23 12:30:00,"KN","T",0.42,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","NITROGEN, NITRATE (AS N)",2020-06-23 12:30:00,"14797-55-8","T",0.153,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","NITROGEN, NITRITE",2020-06-23 12:30:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-23 12:30:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","PHOSPHORUS, TOTAL (AS P)",2020-06-23 12:30:00,"7723-14-0","T",0.017,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Silver",2020-06-23 12:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","TOTAL ORGANIC CARBON",2020-06-23 12:30:00,"TOC","T",6,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Total Suspended Solids",2020-06-23 12:30:00,"TSS","T",NA,"mg/l",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","TURBIDITY",2020-06-23 12:30:00,"TURB","T",1.3,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-06232020-W","R2005383","Zinc",2020-06-23 12:30:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","ALKALINITY, TOTAL (AS CaCO3)",2020-07-22 00:00:00,"ALK","T",42.8,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Aluminum",2020-07-22 00:00:00,"7429-90-5","T",43.6,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Arsenic",2020-07-22 00:00:00,"7440-38-2","T",0.88,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Cadmium",2020-07-22 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Calcium",2020-07-22 00:00:00,"7440-70-2","T",12800,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Carbon, Dissolved Organic (DOC)",2020-07-22 00:00:00,"DOC","D",10.4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","CHLORIDE (AS CL)",2020-07-22 00:00:00,"16887-00-6","T",7.7,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Chlorophyll A",2020-07-22 00:00:00,"479-61-8","T",1.62,"ug/l",NA,"ug/l",0.08,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Copper",2020-07-22 00:00:00,"7440-50-8","T",0.87,"ug/l",0.66,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","HARDNESS (AS CACO3)",2020-07-22 00:00:00,"HARD","T",48.8,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Iron",2020-07-22 00:00:00,"7439-89-6","T",385,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Lead",2020-07-22 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Magnesium",2020-07-22 00:00:00,"7439-95-4","T",4100,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Nickel",2020-07-22 00:00:00,"7440-02-0","T",0.4,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Nitrate+Nitrite as Nitrogen",2020-07-22 00:00:00,"NO3NO2N","T",0.0724,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Nitrogen",2020-07-22 00:00:00,"7727-37-9","T",0.64,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Nitrogen, ammonia (As N)",2020-07-22 00:00:00,"7664-41-7","T",0.018,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","NITROGEN, KJELDAHL, TOTAL",2020-07-22 00:00:00,"KN","T",0.57,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","NITROGEN, NITRATE (AS N)",2020-07-22 00:00:00,"14797-55-8","T",0.072,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","NITROGEN, NITRITE",2020-07-22 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Orthophosphate as Phosphorus, Dissolved",2020-07-22 00:00:00,"PDORTHO","D",0.0055,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","PHOSPHORUS, TOTAL (AS P)",2020-07-22 00:00:00,"7723-14-0","T",0.0165,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Silver",2020-07-22 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","TOTAL ORGANIC CARBON",2020-07-22 00:00:00,"TOC","T",11.1,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Total Suspended Solids",2020-07-22 00:00:00,"TSS","T",1.3,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","TURBIDITY",2020-07-22 00:00:00,"TURB","T",1.7,"ntu",0.06,"ntu",1,"","R","Equipment Blank error ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-07222020-W","R2006514","Zinc",2020-07-22 00:00:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","ALKALINITY, TOTAL (AS CaCO3)",2020-08-19 11:15:00,"ALK","T",60.4,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Aluminum",2020-08-19 11:15:00,"7429-90-5","T",29,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Arsenic",2020-08-19 11:15:00,"7440-38-2","T",0.64,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Cadmium",2020-08-19 11:15:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Calcium",2020-08-19 11:15:00,"7440-70-2","T",16700,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Carbon, Dissolved Organic (DOC)",2020-08-19 11:15:00,"DOC","D",5.4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","CHLORIDE (AS CL)",2020-08-19 11:15:00,"16887-00-6","T",12.6,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Chlorophyll A",2020-08-19 11:15:00,"479-61-8","T",3.26,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Copper",2020-08-19 11:15:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","HARDNESS (AS CACO3)",2020-08-19 11:15:00,"HARD","T",63.7,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Iron",2020-08-19 11:15:00,"7439-89-6","T",213,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Lead",2020-08-19 11:15:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Magnesium",2020-08-19 11:15:00,"7439-95-4","T",5370,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Nickel",2020-08-19 11:15:00,"7440-02-0","T",0.32,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Nitrate+Nitrite as Nitrogen",2020-08-19 11:15:00,"NO3NO2N","T",0.0834,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Nitrogen",2020-08-19 11:15:00,"7727-37-9","T",0.37,"mg/l",NA,"mg/l",0.1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Nitrogen, ammonia (As N)",2020-08-19 11:15:00,"7664-41-7","T",0.017,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","NITROGEN, KJELDAHL, TOTAL",2020-08-19 11:15:00,"KN","T",0.29,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","NITROGEN, NITRATE (AS N)",2020-08-19 11:15:00,"14797-55-8","T",0.083,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","NITROGEN, NITRITE",2020-08-19 11:15:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Orthophosphate as Phosphorus, Dissolved",2020-08-19 11:15:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","PHOSPHORUS, TOTAL (AS P)",2020-08-19 11:15:00,"7723-14-0","T",0.0143,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Silver",2020-08-19 11:15:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","TOTAL ORGANIC CARBON",2020-08-19 11:15:00,"TOC","T",5.5,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Total Suspended Solids",2020-08-19 11:15:00,"TSS","T",1.5,"mg/l",NA,"mg/l",1.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","TURBIDITY",2020-08-19 11:15:00,"TURB","T",3.9,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-08192020-W","R2007577","Zinc",2020-08-19 11:15:00,"7440-66-6","T",NA,"ug/l",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","ALKALINITY, TOTAL (AS CaCO3)",2020-09-30 13:45:00,"ALK","T",56.8,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Aluminum",2020-09-30 13:45:00,"7429-90-5","T",24.1,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Arsenic",2020-09-30 13:45:00,"7440-38-2","T",0.57,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Cadmium",2020-09-30 13:45:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Calcium",2020-09-30 13:45:00,"7440-70-2","T",16600,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Carbon, Dissolved Organic (DOC)",2020-09-30 13:45:00,"DOC","D",4.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","CHLORIDE (AS CL)",2020-09-30 13:45:00,"16887-00-6","T",12,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Chlorophyll A",2020-09-30 13:45:00,"479-61-8","T",2.36,"ug/l",NA,"ug/l",0.15,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Copper",2020-09-30 13:45:00,"7440-50-8","T",NA,"ug/l",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","HARDNESS (AS CACO3)",2020-09-30 13:45:00,"HARD","T",63.8,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Iron",2020-09-30 13:45:00,"7439-89-6","T",160,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Lead",2020-09-30 13:45:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Magnesium",2020-09-30 13:45:00,"7439-95-4","T",5460,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Nickel",2020-09-30 13:45:00,"7440-02-0","T",0.4,"ug/l",0.26,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Nitrate+Nitrite as Nitrogen",2020-09-30 13:45:00,"NO3NO2N","T",0.0187,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Nitrogen",2020-09-30 13:45:00,"7727-37-9","T",0.35,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Nitrogen, ammonia (As N)",2020-09-30 13:45:00,"7664-41-7","T",0.013,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","NITROGEN, KJELDAHL, TOTAL",2020-09-30 13:45:00,"KN","T",0.33,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","NITROGEN, NITRATE (AS N)",2020-09-30 13:45:00,"14797-55-8","T",0.019,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","NITROGEN, NITRITE",2020-09-30 13:45:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Orthophosphate as Phosphorus, Dissolved",2020-09-30 13:45:00,"PDORTHO","D",0.005,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","PHOSPHORUS, TOTAL (AS P)",2020-09-30 13:45:00,"7723-14-0","T",0.0179,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Silver",2020-09-30 13:45:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","TOTAL ORGANIC CARBON",2020-09-30 13:45:00,"TOC","T",4.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Total Suspended Solids",2020-09-30 13:45:00,"TSS","T",1.5,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","TURBIDITY",2020-09-30 13:45:00,"TURB","T",4.4,"ntu",0.06,"ntu",1,"","T","low confidence in value due to Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SCRB-0.1","N","07-SCRB-0.1-09302020-W","R2009137","Zinc",2020-09-30 13:45:00,"7440-66-6","T",4.6,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","ALKALINITY, TOTAL (AS CaCO3)",2020-06-25 12:30:00,"ALK","T",194,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Aluminum",2020-06-25 12:30:00,"7429-90-5","T",177,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Arsenic",2020-06-25 12:30:00,"7440-38-2","T",0.87,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Cadmium",2020-06-25 12:30:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Calcium",2020-06-25 12:30:00,"7440-70-2","T",182000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Carbon, Dissolved Organic (DOC)",2020-06-25 12:30:00,"DOC","D",3.3,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","CHLORIDE (AS CL)",2020-06-25 12:30:00,"16887-00-6","T",47,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Chlorophyll A",2020-06-25 12:30:00,"479-61-8","T",2.23,"ug/l",NA,"ug/l",0.21,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Copper",2020-06-25 12:30:00,"7440-50-8","T",1.4,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","HARDNESS (AS CACO3)",2020-06-25 12:30:00,"HARD","T",615,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Iron",2020-06-25 12:30:00,"7439-89-6","T",331,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Lead",2020-06-25 12:30:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Magnesium",2020-06-25 12:30:00,"7439-95-4","T",39100,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Nickel",2020-06-25 12:30:00,"7440-02-0","T",2.6,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Nitrate+Nitrite as Nitrogen",2020-06-25 12:30:00,"NO3NO2N","T",1.15,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Nitrogen",2020-06-25 12:30:00,"7727-37-9","T",1.67,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Nitrogen, ammonia (As N)",2020-06-25 12:30:00,"7664-41-7","T",0.068,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","NITROGEN, KJELDAHL, TOTAL",2020-06-25 12:30:00,"KN","T",0.52,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","NITROGEN, NITRATE (AS N)",2020-06-25 12:30:00,"14797-55-8","T",1.13,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","NITROGEN, NITRITE",2020-06-25 12:30:00,"14797-65-0","T",0.018,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Orthophosphate as Phosphorus, Dissolved",2020-06-25 12:30:00,"PDORTHO","D",0.011,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","PHOSPHORUS, TOTAL (AS P)",2020-06-25 12:30:00,"7723-14-0","T",0.0358,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Silver",2020-06-25 12:30:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","TOTAL ORGANIC CARBON",2020-06-25 12:30:00,"TOC","T",3,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Total Suspended Solids",2020-06-25 12:30:00,"TSS","T",9.5,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","TURBIDITY",2020-06-25 12:30:00,"TURB","T",4.7,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-06252020-W","R2005383","Zinc",2020-06-25 12:30:00,"7440-66-6","T",3.7,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","ALKALINITY, TOTAL (AS CaCO3)",2020-07-29 09:10:00,"ALK","T",177,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Aluminum",2020-07-29 09:10:00,"7429-90-5","T",1840,"ug/l",23,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Arsenic",2020-07-29 09:10:00,"7440-38-2","T",1.6,"ug/l",0.32,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Cadmium",2020-07-29 09:10:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Calcium",2020-07-29 09:10:00,"7440-70-2","T",105000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Carbon, Dissolved Organic (DOC)",2020-07-29 09:10:00,"DOC","D",14.8,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","CHLORIDE (AS CL)",2020-07-29 09:10:00,"16887-00-6","T",29.7,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Chlorophyll A",2020-07-29 09:10:00,"479-61-8","T",3.33,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Copper",2020-07-29 09:10:00,"7440-50-8","T",6,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","HARDNESS (AS CACO3)",2020-07-29 09:10:00,"HARD","T",350,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Iron",2020-07-29 09:10:00,"7439-89-6","T",2460,"ug/l",20,"ug/l",100,"E","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Lead",2020-07-29 09:10:00,"7439-92-1","T",1.4,"ug/l",0.57,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Magnesium",2020-07-29 09:10:00,"7439-95-4","T",21200,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Nickel",2020-07-29 09:10:00,"7440-02-0","T",8.1,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Nitrate+Nitrite as Nitrogen",2020-07-29 09:10:00,"NO3NO2N","T",0.878,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Nitrogen",2020-07-29 09:10:00,"7727-37-9","T",1.71,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Nitrogen, ammonia (As N)",2020-07-29 09:10:00,"7664-41-7","T",0.071,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","NITROGEN, KJELDAHL, TOTAL",2020-07-29 09:10:00,"KN","T",0.83,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","NITROGEN, NITRATE (AS N)",2020-07-29 09:10:00,"14797-55-8","T",0.864,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","NITROGEN, NITRITE",2020-07-29 09:10:00,"14797-65-0","T",0.015,"mg/l",0.007,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Orthophosphate as Phosphorus, Dissolved",2020-07-29 09:10:00,"PDORTHO","D",0.0337,"mg/l",0.0049,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","PHOSPHORUS, TOTAL (AS P)",2020-07-29 09:10:00,"7723-14-0","T",0.126,"mg/l",0.018,"mg/l",0.025,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Silver",2020-07-29 09:10:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","TOTAL ORGANIC CARBON",2020-07-29 09:10:00,"TOC","T",7.4,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Total Suspended Solids",2020-07-29 09:10:00,"TSS","T",85.8,"mg/l",NA,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","TURBIDITY",2020-07-29 09:10:00,"TURB","T",92.7,"ntu",0.06,"ntu",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-07292020-W","R2006729","Zinc",2020-07-29 09:10:00,"7440-66-6","T",13.2,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","ALKALINITY, TOTAL (AS CaCO3)",2020-08-18 00:00:00,"ALK","T",180,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Aluminum",2020-08-18 00:00:00,"7429-90-5","T",102,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Arsenic",2020-08-18 00:00:00,"7440-38-2","T",0.65,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Cadmium",2020-08-18 00:00:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Calcium",2020-08-18 00:00:00,"7440-70-2","T",165000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Carbon, Dissolved Organic (DOC)",2020-08-18 00:00:00,"DOC","D",3.3,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","CHLORIDE (AS CL)",2020-08-18 00:00:00,"16887-00-6","T",49,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Chlorophyll A",2020-08-18 00:00:00,"479-61-8","T",1.06,"ug/l",NA,"ug/l",0.17,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Copper",2020-08-18 00:00:00,"7440-50-8","T",1.5,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","HARDNESS (AS CACO3)",2020-08-18 00:00:00,"HARD","T",557,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Iron",2020-08-18 00:00:00,"7439-89-6","T",219,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Lead",2020-08-18 00:00:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Magnesium",2020-08-18 00:00:00,"7439-95-4","T",35200,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Nickel",2020-08-18 00:00:00,"7440-02-0","T",7.1,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Nitrate+Nitrite as Nitrogen",2020-08-18 00:00:00,"NO3NO2N","T",1.07,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Nitrogen",2020-08-18 00:00:00,"7727-37-9","T",1.47,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Nitrogen, ammonia (As N)",2020-08-18 00:00:00,"7664-41-7","T",0.023,"mg/l",0.003,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","NITROGEN, KJELDAHL, TOTAL",2020-08-18 00:00:00,"KN","T",0.4,"mg/l",0.1,"mg/l",0.1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","NITROGEN, NITRATE (AS N)",2020-08-18 00:00:00,"14797-55-8","T",1.07,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","NITROGEN, NITRITE",2020-08-18 00:00:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Orthophosphate as Phosphorus, Dissolved",2020-08-18 00:00:00,"PDORTHO","D",0.0085,"mg/l",0.0049,"mg/l",0.005,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","PHOSPHORUS, TOTAL (AS P)",2020-08-18 00:00:00,"7723-14-0","T",0.029,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Silver",2020-08-18 00:00:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","TOTAL ORGANIC CARBON",2020-08-18 00:00:00,"TOC","T",2.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Total Suspended Solids",2020-08-18 00:00:00,"TSS","T",6.4,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","TURBIDITY",2020-08-18 00:00:00,"TURB","T",8.9,"ntu",0.06,"ntu",1,"","R","Holding Time error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-08182020-W","R2007577","Zinc",2020-08-18 00:00:00,"7440-66-6","T",4.8,"ug/l",2.5,"ug/l",5,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","ALKALINITY, TOTAL (AS CaCO3)",2020-09-22 11:40:00,"ALK","T",201,"mg/l",1.8,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Aluminum",2020-09-22 11:40:00,"7429-90-5","T",53.9,"ug/l",2.3,"ug/l",10,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Arsenic",2020-09-22 11:40:00,"7440-38-2","T",0.38,"ug/l",0.32,"ug/l",1,"J","J","estimated value due to lab error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Cadmium",2020-09-22 11:40:00,"7440-43-9","T",NA,"ug/l",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Calcium",2020-09-22 11:40:00,"7440-70-2","T",188000,"ug/l",110,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Carbon, Dissolved Organic (DOC)",2020-09-22 11:40:00,"DOC","D",2.1,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","CHLORIDE (AS CL)",2020-09-22 11:40:00,"16887-00-6","T",51.2,"mg/l",0.5,"mg/l",2,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Chlorophyll A",2020-09-22 11:40:00,"479-61-8","T",1.1,"ug/l",NA,"ug/l",0.16,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Copper",2020-09-22 11:40:00,"7440-50-8","T",1.5,"ug/l",0.66,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","HARDNESS (AS CACO3)",2020-09-22 11:40:00,"HARD","T",634,"mg/l",NA,"mg/l",6.62,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Iron",2020-09-22 11:40:00,"7439-89-6","T",151,"ug/l",20,"ug/l",100,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Lead",2020-09-22 11:40:00,"7439-92-1","T",NA,"ug/l",0.57,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Magnesium",2020-09-22 11:40:00,"7439-95-4","T",39900,"ug/l",68,"ug/l",1000,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Nickel",2020-09-22 11:40:00,"7440-02-0","T",2.1,"ug/l",0.26,"ug/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Nitrate+Nitrite as Nitrogen",2020-09-22 11:40:00,"NO3NO2N","T",1.16,"mg/l",0.0015,"mg/l",0.002,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Nitrogen",2020-09-22 11:40:00,"7727-37-9","T",1.39,"mg/l",NA,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Nitrogen, ammonia (As N)",2020-09-22 11:40:00,"7664-41-7","T",NA,"mg/l",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","NITROGEN, KJELDAHL, TOTAL",2020-09-22 11:40:00,"KN","T",0.23,"mg/l",0.1,"mg/l",0.1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","NITROGEN, NITRATE (AS N)",2020-09-22 11:40:00,"14797-55-8","T",1.16,"mg/l",NA,"mg/l",0.01,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","NITROGEN, NITRITE",2020-09-22 11:40:00,"14797-65-0","T",NA,"mg/l",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Orthophosphate as Phosphorus, Dissolved",2020-09-22 11:40:00,"PDORTHO","D",NA,"mg/l",0.0049,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","PHOSPHORUS, TOTAL (AS P)",2020-09-22 11:40:00,"7723-14-0","T",0.0166,"mg/l",0.0036,"mg/l",0.005,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Silver",2020-09-22 11:40:00,"7440-22-4","T",NA,"ug/l",0.15,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","TOTAL ORGANIC CARBON",2020-09-22 11:40:00,"TOC","T",1.9,"mg/l",0.5,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Total Suspended Solids",2020-09-22 11:40:00,"TSS","T",5,"mg/l",NA,"mg/l",1,"","A","",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","TURBIDITY",2020-09-22 11:40:00,"TURB","T",3.3,"ntu",0.06,"ntu",1,"","R","Equipment Blank error",2021-04-13
+"ONEIDA_TRIBS_RAS","07-SRAG-0.1","N","07-SRAG-0.1-09222020-W","R2008780","Zinc",2020-09-22 11:40:00,"7440-66-6","T",24.3,"ug/l",2.5,"ug/l",5,"","A","",2021-04-13
