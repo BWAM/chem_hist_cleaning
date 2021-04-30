@@ -499,6 +499,18 @@ result.all.FINAL <- result.all.FINAL %>%
          CHR_ANALYSIS_DATE = format((CHR_ANALYSIS_DATE), "%m/%d/%Y %H:%M:%S")
 )
 
+
+# Correct erroneous ALS sample date entries
+sample.all.FINAL <- sample.all.FINAL %>% 
+  mutate(CHS_EVENT_SMAS_SAMPLE_DATE = ifelse(CHS_SAMPLE_NAME %in% "01-CHAU-0.4-09162020-W-SEQ", "09/16/2020", CHS_EVENT_SMAS_SAMPLE_DATE),
+         CHS_SAMPLE_DATETIME = ifelse(CHS_SAMPLE_NAME %in% "01-CHAU-0.4-09162020-W-SEQ", "09/16/2020 10:30:00", CHS_SAMPLE_DATETIME),
+         CHS_EVENT_SMAS_SAMPLE_DATE = ifelse(CHS_SAMPLE_NAME %in% "12-MOHK-79.5-06152020-W", "06/15/2020", CHS_EVENT_SMAS_SAMPLE_DATE),
+         CHS_SAMPLE_DATETIME = ifelse(CHS_SAMPLE_NAME %in% "12-MOHK-79.5-06152020-W", "06/15/2020 12:00:00", CHS_SAMPLE_DATETIME),
+         CHS_EVENT_SMAS_SAMPLE_DATE = ifelse(CHS_SAMPLE_NAME %in% "08-BLCK-84.5-06152020-W", "06/15/2020", CHS_EVENT_SMAS_SAMPLE_DATE),
+         CHS_SAMPLE_DATETIME = ifelse(CHS_SAMPLE_NAME %in% "08-BLCK-84.5-06152020-W", "06/15/2020 09:00:00", CHS_SAMPLE_DATETIME)
+         )
+
+
 ```
 
 
@@ -521,7 +533,7 @@ rm(test.sample.all.FINAL, test.result.all.FINAL, test.sample.result)
 ```{r Test pcode join}
 
 pcode <- read.csv(file.path(datamod.dir, "20201013_S_CHEM_PARAMETER.csv"), stringsAsFactors = FALSE, colClasses = "character") %>% 
-  bind_rows(read.csv(file.path(datamod.dir, "20210414_S_CHEM_PARAMETER_2020-append.csv"), stringsAsFactors = FALSE, colClasses = "character"))
+  bind_rows(read.csv(file.path(datamod.dir, "20210415_S_CHEM_PARAMETER_2020-append.csv"), stringsAsFactors = FALSE, colClasses = "character"))
 
 test.result.pcode <- result.all.form %>% 
   rename(CHEM_PARAMETER_PCODE = CHR_PCODE) %>% 
@@ -530,14 +542,6 @@ test.result.pcode <- result.all.form %>%
          CHEM_PARAMETER_FRACTION, CHR_FRACTION) %>% 
   unique() %>% 
   mutate(CHR_CHEMICAL_NAME_caps = toupper(CHR_CHEMICAL_NAME))
-
-```
-
-
-```{r Check against sites table}
-
-# Check against sites table??? (awaiting Charlie's response on site ID changes)
-
 
 ```
 
@@ -583,7 +587,7 @@ Export tables
 ```{r Export tables, eval = FALSE}
 
 write.table(event.id, file = file.path(datamod.dir, "20210415_SMAS_chem_2020_event_IDs.csv"),sep=",", row.names = FALSE, na = "")
-write.table(sample.all.FINAL, file = file.path(datamod.dir, "20210415_S_CHEM_HISTORY_SAMPLE_2020-append.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.all.FINAL, file = file.path(datamod.dir, "20210430_S_CHEM_HISTORY_SAMPLE_2020-append.csv"),sep=",", row.names = FALSE, na = "")
 write.table(result.all.FINAL, file = file.path(datamod.dir, "20210415_S_CHEM_HISTORY_RESULT_2020-append.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
