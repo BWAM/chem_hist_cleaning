@@ -593,3 +593,53 @@ write.table(result.all.FINAL, file = file.path(datamod.dir, "20210415_S_CHEM_HIS
 ```
 
 
+```{r Create and update MASTER tables}
+
+## Append 2020 to 2001-2019 submitted data
+
+# RESULT
+result.hist <- read.csv(file.path(datamod.dir, "historical/20210129_S_CHEM_HISTORY_RESULT.csv"), stringsAsFactors = FALSE) %>% 
+  # Filter out 2019 PCB data, which ITS removed from historical data as a result of generic PCB pcodes being removed from pcode table. 
+  # Will attach new PCB pcodes to 2019 data and resubmit at a later point.
+  filter(!(CHR_PCODE %in% c(167, 168, 169)))
+result.2020 <- read.csv(file.path(datamod.dir, "2020/20210415_S_CHEM_HISTORY_RESULT_2020-append.csv"), stringsAsFactors = FALSE)
+
+# Check field differences
+# setdiff(colnames(result.hist), colnames(result.2020))
+# [1] "CHR_SAMPLE_DEL_GRP_EQUIS" "CHR_LAB_VALIDATION_LEVEL"
+# OK. Two missing in 2020 are historical only.
+
+result.master <- result.hist %>% 
+  bind_rows(result.2020)
+
+#SAMPLE
+sample.hist <- read.csv(file.path(datamod.dir, "historical/20210129_S_CHEM_HISTORY_SAMPLE.csv"), stringsAsFactors = FALSE) %>% 
+  filter(!(CHS_SAMPLE_DEL_GRP %in% c("L2261539", "L2332254", "L2375300")))
+  # Filter out 2019 PCB data, which ITS removed from historical data as a result of generic PCB pcodes being removed from pcode table. 
+  # Will attach new PCB pcodes to 2019 data and resubmit at a later point.
+sample.2020 <- read.csv(file.path(datamod.dir, "2020/20210430_S_CHEM_HISTORY_SAMPLE_2020-append.csv"), stringsAsFactors = FALSE)
+
+# Check field differences
+# setdiff(colnames(sample.hist), colnames(sample.2020))
+# [1] "CHS_SAMPLE_DEL_GRP_EQUIS"
+# OK. One missing in 2020 are historical only.
+
+sample.master <- sample.hist %>% 
+  bind_rows(sample.2020)
+
+# Chem param table
+param.existing <- read.csv(file.path(datamod.dir, "historical/20201013_S_CHEM_PARAMETER.csv"), stringsAsFactors = FALSE) %>% 
+  # Filter out 2019 PCB data, which ITS removed from historical data as a result of generic PCB pcodes being removed from pcode table. 
+  # Will attach new PCB pcodes to 2019 data and resubmit at a later point.
+  filter(!(CHEM_PARAMETER_PCODE %in% c(167, 168, 169)))
+param.append <- read.csv(file.path(datamod.dir, "2020/20210415_S_CHEM_PARAMETER_2020-append.csv"), stringsAsFactors = FALSE)
+
+param.master <- param.existing %>% 
+  bind_rows(param.append)
+
+write.table(result.master, file = file.path(datamod.dir, "MASTER_S_CHEM_HISTORY_RESULT_2021-05-03.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.master, file = file.path(datamod.dir, "MASTER_S_CHEM_HISTORY_SAMPLE_2021-05-03.csv"),sep=",", row.names = FALSE, na = "")
+write.table(param.master, file = file.path(datamod.dir, "MASTER_S_CHEM_PARAMETER_2021-05-03.csv"),sep=",", row.names = FALSE, na = "")
+
+```
+
