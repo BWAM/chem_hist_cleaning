@@ -252,7 +252,7 @@ result.all.form <- result.all %>%
   rename_all(function(x)
     paste0("CHR_", x)) %>% 
   rename(CHR_PCODE = CHR_DEC_PCODE_FINAL)
-    # fixed above from CHEM_PCODE on 9/11/20.
+    # fixed above from CHEM_PCODE on 9/11/20 
 
 ```
 
