@@ -15,7 +15,7 @@ library(lubridate)
 
 root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
 datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
-tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chem_2001_to_2017")
+tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned", "chemistry", "chem_2001_to_2017")
 cleaned.dir <- file.path(datamod.dir, "Cleaned Files")
 
 ```
@@ -67,7 +67,7 @@ sample.2018.2019 <- read.csv(file.path(cleaned.dir, "Final_Chemistry_ITS",  "pre
   mutate(sample_date = as.POSIXct(sample_date, format = "%m/%d/%Y %H:%M:%S"))
 
 sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
-sites.master <- readxl::read_excel(file.path(cleaned.dir, "Final_Sites_ITS", "20201117_S_SITE.xlsx"))
+sites.master <- read.csv(file.path(cleaned.dir, "Final_Sites_ITS", "Master_S_Site_v2_created_2021_12_07.csv"))
 
 ```
 
@@ -918,7 +918,7 @@ all.join <- left_join(all.samp.clean, all.res, by = c("sys_sample_code", "sample
 
 ```{r Join pcodes}
 
-pcode.join <- read_csv(file.path(datamod.dir, "to_be_cleaned", "chem_parameters", "dec_pcode_join_2020-08-24.csv")) %>%
+pcode.join <- read_csv(file.path(datamod.dir, "to_be_cleaned", "chemistry", "chem_parameters", "old", "dec_pcode_join_2020-08-24.csv")) %>%
   # Remove in-situ entries and duplicate turbidity pcode (for undetermined data)
   filter(!(RESULT_TYPE %in% "in-situ"),
          !(DEC_pcode_FINAL %in% "161")) 
@@ -1049,7 +1049,7 @@ all.res.pcode.fix <- all.res.pcode %>%
 
 ```{r Attach final pcode fields for validation and export}
 
-pcode.final <- read_csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "20201013_S_CHEM_PARAMETER.csv")) %>% 
+pcode.final <- read_csv(file.path(cleaned.dir, "Final_Chemistry_ITS", "historical", "20201013_S_CHEM_PARAMETER.csv")) %>% 
   rename(DEC_pcode_FINAL = CHEM_PARAMETER_PCODE)
 
 # Format for visual review of distinct entries
