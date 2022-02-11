@@ -1,0 +1,70 @@
+---
+title: "compile_sediment_data"
+author: "glemley"
+date: "2/11/2022"
+output: html_document
+---
+
+```{r Load libs and source dirs}
+library(tidyverse)
+library(lubridate)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization"
+tobecleaned.dir <- file.path(datamod.dir, "to_be_cleaned")
+
+```
+
+```{r Load source data, format, and bind}
+
+sites.equis <- read.csv(file.path(tobecleaned.dir, "sediment/equis_location_history.SAM_UTF.csv"), stringsAsFactors = FALSE)
+
+sample.2015 <- read.csv(file.path(tobecleaned.dir, "sediment/2015_sediment_sample.csv"), stringsAsFactors = FALSE) %>%
+  mutate(sys_loc_code = SiteID)
+sample.2016 <- read.csv(file.path(tobecleaned.dir, "sediment/2016_sediment_sample.csv"), stringsAsFactors = FALSE) %>%
+  mutate(sys_loc_code = SiteID)
+sample.equis <- read.csv(file.path(tobecleaned.dir, "sediment/equis_sample_history.SAM_UTF.csv"), stringsAsFactors = FALSE)
+
+result.2015 <- read.csv(file.path(tobecleaned.dir, "sediment/2015_sediment_result.csv"), stringsAsFactors = FALSE) %>%
+  rename(result_numeric = result_value,
+         test_comment = comment)
+result.2016 <- read.csv(file.path(tobecleaned.dir, "sediment/2016_sediment_result.csv"), stringsAsFactors = FALSE) %>%
+  rename(result_numeric = result_value,
+         test_comment = comment)
+result.equis <- read.csv(file.path(tobecleaned.dir, "sediment/equis_results_history.SAM_UTF.csv"), stringsAsFactors = FALSE) %>%
+  mutate(qc_rpd = as.character(qc_rpd))
+
+# Compare row names and rename/reclass as needed
+setdiff(names(result.equis), names(result.2015))
+setdiff(names(result.2015), names(result.equis))
+
+sample <- bind_rows(sample.equis, sample.2015, sample.2016)
+result <- bind_rows(result.equis, result.2015, result.2016)
+
+```
+
+```{r Barry Balidigo data request}
+# 1/28/22 email: "Could you also send me the sediment data from the 2014-15 Niagara surveys. I only need data from the Tonawanda Creek sites."
+
+sites.tona <- sites.equis %>%
+  mutate(loc_name = tolower(loc_name)) %>%
+  filter(grepl("tona", loc_name)) %>%
+  # distinct(sys_loc_code) %>%
+  select('sys_loc_code', 'latitude', 'longitude', 'surf_elev', 'elev_unit', 'loc_name', 'loc_desc', 'loc_type', 'loc_county_code', 'dec_region', 'loc_state_code', 'loc_major_basin', 'nys_drainage_basin_code')
+
+sample.tona <- sample %>%
+  filter(sys_loc_code %in% sites.tona$sys_loc_code)
+
+loc.2015 <- sample.2015 %>%
+  distinct(sys_loc_code)
+```
+
+
+
+```{r Join new site IDs}
+
+# This file was used to join chem data. May not include site IDs for additional sites in sediment data. These would need to be added.
+sites.join <- readxl::read_excel(file.path(tobecleaned.dir, "chemistry/chem_2001_to_2017", "RIBSchem_historic_BioSiteJoin_2020-04-28.xlsx"))
+
+```
+
