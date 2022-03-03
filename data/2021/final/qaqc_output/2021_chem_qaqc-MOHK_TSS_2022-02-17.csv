@@ -1,0 +1,343 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","lab_anl_method_name","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 11:23:00,"NO3NO2N","T",1.2,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 11:23:00,"KN","T",0.47,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 11:23:00,"7723-14-0","D",0.0284,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 11:23:00,"7723-14-0","T",0.0453,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","total suspended solids",2021-03-03 11:23:00,"TSS","T",7.2,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03032021-W","R2102067","turbidity",2021-03-03 11:23:00,"TURB","T",9.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","nitrate+nitrite as nitrogen",2021-03-16 11:55:00,"NO3NO2N","T",1.45,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","nitrogen, kjeldahl, total",2021-03-16 11:55:00,"KN","T",0.32,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","phosphorus, dissolved (as p)",2021-03-16 11:55:00,"7723-14-0","D",0.013,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","phosphorus, total (as p)",2021-03-16 11:55:00,"7723-14-0","T",0.0225,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","total suspended solids",2021-03-16 11:55:00,"TSS","T",5.5,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W-DUP","R2102425","turbidity",2021-03-16 11:55:00,"TURB","T",7.7,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 11:33:00,"NO3NO2N","T",1.46,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 11:33:00,"KN","T",0.32,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 11:33:00,"7723-14-0","D",0.0126,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 11:33:00,"7723-14-0","T",0.0242,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","total suspended solids",2021-03-16 11:33:00,"TSS","T",6,"mg/l","SM2540D",NA,"mg/l",1.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03162021-W","R2102425","turbidity",2021-03-16 11:33:00,"TURB","T",8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 11:35:00,"NO3NO2N","T",0.711,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 11:35:00,"KN","T",0.24,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 11:35:00,"7723-14-0","D",0.011,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 11:35:00,"7723-14-0","T",0.0244,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","total suspended solids",2021-03-25 11:35:00,"TSS","T",11.2,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-03252021-W","R2102866","turbidity",2021-03-25 11:35:00,"TURB","T",13.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 10:02:00,"NO3NO2N","T",0.553,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 10:02:00,"KN","T",0.18,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 10:02:00,"7723-14-0","D",0.0053,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 10:02:00,"7723-14-0","T",0.012,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","total suspended solids",2021-04-06 10:02:00,"TSS","T",6.2,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAJO-5.1","N","12-CAJO-5.1-04062021-W","R2103245","turbidity",2021-04-06 10:02:00,"TURB","T",5.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 10:20:00,"NO3NO2N","T",0.288,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 10:20:00,"KN","T",0.25,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 10:20:00,"7723-14-0","D",0.0078,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 10:20:00,"7723-14-0","T",0.0128,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","total suspended solids",2021-03-03 10:20:00,"TSS","T",2.6,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03032021-W","R2102067","turbidity",2021-03-03 10:20:00,"TURB","T",1.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 10:02:00,"NO3NO2N","T",0.32,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 10:02:00,"KN","T",0.37,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 10:02:00,"7723-14-0","D",0.0061,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 10:02:00,"7723-14-0","T",0.0147,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","total suspended solids",2021-03-16 10:02:00,"TSS","T",31.6,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03162021-W","R2102425","turbidity",2021-03-16 10:02:00,"TURB","T",5.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 10:00:00,"NO3NO2N","T",0.253,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 10:00:00,"KN","T",0.18,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 10:00:00,"7723-14-0","D",0.0056,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 10:00:00,"7723-14-0","T",0.0139,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","total suspended solids",2021-03-25 10:00:00,"TSS","T",5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-03252021-W","R2102866","turbidity",2021-03-25 10:00:00,"TURB","T",5.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 08:42:00,"NO3NO2N","T",0.209,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 08:42:00,"KN","T",0.3,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 08:42:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 08:42:00,"7723-14-0","T",0.0077,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","total suspended solids",2021-04-06 08:42:00,"TSS","T",2.4,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-CANE-0.5","N","12-CANE-0.5-04062021-W","R2103245","turbidity",2021-04-06 08:42:00,"TURB","T",2.7,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 09:22:00,"NO3NO2N","T",0.475,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 09:22:00,"KN","T",0.21,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 09:22:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 09:22:00,"7723-14-0","T",0.0116,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","total suspended solids",2021-03-03 09:22:00,"TSS","T",5.2,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03032021-W","R2102067","turbidity",2021-03-03 09:22:00,"TURB","T",3.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 08:56:00,"NO3NO2N","T",0.449,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 08:56:00,"KN","T",0.23,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 08:56:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 08:56:00,"7723-14-0","T",0.0096,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","total suspended solids",2021-03-16 08:56:00,"TSS","T",20.9,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03162021-W","R2102425","turbidity",2021-03-16 08:56:00,"TURB","T",3.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 09:10:00,"NO3NO2N","T",0.369,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 09:10:00,"KN","T",0.33,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 09:10:00,"7723-14-0","D",0.0062,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 09:10:00,"7723-14-0","T",0.0556,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","total suspended solids",2021-03-25 09:10:00,"TSS","T",48.6,"mg/l","SM2540D",NA,"mg/l",2,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-03252021-W","R2102866","turbidity",2021-03-25 09:10:00,"TURB","T",42.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 14:30:00,"NO3NO2N","T",0.307,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 14:30:00,"KN","T",0.23,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 14:30:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 14:30:00,"7723-14-0","T",0.0135,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","total suspended solids",2021-04-06 14:30:00,"TSS","T",7.6,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CANW-4.0","Y","12-CANW-7.0-04062021-W","R2103245","turbidity",2021-04-06 14:30:00,"TURB","T",4.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 10:46:00,"NO3NO2N","T",0.436,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 10:46:00,"KN","T",0.17,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 10:46:00,"7723-14-0","D",0.0054,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 10:46:00,"7723-14-0","T",0.0106,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","total suspended solids",2021-03-16 10:46:00,"TSS","T",18.4,"mg/l","SM2540D",NA,"mg/l",1.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03162021-W","R2102425","turbidity",2021-03-16 10:46:00,"TURB","T",2.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","nitrate+nitrite as nitrogen",2021-03-23 13:30:00,"NO3NO2N","T",0.229,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","nitrogen, kjeldahl, total",2021-03-23 13:30:00,"KN","T",0.2,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","phosphorus, dissolved (as p)",2021-03-23 13:30:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","phosphorus, total (as p)",2021-03-23 13:30:00,"7723-14-0","T",0.0117,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","total suspended solids",2021-03-23 13:30:00,"TSS","T",3.5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W-DUP","R2102700","turbidity",2021-03-23 13:30:00,"TURB","T",2.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","nitrate+nitrite as nitrogen",2021-03-23 13:00:00,"NO3NO2N","T",0.233,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","nitrogen, kjeldahl, total",2021-03-23 13:00:00,"KN","T",0.28,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","phosphorus, dissolved (as p)",2021-03-23 13:00:00,"7723-14-0","D",0.005,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","phosphorus, total (as p)",2021-03-23 13:00:00,"7723-14-0","T",0.0111,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","total suspended solids",2021-03-23 13:00:00,"TSS","T",3.8,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03232021-W","R2102700","turbidity",2021-03-23 13:00:00,"TURB","T",2.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 10:45:00,"NO3NO2N","T",0.171,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 10:45:00,"KN","T",0.18,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 10:45:00,"7723-14-0","D",0.0056,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 10:45:00,"7723-14-0","T",0.0191,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","total suspended solids",2021-03-25 10:45:00,"TSS","T",10.8,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-03252021-W","R2102866","turbidity",2021-03-25 10:45:00,"TURB","T",6.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 09:21:00,"NO3NO2N","T",0.105,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 09:21:00,"KN","T",0.27,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 09:21:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 09:21:00,"7723-14-0","T",0.0099,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","total suspended solids",2021-04-06 09:21:00,"TSS","T",4.7,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-CARO-0.3","N","12-CARO-0.3-04062021-W","R2103245","turbidity",2021-04-06 09:21:00,"TURB","T",3.2,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 13:10:00,"NO3NO2N","T",3.84,"mg/l","E353.2",0.006,"mg/l",0.008,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 13:10:00,"KN","T",0.64,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 13:10:00,"7723-14-0","D",0.392,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 13:10:00,"7723-14-0","T",0.41,"mg/l","E365.1",0.08,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","total suspended solids",2021-03-03 13:10:00,"TSS","T",6.2,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03032021-W","R2102067","turbidity",2021-03-03 13:10:00,"TURB","T",3.2,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 13:45:00,"NO3NO2N","T",3.38,"mg/l","E353.2",0.008,"mg/l",0.01,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 13:45:00,"KN","T",0.63,"mg/l","E351.2",0.1,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 13:45:00,"7723-14-0","D",0.246,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 13:45:00,"7723-14-0","T",0.269,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","total suspended solids",2021-03-16 13:45:00,"TSS","T",9.1,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03162021-W","R2102425","turbidity",2021-03-16 13:45:00,"TURB","T",4.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 13:15:00,"NO3NO2N","T",1.32,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 13:15:00,"KN","T",0.53,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 13:15:00,"7723-14-0","D",0.147,"mg/l","E365.1",0.018,"mg/l",0.025,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 13:15:00,"7723-14-0","T",0.184,"mg/l","E365.1",0.018,"mg/l",0.025,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","total suspended solids",2021-03-25 13:15:00,"TSS","T",13.3,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-03252021-W","R2102866","turbidity",2021-03-25 13:15:00,"TURB","T",4.7,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","nitrate+nitrite as nitrogen",2021-04-06 11:43:00,"NO3NO2N","T",4.14,"mg/l","E353.2",0.008,"mg/l",0.01,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","nitrogen, kjeldahl, total",2021-04-06 11:43:00,"KN","T",0.52,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","phosphorus, dissolved (as p)",2021-04-06 11:43:00,"7723-14-0","D",0.42,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","phosphorus, total (as p)",2021-04-06 11:43:00,"7723-14-0","T",0.454,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","total suspended solids",2021-04-06 11:43:00,"TSS","T",6.7,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-CAYA-4.7","N","12-CAYA-4.7-04062021","R2103245","turbidity",2021-04-06 11:43:00,"TURB","T",3.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","nitrate+nitrite as nitrogen",2021-03-16 13:45:00,"NO3NO2N","T",1.42,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","nitrogen, kjeldahl, total",2021-03-16 13:45:00,"KN","T",0.23,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","phosphorus, dissolved (as p)",2021-03-16 13:45:00,"7723-14-0","D",0.0105,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","phosphorus, total (as p)",2021-03-16 13:45:00,"7723-14-0","T",0.0173,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","total suspended solids",2021-03-16 13:45:00,"TSS","T",11,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03162021-W","R2102507","turbidity",2021-03-16 13:45:00,"TURB","T",9.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","nitrate+nitrite as nitrogen",2021-03-23 12:00:00,"NO3NO2N","T",0.924,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","nitrogen, kjeldahl, total",2021-03-23 12:00:00,"KN","T",0.25,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","phosphorus, dissolved (as p)",2021-03-23 12:00:00,"7723-14-0","D",0.007,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","phosphorus, total (as p)",2021-03-23 12:00:00,"7723-14-0","T",0.0144,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","total suspended solids",2021-03-23 12:00:00,"TSS","T",6.9,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03232021-W","R2102700","turbidity",2021-03-23 12:00:00,"TURB","T",7.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 12:00:00,"NO3NO2N","T",0.804,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 12:00:00,"KN","T",0.27,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 12:00:00,"7723-14-0","D",0.0072,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 12:00:00,"7723-14-0","T",0.0837,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","total suspended solids",2021-03-25 12:00:00,"TSS","T",91.6,"mg/l","SM2540D",NA,"mg/l",2,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-03252021-W","R2102866","turbidity",2021-03-25 12:00:00,"TURB","T",99.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 13:45:00,"NO3NO2N","T",0.699,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 13:45:00,"KN","T",NA,"mg/l","E351.2",0.1,"mg/l",0.1,"U","R","Analyte was analyzed for but not detected ; Precision error",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 13:45:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 13:45:00,"7723-14-0","T",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","total suspended solids",2021-04-06 13:45:00,"TSS","T",1.8,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-FULM-0.4","N","12-FULM-0.4-04062021-W","R2103245","turbidity",2021-04-06 13:45:00,"TURB","T",2.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 12:15:00,"NO3NO2N","T",1.75,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 12:15:00,"KN","T",0.55,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 12:15:00,"7723-14-0","D",0.0589,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 12:15:00,"7723-14-0","T",0.0743,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","total suspended solids",2021-03-03 12:15:00,"TSS","T",3.2,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03032021-W","R2102067","turbidity",2021-03-03 12:15:00,"TURB","T",2.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 12:46:00,"NO3NO2N","T",1.86,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 12:46:00,"KN","T",0.46,"mg/l","E351.2",0.1,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 12:46:00,"7723-14-0","D",0.0396,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 12:46:00,"7723-14-0","T",0.0501,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","total suspended solids",2021-03-16 12:46:00,"TSS","T",9.6,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03162021-W","R2102425","turbidity",2021-03-16 12:46:00,"TURB","T",2.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 12:15:00,"NO3NO2N","T",1.22,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 12:15:00,"KN","T",0.27,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 12:15:00,"7723-14-0","D",0.0435,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 12:15:00,"7723-14-0","T",0.0521,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","total suspended solids",2021-03-25 12:15:00,"TSS","T",4.6,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-03252021-W","R2102866","turbidity",2021-03-25 12:15:00,"TURB","T",9.7,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 10:41:00,"NO3NO2N","T",0.898,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 10:41:00,"KN","T",NA,"mg/l","E351.2",0.1,"mg/l",0.1,"U","R","Analyte was analyzed for but not detected ; Precision error",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 10:41:00,"7723-14-0","D",0.023,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 10:41:00,"7723-14-0","T",0.0256,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","total suspended solids",2021-04-06 10:41:00,"TSS","T",1.3,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-LASH-0.1","N","12-LASH-0.1-04062021-W","R2103245","turbidity",2021-04-06 10:41:00,"TURB","T",2.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","nitrate+nitrite as nitrogen",2021-03-23 10:15:00,"NO3NO2N","T",0.444,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","nitrogen, kjeldahl, total",2021-03-23 10:15:00,"KN","T",0.38,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","phosphorus, dissolved (as p)",2021-03-23 10:15:00,"7723-14-0","D",0.0096,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","phosphorus, total (as p)",2021-03-23 10:15:00,"7723-14-0","T",0.0437,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","total suspended solids",2021-03-23 10:15:00,"TSS","T",33,"mg/l","SM2540D",NA,"mg/l",1.7,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03232021-W","R2102700","turbidity",2021-03-23 10:15:00,"TURB","T",33.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 09:15:00,"NO3NO2N","T",0.371,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 09:15:00,"KN","T",0.21,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 09:15:00,"7723-14-0","D",0.0099,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 09:15:00,"7723-14-0","T",0.0536,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","total suspended solids",2021-03-25 09:15:00,"TSS","T",43.2,"mg/l","SM2540D",NA,"mg/l",1.6,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-03252021-W","R2102866","turbidity",2021-03-25 09:15:00,"TURB","T",49.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 09:30:00,"NO3NO2N","T",0.534,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 09:30:00,"KN","T",0.11,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 09:30:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 09:30:00,"7723-14-0","T",0.0082,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","total suspended solids",2021-04-06 09:30:00,"TSS","T",2.9,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-NMIL-0.5","N","12-NMIL-0.5-04062021-W","R2103245","turbidity",2021-04-06 09:30:00,"TURB","T",2.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 10:15:00,"NO3NO2N","T",2.41,"mg/l","E353.2",0.008,"mg/l",0.01,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 10:15:00,"KN","T",0.46,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 10:15:00,"7723-14-0","D",0.0095,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 10:15:00,"7723-14-0","T",0.0245,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","total suspended solids",2021-03-03 10:15:00,"TSS","T",9.5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03032021-W","R2102067","turbidity",2021-03-03 10:15:00,"TURB","T",4.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","nitrate+nitrite as nitrogen",2021-03-16 10:30:00,"NO3NO2N","T",3,"mg/l","E353.2",0.008,"mg/l",0.01,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","nitrogen, kjeldahl, total",2021-03-16 10:30:00,"KN","T",0.19,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","phosphorus, dissolved (as p)",2021-03-16 10:30:00,"7723-14-0","D",0.0118,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","phosphorus, total (as p)",2021-03-16 10:30:00,"7723-14-0","T",0.0222,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","total suspended solids",2021-03-16 10:30:00,"TSS","T",9,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03162021-W","R2102507","turbidity",2021-03-16 10:30:00,"TURB","T",10.6,"ntu","E180.1",0.06,"ntu",1,"","R","Holding Time error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 09:45:00,"NO3NO2N","T",1.82,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 09:45:00,"KN","T",0.15,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 09:45:00,"7723-14-0","D",0.0098,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 09:45:00,"7723-14-0","T",0.0167,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","total suspended solids",2021-03-25 09:45:00,"TSS","T",7.4,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-03252021-W","R2102866","turbidity",2021-03-25 09:45:00,"TURB","T",5.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 10:00:00,"NO3NO2N","T",1.73,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 10:00:00,"KN","T",0.14,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 10:00:00,"7723-14-0","D",0.0095,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 10:00:00,"7723-14-0","T",0.014,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","total suspended solids",2021-04-06 10:00:00,"TSS","T",2.5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-ORSK-0.9","N","12-ORSK-0.9-04062021-W","R2103245","turbidity",2021-04-06 10:00:00,"TURB","T",2.5,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 15:05:00,"NO3NO2N","T",1.01,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 15:05:00,"KN","T",0.35,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 15:05:00,"7723-14-0","D",0.0082,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 15:05:00,"7723-14-0","T",0.0178,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","total suspended solids",2021-03-03 15:05:00,"TSS","T",3.3,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03032021-W","R2102067","turbidity",2021-03-03 15:05:00,"TURB","T",5.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","nitrate+nitrite as nitrogen",2021-03-16 15:15:00,"NO3NO2N","T",1.46,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","nitrogen, kjeldahl, total",2021-03-16 15:15:00,"KN","T",0.4,"mg/l","E351.2",0.1,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","phosphorus, dissolved (as p)",2021-03-16 15:15:00,"7723-14-0","D",0.0055,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","phosphorus, total (as p)",2021-03-16 15:15:00,"7723-14-0","T",0.0131,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","total suspended solids",2021-03-16 15:15:00,"TSS","T",28,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03162021","R2102425","turbidity",2021-03-16 15:15:00,"TURB","T",3.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 15:00:00,"NO3NO2N","T",0.609,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 15:00:00,"KN","T",0.46,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 15:00:00,"7723-14-0","D",0.0103,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 15:00:00,"7723-14-0","T",0.0298,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","total suspended solids",2021-03-25 15:00:00,"TSS","T",9.9,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-03252021-W","R2102866","turbidity",2021-03-25 15:00:00,"TURB","T",23.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 13:14:00,"NO3NO2N","T",1.44,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 13:14:00,"KN","T",0.46,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 13:14:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 13:14:00,"7723-14-0","T",0.011,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","total suspended solids",2021-04-06 13:14:00,"TSS","T",1.8,"mg/l","SM2540D",NA,"mg/l",1.1,"","A","",2022-02-17
+"MOHK_TSS","12-POEN-1.9","Y","12-POEN-2.0-04062021-W","R2103245","turbidity",2021-04-06 13:14:00,"TURB","T",2.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","nitrate+nitrite as nitrogen",2021-03-16 12:15:00,"NO3NO2N","T",0.369,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","nitrogen, kjeldahl, total",2021-03-16 12:15:00,"KN","T",0.19,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","phosphorus, dissolved (as p)",2021-03-16 12:15:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","phosphorus, total (as p)",2021-03-16 12:15:00,"7723-14-0","T",0.0065,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","total suspended solids",2021-03-16 12:15:00,"TSS","T",2,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03162021-W","R2102507","turbidity",2021-03-16 12:15:00,"TURB","T",5.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","nitrate+nitrite as nitrogen",2021-03-23 10:45:00,"NO3NO2N","T",0.193,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","nitrogen, kjeldahl, total",2021-03-23 10:45:00,"KN","T",0.28,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","phosphorus, dissolved (as p)",2021-03-23 10:45:00,"7723-14-0","D",0.0052,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","phosphorus, total (as p)",2021-03-23 10:45:00,"7723-14-0","T",0.0301,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","total suspended solids",2021-03-23 10:45:00,"TSS","T",20.2,"mg/l","SM2540D",NA,"mg/l",1.5,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03232021-W","R2102700","turbidity",2021-03-23 10:45:00,"TURB","T",43.5,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 10:45:00,"NO3NO2N","T",0.198,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 10:45:00,"KN","T",0.32,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 10:45:00,"7723-14-0","D",0.0056,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 10:45:00,"7723-14-0","T",0.0478,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","total suspended solids",2021-03-25 10:45:00,"TSS","T",51.2,"mg/l","SM2540D",NA,"mg/l",2,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-03252021-W","R2102866","turbidity",2021-03-25 10:45:00,"TURB","T",103,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 11:15:00,"NO3NO2N","T",0.146,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 11:15:00,"KN","T",NA,"mg/l","E351.2",0.1,"mg/l",0.1,"U","R","Analyte was analyzed for but not detected ; Precision error",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 11:15:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 11:15:00,"7723-14-0","T",0.0062,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","total suspended solids",2021-04-06 11:15:00,"TSS","T",NA,"mg/l","SM2540D",NA,"mg/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-REAL-0.1","N","12-REAL-0.1-04062021-W","R2103245","turbidity",2021-04-06 11:15:00,"TURB","T",5.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 11:30:00,"NO3NO2N","T",1.76,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 11:30:00,"KN","T",0.62,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 11:30:00,"7723-14-0","D",0.0063,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 11:30:00,"7723-14-0","T",0.0247,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","total suspended solids",2021-03-03 11:30:00,"TSS","T",18.7,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03032021-W","R2102067","turbidity",2021-03-03 11:30:00,"TURB","T",10,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","nitrate+nitrite as nitrogen",2021-03-16 11:30:00,"NO3NO2N","T",2,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","nitrogen, kjeldahl, total",2021-03-16 11:30:00,"KN","T",0.16,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","phosphorus, dissolved (as p)",2021-03-16 11:30:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","phosphorus, total (as p)",2021-03-16 11:30:00,"7723-14-0","T",0.0145,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","total suspended solids",2021-03-16 11:30:00,"TSS","T",16,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03162021-W","R2102507","turbidity",2021-03-16 11:30:00,"TURB","T",22,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 10:15:00,"NO3NO2N","T",1.41,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 10:15:00,"KN","T",0.29,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 10:15:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 10:15:00,"7723-14-0","T",0.0194,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","total suspended solids",2021-03-25 10:15:00,"TSS","T",19.5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-03252021-W","R2102866","turbidity",2021-03-25 10:15:00,"TURB","T",9.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 11:00:00,"NO3NO2N","T",1.49,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 11:00:00,"KN","T",NA,"mg/l","E351.2",0.1,"mg/l",0.1,"U","R","Analyte was analyzed for but not detected ; Precision error",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 11:00:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 11:00:00,"7723-14-0","T",0.014,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","total suspended solids",2021-04-06 11:00:00,"TSS","T",14.7,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-SAUQ-1.6","Y","12-SAUQ-1.7-04062021-W","R2103245","turbidity",2021-04-06 11:00:00,"TURB","T",4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 14:02:00,"NO3NO2N","T",0.514,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 14:02:00,"KN","T",0.36,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 14:02:00,"7723-14-0","D",0.0116,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 14:02:00,"7723-14-0","T",0.0466,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","total suspended solids",2021-03-03 14:02:00,"TSS","T",35,"mg/l","SM2540D",NA,"mg/l",1.6,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03032021-W","R2102067","turbidity",2021-03-03 14:02:00,"TURB","T",39.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","nitrate+nitrite as nitrogen",2021-03-16 14:22:00,"NO3NO2N","T",0.406,"mg/l","E353.2",0.0015,"mg/l",0.002,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","nitrogen, kjeldahl, total",2021-03-16 14:22:00,"KN","T",0.3,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","phosphorus, dissolved (as p)",2021-03-16 14:22:00,"7723-14-0","D",0.0083,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","phosphorus, total (as p)",2021-03-16 14:22:00,"7723-14-0","T",0.0347,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","total suspended solids",2021-03-16 14:22:00,"TSS","T",18.1,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03162021-W","R2102425","turbidity",2021-03-16 14:22:00,"TURB","T",40.9,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 14:00:00,"NO3NO2N","T",0.247,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 14:00:00,"KN","T",0.23,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 14:00:00,"7723-14-0","D",0.0066,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 14:00:00,"7723-14-0","T",0.042,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","total suspended solids",2021-03-25 14:00:00,"TSS","T",36.2,"mg/l","SM2540D",NA,"mg/l",2,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-03252021-W","R2102866","turbidity",2021-03-25 14:00:00,"TURB","T",44.8,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 12:20:00,"NO3NO2N","T",0.212,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 12:20:00,"KN","T",0.24,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 12:20:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 12:20:00,"7723-14-0","T",0.0173,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","total suspended solids",2021-04-06 12:20:00,"TSS","T",13.3,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-SCHO-0.5","Y","12-SCHO-1.2-04062021-W","R2103245","turbidity",2021-04-06 12:20:00,"TURB","T",27.2,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","nitrate+nitrite as nitrogen",2021-03-03 13:00:00,"NO3NO2N","T",2.03,"mg/l","E353.2",0.006,"mg/l",0.008,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","nitrogen, kjeldahl, total",2021-03-03 13:00:00,"KN","T",0.46,"mg/l","E351.2",0.1,"mg/l",0.1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","phosphorus, dissolved (as p)",2021-03-03 13:00:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","phosphorus, total (as p)",2021-03-03 13:00:00,"7723-14-0","T",0.0291,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","total suspended solids",2021-03-03 13:00:00,"TSS","T",30.5,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03032021-W","R2102067","turbidity",2021-03-03 13:00:00,"TURB","T",10.2,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","nitrate+nitrite as nitrogen",2021-03-16 13:00:00,"NO3NO2N","T",2.93,"mg/l","E353.2",0.008,"mg/l",0.01,"","R","Accuracy error",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","nitrogen, kjeldahl, total",2021-03-16 13:00:00,"KN","T",0.22,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","phosphorus, dissolved (as p)",2021-03-16 13:00:00,"7723-14-0","D",0.0069,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","phosphorus, total (as p)",2021-03-16 13:00:00,"7723-14-0","T",0.0245,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","total suspended solids",2021-03-16 13:00:00,"TSS","T",20.3,"mg/l","SM2540D",NA,"mg/l",1,"","R","Equipment Blank error",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03162021-W","R2102507","turbidity",2021-03-16 13:00:00,"TURB","T",9.5,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","nitrate+nitrite as nitrogen",2021-03-25 11:30:00,"NO3NO2N","T",1.62,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","nitrogen, kjeldahl, total",2021-03-25 11:30:00,"KN","T",0.19,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","phosphorus, dissolved (as p)",2021-03-25 11:30:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","phosphorus, total (as p)",2021-03-25 11:30:00,"7723-14-0","T",0.266,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","total suspended solids",2021-03-25 11:30:00,"TSS","T",343,"mg/l","SM2540D",NA,"mg/l",4.9,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-03252021-W","R2102866","turbidity",2021-03-25 11:30:00,"TURB","T",319,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","nitrate+nitrite as nitrogen",2021-04-06 12:45:00,"NO3NO2N","T",1.77,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","nitrogen, kjeldahl, total",2021-04-06 12:45:00,"KN","T",0.17,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Precision error",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","phosphorus, dissolved (as p)",2021-04-06 12:45:00,"7723-14-0","D",NA,"mg/l","E365.1",0.0036,"mg/l",0.005,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","phosphorus, total (as p)",2021-04-06 12:45:00,"7723-14-0","T",0.0094,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","total suspended solids",2021-04-06 12:45:00,"TSS","T",8.7,"mg/l","SM2540D",NA,"mg/l",1,"","A","",2022-02-17
+"MOHK_TSS","12-STLE-0.8","Y","12-STLE-0.2-04062021-W","R2103245","turbidity",2021-04-06 12:45:00,"TURB","T",8.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17

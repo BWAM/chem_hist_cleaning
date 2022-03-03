@@ -1,0 +1,353 @@
+"project_name","SITE_ID","SITE_ID_CORR_IND","sys_sample_code","sample_delivery_group","chemical_name","sample_date","cas_rn","fraction","result_value","result_unit","lab_anl_method_name","method_detection_limit","detection_limit_unit","quantitation_limit","lab_qualifiers","validator_qualifiers","interpreted_qualifiers","qaqc_date"
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 11:00:00,"ALK","T",83.1,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","aluminum",2021-09-15 11:00:00,"7429-90-5","T",35.4,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","arsenic",2021-09-15 11:00:00,"7440-38-2","T",1.9,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","cadmium",2021-09-15 11:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","calcium",2021-09-15 11:00:00,"7440-70-2","T",26000,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","chloride (as cl)",2021-09-15 11:00:00,"16887-00-6","T",10.8,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","copper",2021-09-15 11:00:00,"7440-50-8","T",NA,"ug/l","E200.8",0.66,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","hardness (as caco3)",2021-09-15 11:00:00,"HARD","T",84.5,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","iron",2021-09-15 11:00:00,"7439-89-6","T",978,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","lead",2021-09-15 11:00:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","magnesium",2021-09-15 11:00:00,"7439-95-4","T",4720,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nickel",2021-09-15 11:00:00,"7440-02-0","T",0.77,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 11:00:00,"NO3NO2N","T",0.141,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrogen",2021-09-15 11:00:00,"7727-37-9","T",0.76,"mg/l","Calculation",NA,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 11:00:00,"7664-41-7","T",0.028,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 11:00:00,"KN","T",0.62,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 11:00:00,"14797-55-8","T",0.141,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 11:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 11:00:00,"7723-14-0","T",0.0545,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","silver",2021-09-15 11:00:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","turbidity",2021-09-15 11:00:00,"TURB","T",3.7,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ALBC-0.1","N","02-ALBC-0.1-09152021-W","R2109605","zinc",2021-09-15 11:00:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 14:15:00,"ALK","T",80.5,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","aluminum",2021-09-15 14:15:00,"7429-90-5","T",1010,"ug/l","E200.8",38,"ug/l",50,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","arsenic",2021-09-15 14:15:00,"7440-38-2","T",2.6,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","cadmium",2021-09-15 14:15:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","calcium",2021-09-15 14:15:00,"7440-70-2","T",26100,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","chloride (as cl)",2021-09-15 14:15:00,"16887-00-6","T",11.4,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","copper",2021-09-15 14:15:00,"7440-50-8","T",2.6,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","hardness (as caco3)",2021-09-15 14:15:00,"HARD","T",84.9,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","iron",2021-09-15 14:15:00,"7439-89-6","T",1680,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","lead",2021-09-15 14:15:00,"7439-92-1","T",0.96,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","magnesium",2021-09-15 14:15:00,"7439-95-4","T",4780,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nickel",2021-09-15 14:15:00,"7440-02-0","T",1.8,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 14:15:00,"NO3NO2N","T",0.297,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrogen",2021-09-15 14:15:00,"7727-37-9","T",1.41,"mg/l","Calculation",NA,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 14:15:00,"7664-41-7","T",0.043,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 14:15:00,"KN","T",1.11,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 14:15:00,"14797-55-8","T",0.297,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 14:15:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 14:15:00,"7723-14-0","T",0.0869,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","silver",2021-09-15 14:15:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","turbidity",2021-09-15 14:15:00,"TURB","T",40.1,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-BLBA-0.4","N","02-BLBA-0.4-09152021-W","R2109605","zinc",2021-09-15 14:15:00,"7440-66-6","T",7,"ug/l","E200.8",2.5,"ug/l",5,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","alkalinity, total (as caco3)",2021-09-16 08:00:00,"ALK","T",33.8,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","aluminum",2021-09-16 08:00:00,"7429-90-5","T",85.2,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","arsenic",2021-09-16 08:00:00,"7440-38-2","T",0.76,"ug/l","E200.8",0.32,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","cadmium",2021-09-16 08:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","calcium",2021-09-16 08:00:00,"7440-70-2","T",11600,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","chloride (as cl)",2021-09-16 08:00:00,"16887-00-6","T",3.6,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","copper",2021-09-16 08:00:00,"7440-50-8","T",0.75,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","hardness (as caco3)",2021-09-16 08:00:00,"HARD","T",36,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","iron",2021-09-16 08:00:00,"7439-89-6","T",140,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","lead",2021-09-16 08:00:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","magnesium",2021-09-16 08:00:00,"7439-95-4","T",1720,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nickel",2021-09-16 08:00:00,"7440-02-0","T",0.49,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrate+nitrite as nitrogen",2021-09-16 08:00:00,"NO3NO2N","T",0.109,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrogen",2021-09-16 08:00:00,"7727-37-9","T",0.39,"mg/l","Calculation",NA,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrogen, ammonia (as n)",2021-09-16 08:00:00,"7664-41-7","T",NA,"mg/l","E350.1",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrogen, kjeldahl, total",2021-09-16 08:00:00,"KN","T",0.28,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrogen, nitrate (as n)",2021-09-16 08:00:00,"14797-55-8","T",0.109,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","nitrogen, nitrite",2021-09-16 08:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","phosphorus, total (as p)",2021-09-16 08:00:00,"7723-14-0","T",0.0091,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","silver",2021-09-16 08:00:00,"7440-22-4","T",0.053,"ug/l","E200.8",0.042,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","turbidity",2021-09-16 08:00:00,"TURB","T",3.5,"ntu","E180.1",0.06,"ntu",1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-TWTY-3.1","Y","02-CLER_T6-3.1-09162021-W","R2109702","zinc",2021-09-16 08:00:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrogen, nitrite",2021-09-14 14:30:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","hardness (as caco3)",2021-09-14 14:30:00,"HARD","T",63.8,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","zinc",2021-09-14 14:30:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","copper",2021-09-14 14:30:00,"7440-50-8","T",0.73,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrate+nitrite as nitrogen",2021-09-14 14:30:00,"NO3NO2N","T",0.104,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrogen",2021-09-14 14:30:00,"7727-37-9","T",0.92,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","turbidity",2021-09-14 14:30:00,"TURB","T",4.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrogen, nitrate (as n)",2021-09-14 14:30:00,"14797-55-8","T",0.104,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","alkalinity, total (as caco3)",2021-09-14 14:30:00,"ALK","T",61.7,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","phosphorus, total (as p)",2021-09-14 14:30:00,"7723-14-0","T",0.0207,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","silver",2021-09-14 14:30:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","calcium",2021-09-14 14:30:00,"7440-70-2","T",19600,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","chloride (as cl)",2021-09-14 14:30:00,"16887-00-6","T",5,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nickel",2021-09-14 14:30:00,"7440-02-0","T",0.58,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","iron",2021-09-14 14:30:00,"7439-89-6","T",160,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","lead",2021-09-14 14:30:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","magnesium",2021-09-14 14:30:00,"7439-95-4","T",3620,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","aluminum",2021-09-14 14:30:00,"7429-90-5","T",64.8,"ug/l","E200.8",7.6,"ug/l",10,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrogen, ammonia (as n)",2021-09-14 14:30:00,"7664-41-7","T",0.019,"mg/l","E350.1",0.003,"mg/l",0.01,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","nitrogen, kjeldahl, total",2021-09-14 14:30:00,"KN","T",0.82,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","estimated value due to Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","arsenic",2021-09-14 14:30:00,"7440-38-2","T",0.44,"ug/l","E200.8",0.32,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FARW-0.1","N","02-FARW-0.1-09142021-W","R2109583","cadmium",2021-09-14 14:30:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 13:00:00,"7723-14-0","T",0.0605,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","silver",2021-09-15 13:00:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","turbidity",2021-09-15 13:00:00,"TURB","T",13.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","zinc",2021-09-15 13:00:00,"7440-66-6","T",2.9,"ug/l","E200.8",2.5,"ug/l",5,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 13:00:00,"ALK","T",116,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","aluminum",2021-09-15 13:00:00,"7429-90-5","T",264,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","arsenic",2021-09-15 13:00:00,"7440-38-2","T",1.8,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","cadmium",2021-09-15 13:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","calcium",2021-09-15 13:00:00,"7440-70-2","T",37500,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","chloride (as cl)",2021-09-15 13:00:00,"16887-00-6","T",27.5,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","copper",2021-09-15 13:00:00,"7440-50-8","T",1.5,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","hardness (as caco3)",2021-09-15 13:00:00,"HARD","T",123,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","iron",2021-09-15 13:00:00,"7439-89-6","T",763,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","lead",2021-09-15 13:00:00,"7439-92-1","T",0.48,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","magnesium",2021-09-15 13:00:00,"7439-95-4","T",7180,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nickel",2021-09-15 13:00:00,"7440-02-0","T",1.3,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 13:00:00,"NO3NO2N","T",0.241,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrogen",2021-09-15 13:00:00,"7727-37-9","T",0.87,"mg/l","Calculation",NA,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 13:00:00,"7664-41-7","T",0.024,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 13:00:00,"KN","T",0.62,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 13:00:00,"14797-55-8","T",0.241,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-FREN-8.9","N","02-FREN-8.9-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 13:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrogen, nitrite",2021-09-14 11:45:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrate+nitrite as nitrogen",2021-09-14 11:45:00,"NO3NO2N","T",2.69,"mg/l","E353.2",0.008,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","iron",2021-09-14 11:45:00,"7439-89-6","T",41.8,"ug/l","E200.7",20,"ug/l",100,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrogen, nitrate (as n)",2021-09-14 11:45:00,"14797-55-8","T",2.69,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","arsenic",2021-09-14 11:45:00,"7440-38-2","T",1.1,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","phosphorus, total (as p)",2021-09-14 11:45:00,"7723-14-0","T",0.348,"mg/l","E365.1",0.036,"mg/l",0.05,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","silver",2021-09-14 11:45:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","turbidity",2021-09-14 11:45:00,"TURB","T",NA,"ntu","E180.1",0.06,"ntu",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","zinc",2021-09-14 11:45:00,"7440-66-6","T",2.6,"ug/l","E200.8",2.5,"ug/l",5,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","hardness (as caco3)",2021-09-14 11:45:00,"HARD","T",77.4,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","lead",2021-09-14 11:45:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","magnesium",2021-09-14 11:45:00,"7439-95-4","T",4870,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nickel",2021-09-14 11:45:00,"7440-02-0","T",0.96,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrogen",2021-09-14 11:45:00,"7727-37-9","T",3.13,"mg/l","Calculation",NA,"mg/l",0.1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrogen, ammonia (as n)",2021-09-14 11:45:00,"7664-41-7","T",0.021,"mg/l","E350.1",0.003,"mg/l",0.01,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","nitrogen, kjeldahl, total",2021-09-14 11:45:00,"KN","T",0.43,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","low confidence in value due to Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","alkalinity, total (as caco3)",2021-09-14 11:45:00,"ALK","T",140,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","aluminum",2021-09-14 11:45:00,"7429-90-5","T",13.3,"ug/l","E200.8",7.6,"ug/l",10,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","cadmium",2021-09-14 11:45:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","calcium",2021-09-14 11:45:00,"7440-70-2","T",22900,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","chloride (as cl)",2021-09-14 11:45:00,"16887-00-6","T",74.1,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-GRIF-1.4","N","02-GRIF-1.4-09142021-W","R2109583","copper",2021-09-14 11:45:00,"7440-50-8","T",4.3,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","alkalinity, total (as caco3)",2021-09-14 15:00:00,"ALK","T",128,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","aluminum",2021-09-14 15:00:00,"7429-90-5","T",85.9,"ug/l","E200.8",7.6,"ug/l",10,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","arsenic",2021-09-14 15:00:00,"7440-38-2","T",0.45,"ug/l","E200.8",0.32,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","cadmium",2021-09-14 15:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrogen, ammonia (as n)",2021-09-14 15:00:00,"7664-41-7","T",0.017,"mg/l","E350.1",0.003,"mg/l",0.01,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","calcium",2021-09-14 15:00:00,"7440-70-2","T",42700,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","chloride (as cl)",2021-09-14 15:00:00,"16887-00-6","T",26.9,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","copper",2021-09-14 15:00:00,"7440-50-8","T",1.1,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","hardness (as caco3)",2021-09-14 15:00:00,"HARD","T",135,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","turbidity",2021-09-14 15:00:00,"TURB","T",4.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","iron",2021-09-14 15:00:00,"7439-89-6","T",260,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","lead",2021-09-14 15:00:00,"7439-92-1","T",0.23,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","magnesium",2021-09-14 15:00:00,"7439-95-4","T",7020,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nickel",2021-09-14 15:00:00,"7440-02-0","T",0.96,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrogen, kjeldahl, total",2021-09-14 15:00:00,"KN","T",0.35,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrate+nitrite as nitrogen",2021-09-14 15:00:00,"NO3NO2N","T",0.449,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrogen",2021-09-14 15:00:00,"7727-37-9","T",0.8,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","phosphorus, total (as p)",2021-09-14 15:00:00,"7723-14-0","T",0.0182,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","silver",2021-09-14 15:00:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrogen, nitrate (as n)",2021-09-14 15:00:00,"14797-55-8","T",0.449,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","nitrogen, nitrite",2021-09-14 15:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-ISCH-0.9","N","02-ISCH-0.9-09142021-W","R2109583","zinc",2021-09-14 15:00:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","iron",2021-09-15 10:30:00,"7439-89-6","T",1010,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 10:30:00,"7723-14-0","T",0.0599,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 10:30:00,"KN","T",0.82,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 10:30:00,"14797-55-8","T",0.201,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 10:30:00,"14797-65-0","T",0.013,"mg/l","E353.2",0.007,"mg/l",0.01,"","R","Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","calcium",2021-09-15 10:30:00,"7440-70-2","T",41900,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","silver",2021-09-15 10:30:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","turbidity",2021-09-15 10:30:00,"TURB","T",3.4,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","zinc",2021-09-15 10:30:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","lead",2021-09-15 10:30:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","magnesium",2021-09-15 10:30:00,"7439-95-4","T",10700,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nickel",2021-09-15 10:30:00,"7440-02-0","T",1.1,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 10:30:00,"NO3NO2N","T",0.213,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrogen",2021-09-15 10:30:00,"7727-37-9","T",1.03,"mg/l","Calculation",NA,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 10:30:00,"7664-41-7","T",0.078,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 10:30:00,"ALK","T",140,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","aluminum",2021-09-15 10:30:00,"7429-90-5","T",33.8,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","arsenic",2021-09-15 10:30:00,"7440-38-2","T",1.5,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","cadmium",2021-09-15 10:30:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","chloride (as cl)",2021-09-15 10:30:00,"16887-00-6","T",47.4,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","copper",2021-09-15 10:30:00,"7440-50-8","T",0.77,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MNSN-0.5","N","02-MNSN-0.5-09152021-W","R2109605","hardness (as caco3)",2021-09-15 10:30:00,"HARD","T",149,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrogen, ammonia (as n)",2021-09-16 10:15:00,"7664-41-7","T",NA,"mg/l","E350.1",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrogen, kjeldahl, total",2021-09-16 10:15:00,"KN","T",0.36,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrogen, nitrate (as n)",2021-09-16 10:15:00,"14797-55-8","T",0.502,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrogen, nitrite",2021-09-16 10:15:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","phosphorus, total (as p)",2021-09-16 10:15:00,"7723-14-0","T",0.0174,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","silver",2021-09-16 10:15:00,"7440-22-4","T",0.066,"ug/l","E200.8",0.042,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","turbidity",2021-09-16 10:15:00,"TURB","T",3.8,"ntu","E180.1",0.06,"ntu",1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","zinc",2021-09-16 10:15:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","magnesium",2021-09-16 10:15:00,"7439-95-4","T",4130,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nickel",2021-09-16 10:15:00,"7440-02-0","T",0.66,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrate+nitrite as nitrogen",2021-09-16 10:15:00,"NO3NO2N","T",0.502,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","nitrogen",2021-09-16 10:15:00,"7727-37-9","T",0.86,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","alkalinity, total (as caco3)",2021-09-16 10:15:00,"ALK","T",75.4,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","aluminum",2021-09-16 10:15:00,"7429-90-5","T",57.3,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","arsenic",2021-09-16 10:15:00,"7440-38-2","T",0.59,"ug/l","E200.8",0.32,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","cadmium",2021-09-16 10:15:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","calcium",2021-09-16 10:15:00,"7440-70-2","T",25100,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","chloride (as cl)",2021-09-16 10:15:00,"16887-00-6","T",13.3,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","copper",2021-09-16 10:15:00,"7440-50-8","T",1.2,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","hardness (as caco3)",2021-09-16 10:15:00,"HARD","T",79.7,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","iron",2021-09-16 10:15:00,"7439-89-6","T",200,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-MUDA-3.0","N","02-MUDA-3.0-09162021-W","R2109702","lead",2021-09-16 10:15:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","calcium",2021-09-14 13:00:00,"7440-70-2","T",29200,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","chloride (as cl)",2021-09-14 13:00:00,"16887-00-6","T",43.7,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","copper",2021-09-14 13:00:00,"7440-50-8","T",1.9,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","hardness (as caco3)",2021-09-14 13:00:00,"HARD","T",93.1,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","iron",2021-09-14 13:00:00,"7439-89-6","T",385,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","lead",2021-09-14 13:00:00,"7439-92-1","T",0.28,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","magnesium",2021-09-14 13:00:00,"7439-95-4","T",4880,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nickel",2021-09-14 13:00:00,"7440-02-0","T",0.98,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrate+nitrite as nitrogen",2021-09-14 13:00:00,"NO3NO2N","T",0.842,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrogen",2021-09-14 13:00:00,"7727-37-9","T",1.86,"mg/l","Calculation",NA,"mg/l",0.1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrogen, ammonia (as n)",2021-09-14 13:00:00,"7664-41-7","T",0.037,"mg/l","E350.1",0.003,"mg/l",0.01,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrogen, kjeldahl, total",2021-09-14 13:00:00,"KN","T",1.02,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","estimated value due to Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrogen, nitrate (as n)",2021-09-14 13:00:00,"14797-55-8","T",0.842,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","nitrogen, nitrite",2021-09-14 13:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","phosphorus, total (as p)",2021-09-14 13:00:00,"7723-14-0","T",0.121,"mg/l","E365.1",0.018,"mg/l",0.025,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","silver",2021-09-14 13:00:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","turbidity",2021-09-14 13:00:00,"TURB","T",4.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","zinc",2021-09-14 13:00:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","cadmium",2021-09-14 13:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","alkalinity, total (as caco3)",2021-09-14 13:00:00,"ALK","T",105,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","aluminum",2021-09-14 13:00:00,"7429-90-5","T",82.6,"ug/l","E200.8",7.6,"ug/l",10,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-OIL-5.8","N","02-OIL-5.8-09142021-W","R2109583","arsenic",2021-09-14 13:00:00,"7440-38-2","T",2.3,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 12:15:00,"7723-14-0","T",0.116,"mg/l","E365.1",0.018,"mg/l",0.025,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","silver",2021-09-15 12:15:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","turbidity",2021-09-15 12:15:00,"TURB","T",11.2,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","zinc",2021-09-15 12:15:00,"7440-66-6","T",2.8,"ug/l","E200.8",2.5,"ug/l",5,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","magnesium",2021-09-15 12:15:00,"7439-95-4","T",6560,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nickel",2021-09-15 12:15:00,"7440-02-0","T",1.2,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 12:15:00,"NO3NO2N","T",0.24,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrogen",2021-09-15 12:15:00,"7727-37-9","T",1.31,"mg/l","Calculation",NA,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 12:15:00,"7664-41-7","T",0.23,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 12:15:00,"KN","T",1.07,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 12:15:00,"14797-55-8","T",0.226,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 12:15:00,"14797-65-0","T",0.014,"mg/l","E353.2",0.007,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","copper",2021-09-15 12:15:00,"7440-50-8","T",1.3,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","hardness (as caco3)",2021-09-15 12:15:00,"HARD","T",105,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","iron",2021-09-15 12:15:00,"7439-89-6","T",1300,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","lead",2021-09-15 12:15:00,"7439-92-1","T",0.45,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 12:15:00,"ALK","T",103,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","aluminum",2021-09-15 12:15:00,"7429-90-5","T",205,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","arsenic",2021-09-15 12:15:00,"7440-38-2","T",4,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","cadmium",2021-09-15 12:15:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","calcium",2021-09-15 12:15:00,"7440-70-2","T",31100,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-PRKS-0.3","N","02-PRKS-0.3-09152021-W","R2109605","chloride (as cl)",2021-09-15 12:15:00,"16887-00-6","T",16.9,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","calcium",2021-09-14 13:30:00,"7440-70-2","T",33300,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","chloride (as cl)",2021-09-14 13:30:00,"16887-00-6","T",10.8,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","copper",2021-09-14 13:30:00,"7440-50-8","T",1.6,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","hardness (as caco3)",2021-09-14 13:30:00,"HARD","T",107,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","iron",2021-09-14 13:30:00,"7439-89-6","T",488,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","alkalinity, total (as caco3)",2021-09-14 13:30:00,"ALK","T",108,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","aluminum",2021-09-14 13:30:00,"7429-90-5","T",98.2,"ug/l","E200.8",7.6,"ug/l",10,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","arsenic",2021-09-14 13:30:00,"7440-38-2","T",2.3,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","cadmium",2021-09-14 13:30:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrogen, nitrite",2021-09-14 13:30:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","R","Analyte was analyzed for but not detected ; Holding Time error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","phosphorus, total (as p)",2021-09-14 13:30:00,"7723-14-0","T",0.0302,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","silver",2021-09-14 13:30:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","turbidity",2021-09-14 13:30:00,"TURB","T",5.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","zinc",2021-09-14 13:30:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","lead",2021-09-14 13:30:00,"7439-92-1","T",0.29,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","magnesium",2021-09-14 13:30:00,"7439-95-4","T",5730,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nickel",2021-09-14 13:30:00,"7440-02-0","T",1,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrate+nitrite as nitrogen",2021-09-14 13:30:00,"NO3NO2N","T",0.0414,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrogen",2021-09-14 13:30:00,"7727-37-9","T",1.2,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrogen, ammonia (as n)",2021-09-14 13:30:00,"7664-41-7","T",0.028,"mg/l","E350.1",0.003,"mg/l",0.01,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrogen, kjeldahl, total",2021-09-14 13:30:00,"KN","T",1.16,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","estimated value due to Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-RAWS-0.8","N","02-RAWS-0.8-09142021-W","R2109583","nitrogen, nitrate (as n)",2021-09-14 13:30:00,"14797-55-8","T",0.041,"mg/l","Calculation",NA,"mg/l",0.01,"","R","calculated parameter_see components",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","phosphorus, total (as p)",2021-09-16 09:00:00,"7723-14-0","T",0.0174,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","silver",2021-09-16 09:00:00,"7440-22-4","T",0.1,"ug/l","E200.8",0.042,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","turbidity",2021-09-16 09:00:00,"TURB","T",1.2,"ntu","E180.1",0.06,"ntu",1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","zinc",2021-09-16 09:00:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrogen, ammonia (as n)",2021-09-16 09:00:00,"7664-41-7","T",NA,"mg/l","E350.1",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrogen, kjeldahl, total",2021-09-16 09:00:00,"KN","T",0.32,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrogen, nitrate (as n)",2021-09-16 09:00:00,"14797-55-8","T",0.985,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrogen, nitrite",2021-09-16 09:00:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","copper",2021-09-16 09:00:00,"7440-50-8","T",0.94,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","hardness (as caco3)",2021-09-16 09:00:00,"HARD","T",106,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","iron",2021-09-16 09:00:00,"7439-89-6","T",35.6,"ug/l","E200.7",20,"ug/l",100,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","lead",2021-09-16 09:00:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","magnesium",2021-09-16 09:00:00,"7439-95-4","T",5140,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nickel",2021-09-16 09:00:00,"7440-02-0","T",0.87,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrate+nitrite as nitrogen",2021-09-16 09:00:00,"NO3NO2N","T",0.985,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","nitrogen",2021-09-16 09:00:00,"7727-37-9","T",1.3,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","calcium",2021-09-16 09:00:00,"7440-70-2","T",34000,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","chloride (as cl)",2021-09-16 09:00:00,"16887-00-6","T",9,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","arsenic",2021-09-16 09:00:00,"7440-38-2","T",0.58,"ug/l","E200.8",0.32,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","cadmium",2021-09-16 09:00:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","alkalinity, total (as caco3)",2021-09-16 09:00:00,"ALK","T",96.8,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-0.8","N","02-WANG_T5-0.8-09162021-W","R2109702","aluminum",2021-09-16 09:00:00,"7429-90-5","T",30.6,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","alkalinity, total (as caco3)",2021-09-16 09:30:00,"ALK","T",96.7,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","aluminum",2021-09-16 09:30:00,"7429-90-5","T",192,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","arsenic",2021-09-16 09:30:00,"7440-38-2","T",1.3,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","cadmium",2021-09-16 09:30:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","calcium",2021-09-16 09:30:00,"7440-70-2","T",34500,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","chloride (as cl)",2021-09-16 09:30:00,"16887-00-6","T",8.7,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","copper",2021-09-16 09:30:00,"7440-50-8","T",1.5,"ug/l","E200.8",0.66,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","hardness (as caco3)",2021-09-16 09:30:00,"HARD","T",108,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","iron",2021-09-16 09:30:00,"7439-89-6","T",279,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","lead",2021-09-16 09:30:00,"7439-92-1","T",0.35,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","magnesium",2021-09-16 09:30:00,"7439-95-4","T",5290,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nickel",2021-09-16 09:30:00,"7440-02-0","T",1,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrate+nitrite as nitrogen",2021-09-16 09:30:00,"NO3NO2N","T",0.995,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrogen",2021-09-16 09:30:00,"7727-37-9","T",1.39,"mg/l","Calculation",NA,"mg/l",0.1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","zinc",2021-09-16 09:30:00,"7440-66-6","T",4,"ug/l","E200.8",2.5,"ug/l",5,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","turbidity",2021-09-16 09:30:00,"TURB","T",7.2,"ntu","E180.1",0.06,"ntu",1,"","J","estimated value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrogen, nitrite",2021-09-16 09:30:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrogen, ammonia (as n)",2021-09-16 09:30:00,"7664-41-7","T",NA,"mg/l","E350.1",0.003,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrogen, kjeldahl, total",2021-09-16 09:30:00,"KN","T",0.4,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","nitrogen, nitrate (as n)",2021-09-16 09:30:00,"14797-55-8","T",0.995,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","phosphorus, total (as p)",2021-09-16 09:30:00,"7723-14-0","T",0.0289,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WANG_T5-1.0","N","02-WANG_T5-1.0-09162021-W","R2109702","silver",2021-09-16 09:30:00,"7440-22-4","T",0.1,"ug/l","E200.8",0.042,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 08:45:00,"7664-41-7","T",0.043,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 08:45:00,"KN","T",0.96,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 08:45:00,"14797-55-8","T",0.413,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 08:45:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 08:45:00,"7723-14-0","T",0.0227,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","silver",2021-09-15 08:45:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","magnesium",2021-09-15 08:45:00,"7439-95-4","T",7000,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nickel",2021-09-15 08:45:00,"7440-02-0","T",1.1,"ug/l","E200.8",0.46,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 08:45:00,"NO3NO2N","T",0.413,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","nitrogen",2021-09-15 08:45:00,"7727-37-9","T",1.37,"mg/l","Calculation",NA,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","turbidity",2021-09-15 08:45:00,"TURB","T",4.3,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","zinc",2021-09-15 08:45:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","arsenic",2021-09-15 08:45:00,"7440-38-2","T",1.7,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","cadmium",2021-09-15 08:45:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","calcium",2021-09-15 08:45:00,"7440-70-2","T",40000,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","chloride (as cl)",2021-09-15 08:45:00,"16887-00-6","T",26.7,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 08:45:00,"ALK","T",123,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","copper",2021-09-15 08:45:00,"7440-50-8","T",1,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","hardness (as caco3)",2021-09-15 08:45:00,"HARD","T",129,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","iron",2021-09-15 08:45:00,"7439-89-6","T",471,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","lead",2021-09-15 08:45:00,"7439-92-1","T",0.21,"ug/l","E200.8",0.19,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN-20.6","N","02-WFREN-20.6-09152021-W","R2109605","aluminum",2021-09-15 08:45:00,"7429-90-5","T",79.3,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","chloride (as cl)",2021-09-15 09:45:00,"16887-00-6","T",20,"mg/l","E300.0",0.5,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","alkalinity, total (as caco3)",2021-09-15 09:45:00,"ALK","T",103,"mg/l","SM 2320 B",1.8,"mg/l",2,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","aluminum",2021-09-15 09:45:00,"7429-90-5","T",75.2,"ug/l","E200.8",7.6,"ug/l",10,"N","R","lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","arsenic",2021-09-15 09:45:00,"7440-38-2","T",1.3,"ug/l","E200.8",0.32,"ug/l",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","cadmium",2021-09-15 09:45:00,"7440-43-9","T",NA,"ug/l","E200.8",0.38,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","calcium",2021-09-15 09:45:00,"7440-70-2","T",32700,"ug/l","E200.7",110,"ug/l",1000,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","copper",2021-09-15 09:45:00,"7440-50-8","T",0.72,"ug/l","E200.8",0.66,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","hardness (as caco3)",2021-09-15 09:45:00,"HARD","T",109,"mg/l","SM2340B",NA,"mg/l",6.62,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","iron",2021-09-15 09:45:00,"7439-89-6","T",348,"ug/l","E200.7",20,"ug/l",100,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","lead",2021-09-15 09:45:00,"7439-92-1","T",NA,"ug/l","E200.8",0.19,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrogen, nitrate (as n)",2021-09-15 09:45:00,"14797-55-8","T",0.537,"mg/l","Calculation",NA,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrogen, nitrite",2021-09-15 09:45:00,"14797-65-0","T",NA,"mg/l","E353.2",0.007,"mg/l",0.01,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","turbidity",2021-09-15 09:45:00,"TURB","T",3.6,"ntu","E180.1",0.06,"ntu",1,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","zinc",2021-09-15 09:45:00,"7440-66-6","T",NA,"ug/l","E200.8",2.5,"ug/l",5,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrogen, kjeldahl, total",2021-09-15 09:45:00,"KN","T",1.05,"mg/l","E351.2",0.1,"mg/l",0.1,"","R","Equipment Blank error ; Accuracy error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrogen",2021-09-15 09:45:00,"7727-37-9","T",1.59,"mg/l","Calculation",NA,"mg/l",0.1,"","T","low confidence in value due to Equipment Blank error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nickel",2021-09-15 09:45:00,"7440-02-0","T",0.87,"ug/l","E200.8",0.46,"ug/l",1,"J","J","estimated value due to lab error",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrate+nitrite as nitrogen",2021-09-15 09:45:00,"NO3NO2N","T",0.537,"mg/l","E353.2",0.0015,"mg/l",0.002,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","phosphorus, total (as p)",2021-09-15 09:45:00,"7723-14-0","T",0.0185,"mg/l","E365.1",0.0036,"mg/l",0.005,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","silver",2021-09-15 09:45:00,"7440-22-4","T",NA,"ug/l","E200.8",0.042,"ug/l",1,"U","U","Analyte was analyzed for but not detected",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","nitrogen, ammonia (as n)",2021-09-15 09:45:00,"7664-41-7","T",0.022,"mg/l","E350.1",0.003,"mg/l",0.01,"","A","",2022-02-17
+"SCRN_ALLEG-CO4","02-WFREN_T12-0.5","Y","02-WFREN_T12-0.2-09152021-W","R2109605","magnesium",2021-09-15 09:45:00,"7439-95-4","T",6610,"ug/l","E200.7",68,"ug/l",1000,"","A","",2022-02-17
