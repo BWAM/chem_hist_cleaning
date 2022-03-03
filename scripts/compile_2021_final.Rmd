@@ -16,8 +16,8 @@ datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technolog
 
 Import sample and result files exported from Chem_raw_processing.Rproj
 ```{r Import data}
-sample.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_SAMPLE-all_2021_v3_2022-02-15.csv"), stringsAsFactors = FALSE)
-result.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_RESULT-all_2021_v3_2022-02-15.csv"), stringsAsFactors = FALSE,
+sample.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_SAMPLE-all_2021_v3_2022-03-03.csv"), stringsAsFactors = FALSE)
+result.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_RESULT-all_2021_v3_2022-03-03.csv"), stringsAsFactors = FALSE,
                        colClasses = c(fraction="character")
 ) %>% 
   rename(sample_delivery_group = lab_sdg)
