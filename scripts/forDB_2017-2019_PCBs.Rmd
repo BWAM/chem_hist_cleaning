@@ -1,0 +1,411 @@
+---
+title: "compile_2020"
+output: html_document
+---
+
+
+```{r Load in libs, set project dirs}
+library(tidyverse)
+
+root.dir <- rprojroot::find_root("chem_hist_cleaning.Rproj")
+target.dir <- file.path(root.dir, "data", "2021", "2017-2019_pcbs")
+qaqc_dir <- file.path(target.dir, "qaqc_output")
+datamod.dir <- "C:/Users/gmlemley/New York State Office of Information Technology Services/SMAS - Streams Data Modernization/Cleaned Files/"
+
+```
+
+Import sample and result files exported from Chem_raw_processing.Rproj
+```{r Import data}
+sample.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_SAMPLE-pcbs_2017-2019_2022-03-08.csv"), stringsAsFactors = FALSE)
+result.all <- read.csv(file.path(target.dir, "2021_chem_preqaqc_RESULT-pcbs_2017-2019_2022-03-08.csv"), stringsAsFactors = FALSE,
+                       colClasses = c(fraction="character")
+) %>% 
+  rename(sample_delivery_group = lab_sdg)
+
+```
+
+Test join by sys_sample_code and SDG
+```{r Initial join test}
+test_join_sample.result <- full_join(sample.all, result.all, by = c("sys_sample_code", "sample_delivery_group"))
+
+test.join <- test_join_sample.result %>%
+  select(sample_delivery_group, sys_sample_code, analysis_date, chemical_name, result_value)
+test.res <- result.all %>%
+  select(sample_delivery_group, sys_sample_code, analysis_date, chemical_name, result_value)
+test.anti <- test.join %>%
+  anti_join(test.res)
+
+# extra records created. 
+
+# CHECKS OUT OKAY after correcting SDGs in EDD and rerunning raw.
+
+rm(test_join_sample.result, test.join, test.res, test.anti)
+```
+
+Import and bind flags from QAQC output files - 
+#NOT RELEVANT FOR PCBs; not flagged
+```{r Import QAQC flags}
+# Import all qaqc output files in subdir and bind together as a dataframe
+setwd(qaqc_dir) # Must run whole chunk for this to work
+qaqc.output.bound <- list.files(path = qaqc_dir, pattern = "*.csv") %>% 
+  map_df(~read_csv(.,  col_types = cols(fraction = col_character()))) %>% 
+  mutate(chemical_name = tolower(chemical_name))
+
+# Select only fields needed to join to results table and mark all as validated 
+qaqc.output.bound <- qaqc.output.bound %>%
+  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>%
+  mutate(validated_yn = "Y") %>%
+  rename(VALIDATOR_QUAL_EXPLN = interpreted_qualifiers)
+
+```
+
+Join flags and related fields to results table
+#ALL EXCEPT FIRST LINE NOT RELEVANT FOR PCBs; not flagged
+```{r Join QAQC flags}
+result.all <- result.all %>% 
+  mutate(chemical_name = tolower(chemical_name)) 
+  # select(-validated_yn, -validator_qualifiers) # Removing these fields since they will be replaced
+
+# Test various joins and compare to identify possible issues
+result.all.flags.left <- left_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+result.all.flags.full <- full_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+# Resulting left and full joins are identical (no recs left behind)
+
+result.all.flags.inner <- inner_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+# matches number of QAQC records in chunk above (all have match)
+
+# Do antijoin to see if all records are all lab and QC samples.
+result.all.flags.anti <- anti_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+result.sample.anti <- right_join(sample.all, result.all.flags.anti, by = c("sys_sample_code", "sample_delivery_group"))
+
+# filter to non-lab and QC samples to verify what's missing was intentional (or that data frame is blank, as it typically should be)
+result.sample.anti.sub <- result.sample.anti %>% 
+  filter(sample_type_code %in% "N",
+         DEC_sample_type %in% "N") 
+unique(result.sample.anti.sub$SITE_ID)
+# Found: Eighteenmile PCBs, lake sediment samples, and tech park DI blank. OK.
+
+#  Look for duplicate records (possible issues with join)
+dups <- result.all.flags.full %>% 
+  group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
+  mutate(dups = n()) %>% 
+  filter(dups > 1)
+ # Found: 10 duplicated PCB records. 
+
+# Clean up dataframes and rename
+result.all <- result.all.flags.full
+rm(qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, dups)
+
+```
+
+Flag any field results not run through QAQC
+```{r Populated flags for non-QAQCd data}
+# Join sample type field from SAMPLE table to gather required info for filtering
+sample.all.type <- sample.all %>% 
+  select(SITE_ID, sys_sample_code, sample_source, sample_delivery_group, DEC_sample_type, sample_type_code)
+result.all.type <- left_join(result.all, sample.all.type, by = c("sys_sample_code", "sample_delivery_group")) %>% 
+  # select(SITE_ID, sample_source, DEC_sample_type, sample_type_code, validator_qualifiers, VALIDATOR_QUAL_EXPLN, everything())
+  select(SITE_ID, sample_source, DEC_sample_type, sample_type_code, everything())
+
+# Check this to see what types of samples got flags. Only N and N_xxx samples should be getting flags.
+result.all.type.check <- result.all.type %>% 
+  select(validator_qualifiers, DEC_sample_type) %>% 
+  distinct()
+
+# Filter out normal samples that didn't get flags to verify that only the ones intentionally not flagged are there.
+result.all.notflagged.n <- result.all.type %>% 
+  filter(is.na(validator_qualifiers),
+         DEC_sample_type %in% "N",
+         sample_source %in% "Field")
+unique(result.all.notflagged.n$SITE_ID)
+# Found: Eighteenmile PCBs. OK.
+
+# Mark validated_yn as "N" for normal field samples with no validator flag. Add E flags and explanations if needed.
+result.all.flagged2 <- result.all.type %>% 
+  mutate(validated_yn = ifelse(
+    is.na(validator_qualifiers) &
+      DEC_sample_type %in% "N" &
+      sample_source %in% "Field",
+    "N", validated_yn)) 
+  # mutate(validator_qualifiers = ifelse(
+  #   is.na(validator_qualifiers) &
+  #     DEC_sample_type %in% "N" &
+  #     sample_source %in% "Field" &
+  #     !grepl("*EMIL", SITE_ID) &
+  #     !grepl("*UHUD", SITE_ID) &    # Added 2020-10-05
+  #     !grepl("*MOHK", SITE_ID), 
+  #   "E", validator_qualifiers)) %>% 
+  # mutate(VALIDATOR_QUAL_EXPLN = ifelse(validator_qualifiers %in% "E", 
+  #   "Not flagged due to QAQC error or insufficient QAQC sampling", VALIDATOR_QUAL_EXPLN)) 
+
+# Verify that only remaining field "N" samples without flags are those params we don't flag
+result.all.flagged2.naflags <- result.all.flagged2 %>% 
+  filter(is.na(validator_qualifiers),
+         sample_source %in% "Field",
+         DEC_sample_type %in% "N")
+# Triple check. Ignore me. Above checks out :)
+
+# Clean up new result table and remove joined fields
+result.all.flagged2 <- result.all.flagged2 %>% 
+  select(-SITE_ID, -sample_source, -DEC_sample_type, -sample_type_code) 
+
+rm(sample.all.type, result.all.type, result.all.type.check, result.all.notflagged.n, result.all.flagged2.naflags)
+
+
+```
+
+
+Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
+```{r Join pcodes}
+
+# Import pcodes 
+pcode.join <- read_csv(file.path(datamod.dir, "Final_Chemistry_ITS", "pcode_join_table", "dec_pcode_join_2022-03-03.csv")) %>%
+  select(RESULT_TYPE, everything()) %>% 
+  # select(-"Has duplicate", -"Notes") %>% 
+  mutate(chemical_name = tolower(chemical_name)) %>% 
+  mutate(result_unit = tolower(result_unit)) %>% 
+  # mutate(DEC_pcode_FINAL = formatC(DEC_pcode_FINAL, width = 3, format = "d", flag = "0")) %>% 
+  # Remove instances of duplicate rows that represented differing unit capitalization (will just do this in the data) 
+  #  May not be relevent anymore
+  distinct()
+
+# Filter to lab only (non-insitu) for joining to chem data
+pcode.join.lab <- pcode.join %>% 
+  filter(RESULT_TYPE %in% "lab") %>%
+  select(-RESULT_TYPE)
+
+# Join to chem results table
+result.all.pcodes <- left_join(result.all.flagged2, pcode.join.lab, by = c("chemical_name", "fraction", "result_unit")) %>% 
+  select(DEC_pcode_FINAL, chemical_name, everything())
+
+# Return records that didn't get pcodes assigned
+result.all.pcodes.na <- result.all.pcodes %>% 
+  filter(is.na(DEC_pcode_FINAL))
+sort(unique(result.all.pcodes.na$chemical_name))
+
+
+
+
+##### STOPPED HERE - chem names do not match pcode join table, which was based off 2020 ALS naming conventions.
+  # These new names will have to be rematched with existin pcodes and added to the pcode join table.
+##########################
+
+
+
+
+# summarize join for review  
+result.all.pcodes.check <- result.all.pcodes %>%
+  select(DEC_pcode_FINAL, chemical_name, fraction, result_unit) %>%
+  distinct()
+
+result.all <- result.all.pcodes
+
+rm(result.all.pcodes, pcode.join, pcode.join.lab, result.all.flagged2, result.all.pcodes.na, result.all.pcodes.check)
+
+
+```
+
+
+Reformat field names
+```{r Reformat field names}
+
+sample.all.form <- sample.all %>%
+  rename_all(toupper) %>%
+  rename(
+    EVENT_SMAS_HISTORY_ID = SITE_ID,
+    DEC_SAMPLE_TYPE_CDE = DEC_SAMPLE_TYPE,
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    SAMPLE_MATRIX_CDE = SAMPLE_MATRIX_CODE,
+    LAB_SAMPLE_TYPE_CDE = SAMPLE_TYPE_CODE,
+    PARENT_SAMPLE_CDE = PARENT_SAMPLE_CODE,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
+    SYS_LOC_CDE = SYS_LOC_CODE,
+    SAMPLE_DATETIME = SAMPLE_DATE,
+    SITE_ID_CORR_YN = SITE_ID_CORR_IND
+  ) %>%
+  mutate(SAMPLE_DATETIME.posixct = as.POSIXct(SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(EVENT_SMAS_SAMPLE_DATE = strftime(SAMPLE_DATETIME.posixct, "%m/%d/%Y")) %>%
+  rename_all(function(x)
+    paste0("CHS_", x))
+# mutate(EVENT_SMAS_ID = paste0(CHS_SITE_ID,"_",EVENT_ID_DATE))
+
+result.all.form <- result.all %>%
+  rename_all(toupper) %>%
+  mutate(QLFR_SRC = "AE") %>% 
+  rename(
+    SYS_SAMPLE_CDE = SYS_SAMPLE_CODE,
+    LAB_ANAL_METHOD_NAME = LAB_ANL_METHOD_NAME,
+    LAB_MATRIX_CDE = LAB_MATRIX_CODE,
+    LAB_NAME_CDE = LAB_NAME_CODE,
+    SUBSAMPLE_AMT = SUBSAMPLE_AMOUNT,
+    SUBSAMPLE_AMT_UNIT = SUBSAMPLE_AMOUNT_UNIT,
+    RESULT_TYPE_CDE = RESULT_TYPE_CODE,
+    # REPORTABLE_RESULT_IND = REPORTABLE_RESULT,
+    LAB_QUAL = LAB_QUALIFIERS,
+    VALIDATOR_QUAL = VALIDATOR_QUALIFIERS,
+    INTERPRETED_QUAL = INTERPRETED_QUALIFIERS,
+    # VALIDATED_IND = VALIDATED_YN,
+    METHOD_DETECT_LIMIT = METHOD_DETECTION_LIMIT,
+    REPORTING_DETECT_LIMIT = REPORTING_DETECTION_LIMIT,
+    QC_ORIG_CONC = QC_ORIGINAL_CONC,
+    QC_DUP_ORIG_CONC = QC_DUP_ORIGINAL_CONC,
+    SAMPLE_DEL_GRP = SAMPLE_DELIVERY_GROUP,
+    VALIDATION_DATE = QAQC_DATE
+  ) %>%
+  # mutate(ANALYSIS_DATE = as.POSIXct(ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  # mutate(PREP_DATE = as.POSIXct(PREP_DATE, format = "%m/%d/%Y %H:%M:%S")) %>%
+  mutate(VALIDATION_DATE = as.Date(VALIDATION_DATE, format = "%m/%d/%Y"),
+         VALIDATION_DATE = format((VALIDATION_DATE), "%m/%d/%Y")) %>% 
+  mutate(FRACTION = case_when(
+    FRACTION == "T" ~ "TOTAL",
+    FRACTION == "D" ~ "DISSOLVED",
+    TRUE ~ FRACTION)) %>% 
+  rename_all(function(x)
+    paste0("CHR_", x)) %>% 
+  rename(CHR_PCODE = CHR_DEC_PCODE_FINAL)
+    # fixed above from CHEM_PCODE on 9/11/20 
+
+```
+
+Select final headers as per ITS data model
+```{r Select final columns}
+
+# SAMPLE table
+sample.all.FINAL <- sample.all.form %>% 
+    select(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE, CHS_SITE_ID_CORR_YN, CHS_DATA_PROVIDER, CHS_SYS_SAMPLE_CDE, 
+           CHS_SAMPLE_NAME, CHS_SAMPLE_MATRIX_CDE, CHS_DEC_SAMPLE_TYPE_CDE, CHS_LAB_SAMPLE_TYPE_CDE, CHS_SAMPLE_SOURCE, 
+           CHS_PARENT_SAMPLE_CDE, CHS_SAMPLE_DEL_GRP, CHS_SAMPLE_DATETIME, CHS_SAMPLE_RECEIPT_DATE, CHS_SYS_LOC_CDE,
+           CHS_CHAIN_OF_CUSTODY, CHS_SAMPLER, CHS_SAMPLING_COMPANY_CODE, CHS_COMMENT)
+
+# RESULT table
+result.all.FINAL <- result.all.form %>% 
+  select(CHR_PCODE, CHR_SYS_SAMPLE_CDE, CHR_SAMPLE_DEL_GRP, CHR_LAB_ANAL_METHOD_NAME, CHR_ANALYSIS_DATE, CHR_TEST_TYPE, CHR_LAB_MATRIX_CDE, 
+         CHR_DILUTION_FACTOR, CHR_PREP_METHOD, CHR_PREP_DATE, CHR_LAB_NAME_CDE, CHR_QC_LEVEL, CHR_LAB_SAMPLE_ID, CHR_SUBSAMPLE_AMT, 
+         CHR_SUBSAMPLE_AMT_UNIT, CHR_FINAL_VOLUME, CHR_FINAL_VOLUME_UNIT, CHR_CAS_RN, CHR_RESULT_VALUE, 
+         CHR_RESULT_TYPE_CDE, CHR_REPORTABLE_RESULT, CHR_DETECT_FLAG, CHR_QLFR_SRC, CHR_LAB_QUAL, CHR_VALIDATED_YN, CHR_VALIDATION_DATE, CHR_VALIDATOR_QUAL, 
+         CHR_VALIDATOR_QUAL_EXPLN, CHR_METHOD_DETECT_LIMIT, 
+         CHR_REPORTING_DETECT_LIMIT, CHR_QUANTITATION_LIMIT, CHR_DETECTION_LIMIT_UNIT, CHR_RESULT_COMMENT, CHR_QC_ORIG_CONC, 
+         CHR_QC_SPIKE_ADDED, CHR_QC_SPIKE_MEASURED, CHR_QC_SPIKE_RECOVERY, CHR_QC_DUP_ORIG_CONC, CHR_QC_DUP_SPIKE_ADDED, CHR_QC_DUP_SPIKE_MEASURED, 
+         CHR_QC_DUP_SPIKE_RECOVERY, CHR_QC_RPD, CHR_QC_SPIKE_LCL, CHR_QC_SPIKE_UCL, CHR_QC_RPD_CL, CHR_QC_SPIKE_STATUS, CHR_QC_DUP_SPIKE_STATUS, 
+         CHR_QC_RPD_STATUS)
+
+```
+
+Convert NAs to text for not_null fields (for coded tables)
+```{r Convert NAs for non_nulls}
+result.all.FINAL <- result.all.FINAL %>% 
+  mutate(CHR_LAB_QUAL = ifelse(is.na(CHR_LAB_QUAL), 0, CHR_LAB_QUAL),
+         CHR_LAB_QUAL = ifelse(CHR_LAB_QUAL %in% "", 0, CHR_LAB_QUAL),
+         CHR_VALIDATOR_QUAL = ifelse(is.na(CHR_VALIDATOR_QUAL), 0, CHR_VALIDATOR_QUAL))
+```
+
+Generate list of unique values for review
+```{r View unique values, eval = FALSE}
+
+sample.unique <- lapply(sample.all.FINAL, unique)
+result.unique <- lapply(result.all.FINAL, unique)
+
+# Check unique lab_qualifiers to make sure all are already included in table S_CHEM_QUALIFIER_LAB.
+
+```
+
+```{r Other final modifications}
+
+# Change DEC sample type DUPs to SEQs (switched starting in 2020 to differentiate from old dup type)
+#     They are set as DUP in the raw script in order to be compatible with the QAQC script (along w LMAS). But in final DB they should be SEQ.
+# Format dates as dates to verify by sorting, then to the proper ITS format.
+sample.all.FINAL <- sample.all.FINAL %>% 
+  mutate(CHS_DEC_SAMPLE_TYPE_CDE = ifelse(CHS_DEC_SAMPLE_TYPE_CDE %in% "DUP", "SEQ", CHS_DEC_SAMPLE_TYPE_CDE),
+         # Consider incorporating this into validation script (make SEQ to begin with and change to DUP in QAQC script's getting.started.R)
+         CHS_DEC_SAMPLE_TYPE_CDE = ifelse(CHS_DEC_SAMPLE_TYPE_CDE %in% "N_DUPPARENT", "N_SEQPARENT", CHS_DEC_SAMPLE_TYPE_CDE),
+         CHS_EVENT_SMAS_SAMPLE_DATE = as.Date(CHS_EVENT_SMAS_SAMPLE_DATE, format = "%m/%d/%Y"),
+         CHS_EVENT_SMAS_SAMPLE_DATE = format((CHS_EVENT_SMAS_SAMPLE_DATE), "%m/%d/%Y"),
+         CHS_SAMPLE_RECEIPT_DATE = as.Date(CHS_SAMPLE_RECEIPT_DATE, format = "%m/%d/%Y"),
+         CHS_SAMPLE_RECEIPT_DATE = format((CHS_SAMPLE_RECEIPT_DATE), "%m/%d/%Y"),
+         CHS_SAMPLE_DATETIME = as.POSIXct(CHS_SAMPLE_DATETIME, format = "%m/%d/%Y %H:%M:%S"),
+         CHS_SAMPLE_DATETIME = format((CHS_SAMPLE_DATETIME), "%m/%d/%Y %H:%M:%S")
+         )  
+
+
+result.all.FINAL <- result.all.FINAL %>% 
+  mutate(CHR_ANALYSIS_DATE = as.POSIXct(CHR_ANALYSIS_DATE, format = "%m/%d/%Y %H:%M:%S"),
+         CHR_ANALYSIS_DATE = format((CHR_ANALYSIS_DATE), "%m/%d/%Y %H:%M:%S")
+)
+
+
+# After running above, open table and manually sort date fields to look for formatting inconsistencies from ALS (top/bottom).
+# Correct here if any errors.
+
+```
+
+
+```{r Crosscheck event IDs against Charlie's in-situ}
+
+insitu.master <- read_csv(file.path(datamod.dir, "Final_SBU_Field_ITS", "Master_S_IN_SITU_WATER_CHEM_v4_Internal_Format_created_2021_12_07.csv")) 
+
+# Return records for which there are no in-situ records present. Look into these w Charlie.
+samp.eventid.check <- sample.all.FINAL %>% 
+  mutate(event_id_date = as.Date(CHS_EVENT_SMAS_SAMPLE_DATE, format = "%m/%d/%Y"),
+         event_id_date = format(event_id_date, "%Y%m%d"),
+         EVENT_SMAS_ID = paste0(CHS_EVENT_SMAS_HISTORY_ID,"_",event_id_date)) %>% 
+  filter(!CHS_EVENT_SMAS_HISTORY_ID %in% "00-QAQC-0.0",
+         CHS_SAMPLE_SOURCE %in% "Field",
+         !EVENT_SMAS_ID %in% insitu.master$EVENT_SMAS_ID)
+
+```
+
+
+```{r Test table joins}
+
+
+# To ensure record numbers match after all adjustments above.
+
+test.sample.all.FINAL <- sample.all.FINAL %>% 
+  rename(SSC = CHS_SYS_SAMPLE_CDE,
+         SDG = CHS_SAMPLE_DEL_GRP)
+test.result.all.FINAL <- result.all.FINAL %>% 
+  rename(SSC = CHR_SYS_SAMPLE_CDE,
+         SDG = CHR_SAMPLE_DEL_GRP)
+
+test.sample.result <- left_join(test.sample.all.FINAL, test.result.all.FINAL, by = c("SSC", "SDG")) 
+# checks out okay
+rm(test.sample.all.FINAL, test.result.all.FINAL, test.sample.result)
+
+```
+
+```{r Test pcode join}
+
+pcode <- read.csv(file.path(datamod.dir, "Final_Chemistry_ITS", "MASTER_S_CHEM_PARAMETER_2022-03-03.csv"), stringsAsFactors = FALSE, colClasses = "character") %>% 
+  mutate(CHEM_PARAMETER_PCODE = as.integer(CHEM_PARAMETER_PCODE))
+         # CHEM_PARAMETER_PCODE = sprintf("%03d", CHEM_PARAMETER_PCODE)) 
+
+# Review this table to ensure all pcode info joined (look for NAs or blanks)
+test.result.pcode <- result.all.form %>% 
+  rename(CHEM_PARAMETER_PCODE = CHR_PCODE) %>% 
+  left_join(pcode, by = "CHEM_PARAMETER_PCODE") %>% 
+  select(CHEM_PARAMETER_PCODE, CHEM_PARAMETER_NAME, CHR_CHEMICAL_NAME, CHEM_PARAMETER_UNIT_NOSP, CHR_RESULT_UNIT,
+         CHEM_PARAMETER_FRACTION, CHR_FRACTION) %>% 
+  unique() %>% 
+  mutate(CHR_CHEMICAL_NAME_caps = toupper(CHR_CHEMICAL_NAME))
+
+```
+
+Generate EVENT ID records for Charlie to crosscheck against, and append to survey event IDs
+```{r Generate event IDs}
+
+#Offer these to charlie if he wants to crosscheck, or work together on crosschecking.
+event.id <- sample.all.FINAL %>% 
+  distinct(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE)
+
+```
+
+Export tables
+```{r Export tables, eval = FALSE}
+
+# write.table(event.id, file = file.path(datamod.dir, "20210415_SMAS_chem_2020_event_IDs.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.all.FINAL, file = file.path(target.dir, "SMAS_chem_2021_stayCALM-SAMPLE_2021-10-29.csv"),sep=",", row.names = FALSE, na = "")
+write.table(result.all.FINAL, file = file.path(target.dir, "SMAS_chem_2021_stayCALM-RESULT_2021-10-29.csv"),sep=",", row.names = FALSE, na = "")
+
+```
+
+
