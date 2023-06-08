@@ -91,17 +91,23 @@ temp_join$match<-paste(temp_join$sys_sample_code,
                          temp_join$sample_delivery_group)
 
 
-setdiff(temp_join$match,temp_result$match)
+check<-setdiff(temp_join$match,temp_result$match)
 #KAR 5/30/23 fixed the sdg disagreement
 
 joined_all<-plyr::ldply(joined_list, rbind)
-rm(test_join_sample.result,test_join_sample.result2,temp_join,temp_sample,temp_result)
+
+joined_all<-joined_all %>% 
+  select(sys_sample_code,
+           sample_delivery_group,
+           chemical_name,
+           validator_qualifiers,
+           everything())
+#rm(test_join_sample.result,test_join_sample.result2,temp_join,temp_sample,temp_result)
 
 ```
 
 
 ```{r Initial join test 2}
-
 
 #fix fecal coliform
 #fix the fecal coliform names
@@ -132,6 +138,14 @@ qaqc.all<-qaqc.all %>%
    mutate(chemical_name = tolower(chemical_name))
 
 qaqc.output.bound<-qaqc.all
+
+qaqc.output.bound<-qaqc.output.bound %>% 
+  select(sys_sample_code,
+         sample_delivery_group,
+         chemical_name,
+         validator_qualifiers,
+         everything()
+  )
 
 ```
 
@@ -171,6 +185,22 @@ qa_mod1<-qaqc.output.bound %>%
      sample_delivery_group=="R2203214" & chemical_name=="mercury"~"A",
      sample_delivery_group=="R2205398" & chemical_name=="mercury"~"A",
      sample_delivery_group=="R2210007" & chemical_name=="mercury"~"J",
+     #Screening
+     sample_delivery_group=="R2206767" & chemical_name=="1-bromo-4-fluorobenzene bromofluorobenzene)"|
+       chemical_name=="1,2-dichloroethane-d4"|
+       chemical_name=="tetrahydrofuran-d8 (sur)"|
+       chemical_name=="1,2-dichloroethane-d4"|
+       chemical_name=="toluene-d8"|
+       chemical_name=="tetrahydrofuran-d8 (sur)"~"A",
+     sample_delivery_group=="R2208148" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_delivery_group=="R2208148" & chemical_name=="zinc" & sys_sample_code != "22S0118"~"A",
+     sample_delivery_group=="R2208148" & chemical_name=="zinc" & sys_sample_code != "22S0118"~"A",
+     sample_delivery_group=="R2208149" & chemical_name=="chloride (as cl)"~"J-",
+     sample_delivery_group=="R2208150" & chemical_name=="chloride (as cl)"~"A",
+     sample_delivery_group=="R2206628" & chemical_name=="chloride (as cl)"~"A",
+     sample_delivery_group=="R2206629" & chemical_name=="chloride (as cl)"~"A",
+     sample_delivery_group=="R2208233" & chemical_name=="chloride (as cl)"~"A",
+    
       
       TRUE~validator_qualifiers)) %>% 
            ##########################################################
@@ -203,11 +233,21 @@ mutate(#BWRM
     sample_delivery_group=="R2203244" & chemical_name=="sulfate (as so4)"~"Accuracy error, results biased high",
     sample_delivery_group=="R2203214" & chemical_name=="mercury"~"",
     sample_delivery_group=="R2210007" & chemical_name=="mercury"~"ESTIMATED CONCENTRATION - STILL SUITABLE FOR MOST DATA USES",
+    #Screening
+    sample_delivery_group=="R2206767" & chemical_name=="1-bromo-4-fluorobenzene bromofluorobenzene)"|
+       chemical_name=="1,2-dichloroethane-d4"|
+       chemical_name=="tetrahydrofuran-d8 (sur)"|
+       chemical_name=="1,2-dichloroethane-d4"|
+       chemical_name=="toluene-d8"|
+       chemical_name=="tetrahydrofuran-d8 (sur)" ~"",
+    sample_delivery_group=="R2208148" & chemical_name=="zinc" & sys_sample_code != "22S0118"~"",
+    sample_delivery_group=="R2208149" & chemical_name=="chloride (as cl)"~"Accuracy error, results biased low",
+    sample_delivery_group=="R2208150" & chemical_name=="chloride (as cl)"~"",
+    sample_delivery_group=="R2206628" & chemical_name=="chloride (as cl)"~"",
+    sample_delivery_group=="R2206629" & chemical_name=="chloride (as cl)"~"",
+    sample_delivery_group=="R2208233" & chemical_name=="chloride (as cl)"~"",
     
-    
-    
-      
-    
+     
     TRUE~interpreted_qualifiers)) %>% 
   mutate(chemical_name=case_when(
     chemical_name == "coliform, fecal"~"fecal coliform",
@@ -345,7 +385,6 @@ qa_mod3<-qa_mod2 %>%
        sample_delivery_group=="R2206344" & chemical_name=="nitrogen, kjeldahl, total"~"A",
        #routine
        sample_delivery_group=="R2207613" & sys_sample_code=="17-BRNX-5.6-08152022-W" | sys_sample_code=="17-BRNX-5.6-08152022-EB"| sys_sample_code=="17-BRNX-5.6-08152022-SEQ" ~"R",
-       sample_delivery_group=="R2207613" & ~"R",
        sample_delivery_group=="R2205419" & chemical_name=="chlorophyll a"~ "A",
        sample_delivery_group=="R2205419" & chemical_name=="nitrate+nitrite as nitrogen"~ "A",
        sample_delivery_group=="R2205397" & chemical_name=="nitrate+nitrite as nitrogen"~ "A",
@@ -362,6 +401,63 @@ qa_mod3<-qa_mod2 %>%
        sample_delivery_group=="R2209947" & chemical_name=="nitrogen, kjeldahl, total"~"A",
       sample_delivery_group=="R2205417" & chemical_name=="aluminum"~"J+",
       sample_delivery_group=="R2209949" & chemical_name=="nitrate+nitrite as nitrogen"~"A",
+     #screening
+     sample_date=="2022-07-19" & chemical_name=="nitrogen, ammonia (as n)"~"J+",
+     sample_delivery_group == "R2206627" & chemical_name=="phosphorus, total (as p)"~"A",
+     sample_date=="2022-07-21" & chemical_name=="nitrogen, ammonia (as n)"|
+       chemical_name =="nitrogen, kjeldahl, total"~"A",
+     sample_delivery_group == "R2206627" & chemical_name=="turbidity"~"A",
+     sample_delivery_group == "R2206628" & chemical_name=="nitrogen"|
+        chemical_name =="nitrogen, ammonia (as n)" |
+        chemical_name =="nitrogen, kjeldahl, total"|
+        chemical_name =="phosphorus, total (as p)"~ "A",
+     sample_delivery_group == "22S0056" & chemical_name=="turbidity"~"A",
+     sys_sample_code =="22S0056"|
+       sys_sample_code =="22S0055"|
+       sys_sample_code ==" 22S0054"|
+       sys_sample_code =="22S0053"|
+       sys_sample_code =="22S0050"|
+       sys_sample_code =="22S0052"|
+       sys_sample_code =="22S0061" & chemical_name=="turbidity"~"J+",
+     sample_delivery_group == "R2206628" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sys_sample_code =="22S0057"|
+       sys_sample_code =="22S0058" & chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"|
+       chemical_name =="zinc"~"J+",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, kjeldahl, total"~"A",
+     sample_delivery_group == "R2206629" & chemical_name=="turbidity"~"A",
+     sample_delivery_group == "R2206629" & chemical_name=="turbidity"~"A",
+     sample_date=="2022-07-21" & chemical_name=="aluminum" |
+       chemical_name =="iron"~"J+",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, kjeldahl, total"| chemical_name =="nitrogen"~"J+",
+     sample_delivery_group == "R2206630" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_delivery_group == "R2206630" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_date=="2022-07-20" & chemical_name=="turbidity"~"J+",
+     sample_delivery_group=="R2206630" & chemical_name=="turbidity"~"A",
+     sample_delivery_group=="R2206702" & chemical_name=="carbon, dissolved organic (doc)"~"A",
+     sample_delivery_group=="R2206702" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_delivery_group=="R2207022" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_date=="2022-07-28" & chemical_name=="copper"|
+       chemical_name=="zinc"~"J+",
+     sys_sample_code =="22S0118"|
+       sys_sample_code =="22S0121"|
+       sys_sample_code =="22S0122"| sys_sample_code =="22S0123"& chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"~"J+",
+     sample_delivery_group=="R2208148" & chemical_name=="turbidity"~"A",
+     sys_sample_code =="22S0208"|
+       sys_sample_code =="22S0209"|
+       sys_sample_code =="22S0210"| 
+       sys_sample_code =="22S0211"|
+       sys_sample_code =="22S0212"|
+       sys_sample_code =="22S0213"|
+       sys_sample_code =="22S0271" & chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"~"J+",
+     sample_date=="2022-09-13" & chemical_name=="zinc"~"J+",
+     sample_date=="2022-09-15" & chemical_name=="carbon, dissolved organic (doc)"~"J+",
+     sample_delivery_group=="R2208666" & chemical_name=="nitrogen, kjeldahl, total"~"A",
+     sample_delivery_group=="R2208667" & chemical_name=="nitrogen, kjeldahl, total"| chemical_name =="nitrogen, nitrite"~"A",
+     
      
     TRUE~validator_qualifiers)) %>% 
   #####################################fix flag narrative#######################
@@ -371,7 +467,7 @@ qa_mod3<-qa_mod2 %>%
       sample_delivery_group=="R2207975" & chemical_name=="nitrogen"~"",
       sample_delivery_group=="R2207975" & chemical_name=="nitrogen, kjeldahl, total"~"",
       sample_delivery_group=="R2207975" & chemical_name=="manganese"~"",
-      ample_delivery_group=="R2207977" & chemical_name=="zinc"~"Equipment Blank error",
+      sample_delivery_group=="R2207977" & chemical_name=="zinc"~"Equipment Blank error",
       sample_delivery_group=="R2207977" & chemical_name=="nitrogen, ammonia (as n)"~"",
       sample_delivery_group=="R2207977" & chemical_name=="nitrate+nitrite as nitrogen"~"",
       sample_delivery_group=="R2207977" & chemical_name=="nitrogen"~"",
@@ -438,8 +534,62 @@ qa_mod3<-qa_mod2 %>%
       sample_delivery_group=="R2209947" & chemical_name=="nitrogen, kjeldahl, total"~"",
       sample_delivery_group=="R2205417" & chemical_name=="aluminum"~"Equipment Blank error, results biased high",
       sample_delivery_group=="R2209949" & chemical_name=="nitrate+nitrite as nitrogen"~"",
-       
-      TRUE~interpreted_qualifiers))
+      #screening
+      sample_date=="2022-07-19" & chemical_name=="nitrogen, ammonia (as n)"~"Equipment Blank error, results biased high",
+      sample_delivery_group == "R2206627" & chemical_name=="phosphorus, total (as p)"~"",
+      sample_date=="2022-07-21" & chemical_name=="nitrogen, ammonia (as n)"|
+       chemical_name =="nitrogen, kjeldahl, total"~"",   
+     sample_delivery_group == "R2206627" & chemical_name=="turbidity"~"",
+     sample_delivery_group == "R2206628" & chemical_name=="nitrogen"|
+        chemical_name =="nitrogen, ammonia (as n)" |
+        chemical_name =="nitrogen, kjeldahl, total"|
+        chemical_name =="phosphorus, total (as p)"~ "",
+     sample_delivery_group == "R2206627" & chemical_name=="turbidity"~"",
+     sys_sample_code =="22S0056"|
+       sys_sample_code =="22S0055"|
+       sys_sample_code ==" 22S0054"|
+       sys_sample_code =="22S0053"|
+       sys_sample_code =="22S0050"|
+       sys_sample_code =="22S0052"|
+       sys_sample_code =="22S0061" & chemical_name=="turbidity"~"Equipment Blank error, results biased high",
+     sample_delivery_group == "R2206628" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sys_sample_code =="22S0057"|
+       sys_sample_code =="22S0058" & chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"|
+       chemical_name =="zinc"~"Equipment Blank error, results biased high",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, kjeldahl, total"~"",
+     sample_delivery_group == "R2206629" & chemical_name=="turbidity"~"",
+     sample_date=="2022-07-21" & chemical_name=="aluminum" |
+       chemical_name =="iron"~"Equipment Blank error, results biased high",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, ammonia (as n)"~"",
+     sample_delivery_group == "R2206629" & chemical_name=="nitrogen, kjeldahl, total" | chemical_name =="nitrogen"~"Equipment Blank error, results biased high",
+     sample_delivery_group == "R2206630" & chemical_name=="nitrogen, ammonia (as n)"~"",
+     sample_date=="2022-07-20" & chemical_name=="turbidity"~"Equipment Blank error,results biased high",
+     sample_delivery_group=="R2206630" & chemical_name=="turbidity"~"",
+     sample_delivery_group=="R2206702" & chemical_name=="carbon, dissolved organic (doc)"~"",
+     sample_delivery_group=="R2206702" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_delivery_group=="R2207022" & chemical_name=="nitrogen, ammonia (as n)"~"A",
+     sample_date=="2022-07-28" & chemical_name=="copper"|
+       chemical_name=="zinc"~"Equipment Blank error, results biased high",
+     sys_sample_code =="22S0118"|
+       sys_sample_code =="22S0121"|
+       sys_sample_code =="22S0122"| sys_sample_code =="22S0123"& chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"~"Equipment Blank error, results biased high",
+     sample_delivery_group=="R2208148" & chemical_name=="turbidity"~"",
+     sys_sample_code =="22S0208"|
+       sys_sample_code =="22S0209"|
+       sys_sample_code =="22S0210"| 
+       sys_sample_code =="22S0211"|
+       sys_sample_code =="22S0212"|
+       sys_sample_code =="22S0213"|
+       sys_sample_code =="22S0271" & chemical_name=="nitrogen, kjeldahl, total"|
+       chemical_name =="nitrogen"~"Equipment Blank error, results biased high",
+     sample_date=="2022-09-13" & chemical_name=="zinc"~"Equipment Blank error, results biased high",
+     sample_date=="2022-09-15" & chemical_name=="carbon, dissolved organic (doc)"~"Equipment Blank error, results biased high",
+     sample_delivery_group=="R2208666" & chemical_name=="nitrogen, kjeldahl, total"~"",
+     sample_delivery_group=="R2208667" & chemical_name=="nitrogen, kjeldahl, total"| chemical_name =="nitrogen, nitrite"~"",
+     
+     TRUE~interpreted_qualifiers))
   
 
 ```
@@ -453,6 +603,8 @@ qa_mod4<-qa_mod3 %>%
       #routine
       sample_delivery_group =="R2203244" & sys_sample_code=="01-BUFF-1.7-04122022-W" & chemical_name=="orthophosphate as phosphorus, dissolved"| chemical_name=="phosphorus, total (as p)"~"R",
       sample_delivery_group =="R2203286" & chemical_name=="orthophosphate as phosphorus, dissolved"~"A",
+      
+      
                                           TRUE~validator_qualifiers)) %>% 
   #############################interpreted flag adjustment ##################
   
@@ -486,6 +638,21 @@ qa_mod5<-qa_mod4 %>%
  sample_delivery_group=="R2209947" & chemical_name=="nitrogen, nitrite"
  |chemical_name=="orthophosphate as phosphorus, dissolved" |
   chemical_name=="turbidity" ~"J",
+ #Screening
+ sample_delivery_group=="R2206767" & chemical_name=="1-bromo-4-fluorobenzene bromofluorobenzene)"|
+   chemical_name=="1,1-dichloroethane" |
+   chemical_name=="1,1-dichloroethane d4"|
+   chemical_name=="1,2,3-trichloropropane"|
+   chemical_name=="bromomethane" |
+   chemical_name=="chlorodifluoromethane"|
+   chemical_name=="chloromethane"|
+   chemical_name =="toluene-d8"|
+   chemical_name =="tetrahydrofuran-d8 (sur)"|
+   chemical_name =="1,4-dioxane (p-dioxane)"~"A",
+ sample_delivery_group=="R2208233" & chemical_name=="NO2"|
+   chemical_name == "nitrogen, nitrate (as n)"~"R",
+ sample_delivery_group=="R2208233" & chemical_name == "turbidity"~"J",
+ 
  
 
 TRUE~validator_qualifiers)) %>% 
@@ -506,7 +673,21 @@ sample_delivery_group=="R2206344" & chemical_name=="nitrogen, nitrite"~"",
 sample_delivery_group=="R2209947" & chemical_name=="nitrogen, nitrite"
  |chemical_name=="orthophosphate as phosphorus, dissolved" |
   chemical_name=="turbidity" ~"Estimated due to Holding time exceedance",
-
+#screening
+ sample_delivery_group=="R2206767" & chemical_name=="1-bromo-4-fluorobenzene bromofluorobenzene)"|
+   chemical_name=="1,1-dichloroethane" |
+   chemical_name=="1,1-dichloroethane d4"|
+   chemical_name=="1,2,3-trichloropropane"|
+   chemical_name=="bromomethane" |
+   chemical_name=="chlorodifluoromethane"|
+   chemical_name=="chloromethane"|
+   chemical_name =="toluene-d8"|
+   chemical_name =="tetrahydrofuran-d8 (sur)"|
+   chemical_name =="1,4-dioxane (p-dioxane)"~"",
+sample_delivery_group=="R2208233" & chemical_name=="NO2"|
+   chemical_name == "nitrogen, nitrate (as n)"~"Holding time error",
+ sample_delivery_group=="R2208233" & chemical_name == "turbidity"~"Estimated due to Holding time exceedance",
+ 
 
   TRUE~interpreted_qualifiers))
                                             
@@ -518,7 +699,7 @@ sample_delivery_group=="R2209947" & chemical_name=="nitrogen, nitrite"
 ```{r validation-flag-fraction-fix}
 # Select only fields needed to join to results table and mark all as validated 
 qaqc.output.bound <- qa_mod5 %>%
-  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date) %>%
+  select(project_name, sys_sample_code, sample_delivery_group, chemical_name, fraction, validator_qualifiers, interpreted_qualifiers, qaqc_date,result_value) %>%
   mutate(validated_yn = "Y") %>%
   rename(VALIDATOR_QUAL_EXPLN = interpreted_qualifiers)
 
@@ -545,24 +726,64 @@ Join flags and related fields to results table
 result.all <- result.all %>% 
   mutate(chemical_name = tolower(chemical_name)) %>% 
   select(-validated_yn, -validator_qualifiers) # Removing these fields since they will be replaced
+
+#making them both lowercase
 result.all$fraction<-tolower(result.all$fraction)
+qaqc.output.bound$fraction<-tolower(qaqc.output.bound$fraction)
+
+#making the result values into the same format
+
+
 result.all<-result.all %>% 
-  select(sys_sample_code,sample_delivery_group,chemical_name,fraction,everything())
-qaqc.output.bound$fraction<-as.character(qaqc.output.bound$fraction)
+  select(sys_sample_code,sample_delivery_group,chemical_name,fraction, result_value,everything())
+
 qaqc.output.bound<-qaqc.output.bound %>% 
-  select(sys_sample_code,sample_delivery_group,chemical_name,fraction,everything())
+  select(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value,everything()) %>% 
+  distinct()
 
-# Test various joins and compare to identify possible issues
-result.all.flags.left <- left_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-result.all.flags.full <- full_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-# Resulting left and full joins are identical (no recs left behind)
+#merge data frames with left join
 
-result.all.flags.inner <- inner_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+#test
+result.all_test<-result.all %>% 
+  select(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value) %>% 
+  group_by(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value) %>% 
+  summarise(n=n())
+#remove the extra ones
+result_remove<-result.all_test %>% 
+  ungroup() %>% 
+  distinct() %>% 
+  mutate(match=paste(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value)) %>% 
+  filter(n<2)
+
+result.all_filter<-result.all %>% 
+  mutate(match=paste(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value)) %>% 
+  filter(match %in% result_remove$match)
+
+result.all.flags.left<-merge(result.all_filter,
+                                 qaqc.output.bound,
+                                 by = c(
+                                   "sys_sample_code",
+                                   "sample_delivery_group",
+                                   "chemical_name",
+                                   "fraction",
+                                   "result_value"
+                                 ),
+                             all.x = TRUE) %>% 
+  mutate(match=paste(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value)) %>% 
+  mutate(match2=paste(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value)) %>% 
+  group_by(sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value) %>% 
+  mutate(n=n()) %>% 
+  select(match2,sys_sample_code,sample_delivery_group,chemical_name,fraction,result_value,everything()) %>% 
+  subset(project_name !="RIB_CEC" & project_name !="RIBs_CECs" )
+
+#it's the CECs!! removing
+
+
 # matches number of QAQC records in chunk above (all have match)
 
 # Do antijoin to see if all records are all lab and QC samples.
-result.all.flags.anti <- anti_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
-result.sample.anti <- right_join(sample.all, result.all.flags.anti, by = c("sys_sample_code", "sample_delivery_group"))
+# result.all.flags.anti <- anti_join(result.all, qaqc.output.bound, by = c("sys_sample_code", "sample_delivery_group", "chemical_name", "fraction"))
+# result.sample.anti <- right_join(sample.all, result.all.flags.anti, by = c("sys_sample_code", "sample_delivery_group"))
 
 # filter to non-lab and QC samples to verify what's missing was intentional (or that data frame is blank, as it typically should be)
 result.sample.anti.sub <- result.sample.anti %>% 
@@ -572,15 +793,15 @@ unique(result.sample.anti.sub$SITE_ID)
 # Found: nothing for hansgroot
 
 #  Look for duplicate records (possible issues with join)
-dups <- result.all.flags.full %>% 
+dups <- result.all.flags.left %>% 
   group_by(sys_sample_code, sample_delivery_group, chemical_name, fraction) %>% 
   mutate(dups = n()) %>% 
   filter(dups > 1)
- # Found: nothing for hansgrrot or pws projects 2022
+ # Found: nothing for 2023
 
 # Clean up dataframes and rename
-result.all <- result.all.flags.full
-rm(qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, dups)
+result.all <- result.all.flags.left
+rm(qaqc.output.bound, result.all.flags.left, result.all.flags.full, result.all.flags.inner, result.all.flags.anti, result.sample.anti, result.sample.anti.sub, dups,qa_mod1,qa_mod2,qa_mod3,qa_mod4)
 
 ```
 
@@ -597,6 +818,8 @@ result.all.type <- left_join(result.all, sample.all.type, by = c("sys_sample_cod
 result.all.type.check <- result.all.type %>% 
   select(validator_qualifiers, DEC_sample_type) %>% 
   distinct()
+unique(result.all.type.check$DEC_sample_type)
+#found - one for R2209099
 
 # Filter out normal samples that didn't get flags to verify that only the ones intentionally not flagged are there.
 result.all.notflagged.n <- result.all.type %>% 
@@ -604,7 +827,7 @@ result.all.notflagged.n <- result.all.type %>%
          DEC_sample_type %in% "N",
          sample_source %in% "Field")
 unique(result.all.notflagged.n$SITE_ID)
-# Found: Eighteenmile PCBs, lake sediment samples, and tech park DI blank. OK. nothing for pws
+# Found: nothing for 2023
 
 # Mark validated_yn as "N" for normal field samples with no validator flag. Add E flags and explanations if needed.
 result.all.flagged2 <- result.all.type %>% 
@@ -613,6 +836,18 @@ result.all.flagged2 <- result.all.type %>%
       DEC_sample_type %in% "N" &
       sample_source %in% "Field",
     "N", validated_yn)) 
+
+#fixing missing site id
+result.all.flagged2<-result.all.flagged2 %>% 
+  mutate(SITE_ID=case_when( is.na(SITE_ID)~"10-BRTB-1.0",
+                            TRUE~SITE_ID),
+         sample_source=case_when(is.na(sample_source)~"Field",
+                                 TRUE~sample_source),
+         DEC_sample_type=case_when(is.na(DEC_sample_type)~"N",
+                                   TRUE~DEC_sample_type),
+         sample_type_code=case_when(is.na(sample_type_code)~"N",
+                                    TRUE~sample_type_code))
+
   # mutate(validator_qualifiers = ifelse(
   #   is.na(validator_qualifiers) &
   #     DEC_sample_type %in% "N" &
@@ -642,14 +877,18 @@ rm(sample.all.type, result.all.type, result.all.type.check, result.all.notflagge
 
 
 Join pcodes field using "pcode join table" (based on chemical_name, fraction, and unit)
+updated for new Pcode on 6/6/23
 ```{r Join pcodes}
 
 # Import pcodes 
-pcode.join <- read_csv(file.path(datamod.dir, "Final_Chemistry_ITS", "pcode_join_table", "dec_pcode_join_2022-03-08.csv")) %>%
-  select(RESULT_TYPE, everything()) %>% 
+pcode.join <- read_csv(file.path(datamod.dir, "Final_Chemistry_ITS","MASTER_S_CHEM_PARAMETER_2023-01-10.csv")) %>%
+  select(CHEM_PARAMETER_SOURCE, everything()) %>% 
   # select(-"Has duplicate", -"Notes") %>% 
-  mutate(chemical_name = tolower(chemical_name)) %>% 
-  mutate(result_unit = tolower(result_unit)) %>% 
+  mutate(chemical_name = tolower(CHEM_PARAMETER_NAME)) %>% 
+  mutate(result_unit = tolower(CHEM_PARAMETER_UNIT_NOSP)) %>% 
+  mutate(RESULT_TYPE = CHEM_PARAMETER_SOURCE) %>% 
+  mutate(fraction = CHEM_PARAMETER_FRACTION) %>% 
+  mutate(DEC_pcode_FINAL = CHEM_PARAMETER_PCODE) %>% 
   # mutate(DEC_pcode_FINAL = formatC(DEC_pcode_FINAL, width = 3, format = "d", flag = "0")) %>% 
   # Remove instances of duplicate rows that represented differing unit capitalization (will just do this in the data) 
   #  May not be relevent anymore
@@ -660,7 +899,12 @@ pcode.join.lab <- pcode.join %>%
   filter(RESULT_TYPE %in% "lab") %>%
   select(-RESULT_TYPE) %>% 
   mutate(fraction=tolower(fraction)) %>% 
-  mutate(result_unit=tolower(result_unit))
+  mutate(result_unit=tolower(result_unit)) %>% 
+  mutate(fraction = case_when(
+    fraction %in% "total"~"t",
+    fraction %in% "dissolved"~"d",
+    TRUE~fraction
+  ))
 
 result.all.flagged2$fraction<-tolower(result.all.flagged2$fraction)
 result.all.flagged2$result_unit<-tolower(result.all.flagged2$result_unit)
@@ -692,7 +936,8 @@ rm(result.all.pcodes, pcode.join, pcode.join.lab, result.all.flagged2, result.al
 Reformat field names
 ```{r Reformat field names}
 sample.all<-sample.all %>% 
-  mutate(SITE_ID_CORR_IND = "")
+  mutate(SITE_ID_CORR_IND = "") %>% 
+  filter(.id !="2022_chem_preqaqc_-RIBS_CECs_2023-01-20.csv")
 
 sample.all.form <- sample.all %>%
   rename_all(toupper) %>%
@@ -782,9 +1027,9 @@ result.all.FINAL <- result.all.form %>%
 Convert NAs to text for not_null fields (for coded tables)
 ```{r Convert NAs for non_nulls}
 result.all.FINAL <- result.all.FINAL %>% 
-  mutate(CHR_LAB_QUAL = ifelse(is.na(CHR_LAB_QUAL), 0, CHR_LAB_QUAL),
-         CHR_LAB_QUAL = ifelse(CHR_LAB_QUAL %in% "", 0, CHR_LAB_QUAL),
-         CHR_VALIDATOR_QUAL = ifelse(is.na(CHR_VALIDATOR_QUAL), 0, CHR_VALIDATOR_QUAL))
+  mutate(CHR_LAB_QUAL = ifelse(is.na(CHR_LAB_QUAL), "0", CHR_LAB_QUAL),
+         CHR_LAB_QUAL = ifelse(CHR_LAB_QUAL %in% "", "0", CHR_LAB_QUAL),
+         CHR_VALIDATOR_QUAL = ifelse(is.na(CHR_VALIDATOR_QUAL), "0", CHR_VALIDATOR_QUAL))
 ```
 
 Generate list of unique values for review
@@ -832,6 +1077,7 @@ stopifnot( "There is problem withe the CHR_ANALYSIS_DATE format"=
 # After running above, open table and manually sort date fields to look for formatting inconsistencies from ALS (top/bottom).
 # Correct here if any errors.
 #3/21/21 Looks ok to me
+#6/6/23 Looks ok
 
 ```
 
@@ -894,7 +1140,7 @@ Generate EVENT ID records for Charlie to crosscheck against, and append to surve
 event.id <- sample.all.FINAL %>% 
   distinct(CHS_EVENT_SMAS_HISTORY_ID, CHS_EVENT_SMAS_SAMPLE_DATE)
 
-write.csv(event.id,here::here("data/2022/event_id_2022_hansgroot.csv"))
+write.csv(event.id,here::here("data/2023/event_id_2023_all.csv"))
 
 ```
 
@@ -986,8 +1232,8 @@ Export tables
 ```{r Export tables, eval = FALSE}
 
 # write.table(event.id, file = file.path(datamod.dir, "20210415_SMAS_chem_2020_event_IDs.csv"),sep=",", row.names = FALSE, na = "")
-write.table(sample.all.FINAL_cor, file = file.path(target.dir, "SMAS_sawmill.csv"),sep=",", row.names = FALSE, na = "")
-write.table(result.all.FINAL, file = file.path(target.dir, "SMAS_chem_2022_RESULT_pws.csv"),sep=",", row.names = FALSE, na = "")
+write.table(sample.all.FINAL, file = file.path(target.dir, "SMAS_chem_2023_SAMPLE.csv"),sep=",", row.names = FALSE, na = "")
+write.table(result.all.FINAL, file = file.path(target.dir, "SMAS_chem_2023_RESUL.csv"),sep=",", row.names = FALSE, na = "")
 
 ```
 
